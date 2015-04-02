@@ -3,24 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Документация по NextGIS Mobile
-==============================
-
-Содержание:
-
-.. toctree::
-   :maxdepth: 2
-
-   intro
-   install
-   main
-   load_geodata
-   editing
-   tracks
-   share  
-
-   glossary
-   
+.. include:: toc.rst
 
 Индекс и таблицы
 ================
