@@ -16,5 +16,3 @@
    editing
    tracks
    share  
-
-   glossary

@@ -1,6 +1,6 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. _intro:
+.. _ng_mobile_intro:
 
 Введение
 ========
