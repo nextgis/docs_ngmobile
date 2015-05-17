@@ -1,4 +1,6 @@
-.. _glossary:
+.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+
+.. _ngmob_glossary:
 
 Глоссарий
 =========
