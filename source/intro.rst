@@ -34,10 +34,14 @@ NextGIS Mobile это программное обеспечение с откр�
 * `Icons8.com <http://icons8.com/android-icons>`_ распространяются по `CC BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>`_;
 * `romannurik.github.io <http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html>`_ - `CC BY 3.0 <http://creativecommons.org/licenses/by/3.0/>`_.
 
+.. only:: latex
 
-.. note::
+   Данная документация распространяется по лицензии Creative Commons 
+   **"Attribution-NoDerivs» («Атрибуция — Без производных произведений») СC BY-ND**
+   
+   .. image:: _static/cc_by.png  
 
-   Документация описывает NextGIS Mobile версии |version|. 
+Документация описывает NextGIS Mobile версии |version|. 
 
  
 .. _launch_conditions:
