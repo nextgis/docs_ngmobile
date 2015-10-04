@@ -1,4 +1,5 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+
 .. NextGIS Mobile TOC
 
 Документация по NextGIS Mobile
@@ -16,3 +17,4 @@
    editing
    tracks
    share  
+   ngw_integration
