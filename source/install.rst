@@ -1,6 +1,6 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. _ngmob_install:
+.. _ngmobile_install:
 
 Установка
 ==========

@@ -1,10 +1,11 @@
 .. sectionauthor::  Наталья Барышникова <Nshelekhova@gmail.com>
 
-.. _ngmob_integration:
-
+.. _ngmobile_integration:
 
 Интеграция с NextGIS Web
 ========================
+
+.. versionadded:: 2.2
 
 С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
 в подразделе :ref:`ngweb_keyfeatures`.
