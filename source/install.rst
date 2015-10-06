@@ -25,7 +25,7 @@
 .. figure:: _static/nextgismobile1.png
    :name: launch_shortcut_pic
    :align: center
-   :scale: 30 %
+   :height: 10cm
 
    Ярлыки приложений.
    

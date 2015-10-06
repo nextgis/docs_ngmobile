@@ -13,7 +13,7 @@ GeoJSON
 .. figure:: _static/ngmobile_share.png
    :name: share_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Окно выбора способа передачи экспортированных данных.
 

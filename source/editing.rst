@@ -20,7 +20,7 @@
 .. figure:: _static/ngmobile_fab.png
    :name: fab_pic
    :align: center
-   :scale: 45 %
+   :height: 10cm
    
    Меню редактирования.
 
@@ -50,7 +50,7 @@
 .. figure:: _static/ngmobile_selectlayer.png
    :name: select_layer_dialog_pic
    :align: center
-   :scale: 45 %
+   :height: 10cm
    
    Диалог выбора слоя.
    
@@ -61,7 +61,7 @@
 .. figure:: _static/ngmobile_edit_attributes.png
    :name: attributes_edit_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
    
    Окно редактирования атрибутов.
    
