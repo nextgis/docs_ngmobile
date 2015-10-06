@@ -7,8 +7,16 @@
 
 .. versionadded:: 2.2
 
-С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
-в подразделе :ref:`ngweb_keyfeatures`.
+.. only:: html
+   
+   С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
+   в подразделе :ref:`ngweb_keyfeatures`.
+
+.. only:: latex
+
+   С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
+   в подразделе `Основные возможности NextGIS Web <http://docs.nextgis.ru/docs_ngweb/source/general.html#ngweb-keyfeatures>`_.
+
 
 Создание подключения к NextGIS Web
 -----------------------------------
