@@ -41,7 +41,7 @@ GeoJSON
 .. figure:: _static/ngmobile_addtms.png
    :name: add_tms_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
    
    Диалог подключения тайлового источника геоданных.
    

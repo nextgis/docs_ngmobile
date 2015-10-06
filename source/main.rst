@@ -23,7 +23,7 @@
 .. figure:: _static/ngmobile_mainscreen.png
    :name: main_activity_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
    
    Главное окно приложения.
    
@@ -60,7 +60,7 @@
 .. figure:: _static/ngmobile_selectmode.png
    :name: selectmode_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
    
    Окно карты в режиме выделения.
    
@@ -78,7 +78,7 @@
 .. figure:: _static/ngmobile_attributes.png
    :name: attributes_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Панель атрибутов.
    
@@ -103,7 +103,7 @@
 .. figure:: _static/ngmobile_layertree.png
    :name: layer_tree_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
    
    Дерево слоев карты.
    
@@ -131,7 +131,7 @@
 .. figure:: _static/ngmobile_settings.png
    :name: settings_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Окно настроек.
    
@@ -147,7 +147,7 @@
 .. figure:: _static/ngmobile_settings1.png
    :name: settings_map_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Окно настроек карты.
    
@@ -171,7 +171,7 @@
 .. figure:: _static/ngmobile_settings2.png
    :name: settings_place_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Окно настроек местоположения.
   

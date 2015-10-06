@@ -25,7 +25,7 @@
 .. figure:: _static/add_layer1.png
    :name: ngmobile_aad_layer1_pic
    :align: center
-   :scale: 60 %
+   :height: 10cm
   
    Добавление слоя NextGIS Web
 
@@ -35,7 +35,7 @@
 .. figure:: _static/select_layer.png
    :name: ngmobile_select_layer_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Добавление учетной записи NextGIS Web
 
@@ -45,7 +45,7 @@
 .. figure:: _static/connection_settings.png
    :name: ngmobile_connection_settings_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
 
    Окно ввода параметров подключения
  
@@ -62,7 +62,7 @@
 .. figure:: _static/settings.png
    :name: ngmobile_settings_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
 
    Меню опций
 
@@ -71,7 +71,7 @@
 .. figure:: _static/settings_NGW.png
    :name: ngmobile_settings_NGW_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
    
    Меню "Настройки"
   
@@ -80,7 +80,7 @@
 .. figure:: _static/add_entry.png
    :name: ngmobile_add_entry_pic
    :align: center
-   :scale: 40 %
+   :height: 10cm
 
    Добавление учетной записи NextGIS Web
 

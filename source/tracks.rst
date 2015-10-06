@@ -49,7 +49,7 @@
 .. figure:: _static/ngmobile_track_settings.png
    :name: settings_track_pic
    :align: center
-   :scale: 55 %
+   :height: 11cm
  
    Окно управления треками.
    
