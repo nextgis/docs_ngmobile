@@ -1,6 +1,6 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. _ngmob_glossary:
+.. _ngmobile_glossary:
 
 Глоссарий
 =========
