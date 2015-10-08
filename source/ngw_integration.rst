@@ -113,8 +113,8 @@
 
 1. Вызвать меню опций (см. :numref:`ngmobile_main_activity_pic` п. 5). 
 2. Далее выбрать пункт меню "Настройки" (см. :numref:`ngmobile_settings_pic`).
-3. В открывшемся меню опций необходимо выбрать пункт "NextGIS Web/ Настройки 
-   NextGIS Web" (см. :numref:`ngmobile_settings_ngw_pic`). 
+3. В открывшемся меню опций необходимо выбрать пункт "NextGIS Web"
+   (см. :numref:`ngmobile_settings_ngw_pic`). 
 
 4. В открывшемся окне необходимо выбрать ранее созданную учетную запись 
    NextGIS Web (см. :numref:`ngmobile_select_ngw_layer_pic`). 
