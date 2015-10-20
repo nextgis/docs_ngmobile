@@ -17,4 +17,5 @@
    editing
    tracks
    share  
+   layer_settings
    ngw_integration
