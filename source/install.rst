@@ -20,10 +20,10 @@
 на устройство.
 
 Для запуска программы используется ярлык, автоматически создаваемый при ее 
-установке (см. :numref:`launch_shortcut_pic`). 
+установке (см. :numref:`ngmobile_launch_shortcut_pic`). 
 
 .. figure:: _static/nextgismobile1.png
-   :name: launch_shortcut_pic
+   :name: ngmobile_launch_shortcut_pic
    :align: center
    :height: 10cm
 

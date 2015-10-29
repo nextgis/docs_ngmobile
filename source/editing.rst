@@ -1,6 +1,6 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. _editing:
+.. _ngmobile_editing:
 
 Редактирование
 ==============

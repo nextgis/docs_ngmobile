@@ -1,6 +1,6 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. _ngm_gplv3:
+.. _ngmobile_gplv3:
 
 Лицензия GPL v.3
 ================
