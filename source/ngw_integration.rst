@@ -113,7 +113,7 @@
 выполнить следующую последовательность шагов:
 
 1. Вызвать меню опций (см. :numref:`ngmobile_main_activity_pic` п. 5). 
-2. Далее выбрать пункт меню "Настройки" (см. :numref:`ngmobile_settings_pic`).
+2. Далее выбрать пункт меню "Настройки" (см. :numref:`ngmobile_settings2_pic`).
 3. В открывшемся меню опций необходимо выбрать пункт "NextGIS Web"
    (см. :numref:`ngmobile_settings_ngw_pic`). 
 
