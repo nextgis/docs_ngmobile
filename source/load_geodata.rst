@@ -38,7 +38,7 @@ GeoJSON
 Подключение тайлового сервиса
 -----------------------------
  
-При выборе пункта меню "веб" (см. :numref:`ngmobile_main_activity_pic` п. 3) открывается диалоговое окно, представленное на :numref:`add_tms_pic`.
+При выборе пункта меню "веб" (см. :numref:`ngmobile_main_activity_pic` п. 3) открывается диалоговое окно, представленное на :numref:`ngmobile_add_tms_pic`.
 
 .. figure:: _static/ngmobile_addtms.png
    :name: ngmobile_add_tms_pic

@@ -63,10 +63,10 @@
 Для подключения к NextGIS Web **вторым способом** необходимо выполнить следующую последовательность шагов:
 
 1. Вызвать меню опций (см. :numref:`ngmobile_main_activity_pic` п. 5). 
-   В меню опций необходимо выбрать пункт "Настройки" (см. :numref:`ngmobile_settings_pic`).
+   В меню опций необходимо выбрать пункт "Настройки" (см. :numref:`ngmobile_settings2_pic`).
 
 .. figure:: _static/settings.png
-   :name: ngmobile_settings_pic
+   :name: ngmobile_settings2_pic
    :align: center
    :height: 10cm
 
