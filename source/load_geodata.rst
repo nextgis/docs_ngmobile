@@ -48,7 +48,14 @@ GeoJSON
 
    
 4. Выбрав в диалоге настройки параметров создаваемого слоя кнопку "Создать", начнется 
-   процесс обработки и создания слоя.  
+   процесс обработки и создания слоя(см. :numref:`ngmobile_processing_and_creation_layer_pic`): 
+
+.. figure:: _static/processing_and_creation_layer.png
+   :name: ngmobile_processing_and_creation_layer_pic
+   :align: center
+   :height: 10cm  
+
+   Окно обработки и создания слоя
 
 .. note::
    В случае в загрузки в программу файла формата GeoJSON создаваемый слой в результате 
