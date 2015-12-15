@@ -167,7 +167,7 @@
    (например, Android/data/com.nextgis.mobile). Это справедливо для некоторых устройств без root прав.
    При отображении диалога выбора, папки, в которые запрещена запись, не будут иметь отметки для их выбора.
 
-Блок настроек "Местоположения" содержит настройки карты (см. :numref:`ngmobile_settings_place_pic`).
+Блок настроек "Местоположения" содержит настройки местоположения (см. :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
