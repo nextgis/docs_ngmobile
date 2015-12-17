@@ -49,7 +49,7 @@
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
    :align: center
-   :height: 12cm
+   :height: 10cm
    
    Диалог выбора слоя.
 
@@ -59,7 +59,7 @@
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_paneltch_pic
    :align: center
-   :scale: 50%
+   :scale: 55%
    
    Панель инструментов редактирования точки. 
 
@@ -73,7 +73,7 @@
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
-   :scale: 50%
+   :height: 10cm
 
    Этап создания точки на слое. 
 
@@ -85,7 +85,7 @@
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
-   :scale: 50%
+   :height: 10cm
    
    Форма ввода атрибутов геометрии.
 
