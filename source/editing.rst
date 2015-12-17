@@ -59,7 +59,7 @@
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_paneltch_pic
    :align: center
-   :scale: 55%
+   :scale: 50%
    
    Панель инструментов редактирования точки. 
 
