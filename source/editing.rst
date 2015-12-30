@@ -62,7 +62,7 @@
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_paneltch_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
    
    Панель инструментов редактирования точки. 
 
@@ -115,12 +115,12 @@
 добавления линейной геометрии (см. :numref:`ngmobile_select_layer_dialogtch_pic`).
 
 Для добавления линии в векторный слой необходимо в открывшемся окне в режиме редактирования
-линии выбрать на нижней панели инструментов редактирования линии кнопку под цифрой 3 (см. :numref:`ngmobile_edit_line1_pic`).
+линии выбрать на нижней панели инструментов редактирования линии кнопку под цифрой 3 (см. :numref:`ngmobile_edit_line1_pic`.
 
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line1_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
    
    Панель инструментов редактирования линии.
    
@@ -148,7 +148,7 @@
 .. figure:: _static/lower_toolbar_lines.png
    :name: ngmobile_lower_toolbar_lines_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
 
    Панель инструментов для редактирования линии     
 
@@ -177,7 +177,7 @@
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon1_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования полигона.
    
@@ -211,12 +211,13 @@
 пункт меню, которому соответствует иконка, изображенная в виде идущего человека (см. :numref:`ngmobile_edit_menu_pic`). При этом, в начале открывается диалог выбора 
 слоя, в котором отображаются только линейные и полигональные слои (см. :numref:`ngmobile_select_layer_dialog_pic`). 
 При старте создания линии или полигона обходом открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_walk_pic1`.
+представленная на :numref:`ngmobile_edit_walk1_pic1`.
 
 .. figure:: _static/edit_panel_circumvention_tools.png
    :name: ngmobile_edit_walk_pic1
    :align: center
-   :width: 5cm
+   :width: 8cm
+   :height: 0,3cm
    
    Панель инструментов редактирования обходом.
 
@@ -226,7 +227,7 @@
 .. figure:: _static/ngmobile_edit_walk.png
    :name: ngmobile_edit_walk_pic
    :align: center
-   :width: 5cm
+   :width: 8cm
    
    Панель инструментов редактирования обходом.
    
@@ -262,7 +263,7 @@
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования мультиточки.
    
@@ -290,7 +291,7 @@
 .. figure:: _static/toolbar_multi.png
    :name: ngmobile_toolbar_multi_pic
    :align: center
-   :scale: 50 %
+   :width: 8cm
   
    Панель инструментов редактирования на этапе создания и сохранения мультиточки. 
 
@@ -314,7 +315,7 @@
 .. figure:: _static/toolbar_multiline.png
    :name: ngmobile_toolbar_multiline_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
    
    Панель инструментов редактирования мультилинии.
    
@@ -342,9 +343,9 @@
 .. figure:: _static/toolbar_multiline1.png
    :name: ngmobile_toolbar_multiline1_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
 
-    Панель инструментов редактирования на этапе создания и сохранения мультилинии. 
+   Панель инструментов редактирования на этапе создания и сохранения мультилинии. 
 
 При нажатии на кнопку под цифрой 1 с иконкой в виде дискеты сохраняется созданная 
 мультилиния и открывается форма ввода атрибутов новой геометрии. Форма ввода атрибутов 
@@ -370,7 +371,7 @@
 .. figure:: _static/toolbar_mpolyg.png
    :name: ngmobile_toolbar_mpolyg_pic
    :align: center
-   :scale: 50%
+   :width: 8cm
    
    Панель инструментов редактирования мультиполигона.
    
@@ -417,7 +418,7 @@
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_point_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования точки.
    
@@ -446,7 +447,7 @@
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint1_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования мультиточки.
    
@@ -478,7 +479,7 @@
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования линии.
    
@@ -517,7 +518,7 @@
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon_pic
    :align: center
-   :scale: 55 %
+   :width: 8cm
    
    Панель инструментов редактирования полигона.
    
