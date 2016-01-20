@@ -243,21 +243,11 @@
 Для осуществления процесса оперативного обмена правками геоданных и обеспечения 
 идентичности выбранной информации между копьютером и мобильным устройством пользователя 
 необходимо использовать синхронизацию. Для осуществления синхронизации векторного 
-слоя с NextGIS Web необходимо выполнить следующую последовательность шагов (см. :numref:`ngmobile_vector_layer_menu_one_pic`):
+слоя с NextGIS Web необходимо выполнить следующую последовательность шагов:
  
-1. Вызвать меню опций 
-2. Выбрать пункт меню "Настройки"
-
-
-.. figure:: _static/vector_layer_menu.png
-   :name: ngmobile_vector_layer_menu_one_pic
-   :align: center
-   :height: 10cm
-
-   Меню слоя.
-
-3. В меню "Настройки" выбрать пункт "NextGIS Web/ Настройки NextGIS Web"
-(см. :numref:`ngmobile_settings_ngw_one_pic`).  
+1. Вызвать меню опций. 
+2. Выбрать пункт меню "Настройки" (см. :numref:`ngmobile_settings2_pic`).
+3. В меню "Настройки" выбрать пункт "NextGIS Web/ Настройки NextGIS Web" (см. :numref:`ngmobile_settings_ngw_one_pic`).  
 
 .. figure:: _static/settings_NGW.png
    :name: ngmobile_settings_ngw_one_pic
