@@ -24,7 +24,7 @@ GIS NextGIS Mobile allows to:
 * browse the attributes of selected geometry through identify dialog;
 * modify the attributes of vector layer with customizable input forms;
 * record the tracks and manage their display parameters, remove selected tracks or all tracks;
-* display coordinates, velocity, altitude of device on the map, source of geographical coordinates, amount of sattelites which are used for georeferencing (in the case of :term:`GPS`);
+* display coordinates, velocity, altitude of device on the map, source of geographical coordinates, amount of satellites which are used for georeferencing (in the case of :term:`GPS`);
 * collect and transmit in backround mode by Internet (when connected) in the NextGIS Web created and/or edited :term:'geodata' from vector layers.
 
 NextGIS Mobile is open source
