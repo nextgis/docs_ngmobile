@@ -2,67 +2,65 @@
 
 .. _ngmobile_intro:
 
-Введение
-========
+Introduction
+============
 
 .. _ngmobile_purpose:
 
-Назначение программы 
---------------------
+Purpose of the program
+----------------------
 
-**NextGIS Mobile** - это мобильная :term:`геоинформационная система` (:abbr:`ГИС (геоинформационная система)`) для операционной системы :term:`Android`.
+**NextGIS Mobile** - is a mobile :term:`geographic information system` (:abbr:`GIS`) for operating system :term:`Android`.
 
-ГИС NextGIS Mobile позволяет:
+GIS NextGIS Mobile allows to:
 
-* отображать карту в виде набора слоев;
-* выполнять навигацию по карте (увеличение, уменьшение, перемещение);
-* добавлять векторные данные из формата :term:`GeoJSON`;
-* добавлять растровые данные в виде кэша в архиве zip;
-* подключать онлайн источник тайлов (XYZ и :term:`TMS`); 
-* подключать растровые и векторные слои из NextGIS Web;
-* создавать и модифицировать векторные :term:`геоданные` (геометрии и атрибуты); 
-* просматривать атрибуты выбранной геометрии через диалог идентификации; 
-* модифицировать атрибуты векторного слоя при помощи настраиваемых форм ввода;
-* записывать треки и управлять их отображением, а также удалять выбранные треки или все треки;
-* отображать координаты, скорость, высоту устройства на карте, источник географических координат, 
-  количество спутников, используемых для фиксирования местоположения (в случае :term:`GPS`);
-* накапливать и передавать в фоновом режиме по сети Интернет (при наличии подключения) в NextGIS Web 
-  созданные и/или измененные :term:`геоданные` из векторных слоев.
+* display the map as a set of layers;
+* perfom navigation by map (zoom in, zoom out, roam);
+* add the vector data from :term:`GeoJSON` format;
+* add cached raster data in zip archive;
+* connect online source of tiles (XYZ and :term:`TMS`);
+* connect raster and vector layers from NextGIS Web;
+* create and modify vector :term:`geodata' (geometry and attributes);
+* browse the attributes of selected geometry through identify dialog;
+* modify the attributes of vector layer by customizable forms of input;
+* record the tracks and manage their display, and also remove selected tracks or all tracks;
+* display coordinates, velocity, altitude of device on the map, source of geographical coordinates, amount of satilates wich are used for georeferencing (in the case of :term:`GPS`);
+* collect and transmit in backround mode by Internet (when connected) in the NextGIS Web created and/or edited :term:'geodata' from vector layers.
 
-NextGIS Mobile - это программное обеспечение с открытым исходным кодом 
-(лицензия :ref:`GPL v3 <ngmobile_gplv3>`). 
 
-Некоторые иконки, использованные в приложении, получены с сайтов:
+NextGIS Mobile - is a software with open source code
+(license :ref:`GPL v3 <ngmobile_gplv3>`).
 
-* `Icons8.com <http://icons8.com/android-icons>`_ распространяются по `CC BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>`_;
+Some icons which are used in application received from this web sites:
+
+* `Icons8.com <http://icons8.com/android-icons>`_ distributed on `CC BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>`_;
 * `romannurik.github.io <http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html>`_ - `CC BY 3.0 <http://creativecommons.org/licenses/by/3.0/>`_.
 
 .. only:: latex
 
-   Данная документация распространяется по лицензии Creative Commons 
-   **"Attribution-NoDerivs" ("Атрибуция — Без производных произведений") СC BY-ND**
+   This documentation is distributed by Creative Commons license
+	**"Attribution-NoDerivs" ("Attribution - without derivative works") СC BY-ND**
    
    .. image:: _static/cc_by.png  
 
-Документация описывает NextGIS Mobile версии 2.2. 
+Documentation is describing NextGIS Mobile version 2.2.
 
  
 .. _ngmobile_launch_conditions:
 
-Условия выполнения программы
-----------------------------
+Program launch condition
+---------------------------
 
-Для выполнения программы необходимо устройство (смартфон, планшет и т.п.) под 
-управлением операционной системы :term:`Android` версии **2.2** и выше. Желательно, 
-чтобы устройство было оснащено следующим оборудованием:
+To launch the program you need the device (smartphone, tablet, etc.) under the operating system: term: `Android` version 2.2 ** ** or higher 
+The device should be equipped with the following equipment:
 
-* датчик :term:`GPS` и/или :term:`ГЛОНАСС`;
-* цифровой компас;
-* модуль сотовой связи;
-* тыловая фотокамера. 
+* sensor :term:'GPS' and/or :term:'GLONASS';
+* digital compass;
+* cellular module;
+* rear camera.
 
 .. note::
 
-   Если какое либо оборудование из перечисленного отсутствует в устройстве, то связанные функции будут не доступны.
+   If any items are missing from the equipment in the device, the related functions are not available.
 
-Программа не предъявляет специфических системных требований, однако, количество оперативной памяти и памяти для хранения данных может ограничивать размер загружаемых геоданных на карту. 
+The program does not impose specific system requirements, however, the amount of memory and memory for storing data can limit the size of uploaded geodata on a map.
