@@ -5,7 +5,7 @@
 Introduction
 ============
 
-.. _ngmobile_purpose:
+.. _ngmob_purpose:
 
 Purpose of the program
 ----------------------
