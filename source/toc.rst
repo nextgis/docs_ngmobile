@@ -2,7 +2,7 @@
 
 .. NextGIS Mobile TOC
 
-Документация NextGIS Mobile
+NextGIS Mobile documentation
 ==============================
 
 Содержание:
