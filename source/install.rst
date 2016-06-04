@@ -7,12 +7,12 @@ Installation
 
 NextGIS Mobile can be installed in the following manner:
 
-* using a batch file `nextgismobile.apk <http://nextgis.ru/nextgis-mobile/>`_;
-* from app store (`Google play <https://play.google.com/store>`_).
+* using an APK file `nextgismobile.apk <http://nextgis.ru/nextgis-mobile/>`_;
+* from Google Play (`Google play <https://play.google.com/store>`_).
 
-To install from the batch file you must allow application installation from unknown sources ("settings/security/unknown sources"). After installation you can deactivate this option.
+To install from the APK file you must allow application installation from unknown sources ("settings/security/unknown sources"). After installation you can deactivate this option.
 
-To install application from app store you must run the Play Store app and enter "NextGIS Mobile" in the search bar. Then install the application.
+To install application from Google Play you must run the Play Store app and enter "NextGIS Mobile" in the search bar. Then install the application.
 
 To launch "NextGIS Mobile" use a shortcut which has been created automatically during setup  (see :numref:`ngmobile_launch_shortcut_pic`). 
 
