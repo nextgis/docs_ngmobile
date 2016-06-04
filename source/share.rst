@@ -1,75 +1,66 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>.. 
 
-.. _ngmobile_share:
+_ngmobile_share:
 
-Выгрузка данных
-===============
+Uploading data
+==============
 
 GeoJSON
 -------
 
-При выборе пункта контекстного меню "Поделиться" откроется стандартное системное 
-меню выбора способа передачи экспортированных данных (например, по почте, облачное 
-хранилище файлов, карта памяти и т.п.). Окно выбора представлено на :numref:`ngmobile_share_pic`. 
+The standard system menu of transmission exported data method selection opens if you choose the context menu "Share" (for example, by mail, cloud file storage, memory card, etc.). The selection window is shown in :numref:`ngmobile_share_pic`.
 
 .. figure:: _static/ngmobile_share.png
    :name: ngmobile_share_pic
    :align: center
    :height: 10cm
    
-   Окно выбора способа передачи экспортированных данных.
+   Selection window of exported data transmission method.
 
-При выборе одного из предложенных вариантов, данные из слоя записываются в формат :term:`GeoJSON` (:term:`система координат` Web Mercator, EPSG:3857) и отправляются используя выбранное приложение. Файлу присваивается такое же название, что и имя слоя.
+Data from the layer will be stored in the :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) after you select one of the options and will be shared by using of chosen app. A name of the file is the same as name of the layer.
 
 .. note::
-   Во многих версиях Android, для того чтобы появилась возможность сохранения файла на диске необходимо, чтобы в системе
-   присутствовал какой-нибудь файловый менеджер, например ES Explorer или аналогичный.
+   In a lot of Android versions to have an opportunity to save a file on the disk some file manager is required (for example ES Explorer or similar).
 
-Выгрузка приложений
--------------------
+Applications uploading
+----------------------
 
-К каждому объекту в NGM можно приложить одну или несколько фотографий. Фотографии хранятся отдельно в виде файлов и при экспорте добавляются в архив слоя, для каждого объекта в архиве создается своя папка с приложениями, название папки равно ID объекта. Информация о присоединенных фотографиях содержится в поле `attaches` атрибутивной таблицы слоя.
+To the each object in NGM can be attached one or few photos. Photos are stored separately in files and are added to the archive of layer after the export. For the each object in the archive creates its own folder with the applications where folder name equals to the object ID.
 
-Пример записи:
+Example of entries:
 
 (4:10000002.jpg,10000000.jpg,10000001.jpg,10000003.jpg)
 
-Расшифровка:
+Explanation:
 
-К данному объекту присоединены 4 фотографии с соответствующими именами. Эти фотографии лежат в папке, название которой равно ID объекта.
+4 photos with corresponding names are attached to the current object. These 4 photos are stored in the folder which name is the same to object ID.
 
-Выгрузка треков в GPX
-----------------------
+Upload tracks in GPX
+--------------------
 
-Процесс экспорта треков начинается с выбора в дереве слоев слой "Мои треки". 
-Далее следует вызвать контекстное меню, выбрать пункт "Настройки" :numref:`ngmobile_tree_layers_gpx_pic`. 
+Tracks exporting processes begins with the selection of "My Tracks" layer in the layers tree. Then select the "Settings" item in a context menu  :numref:`ngmobile_tree_layers_gpx_pic`. 
 
 .. figure:: _static/tree_layers_gpx.png
    :name: ngmobile_tree_layers_gpx_pic
    :align: center
    :height: 10cm
 
-   Дереро слоев.
- 
-Откроется окно со списком записанных треков. Если несколько треков записывались 
-один день, то треки будут разбиты по цессиям. Если один трек записывался несколько 
-дней, то записанный трек будет дробиться на части по дням, в которые происходила 
-запись :numref:`ngmobile_tracks_list_gpx_pic`. 
+   Layers tree.
+
+The window with recorded tracks will open. Tracks will be divided by cession if a few tracks have been recorded in a one day. If one of the tracks was recorded in a few days then a recorded track will be splitted up to pieces by days when record was made :numref:`ngmobile_tracks_list_gpx_pic`. 
 
 .. figure:: _static/tracks_list_gpx.png
    :name: ngmobile_tracks_list_gpx_pic
    :align: center
    :height: 10cm
 
-   Список с записанными треками.
+   Recorded tracks list.
 
-Из списка записанных треков выбирать необходимый трек путем установки флажка в 
-пустом окошке, в результате чего активируются кнопки на верхней панели инструментов.
-Выбирать кнопку в виде трех точек. В открывшемся меню выбрать пункт "Поделиться" :numref:`ngmobile_tracks_list_and_menus_pic`. 
+Choose a desired track from the list of recorded tracks by setting flag in the checkbox. In the result, buttons on the top toolbar will be active. Choose the button with icon of three points. Select "Share" :numref:`ngmobile_tracks_list_and_menus_pic`. 
 
 .. figure:: _static/tracks_list_and_menus.png
    :name: ngmobile_tracks_list_and_menus_pic
    :align: center
    :height: 10cm   
 
-   Активация меню списка записанных треков.
+   List of recorded tracks menu activation.
