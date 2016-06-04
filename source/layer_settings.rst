@@ -1,114 +1,93 @@
-.. sectionauthor::  Наталья Барышникова <Nshelekhova@gmail.com>
+.. sectionauthor::  Наталья Барышникова Nshelekhova@gmail.com
 
 .. _ngmobile_layer_settings:
 
-Описание настроек слоев NextGIS Mobile
-====================================================
+Description of layers settings NextGIS Mobile
+=============================================
 
 .. versionadded:: 2.2
 
-Карта представляет собой набор растровых и векторных слоев. Порядок и видимость 
-слоев настраивается при помощи дерева слоев.
-В пользовательском интерфейсе программы имеется выезжающая панель дерева слоев, 
-которая отображает состав карты в виде набора слоев, позволяет менять порядок 
-отображения слоев, а также включать и выключать их видимость.
-Дополнительные операции над слоями вынесены в отдельное меню слоя. Дерево слоев 
-представлено на рисунке :numref:`ngmobile_layer_tree_pic`.
-Меню слоя зависит от его типа. 
-Для векторного слоя меню имеет следующий состав (см. :numref:`ngmobile_vector_layer_menu_pic`):
+Map is a set of raster and vector layers. Order and visibility of layers are configured by layers tree. There is a sliding panel of layers tree in a user’s interface where composition of the map is displayed as a set of layers. It allows to change the order of layers and enables or disables their visibility.
+Additional operations with layers you can see in a separate layer menu. Layers tree is shown on a picture :numref:`ngmobile_layer_tree_pic`.
+Layers menu depends on its type.
+Menu for the vector type has a following composition (СЃРј. :numref:`ngmobile_vector_layer_menu_pic`):
 
-1. Увеличить до охвата
-2. Поделиться
-3. Удалить
-4. Настройки
+1. Zoom to  extent
+2. Share
+3. Delete
+4. Settings
 
 .. figure:: _static/vector_layer_menu.png
    :name: ngmobile_vector_layer_menu_pic
    :align: center
    :height: 10cm
 
-   Меню для векторного слоя.
+   Vector layer menu.
 
-Окно настроек векторного слоя
------------------------------------
-При выборе пункта "Настройки" в меню слоя открывается окно настроек векторного слоя.
-Окно настроек для модификации векторного слоя имеет следующий вид  (см. :numref:`ngmobile_preferenсes_window_vector_layer_pic`):
+Window of vector layer settings
+-------------------------------
+A window of vector layer settings opens if you select "Settings" from the layer menu. Window of settings for vector layer modification has the following view (see :numref:`ngmobile_preferenСЃes_window_vector_layer_pic`):
 
 .. figure:: _static/preferences_window_vector_layer.png
-   :name: ngmobile_preferenсes_window_vector_layer_pic
+   :name: ngmobile_preferenСЃes_window_vector_layer_pic
    :align: center
    :height: 10cm
    
-   Меню настроек для векторного слоя.
+   Vector layer settings.
 
-В окне настроек слоя имеются следующие блоки настроек:
+There are following setting blocks in the settings window:
 
-1. Информация о слое (тип геометрии, количество записей).
-2. Основные настройки (имя слоя, уровни зума, перестроить кэш).
-3. Настройки отображения (цвет заливки).
+1. Layer info (geometry type; feature count).
+2. Main settings (layer name, zoom levels, rebuild cache).
+3. Display settings (fill color).
 
-Первый блок настроек содержит информацию о слое. Данные этого блока не редактируются.
-Второй блок настроек "Основные настройки слоя" допускает реактирование параметров слоя.
+The first settings block has information about layer. The data in this block can not be edited.
+The second settings block "Main settings" allows to edit layer configuration.
 
-1. Имя слоя.
- 
-2. Уровень зума, на котором виден слой.
+1. Layer name.
+2. Zoom levels to show the layer.
+3. To rebuild СЃache button for optimize the processes of a layer creating with the ability to save and cancel changes.
 
-3. Кпопка для перестроения кэша для оптимизации процессов создания слоя с возможностью 
-   сохранения и отмены внесенных изменений.
+The third setting block has information about settings of layers addition and has an option to edit color of layer display, plus an option to cancel edits. 
 
-Третий блок настроек содержит информацию о настройках отображения слоя и допускает 
-возможность редактирования цвета отображения слоя, а также возможность отмены внесенных изменений.  
+Context menu of raster layer has the following composition (see :numref:`ngmobile_raster_layer_menu_pic`):
 
-Контекстное меню растрового слоя имеет следующий состав (см. :numref:`ngmobile_raster_layer_menu_pic`):
-
-1. Загрузить тайлы
-2. Удалить
-3. Настройки
+1. Load tiles
+2. Delete
+3. Settings
 
 .. figure:: _static/raster_layer_menu.png
    :name: ngmobile_raster_layer_menu_pic
    :align: center
    :height: 10cm
    
-   Меню растрового слоя. 
+   Raster layer menu.
 
-Окно настроек растрового слоя
-----------------------------------
-Окно настроек для растрового слоя имеет следующий вид  (см. :numref:`ngmobile_settings_menu_raster_layer_pic`):
+Raster layers settings window
+-----------------------------
+Raster layers settings window has a following look (see :numref:`ngmobile_settings_menu_raster_layer_pic`):
 
 .. figure:: _static/settings_menu_raster_layer.png
    :name: ngmobile_settings_menu_raster_layer_pic
    :align: center
    :height: 10cm
 
-   Окно настроек для растрового слоя.
+   Raster layers settings window.
 
-В окне настроек слоя имеются следующие блоки настроек:
+There are following setting blocks in the settings window:
 
-1. Основные настройки (имя слоя, уровни зума, на которых виден слой, размер кэша 
-   тайлов TMS).
-2. Настройки изображения (непрозрачность, контраст, яркость, градации серого).
+1. Main settings (layer name, zoom levels to show layer, TMS in-memory cache size).
+2. Display settings (opacity, contrast, brightness, greyscale).
 
-Первый блок содержит информацию о слое. Допускается редактирование параметров 
-слоя в данном блоке.
+The first block contains information about layer. Edits of properties are allowed for this block.
 
-1. Имя слоя.
-2. Уровень зума, на котором виден слой.
-3. Кнопка для перестроения кэша для оптимизации процессов создания слоя с возможностью 
-   сохранения и отмены внесенных изменений.
+1. Layer’s name.
+2. Zoom levels to show layer.
+3. To rebuild СЃache button for optimize the processes of a layer creating with the ability to save and cancel changes.
 
-Во втором блоке настроек "Настройки изображения" также допускается редактирование 
-параметров слоя: 
+In the second settings block "Display settings" editing is also allowed.
 
-1. Непрозрачность. Степень общей непрозрачности слоя определяет, насколько сильно 
-   он скрывает или отображает содержимое нижележащего слоя. Слой со степенью 
-   непрозрачности 1 % является практически прозрачным. Совершенно непрозрачный слой
-   имеет степень непрозрачности 100 %.
-2. Контрастность. Контрастность слоя может быть изменена для придания выразительности изображению.
-3. Яркость. Яркость слоя может быть изменена для придания яркости изображению.
-4. Градации серого (цветовой режим изображений, значения яркости серой шкалы выражена 
-   в процентах, при этом 0 % представляет белый цвет (отсутствие чёрного пигмента на белом фоне), 
-   100 % — черный цвет).
-
-
+1. Opacity. The value of layer opacity determines how intensive it hides or displays the contents of the underlying layer. Layer with 1% opacity is substantially transparent. Completely opaque layer has an opacity of 100%.
+2. Contrast. Contrast of the layer can be changed to spice up the image.
+3. Brightness. Brightness of layer can be changed to make image darker or lighter.
+4. Greyscale (the color image mode value of grayscale brightness values expressed in percent. 0% is a white color (the absence of black pigment on a white background), 100% is a black color).
