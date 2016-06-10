@@ -5,34 +5,33 @@
 Editing
 =======
 
-You can start to edit one or more vector layers which have been added to the map. 
-Some following options are available during editing:
+You can edit a vector layer added to the map. While editing, you can:
 
-* add new entry into the layer;
-* delete entry;
-* edit entry.
+* add new features;
+* delete features;
+* edit features.
 
-There are several ways to get into the edit mode. The first way is the main button of the program (the big blue button in the right bottom corner or the main app button (FAB). Pressing the button opens a menu of typically actions (see :numref:`ngmobile_edit_menu_pic`).
+There are several ways to start editing. The first way is the main button of the program (the big blue button in the right bottom corner or the main app button (FAB). Pressing the button opens a menu of common actions (see :numref:`ngmobile_edit_menu_pic`).
 
 .. figure:: _static/edit_menu.png
    :name: ngmobile_edit_menu_pic
    :align: center
    :width: 6cm
    
-   Edit menu.
+   Editing menu.
 
-Menu has the following composition:
+Using this menu you can:
 
 * add a line or polygon by tracking;
 * add geometry;
 * add current location.
 
-The second way is a long-pressing on the geometry on screen to switch on a selection mode (see :numref:`ngmobile_selectmode_pic`) and to start command "Edit" in the bottom toolbox.
+The second way to start editing is to long-press the geometry on screen to switch on a selection mode (see :numref:`ngmobile_selectmode_pic`) and then press "Edit" in the bottom toolbar.
 
-Creation of entry
+Creating features
 -----------------
 
-To add the geometry into the vector layer select menu item which matches to the shortcut with the pencil image (see :numref:`ngmobile_edit_menu_pic`). In such case a dialog of layers selection is opening first (see :numref:`ngmobile_select_layer_dialogtch_pic`). Displaying of editor tools panel depends on the geometry of selected layer. In this way you can add any type of geometry (points, linestrings, polygons, multipoints, multilinestrings, multipolygons).
+To add feature to a vector layer select menu choose pencil icon (see :numref:`ngmobile_edit_menu_pic`). A dialog showing all editable layers will open where you can select a layer to edit (see :numref:`ngmobile_select_layer_dialogtch_pic`). Displayed editing tools depend on the geometry of a selected layer. You can create any type of geometry (points, linestrings, polygons, multipoints, multilinestrings, multipolygons).
 
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
@@ -41,78 +40,78 @@ To add the geometry into the vector layer select menu item which matches to the 
    
    Select layer dialog.
 
-Point creation
-^^^^^^^^^^^^^^
+Creating a point
+^^^^^^^^^^^^^^^^
 
-To add a point into existing layer select vector layer with point geometry from the layers tree. (see :numref:`ngmobile_select_layer_dialogtch_pic`). Edit toolbox opens after layer’s selection at the bottom of the screen. Select button number 3 in the bottom toolbox to add the point (see :numref:`ngmobile_edit_paneltch_pic`).
+To add a point to an existing layer first select vector layer with point geometry from the layers tree. (see :numref:`ngmobile_select_layer_dialogtch_pic`). Edit toolbox opens after layer’s selection at the bottom of the screen. Select button number 3 in the bottom toolbox to add the point (see :numref:`ngmobile_edit_paneltch_pic`).
 
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_paneltch_pic
    :align: center
    :width: 8cm
    
-   Toolbox of point editing.
+   Point editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new point; 4 - delete point; 5 - move point to the center of screen; 6 - move point to the current location; 7 - edit attributes.
+   The numbers are: 1 - finish editing mode; 2 - cancel editing; 3 - add new point; 4 - delete point; 5 - move point to the center of screen; 6 - move point to current location; 7 - edit attributes.
 
-In the center of the screen on map will appear a new point highlighted by red with arrow near (СЃРј. :numref:`ngmobile_creation_of_points_pic`).
+New point will appear in the map center highlighted in red with arrow icon (see :numref:`ngmobile_creation_of_points_pic`).
 
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
    :width: 6cm
 
-   Step of the point creation.
+   Creating a point.
 
-After adding of new point the button 1 from bottom toolbox will change its image from "tick" to "floppy". The new point  will be saved after pressing this button and form of attributes input for new geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
+After new point is added the button 1 from the bottom toolbar will change from "tick" to "floppy". New point will get saved after that and attributes editing form will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
    :width: 6cm
    
-   Geometry attributes entry form.
+   Attributes editing form.
 
-Linestring creation
-^^^^^^^^^^^^^^^^^^^
+Creating a line
+^^^^^^^^^^^^^^^
 
-To create a linestring select the linestring geometry vector layer from the layers tree  (see :numref:`ngmobile_select_layer_dialogtch_pic`) and press button 3 (see :numref:`ngmobile_edit_line1_pic`) in the opened edit toolbox at the bottom of the screen.
+To create a line select a line vector layer from the layers tree (see :numref:`ngmobile_select_layer_dialogtch_pic`) and press button 3 (see :numref:`ngmobile_edit_line1_pic`) in the opened edit toolbar at the bottom of the screen.
 
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line1_pic
    :align: center
    :width: 8cm
    
-   Linestring edit toolbox.
+   Line editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new linestring; 4 - delete linestring; 5 - delete vertex to the center of screen; 6 - move vertex to the current location; 7 - edit attributes.
+   The numbers are: 1 - finish editing; 2 - cancel editing; 3 - add new line; 4 - delete line; 5 - delete vertex;  6 - move vertex to the center of screen; 7 - move vertex to current location; 8 - edit attributes.
 
-In the center of the screen on a map the new line will appear. One of the vertex of line which can be moved all round map is highlighted by red and have an arrow near (see :numref:`ngmobile_creating_lines_pic`).
+New line will appear in the center of the screen . One vertex of line which can be moved is highlighted in red and has an arrow icon (see :numref:`ngmobile_creating_lines_pic`).
 
 .. figure:: _static/creating_lines.png
    :name: ngmobile_creating_lines_pic
    :align: center
    :width: 6cm
 
-   Linestring creation step.
+   Creating a line.
 
-After addition of the new linestring the button 1 on bottom toolbox will change its image from "tick" to "floppy". After pressing this button edits will be saved and form of attributes input for new geometry will be opened (see :numref:`ngmobile_input_form_attributes_pic`)
+After adding a line button 1 on the bottom toolbar will change from "tick" to "floppy". After pressing it edits will be saved and attributes editing form will open (see :numref:`ngmobile_input_form_attributes_pic`)
 
-Creation of polygon
-^^^^^^^^^^^^^^^^^^^
+Creating a polygon
+^^^^^^^^^^^^^^^^^^
 
-To create a polygon on the map choose vector layer to add polygonal geometry in the layers tree (see :numref:`ngmobile_select_layer_dialogtch_pic`) and select button 3 in the edit toolbox from the bottom of screen (see :numref:`ngmobile_edit_polygon1_pic`).
+To create a polygon select a polygon vector layer from the layers tree (see :numref:`ngmobile_select_layer_dialogtch_pic`) and select button 3 in the edit toolbar from the bottom of screen (see :numref:`ngmobile_edit_polygon1_pic`).
 
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon1_pic
    :align: center
    :width: 8cm
    
-   Toolbox of edit polygon.
+   Polygon editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new polygon; 4 - delete polygon; 5 - delete vertex from polygon; 6 - move vertex to the center of screen; 7 - move vertex to the current location; 8 - edit attributes.
+The numbers indicate: 1 - finish editing; 2 - cancel editing; 3 - add new polygon; 4 - delete polygon; 5 - delete vertex; 6 - move vertex to the center of screen; 7 - move vertex to current location; 8 - edit attributes.
 
-The new geometry will appear on the map in the center of screen. One of the polygons vertices which can be moved all round the map is highlighted by red and have arrow near. Selecting of any vertex from polygon allows to move it all round the map. (see :numref:`ngmobile_creation_landfill_pic`).
+The new geometry will appear in the center of the map. One of the polygons vertices is highlighted in red and have an arrow icon. You can move a vertex around after selecting it. (see :numref:`ngmobile_creation_landfill_pic`).
 
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
@@ -123,8 +122,8 @@ The new geometry will appear on the map in the center of screen. One of the poly
 
 In a result of new polygon creation on the map in a bottom toolbox of polygon edit, the button 1 will change the image from "tick" to "floppy". After pressing this button edits will be saved and form of attributes entry for the new geometry will open. This form looks this way: (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Multipoint creation
-^^^^^^^^^^^^^^^^^^^
+Creating a multipoint
+^^^^^^^^^^^^^^^^^^^^^
 
 To add multipoint into the vector layer go to the edit mode of multipoint layer (icon with pencil) and select button 3 in the edit of multipoint toolbox from the bottom of screen which is shown on :numref:`ngmobile_edit_multipoint_pic`.
 
@@ -159,8 +158,8 @@ While the new multipoint appears on the map in the bottom edit toolbox of multip
 
 By pressing the button 1 with a “floppy” icon created multipoint will be saved and entry form of attributes for new geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Multilinestrings creation
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating a Multiline
+^^^^^^^^^^^^^^^^^^^^
 
 To add multilinestring into the vector layer push the button 3 in the bottom toolbox of edit during the multilines edit mode (see :numref:`ngmobile_toolbar_multiline_pic`).
 
@@ -195,7 +194,7 @@ When new multiline appears on the map in the bottom edit toolbox for line geomet
 
 By pressing the button 1 with a “floppy” icon created multiline will be saved and entry form of attributes for new geometry will open. Form of attributes entry for new multilinestring looks this way (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Creation of multipolygon
+Creating a multipolygon
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create a new polygonal geometry on a multipolygonal layer select corresponding vector layer from the layers tree (see :numref:`ngmobile_tree_layers_mpolig_pic`)
@@ -250,8 +249,8 @@ To add current location into the vector layer select the menu item which corresp
    
    Select layer dialog.
 
-Creation of line or polygon by tracking
----------------------------------------
+Creation of a line or polygon by tracking
+-----------------------------------------
 
 To add line or polygon by tracking select menu item that corresponds to the icon with a walking man (see :numref:`ngmobile_edit_menu_pic`). In such case, at first, the dialog of choosing the layer, in which only line or polygon layers will be displayed, openes (see :numref:`ngmobile_select_layer_dialog_pic`). When you start creating a line or a polygon by tracking, the bottom toolbar, shown in :numref:`ngmobile_edit_walk_pic1` openes.
 
@@ -283,8 +282,8 @@ If you open the settings menu while tracking by pressing button 3 on the bottom 
 .. note::
 	If you choose the location settings in this way (minimum update time 2 sec or more, minimum update distance 10 m or more) operating system begins to filter runouts.
 
-Geometry changing
------------------
+Editing a geometry
+------------------
 
 Hold for a long time your finger on the geometry of vector layer to go to the edit mode of existing geometry. In a result of this action the map window switches into the action selection mode (see :numref:`ngmobile_selectmode_pic`). 
 
@@ -299,8 +298,8 @@ Hold for a long time your finger on the geometry of vector layer to go to the ed
 
 If information bar is opened it is hidden and instead of it, bottom toolbox is displayed, which is composed of the command "Go to edit of selected geometry" (see :ref:`ngmobile_editing`). This command is designated as a pencil icon. If you press it the bottom toolbox with relevant to existing geometry, buttons for edit this geometry appear.
 
-Edit points
-^^^^^^^^^^^
+Editing a point
+^^^^^^^^^^^^^^^
 
 In the mode of edit points bottom toolbox is opened :numref:`ngmobile_edit_point_pic`.
 
@@ -319,8 +318,8 @@ Next, the selected point can be shifted just by pulling it out or pulling arrow 
 
 By default, the cancel button (see :numref:`ngmobile_edit_point_pic` p. 2) is shown  only after some edits.
 
-Multipoint edit.
-^^^^^^^^^^^^^^^
+Editing a multipoint
+^^^^^^^^^^^^^^^^^^^^
 
 In the mode of multipoint edit the bottom toolbox opens
 :numref:`ngmobile_edit_multipoint1_pic`.
@@ -345,8 +344,8 @@ Edit bar allows to delete all points from multipoint or selected point. You can 
 You can also add a point to multipoint (see :numref:`ngmobile_edit_multipoint_pic` 
 p. 4).
 
-Linestring edit
-^^^^^^^^^^^^^^^
+Editing a line
+^^^^^^^^^^^^^^
 
 In the mode of line edit the bottom toolbox will open :numref:`ngmobile_edit_line_pic`.
 
@@ -375,8 +374,8 @@ There are following operations available for selected vertex in line:
 
 When you add a new line in the center of the screen the new line is creating by default. It consists of two points. By adding a point you can stretch the line to change its configuration.
 
-Multiline edit
-^^^^^^^^^^^^^^
+Editing a multiline
+^^^^^^^^^^^^^^^^^^^
 
 To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`). 
 
@@ -398,8 +397,8 @@ In the multiline edit mode the bottom toolbox become opened, there the icon with
 
 Edit toolbox allows to delete all vertices from multiline (delete multiline) or selected point.
 
-Polygon edit
-^^^^^^^^^^^^
+Editing a polygon
+^^^^^^^^^^^^^^^^^
 
 In the polygon edit mode bottom toolbox become opened :numref:`ngmobile_edit_polygon_pic`.
 
@@ -430,8 +429,8 @@ When you add the polygon, in the center of screen there will be created the poly
 .. note::
 	An addition of the inner rings is not supported yet.
 
-Multipolygon edit
-^^^^^^^^^^^^^^^^^
+Editing a Multipolygon
+^^^^^^^^^^^^^^^^^^^^^^
 
 To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`).
 
@@ -453,13 +452,13 @@ In the multipolygon edit mode the bottom toolbox opens, where the icon with penc
 
 Edit toolbar allows to delete all vertices from multipolygon (delete multipolygon) or selected vertex.
 
-Attributes edit
+Editing attributes
 ---------------
 
 When changes are made in the layer button 1 on the edit bar (see :numref:`ngmobile_edit_point_pic`) changes from "tick" to "floppy" and the cancel button appears in the toolbar.
 
-Standart attributes form edit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing attributes using standard form
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After pressing button 1 the dialog of attributes edit will open (see :numref:`ngmobile_attributes_edit_pic`). Button 2 is a cancel of edits.
 
@@ -490,8 +489,8 @@ After selection of layer the form of attributes edit will be open (see :numref:`
 .. note::
 	In the dialog of layer selection only visible layers are shown. The dialog is shown only if there are few layers. If a suitable layer is only one, attributes edit form opens instantly.
 
-Customizable attributes edit form
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing attributes using custom form
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the layer is compared customizable form, this form will be open. In the result of made changes and saving this changes in the vector layer a dialog form of attributes edit will open. Dialog of attributes edit has the following entry fields:
 
