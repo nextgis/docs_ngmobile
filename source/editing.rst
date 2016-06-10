@@ -2,761 +2,572 @@
 
 .. _ngmobile_editing:
 
-Редактирование
-==============
+Editing
+=======
 
-Если к карте были добавлены один или несколько векторных слоев, то их можно 
-редактировать. При редактировании предоставляются возможности:
+You can start to edit one or more vector layers which have been added to the map. 
+Some following options are available during editing:
 
-* добавить новую запись в слой;
-* удалить запись из слоя;
-* изменить запись в слое.
+* add new entry into the layer;
+* delete entry;
+* edit entry.
 
-Существует несколько способов попасть в режим редактирования. Первый способ - 
-это основная кнопка программы (большая синяя кнопка в правом нижнем углу или 
-основная кнопка приложения (FAB). При нажатии на кнопку открывается меню наиболее 
-часто используемых действий (см. :numref:`ngmobile_edit_menu_pic`).
+There are several ways to get into the edit mode. The first way is the main button of the program (the big blue button in the right bottom corner or the main app button (FAB). Pressing the button opens a menu of typically actions (see :numref:`ngmobile_edit_menu_pic`).
 
 .. figure:: _static/edit_menu.png
    :name: ngmobile_edit_menu_pic
    :align: center
    :width: 6cm
    
-   Меню редактирования.
+   Edit menu.
 
-Меню имеет следующий состав:
+Menu has the following composition:
 
-* добавить линию или полигон обходом;
-* добавить геометрию;
-* добавить текущее местоположение.
+* add a line or polygon by tracking;
+* add geometry;
+* add current location.
 
-Второй способ - это долгим нажатием на геометрию на экране вызвать режим выбора 
-(см. :numref:`ngmobile_selectmode_pic`) и в нижней панели инструментов активировать 
-команду "редактировать".
+The second way is a long-pressing on the geometry on screen to switch on a selection mode (see :numref:`ngmobile_selectmode_pic`) and to start command "Edit" in the bottom toolbox.
 
-Создание записи
----------------
+Creation of entry
+-----------------
 
-Для добавления геометрии в векторный слой, необходимо выбрать пункт меню, которому 
-соответствует иконка с изображением карандаша (см. :numref:`ngmobile_edit_menu_pic`). 
-При этом, вначале открывается диалог выбора слоев (см. :numref:`ngmobile_select_layer_dialogtch_pic`). 
-В зависимости от типа геометрии выбранного слоя отображается соответствующие панели 
-инструментов редактора. Таким образом можно добавлять любые типы геометрий 
-(точки, линии, полигоны, мультиточки, мультилинии, мультиполигоны).
+To add the geometry into the vector layer select menu item which matches to the shortcut with the pencil image (see :numref:`ngmobile_edit_menu_pic`). In such case a dialog of layers selection is opening first (see :numref:`ngmobile_select_layer_dialogtch_pic`). Displaying of editor tools panel depends on the geometry of selected layer. In this way you can add any type of geometry (points, linestrings, polygons, multipoints, multilinestrings, multipolygons).
 
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
    :align: center
    :width: 6cm
    
-   Диалог выбора слоя.
+   Select layer dialog.
 
-Создание точки
+Point creation
 ^^^^^^^^^^^^^^
 
-Для добавления в слой точки следует выбрать из дерева слоев векторный слой с 
-типом геометрии - точка (см. :numref:`ngmobile_select_layer_dialogtch_pic`).
-После выбора слоя внизу экрана откроется панель инструментов редактирования. 
-Для добавления точки необходимо выбрать на нижней панели инструментов кнопку под 
-цифрой 3  (см. :numref:`ngmobile_edit_paneltch_pic`).
+To add a point into existing layer select vector layer with point geometry from the layers tree. (see :numref:`ngmobile_select_layer_dialogtch_pic`). Edit toolbox opens after layer’s selection at the bottom of the screen. Select button number 3 in the bottom toolbox to add the point (see :numref:`ngmobile_edit_paneltch_pic`).
 
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_paneltch_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования точки. 
+   Toolbox of point editing.
 
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую точку; 4 - удалить точку; 5 - переместить точку в центр экрана; 
-   6 - переместить точку в текущее местоположение; 7 - редактирование атрибутов.
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new point; 4 - delete point; 5 - move point to the center of screen; 6 - move point to the current location; 7 - edit attributes.
 
-На карте появится новая точка, которая будет создана в центре 
-экрана и подсвечена красным цветом, рядом с точкой будет отображена стрелка 
-(см. :numref:`ngmobile_creation_of_points_pic`).
+In the center of the screen on map will appear a new point highlighted by red with arrow near (СЃРј. :numref:`ngmobile_creation_of_points_pic`).
 
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
    :width: 6cm
 
-   Этап создания точки. 
+   Step of the point creation.
 
-При добавлении новой точки в нижней панели инструментов кнопка 1 изменит 
-изображение с "галочки" на "дискету". При нажатии на эту кнопку произойдет 
-сохранение созданной точки и откроется форма ввода атрибутов 
-новой геометрии (см. :numref:`ngmobile_input_form_attributes_pic`).
+After adding of new point the button 1 from bottom toolbox will change its image from "tick" to "floppy". The new point  will be saved after pressing this button and form of attributes input for new geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
    :width: 6cm
    
-   Форма ввода атрибутов геометрии.
+   Geometry attributes entry form.
 
-Создание линии
-^^^^^^^^^^^^^^
+Linestring creation
+^^^^^^^^^^^^^^^^^^^
 
-Для создания линии следует выбрать из дерева слоев векторный слой с типом 
-геометрии - линия (см. :numref:`ngmobile_select_layer_dialogtch_pic`). После 
-выбора слоя внизу экрана откроется панель инструментов редактирования. 
-Для добавления линии необходимо выбрать на нижней панели инструментов кнопку под 
-цифрой 3 (см. :numref:`ngmobile_edit_line1_pic`).
+To create a linestring select the linestring geometry vector layer from the layers tree  (see :numref:`ngmobile_select_layer_dialogtch_pic`) and press button 3 (see :numref:`ngmobile_edit_line1_pic`) in the opened edit toolbox at the bottom of the screen.
 
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line1_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования линии.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую линию; 4 - удалить линию; 5 - удалить точку из линии; 
-   6 - переместить точку в центр экрана; 7 - переместить точку в текущее местоположение; 
-   8 - редактирование атрибутов.
+   Linestring edit toolbox.
 
-На карте появится новая линия, которая будет создана в центре экрана. 
-Одна из точек линии, которую можно перемещать по слою на карте, подсвечена красным 
-цветом. Рядом с этой точкой будет отображена стрелка (см. :numref:`ngmobile_creating_lines_pic`).
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new linestring; 4 - delete linestring; 5 - delete vertex to the center of screen; 6 - move vertex to the current location; 7 - edit attributes.
+
+In the center of the screen on a map the new line will appear. One of the vertex of line which can be moved all round map is highlighted by red and have an arrow near (see :numref:`ngmobile_creating_lines_pic`).
 
 .. figure:: _static/creating_lines.png
    :name: ngmobile_creating_lines_pic
    :align: center
    :width: 6cm
 
-   Этап создания линии в слое.
+   Linestring creation step.
 
-При появлении новой линии на карте на нижней панели инструментов кнопка 1 изменит 
-изображение с "галочки" на "дискету". При нажатии на эту кнопку произойдет сохранение 
-созданной линии и откроется форма ввода атрибутов новой геометрии (см. :numref:`ngmobile_input_form_attributes_pic`)
+After addition of the new linestring the button 1 on bottom toolbox will change its image from "tick" to "floppy". After pressing this button edits will be saved and form of attributes input for new geometry will be opened (see :numref:`ngmobile_input_form_attributes_pic`)
 
-Создание полигона
-^^^^^^^^^^^^^^^^^
+Creation of polygon
+^^^^^^^^^^^^^^^^^^^
 
-Для создания на слое полигона следует выбрать из дерева слоев векторный слой для 
-добавления полигональной геометрии (см. :numref:`ngmobile_select_layer_dialogtch_pic`).
-
-Для добавления полигона в векторный слой необходимо в открывшемся окне в режиме 
-редактирования полигона выбрать на нижней панели инструментов редактирования полигона 
-кнопку под цифрой 3 (см :numref:`ngmobile_edit_polygon1_pic`).
+To create a polygon on the map choose vector layer to add polygonal geometry in the layers tree (see :numref:`ngmobile_select_layer_dialogtch_pic`) and select button 3 in the edit toolbox from the bottom of screen (see :numref:`ngmobile_edit_polygon1_pic`).
 
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon1_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования полигона.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новый полигон; 4 - удалить полигон; 5 - удалить точку из полигона; 
-   6 - переместить точку в центр экрана; 7 - переместить точку в текущее местоположение; 
-   8 - редактирование атрибутов.
+   Toolbox of edit polygon.
 
-На карте появится новая геометрия, полигон, который будет создана в центре экрана. 
-Одна из точек полигона, которую можно перемещать по слою на карте, подсвечена красным 
-светом, рядом с этой точкой будет отображена стрелка. Выделение любой точки полигона 
-позволяет ее перемещать по карте (см. :numref:`ngmobile_creation_landfill_pic`).
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new polygon; 4 - delete polygon; 5 - delete vertex from polygon; 6 - move vertex to the center of screen; 7 - move vertex to the current location; 8 - edit attributes.
+
+The new geometry will appear on the map in the center of screen. One of the polygons vertices which can be moved all round the map is highlighted by red and have arrow near. Selecting of any vertex from polygon allows to move it all round the map. (see :numref:`ngmobile_creation_landfill_pic`).
 
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
    :align: center
    :width: 6cm
 
-   Этап создания полигона в слое.     
+   Step of polygon creation in the layer.
 
-В результате появление нового полигона на карте на нижней панели инструментов редактирования 
-полигона кнопка под цифрой 1 изменит изображение с галочки на дискету. При нажатии на 
-кнопку под цифрой 1 с иконкой в виде дискеты сохраняется созданный полигон и открывается 
-форма ввода атрибутов новой геометрии. 
-Форма ввода атрибутов для нового полигона выглядит следующим образом (см. :numref:`ngmobile_input_form_attributes_pic`).
+In a result of new polygon creation on the map in a bottom toolbox of polygon edit, the button 1 will change the image from "tick" to "floppy". After pressing this button edits will be saved and form of attributes entry for the new geometry will open. This form looks this way: (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Создание мультиточки
-^^^^^^^^^^^^^^^^^^^^
+Multipoint creation
+^^^^^^^^^^^^^^^^^^^
 
-Для добавления мультиточки в векторный слой необходимо перейти в режим редактирования
-мультиточки (иконка с изображением карандаша), выбрать на нижней панели инструментов 
-редактирования мультиточки кнопку под цифрой 3. Нижняя панель инструментов редактирования 
-мультиточки представлена на :numref:`ngmobile_edit_multipoint_pic`.
+To add multipoint into the vector layer go to the edit mode of multipoint layer (icon with pencil) and select button 3 in the edit of multipoint toolbox from the bottom of screen which is shown on :numref:`ngmobile_edit_multipoint_pic`.
 
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования мультиточки.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую мультиточку; 4 - добавить точку к мультиточке; 5 - удалить 
-   мультиточку; 6 - удалить точку из мультиточки; 7 - переместить точку в центр 
-   экрана; 8 - переместить точку в текущее местоположение; 9 - редактирование атрибутов.
+   Toolbox of multipoint’s edit.
 
-Для добавления в слой мультиточки следует выбрать из дерева слоев векторный слой для 
-добавления точечной геометрии (см. :numref:`ngmobile_select_layer_dialogtch_pic`).
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multipoint; 4 - add point to multipoint; 5 – delete multipoint; 6 - delete point from multipoint; 7 - move point to the center of screen; 8 - move point to the current location; 9 - edit attributes.
 
-На карте появится новая геометрия, мультиточка, которая будет создана в центре 
-экрана и подсвечена красным светом, рядом с точкой будет отображена стрелка (см. :numref:`ngmobile_phase_of_the_multipoint_pic`).
+To add multipoint geometry into the layer choose from layers tree point vector layer (see :numref:`ngmobile_select_layer_dialogtch_pic`).
+
+On the map in the center of screen the new multipoint will be created and highlighted by red and will have an arrow near (see :numref:`ngmobile_phase_of_the_multipoint_pic`).
 
 .. figure:: _static/phase_of_the_multipoint.png
    :name: ngmobile_phase_of_the_multipoint_pic
    :align: center
    :width: 6cm
 
-   Этап создания мультиточки в слое. 
+   Step of multipoint creation in the layer.
 
-При появлении новой мультиточки на карте на нижней панели инструментов редактирования 
-мультиточки кнопка под цифрой 1 изменит изображение с галочки на дискету (см. :numref:`ngmobile_toolbar_multi_pic`).
+While the new multipoint appears on the map in the bottom edit toolbox of multipoint geometry the button 1 will change its image from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multi_pic`).
 
 .. figure:: _static/toolbar_multi.png
    :name: ngmobile_toolbar_multi_pic
    :align: center
    :width: 6cm
   
-   Панель инструментов редактирования на этапе создания и сохранения мультиточки. 
+	Toolbox of edit on the step of multipoint creation and saving.
 
-При нажатии на кнопку под цифрой 1 с иконкой в виде дискеты сохраняется созданная 
-мультиточка и открывается форма ввода атрибутов новой геометрии (см. :numref:`ngmobile_input_form_attributes_pic`).
+By pressing the button 1 with a “floppy” icon created multipoint will be saved and entry form of attributes for new geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Создание мультилинии
-^^^^^^^^^^^^^^^^^^^^
+Multilinestrings creation
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Для добавления мультилинии в векторный слой необходимо в открывшемся окне в режиме 
-редактирования мультилинии выбрать на нижней панели инструментов редактирования 
-мультилинии кнопку под цифрой 3 (см. :numref:`ngmobile_toolbar_multiline_pic`).
+To add multilinestring into the vector layer push the button 3 in the bottom toolbox of edit during the multilines edit mode (see :numref:`ngmobile_toolbar_multiline_pic`).
 
 .. figure:: _static/toolbar_multiline.png
    :name: ngmobile_toolbar_multiline_pic
    :align: center
    :width: 6cm
    
-   Панель инструментов редактирования мультилинии.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую мультилинию; 4 - добавить линию; 5 - удалить мультилинию; 
-   6 - удалить линию; 7 - редактирование атрибутов.
+   Toolbox of edit multilinestrings.
 
-Для создания на слое мультилинии следует выбрать из дерева слоев векторный слой для 
-добавления линейной геометрии (см. :numref:`ngmobile_select_layer_dialogtch_pic`)
+The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multilinestring; 4 - add line; 5 - delete multilinestring; 5 - delete vertex to the center of screen; 6 - delete line; 7 - edit attributes.
 
-На карте появится новая геометрия, мультилиния, которая будет создана в центре 
-экрана. Одна из точек мультилинии, которую можно перемещать по слою на карте, 
-подсвечена красным светом, рядом с этой точкой будет отображена стрелка (см. :numref:`ngmobile_creating_multiline_pic`).
+To create a layer on multilinestring select the vector layer from the layers tree and add the line geometry (see :numref:`ngmobile_select_layer_dialogtch_pic`)
+
+On the map in the center of screen the new multiline geometry will be created. One of the vertices of multiline, which can be moved all round the layer on the map will be highlighted by red and have arrow near (see :numref:`ngmobile_creating_multiline_pic`).
 
 .. figure:: _static/creating_multiline.png
    :name: ngmobile_creating_multiline_pic
    :align: center
    :width: 6cm
 
-   Этап создания мультилинии в слое.
+   Step of multilinestring creation in the layer.
 
-При появлении новой мультилинии на карте на нижней панели инструментов редактирования 
-линии кнопка под цифрой 1 изменит изображение с галочки на дискету (см. :numref:`ngmobile_toolbar_multiline1_pic`).
+When new multiline appears on the map in the bottom edit toolbox for line geometry button 1 changes its image from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multiline1_pic`).
 
 .. figure:: _static/toolbar_multiline1.png
    :name: ngmobile_toolbar_multiline1_pic
    :align: center
    :width: 6cm
 
-   Панель инструментов редактирования на этапе создания и сохранения мультилинии. 
+   Edit toolbox on the step of multilinestring creation and saving.
 
-При нажатии на кнопку под цифрой 1 с иконкой в виде дискеты сохраняется созданная 
-мультилиния и открывается форма ввода атрибутов новой геометрии. Форма ввода атрибутов 
-для новой мультилинии имеет следующий вид (см. :numref:`ngmobile_input_form_attributes_pic`).
+By pressing the button 1 with a “floppy” icon created multiline will be saved and entry form of attributes for new geometry will open. Form of attributes entry for new multilinestring looks this way (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Создание мультиполигона
+Creation of multipolygon
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Для создания на слое мультиполигона следует выбрать из дерева слоев векторный слой для 
-добавления полигональной геометрии (см. :numref:`ngmobile_tree_layers_mpolig_pic`)
+To create a new polygonal geometry on a multipolygonal layer select corresponding vector layer from the layers tree (see :numref:`ngmobile_tree_layers_mpolig_pic`)
 
 .. figure:: _static/tree_layers_mpolig.png
    :name: ngmobile_tree_layers_mpolig_pic
    :align: center
    :width: 6cm
 
-   Диалог выбора слоя.
+   Dialog of layer selection.
 
-Для добавления мультиполигона в векторный слой необходимо в открывшемся окне в режиме 
-редактирования мультиполигона выбрать на нижней панели инструментов редактирования 
-мультиполигона кнопку под цифрой 2 (см :numref:`ngmobile_toolbar_mpolyg_pic`).
+To add multipolygon into the vector layer choose button 2 (see :numref:`ngmobile_toolbar_mpolyg_pic`) in opened bottom toolbox of edit when you are in the edit mode.
 
 .. figure:: _static/toolbar_mpolyg.png
    :name: ngmobile_toolbar_mpolyg_pic
    :align: center
    :width: 6cm
-   
-   Панель инструментов редактирования мультиполигона.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - добавить новый 
-   мультиполигон; 3 - добавить полигон; 4 - ?; 5 - удалить мультиполигон; 6 - удалить 
-   полигон; 7 - редактирование атрибутов.
 
-На карте появится новая геометрия, мультиполигон, который будет создана в центре 
-экрана. Одна из точек мультиполигона, которую можно перемещать по слою на карте, 
-подсвечена красным светом, рядом с этой точкой будет отображена стрелка. Выделение 
-любой точки мультиполигона позволяет ее перемещать по карте (см. :numref:`ngmobile_creating_mpolyg_pic`).
+   Toolbox of multipolygon edit.
+
+The numbers indicate: 1 - finish edit mode; 2 - add new multipolygon; 3 - add polygon; 4- ?; 5 - delete multipolygon; 6 - delete polygon; 7 - edit attributes.
+
+New multipolygon geometry will apear on the map in the center of screen. One of the vertex of multipolygon which can be moved in layer all round map is highlighted by red and have the arrow near. Selecting of any vertex of multipolygon allows to move it all round the map (see :numref:`ngmobile_creating_mpolyg_pic`).
 
 .. figure:: _static/creating_mpolyg.png
    :name: ngmobile_creating_mpolyg_pic
    :align: center
    :width: 6cm
 
-   Этап создания мультиполигона.    
+   Step of multipolygon creation.
 
-В результате появление нового мультиполигона на карте на нижней панели инструментов 
-редактирования мультиполигона кнопка под цифрой 1 изменяет изображение с галочки 
-на дискету, а также добавляется кнопка в виде крестика, "Отмена правок", находящаяся 
-на нижней панели инструментов редактирования мультиполигона под цифрой 2 (см. :numref:`ngmobile_toolbar_mpolyg1_pic`).
+In a result of new multipolygon appear on the map, the button 1 of bottom toolbox of edit will change its image from "tick" to "floppy" and new button the "cross" - cancelation of edits, will be added under the button number 2 (see :numref:`ngmobile_toolbar_mpolyg1_pic`).
 
 .. figure:: _static/toolbar_mpolyg1.png
    :name: ngmobile_toolbar_mpolyg1_pic
    :align: center
    :width: 6cm
 
-   Панель инструментов редактирования на этапе создания и сохранения мультиполигона.
+   Toolbox of edit in the step of multipolygon creation and saving.
 
-При нажатии на кнопку под цифрой 1 с иконкой в виде дискеты сохраняется созданный 
-мультиполигон и открывается форма ввода атрибутов новой геометрии. 
-Форма ввода атрибутов для созданного мультиполигона выглядит следующим образом (см. :numref:`ngmobile_input_form_attributes_pic`).
+Pressing the button 1 with "floppy" icon saves the created multipolygon and opens entry form of attributes for new geometry. Form of attributes entry for new multipolygon looks this way (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Добавление текущего местоположения
-----------------------------------
+Add current location 
+--------------------
 
-Для добавления текущего местоположения в векторный слой, необходимо выбрать 
-пункт меню, которому соответствует иконка с изображением пушпина (см. :numref:`ngmobile_edit_menu_pic`).  
-При этом, в начале открывается диалог выбора слоя, в котором отображаются только 
-точечные и мультиточечные слои (см. :numref:`ngmobile_select_layer_dialog_pic`). 
-Таким образом можно добавлять только точки или мультиточки с одной точкой. 
+To add current location into the vector layer select the menu item which corresponds to the icon with image of pushpin (see :numref:`ngmobile_edit_menu_pic`). In such case the dialog of choosing layer, in which only point or multipoint geometry layers will be displayed, openes (see :numref:`ngmobile_select_layer_dialog_pic`). Thus, it is possible to add only a points or a multipoins with one point.
 
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
    :align: center
    :width: 6cm
    
-   Диалог выбора слоя.
+   Select layer dialog.
 
-Создание линии или полигона обходом
------------------------------------
+Creation of line or polygon by tracking
+---------------------------------------
 
-Для добавления линии или полигона обходом необходимо выбрать соответствующий 
-пункт меню, которому соответствует иконка, изображенная в виде идущего человека (см. :numref:`ngmobile_edit_menu_pic`). При этом, в начале открывается диалог выбора 
-слоя, в котором отображаются только линейные и полигональные слои (см. :numref:`ngmobile_select_layer_dialog_pic`). 
-При старте создания линии или полигона обходом открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_walk_pic1`.
+To add line or polygon by tracking select menu item that corresponds to the icon with a walking man (see :numref:`ngmobile_edit_menu_pic`). In such case, at first, the dialog of choosing the layer, in which only line or polygon layers will be displayed, openes (see :numref:`ngmobile_select_layer_dialog_pic`). When you start creating a line or a polygon by tracking, the bottom toolbar, shown in :numref:`ngmobile_edit_walk_pic1` openes.
+
 
 .. figure:: _static/edit_panel_circumvention_tools.png
    :name: ngmobile_edit_walk_pic1
    :align: center
    :width: 6cm
    
-   Панель инструментов редактирования обходом.
+   Toolbox of edit by tracking.
 
-Далее при накоплении минимального количества точек (для линии - две точки, для 
-полигона - три точки) нижняя панель инструментов примет следующий вид :numref:`ngmobile_edit_walk_pic`.
+Further, with the accumulation of a minimum number of points (for line - two points for the polygon - three points) bottom toolbar will take the following form :numref:`ngmobile_edit_walk_pic`.
 
 .. figure:: _static/ngmobile_edit_walk.png
    :name: ngmobile_edit_walk_pic
    :align: center
    :width: 6cm
-   
-   Панель инструментов редактирования обходом.
-   
-   Цифрами обозначено: 1 - сохранение введенной фигуры; 2 - отмена режима ввода 
-   обходом; 3 - настройки ввода обходом.
 
-После завершения обхода при выборе сохранения введенной геометрии (см. :numref:`ngmobile_edit_walk_pic`), 
-путем нажатия на иконку с изображением дискеты, открывается форма ввода (стандартная 
-или настраиваемая, см. :numref:`ngmobile_attributes_edit_pic`). 
+   Toolbox of editing by tracking.
 
-Если отменить сохранение геометрии, путем нажатия на кнопку под цифрой 2 на нижней 
-панели инструментов, программа возвращается в режим редактирования выбранного 
-полигонального слоя.
+  The numbers indicate:  1 - save entered feature; 2 - cancel tracking enter mode; 3 - edits of tracking enter.
 
-Если в ходе обхода вызвать меню настройки, путем нажатия на кнопку под цифрой 3 на 
-нижней панели инструментов, то откроется окно настроек, представленное на :numref:`ngmobile_settings_place_pic`. 
-Изменения, внесенные в этом окне, влияют не только на ввод обходом, но и на отображение 
-текущего местоположения.
+After you finish tracking and choose to save input geometry (see :numref:`ngmobile_edit_walk_pic`), by pressing button with "floppy" icon, entry form will open (default or custom, see :numref:`ngmobile_attributes_edit_pic`). 
+
+If you cancel geometry saving by pressing button 2 on the bottom toolbar, app returns to the mode of selected polygon layer editing.
+
+If you open the settings menu while tracking by pressing button 3 on the bottom toolbox, the window of settings shown on :numref:`ngmobile_settings_place_pic` opens. Changes made in this dialog box, affects not only the tracking input, but also on the displaying of current location.
 
 .. note::
-   При выборе настроек местоположения таким образом (минимальное время обновления 
-   2 сек. и более, минимальное расстояние для обновления 10 м и более) 
-   операционная система начинает фильтровать выбросы.
-   
+	If you choose the location settings in this way (minimum update time 2 sec or more, minimum update distance 10 m or more) operating system begins to filter runouts.
 
-Изменение геометрии
--------------------
+Geometry changing
+-----------------
 
-Для того чтобы перейти в режим редактирования имеющейся геометрии, необходимо долго
-удерживать палец на геометрии векторного слоя. В результате такого действия окно 
-карты переходит в режим выбора действия (см. :numref:`ngmobile_selectmode_pic`). 
+Hold for a long time your finger on the geometry of vector layer to go to the edit mode of existing geometry. In a result of this action the map window switches into the action selection mode (see :numref:`ngmobile_selectmode_pic`). 
 
 .. figure:: _static/ngmobile_selectmode.png
    :name: ngmobile_selectmode_pic
    :align: center
    :height: 11cm
    
-   Окно карты в режиме выделения.
-   
-   Цифрами обозначено: 1 - выделенная геометрия; 2 - просмотр атрибутов; 3 - удаление 
-   геометрии; 4 - редактирование геометрии; 5 - завершение режима выделения.
+   Window of map in selection mode.
 
-Если открыта информационная панель, то она будет скрыта, и на ее месте будет выведена 
-нижняя панель инструментов, которая имеет в своем составе команду "Перейти к редактированию 
-выбранной геометрии" (см. :ref:`ngmobile_editing`). Эта команда обозначена иконкой 
-в виде карандаша. При нажатии на эту иконку появляется нижняя панель инструментов, 
-которая содержит соответствующие имеющейся геометрии кнопки для редактирования этой геометрии.  
+   The numbers indicate: 1 - selected geometry; 2 - attribute view; 3 - geometry delete; 4 - geometry edit; 5 - completion of selection mode.
 
-Редактирование точки
-^^^^^^^^^^^^^^^^^^^^
+If information bar is opened it is hidden and instead of it, bottom toolbox is displayed, which is composed of the command "Go to edit of selected geometry" (see :ref:`ngmobile_editing`). This command is designated as a pencil icon. If you press it the bottom toolbox with relevant to existing geometry, buttons for edit this geometry appear.
 
-В режиме редактирования точки открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_point_pic`.
+Edit points
+^^^^^^^^^^^
+
+In the mode of edit points bottom toolbox is opened :numref:`ngmobile_edit_point_pic`.
 
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_point_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования точки.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую точку; 4 - удалить точку; 5 - переместить точку в центр 
-   экрана; 6 - переместить точку в текущее местоположение; 7 - редактирование 
-   атрибутов.
-   
-Пользователь может выбрать имеющуюся точку в слое (она будет подсвечена красным 
-цветом, рядом с точкой будет отображена стрелка) или создать новую (новая точка 
-будет создана в центре экрана и подсвечена красным цветом, рядом с точкой будет 
-отображена стрелка). 
+   Toolbox of edit points.
 
-Далее выделенную точку можно смещать, просто потянув ее или 
-потянув указывающую на нее стрелку. Кроме того, точку можно сместить в центр 
-экрана (см. :numref:`ngmobile_edit_point_pic` п. 5) или в текущее местоположение 
-(см. :numref:`ngmobile_edit_point_pic` п. 6), выбрав соответствующие команды в 
-нижней панели инструментов.
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new point; 4 - delete point; 5 - move point to the center of screen; 6 - move point to the current location; 8 - edit attributes. 
 
-По умолчанию кнопка отмены (см. :numref:`ngmobile_edit_point_pic` п. 2) отображается
-только после внесения каких либо изменений.
- 
-Редактирование мультиточки
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+User can select a point existing in the layer (it will be highlighted by red and have arrow near) or create the new one (new point will be created in the center of screen, will be highlighted by red and have arrow near).
 
-В режиме редактирования мультиточки открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_multipoint1_pic`.
+Next, the selected point can be shifted just by pulling it out or pulling arrow pointing on it. Furthermore, the point can be shifted to the screen center (see :numref:`ngmobile_edit_point_pic` p. 5) or in the current location (see :numref:`ngmobile_edit_point_pic` p. 6), by choosing appropriate commands at the bottom toolbox.
+
+By default, the cancel button (see :numref:`ngmobile_edit_point_pic` p. 2) is shown  only after some edits.
+
+Multipoint edit.
+^^^^^^^^^^^^^^^
+
+In the mode of multipoint edit the bottom toolbox opens
+:numref:`ngmobile_edit_multipoint1_pic`.
 
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint1_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования мультиточки.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую мультиточку; 4 - добавить точку к мультиточке; 5 - удалить 
-   мультиточку; 6 - удалить точку из мультиточки; 7 - переместить точку в центр 
-   экрана; 8 - переместить точку в текущее местоположение; 9 - редактирование 
-   атрибутов.
-   
-При редактировании мультиточки выделяются все точки в нее входящие. Текущая точка 
-подсвечена красным цветом, рядом с точкой отображена стрелка. 
+   Toolbox of multipoint edit.
 
-Панель редактирования позволяет удалить все точки из состава мультиточки или 
-выбранную точку. Над выбранной точкой можно выполнять операции:
-    
-* удалить;
-* переместить в центр экрана;
-* переместить в текущие координаты.
- 
-Кроме того, можно добавить точку к мультиточке (см. :numref:`ngmobile_edit_multipoint_pic` 
-п. 4).    
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multipoint; 4 - add point to multipoint; 5 - delete multipoint; 6 - delete point from multipoint; 7 - move point to the center of screen; 8 - move point to the current location; 9 - edit attributes.
 
-Редактирование линии
-^^^^^^^^^^^^^^^^^^^^^
+While multipoint edit all included points are selected. Current point is highlighted by red color and have arrow near.
 
-В режиме редактирования линии открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_line_pic`.
+Edit bar allows to delete all points from multipoint or selected point. You can do following operations with selected point:
+
+* delete;
+* move to the center of screen;
+* move to the current location.
+
+You can also add a point to multipoint (see :numref:`ngmobile_edit_multipoint_pic` 
+p. 4).
+
+Linestring edit
+^^^^^^^^^^^^^^^
+
+In the mode of line edit the bottom toolbox will open :numref:`ngmobile_edit_line_pic`.
+
 
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования линии.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новую линию; 4 - удалить линию; 5 - удалить точку из линии; 6 - 
-   переместить точку в центр экрана; 7 - переместить точку в текущее 
-   местоположение; 8 - редактирование атрибутов.
-   
-При редактировании линии выделяются все точки в нее входящие. Текущая точка 
-подсвечена красным цветом, рядом с точкой отображена стрелка. Кроме того, между 
-точками на линии отмечается центр сегмента линии. При выделении центра сегмента 
-линии касанием пальца до экрана устройства, к линии добавляется новая точка и сразу
-получает выделение. После добавления точки ее можно перемещать.
+   Toolbox of line edit.
 
-Панель редактирования позволяет удалить все точки из состава линии (удалить 
-линию) или выбранную точку. 
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new line; 4 - delete line; 5 - move point to the center of screen; 6 - move point to the current location; 8 - edit attributes.
+
+All vertices in the line are allocated while editing. Current vertex is highlighted by red color and have arrow near. Furthermore, center of line segment between  vertices is indicated. While selecting the center of segment by finger, new vertex addes to the line and immediately becomes selected. You can move vertex after it has been added.
+
+Edit toolbar allows to delete all vertices from line (delete line) or selected vertex.
 
 .. note::
-   Если в линии останется одна точка, то такая линия будет удалена. 
+	If only one vertex will remain in the line, this line will be deleted.
 
-Над выбранной точкой в линии можно выполнять операции:
-    
-* удалить;
-* переместить в центр экрана;
-* переместить в текущие координаты.
+There are following operations available for selected vertex in line:
 
-При добавлении новой линии в центре экрана создается линия по умолчанию, которая 
-состоит из двух точек. Добавляя точки, можно растягивать линию, менять ее конфигурацию. 
- 
-Редактирование мультилинии
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* delete;
+* move to the center of screen;
+* move to the current location.
 
-Для того чтобы перейти в режим редактирования имеющейся геометрии, необходимо долго
-удерживать палец на геометрии векторного слоя. В результате такого действия окно 
-карты переходит в режим выбора действия (см. :numref:`ngmobile_window_mode_selection_ml_pic`). 
+When you add a new line in the center of the screen the new line is creating by default. It consists of two points. By adding a point you can stretch the line to change its configuration.
+
+Multiline edit
+^^^^^^^^^^^^^^
+
+To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`). 
 
 .. figure:: _static/window_mode_selection_ml.png
    :name: ngmobile_window_mode_selection_ml_pic
    :align: center
    :height: 11cm
    
-   Окно карты в режиме выделения.
+   Window of map in the selection mode.
 
-В режиме редактирования мультилинии открывается нижняя панель инструментов, на 
-которой имеется иконка в виде карандаша. Данная иконка предоставляет возможность 
-перейти к редактированию выбранной на слое геометрии (см. :ref:`ngmobile_editing`). 
-При нажатии на иконку карандаша появляется нижняя панель инструментов, 
-которая содержит соответствующие имеющейся геометрии кнопки для редактирования 
-этой геометрии. При редактировании мультилинии выделяются все точки, в нее входящие. 
-Текущая точка подсвечена красным цветом, рядом с точкой отображена стрелка (см. :numref:`ngmobile_Map_window_edit_mode_ml_pic`). 
+In the multiline edit mode the bottom toolbox become opened, there the icon with pencil is placed. This icon allows to start edit of selected geometry on the layer (see :ref:`ngmobile_editing`). By pressing on the pencil icon bottom toolbox appears. There you can find buttons appropriated to the available geometry for its editing. In a process of multiline edit all vertices belonged to the multiline are selected. Current vertex is highlighted by red and have an arrow near (see :numref:`ngmobile_Map_window_edit_mode_ml_pic`). 
 
 .. figure:: _static/Map_window_edit_mode_ml.png
    :name: ngmobile_Map_window_edit_mode_ml_pic
    :align: center
    :height: 11cm  
 
-   Окно карты в режиме редактирования.
+   Map window in the edit mode.
 
-Панель редактирования позволяет удалить все точки из состава мультилинии (удалить 
-мультилинию) или выбранную точку.
+Edit toolbox allows to delete all vertices from multiline (delete multiline) or selected point.
 
-Редактирование полигона
-^^^^^^^^^^^^^^^^^^^^^^^
+Polygon edit
+^^^^^^^^^^^^
 
-В режиме редактирования полигона открывается нижняя панель инструментов, 
-представленная на :numref:`ngmobile_edit_polygon_pic`.
+In the polygon edit mode bottom toolbox become opened :numref:`ngmobile_edit_polygon_pic`.
 
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon_pic
    :align: center
    :width: 8cm
    
-   Панель инструментов редактирования полигона.
-   
-   Цифрами обозначено: 1 - завершение режима редактирования; 2 - отмена правок; 
-   3 - добавить новый полигон; 4 - удалить полигон; 5 - удалить точку из полигона; 
-   6 - переместить точку в центр экрана; 7 - переместить точку в текущее 
-   местоположение; 8 - редактирование атрибутов.
-   
-При редактировании полигона выделяются все точки в него входящие (как внешней 
-оболочки, так и каждого внутреннего кольца). Текущая точка подсвечена красным 
-цветом, рядом с точкой отображена стрелка. Кроме того, между точками на кольце 
-полигона (внешний или внутренние) отмечается центр сегмента линии. При выделении 
-центра сегмента линии касанием пальца до экрана устройства, к кольцу добавляется 
-новая точка и сразу получает выделение. После добавления точки ее можно перемещать.
+   Toolbox of polygon edit.
 
-Панель редактирования позволяет удалить все точки из состава полигона (удалить 
-полигон) или выбранную точку. 
+   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new polygon; 4 - delete polygon; 5 - delete vertex from polygon; 6 - move vertex to the center of screen; 7 - move vertex to current location; 8 - edit attributes.
+
+During the multiline edit all vertices belonged to the multiline are selected (both the outer contour, and the each inner ring). Current vertex is highlighted by red and have an arrow near. In addition, between the vertices on the ring of the polygon (external or internal) center of line segment become marked. When you select the center of line segment by finger the new vertex is added to the ring and immediately become selected. You can move vertex after it has been added.
+
+Edit toolbox allows to delete all vertices from polygon (delete polygon) or selected vertex.
 
 .. note::
-   Если в полигоне останется всего две точки, то такой полигон будет удален. 
+	If only two vertices will remain in the polygon - polygon will be deleted.
 
-Над выбранной точкой в кольце полигона можно выполнять операции:
-    
-* удалить;
-* переместить в центр экрана;
-* переместить в текущие координаты.   
- 
-При добавлении полигона в центре экрана создается полигон по умолчанию, который 
-состоит из трех точек. Добавляя точки можно растягивать внешнее кольцо полигона, 
-менять его конфигурацию.
+There are following operations are available for selected vertex in the ring of polygon:
+
+* delete;
+* move to the center of screen;
+* move into the current location.
+
+When you add the polygon, in the center of screen there will be created the polygon which consists of three vertices.
 
 .. note::
-   Поддержки добавления внутренних колец пока не реализовано.
+	An addition of the inner rings is not supported yet.
 
-Редактирование мультиполигона
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Multipolygon edit
+^^^^^^^^^^^^^^^^^
 
-Для того чтобы перейти в режим редактирования имеющейся геометрии, необходимо долго
-удерживать палец на геометрии векторного слоя. В результате такого действия окно 
-карты переходит в режим выбора действия (см. :numref:`ngmobile_map_window_mode_selection_pic`). 
+To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`).
 
-.. figure:: _static/map_window_mode_selection.png
-   :name: ngmobile_map_window_mode_selection_pic
+.. figure:: _static/window_mode_selection_ml.png
+   :name: ngmobile_window_mode_selection_ml_pic
    :align: center
    :height: 11cm
    
-   Окно карты в режиме выделения.
+   Window map in the selection mode.
 
-В режиме редактирования мультиполигона открывается нижняя панель инструментов, на 
-которой имеется иконка в виде карандаша. Данная иконка предоставляет возможность 
-перейти к редактированию выбранной геометрии (см. :ref:`ngmobile_editing`). 
-При нажатии на иконку карандаша появляется нижняя панель инструментов, 
-которая содержит соответствующие имеющейся геометрии кнопки для редактирования 
-этой геометрии (см. :numref:`ngmobile_edit_mode_pic`). 
+In the multipolygon edit mode the bottom toolbox opens, where the icon with pencil is placed. This icon allows to start edit of selected geometry on the layer (see :ref:`ngmobile_editing`). By pressing on the pencil icon bottom toolbox appears. There you can find buttons appropriated to the available geometry for its editing. (see :numref:`ngmobile_edit_mode_pic`). 
 
 .. figure:: _static/edit_mode.png
    :name: ngmobile_edit_mode_pic
    :align: center
    :height: 11cm  
 
-   Окно карты в режиме редактирования.
+   Map window in edit mode.
 
-Панель редактирования позволяет удалить все точки из состава мультиполигона (удалить 
-мультиполигон) или выбранную точку. 
+Edit toolbar allows to delete all vertices from multipolygon (delete multipolygon) or selected vertex.
 
-Редактирование атрибутов
-------------------------
+Attributes edit
+---------------
 
-При внесении изменений в слой кнопка 1 панели редактирования (см. :numref:`ngmobile_edit_point_pic`) 
-изменяет свой значок со значка в виде "галочки" на значок в виде "дискеты", а кнопка 
-отмены появляется на панели инструментов. 
+When changes are made in the layer button 1 on the edit bar (see :numref:`ngmobile_edit_point_pic`) changes from "tick" to "floppy" and the cancel button appears in the toolbar.
 
-Стандартная форма редактирования атрибутов
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Standart attributes form edit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-При нажатии на кнопку 1 происходит открытие диалога редактирования атрибутов 
-(см. :numref:`ngmobile_attributes_edit_pic`). При нажатии кнопки 2 происходит 
-отмена ранее сделанных правок. 
+After pressing button 1 the dialog of attributes edit will open (see :numref:`ngmobile_attributes_edit_pic`). Button 2 is a cancel of edits.
 
 .. note::
 
-   Если диалог редактирования атрибутов закрыть без применений изменений (без 
-   выбора п. 2 :numref:`ngmobile_attributes_edit_pic`), то ничего не будет сохранено 
-   (ни добавление или изменение геометрии, ни атрибуты). 
+	If you close dialog of attributes edit without applying changes (button 2 :numref:`ngmobile_attributes_edit_pic`) nothing saves (any adding or edits of geometry, any attributes).
 
-Для отмены сделанных правок служит кнопка 2 (см. :numref:`ngmobile_edit_point_pic` п. 2). 
-Правку можно отменить только до нажатия кнопки "Сохранить" в диалоге изменения 
-атрибутов, который открывается после нажатия на кнопку с иконкой в виде дискеты.
+Press button 2 to cancel edits (see :numref:`ngmobile_edit_point_pic` p. 2). Edit can be canceled only before pressing the "Save" button in the dialog of attributes edit which opens after pressing button with "floppy" icon.
 
-Для редактирования новой записи необходимо либо сохранить или отменить правки. 
-При редактировании записи, если выбрать кнопку создания новой геометрии, то 
-текущая геометрия будет заменена на новую.
+Save or cancel edits to edit the new record. The current geometry will be overwritten during editing of record If you select the new geometry create button.
 
-При выбранной геометрии, если активировать кнопку 7 (см. :numref:`ngmobile_edit_point_pic` 
-п. 7), то откроется диалог изменения атрибутов данной геометрии (см. 
-:numref:`ngmobile_attributes_edit_pic`). Диалог изменения атрибутов представляет 
-собой вертикальный список названий полей, а также контролов для каждого типа атрибутов:
-    
-* текстовое поле - для текста и цифр
-* пикер даты - для даты и времени 
+If you activate the button 7 when geometry is selected (see :numref:`ngmobile_edit_point_pic` p. 7), the dialog of attributes edit of this geometry opens (see :numref:`ngmobile_attributes_edit_pic`). Dialog of attributes edit is a vertical list of field names and controls for each type of attributes:
 
-После выбора слоя открывается форма редактирования атрибутов (см. 
-:numref:`ngmobile_attributes_edit_pic`). 
+* text field - for text and digits
+* date picker - for date and time
+
+After selection of layer the form of attributes edit will be open (see :numref:`ngmobile_attributes_edit_pic`). 
 
 .. figure:: _static/ngmobile_edit_attributes.png
    :name: ngmobile_attributes_edit_pic
    :align: center
    :width: 6cm
    
-   Окно редактирования атрибутов.
-   
-   Цифрами обозначено: 1 - возврат к предыдущему экрану; 2 - сохранение изменений; 
-   3 - отмена изменений; 4 - меню дополнительных операций.
+   Window of attributes edit.
+
+   The numbers indicate: 1 - return to previous menu; 2 - save edits; 3 - cancel edits; 4 - additional operations menu.
 
 .. note::
-   В диалоге выбора слоя отображаются только видимые слои. Сам диалог 
-   отображается только если слоев несколько. Если подходящий слой один, то сразу 
-   открывается форма редактирования атрибутов.
-   
-Настраиваемая форма редактирования атрибутов
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
-   
-Если слою сопоставлена настраиваемая форма, то будет открыта именно она. В результате 
-внесения изменений и сохранения этих изменений в векторном слое происходит открытие диалога
-редактирования атрибутов. Диалог редактирования атрибутов содержит следующие для ввода поля:
+	In the dialog of layer selection only visible layers are shown. The dialog is shown only if there are few layers. If a suitable layer is only one, attributes edit form opens instantly.
 
-* Текст;
-* Пробел;
-* Текстовое поле;
-* Список, Сдвоенный список;
-* Флажок;
-* Радио-кнопка;
-* Пикер даты;
-* Фотографии.
- 
-Поле информации "Текст" служит для внесения дополнительного текстового пояснения 
-к информации о созданной геометрии.
+Customizable attributes edit form
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Поле "Пробел" необходимо для увеличения интервала между полями (см. :numref:`ngmobile_text_probel_pic`). 
+If the layer is compared customizable form, this form will be open. In the result of made changes and saving this changes in the vector layer a dialog form of attributes edit will open. Dialog of attributes edit has the following entry fields:
+
+* Text;
+* Space;
+* Text field;
+* List; Tandem list;
+* Checkbox;
+* Radio button;
+* Date Picker;
+* Photo.
+
+The "Text" information field serves to make additional textual explanation to information about created geometry.
+
+The "Space" field is required for increasing of interval between the fields (see :numref:`ngmobile_text_probel_pic`).
 
 .. figure:: _static/text_probel.png
    :name: ngmobile_text_probel_pic
    :align: center
    :width: 8cm
 
-   Поле "Текст" и "Пробел".
+   "Text" and "Space" fields.
 
-Поле ввода информации "Текстовое поле" - для ввода текста или цифр в зависимости от типа поля (см. :numref:`ngmobile_text_pole_pic`). 
+The "Text field" information input field is necessary to enter text or figures, depending on the field type (see :numref:`ngmobile_text_pole_pic`). 
 
 .. figure:: _static/text_pole.png
    :name: ngmobile_text_pole_pic
    :align: center
    :width: 8cm
 
-   Поле ввода "Текстовое поле".
+   "Text field" entry field.
 
-Поле ввода информации "Список", "Сдвоенный список" необходим для хранения и быстрого
-выбора одного из значений, входящих в список выбора, например "Список" - регион/субъект/республика/край, 
-"Сдвоенный список" - район/округ/административная единица этого региона/субъекта/республики/края (см. :numref:`ngmobile_spisok_pic`). 
+The "List" and "Tandem list" information entry fields are necessary for storing and fast selection of one of the values included to the selection list, for example, "List" - region/subject/the republic/territory, "Tandem list" - district/area/administrative unit in the region/subject/the republic/territory (see :numref:`ngmobile_spisok_pic`). 
 
 .. figure:: _static/spisok.png
    :name: ngmobile_spisok_pic
    :align: center
    :width: 8cm
 
-   Поле ввода "Список"/ "Сдвоенный список".
+   The "List" / "Tandem list" entry fields.
 
-Поле ввода информации "Флажок" - включает или выключает значение (см. :numref:`ngmobile_flag_pic`). 
+The "Checkbox" information entry field turns on or off a value (see :numref:`ngmobile_flag_pic`). 
 
 .. figure:: _static/flag.png
    :name: ngmobile_flag_pic
    :align: center
    :width: 8cm
 
-   Поле ввода "Флажок".
+   The "Checkbox" entry field.
 
-Поле ввода информации "Радио-кнопка 1", "Радио-кнопка 2" - переключатель, позволяет выбрать 
-один элемент из ограниченного набора взаимно исключающих вариантов (см. :numref:`ngmobile_radio_kn_pic`). 
+Entry field "Radio-button 1", "Radio-button 2" is a switcher which allows to select one element from a limited set of mutually exclusive options (see :numref:`ngmobile_radio_kn_pic`). 
 
 .. figure:: _static/radio_kn.png
    :name: ngmobile_radio_kn_pic
    :align: center
    :width: 8cm
 
-   Поле ввода "Радио-кнопка".
+   "Radio-button" entry field.
 
-Поле ввода информации "Пикер даты" - элемент управления, используемый для выбора даты, 
-время или и того и другого (см. :numref:`ngmobile_date_pic`). 
+The "Date picker" information entry field is an element which is used to select a date, time or both of them (see :numref:`ngmobile_date_pic`). 
 
 .. figure:: _static/date.png
    :name: ngmobile_date_pic
    :align: center
    :width: 8cm 
 
-   Поле ввода "Пикер даты".
+   "Date picker" entry form.
 
-Поле "Фотографии" необходимо для создания фотографии или загрузки имеющихся фотографий (см. :numref:`ngmobile_photo_pic`). 
+The "Photo" field is necessary for creation of photo or load existing photos (see :numref:`ngmobile_photo_pic`). 
 
 .. figure:: _static/photo.png
    :name: ngmobile_photo_pic
    :align: center
    :width: 8cm 
  
-   Поле ввода "Фотографии".
- 
-После заполнения всех необходимых атрибутов необходимо нажать кнопку 
-:numref:`ngmobile_attributes_edit_pic` п. 2 для сохранения изменений. При выборе 
-кнопки 1 или 3 происходит возврат к окну карты без сохранения атрибутов. Точка 
-также не будет добавлена.
+ 	The "Photo" entry form.
+
+After filling of all necessary attributes for saving edits press the button :numref:`ngmobile_attributes_edit_pic` p. 2. Pressing the buttons 1 or 3 returns to the window of map without saving. Point will not be added.
 
