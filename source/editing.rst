@@ -696,7 +696,7 @@
 .. figure:: _static/text_probel.png
    :name: ngmobile_text_probel_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
 
    Поле "Текст" и "Пробел".
 

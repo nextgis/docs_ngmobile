@@ -16,7 +16,7 @@
 .. figure:: _static/ngmobile_track_menu.png
    :name: ngmobile_track_menu_pic
    :align: center
-   :width: 5cm
+   :width: 7cm
    
    Команда записи трека.
    
