@@ -118,81 +118,79 @@ The new geometry will appear in the center of the map. One of the polygons verti
    :align: center
    :width: 6cm
 
-   Step of polygon creation in the layer.
+   Creating a polygon.
 
-In a result of new polygon creation on the map in a bottom toolbox of polygon edit, the button 1 will change the image from "tick" to "floppy". After pressing this button edits will be saved and form of attributes entry for the new geometry will open. This form looks this way: (see :numref:`ngmobile_input_form_attributes_pic`).
+After polygon is created button 1 will change from "tick" to "floppy". After pressing it edits will be saved and form to enter attributes for the new geometry will open: (see :numref:`ngmobile_input_form_attributes_pic`).
 
 Creating a multipoint
 ^^^^^^^^^^^^^^^^^^^^^
 
-To add multipoint into the vector layer go to the edit mode of multipoint layer (icon with pencil) and select button 3 in the edit of multipoint toolbox from the bottom of screen which is shown on :numref:`ngmobile_edit_multipoint_pic`.
+To add a multipoint to a vector layer select a multipoint layer (see :numref:`ngmobile_select_layer_dialogtch_pic`), start editing (icon with pencil) and select button 3 in the toolbar at the bottom of screen :numref:`ngmobile_edit_multipoint_pic`.
 
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint_pic
    :align: center
    :width: 8cm
    
-   Toolbox of multipoint’s edit.
+   Multipoint editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multipoint; 4 - add point to multipoint; 5 – delete multipoint; 6 - delete point from multipoint; 7 - move point to the center of screen; 8 - move point to the current location; 9 - edit attributes.
+   The numbers indicate: 1 - finish editing; 2 - cancel editing; 3 - add new multipoint; 4 - add point to multipoint; 5 – delete multipoint; 6 - delete point from multipoint; 7 - move point to the center of screen; 8 - move point to current location; 9 - edit attributes.
 
-To add multipoint geometry into the layer choose from layers tree point vector layer (see :numref:`ngmobile_select_layer_dialogtch_pic`).
-
-On the map in the center of screen the new multipoint will be created and highlighted by red and will have an arrow near (see :numref:`ngmobile_phase_of_the_multipoint_pic`).
+New multipoint will show up at the center on the map highlighted in red with an arrow icon (see :numref:`ngmobile_phase_of_the_multipoint_pic`).
 
 .. figure:: _static/phase_of_the_multipoint.png
    :name: ngmobile_phase_of_the_multipoint_pic
    :align: center
    :width: 6cm
 
-   Step of multipoint creation in the layer.
+   Creating a multipoint.
 
-While the new multipoint appears on the map in the bottom edit toolbox of multipoint geometry the button 1 will change its image from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multi_pic`).
+When new multipoint appears button 1 at the bottom editing toolbar will change from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multi_pic`).
 
 .. figure:: _static/toolbar_multi.png
    :name: ngmobile_toolbar_multi_pic
    :align: center
    :width: 6cm
   
-	Toolbox of edit on the step of multipoint creation and saving.
+	Multipoint editing and saving toolbar.
 
-By pressing the button 1 with a “floppy” icon created multipoint will be saved and entry form of attributes for new geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
+By pressing button 1 with a “floppy” icon new multipoint will be saved and attributes editing form for this geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
-Creating a Multiline
+Creating a multiline
 ^^^^^^^^^^^^^^^^^^^^
 
-To add multilinestring into the vector layer push the button 3 in the bottom toolbox of edit during the multilines edit mode (see :numref:`ngmobile_toolbar_multiline_pic`).
+To add multiline to a vector layer press button 3 on the bottom toolbar during editing (see :numref:`ngmobile_toolbar_multiline_pic`).
 
 .. figure:: _static/toolbar_multiline.png
    :name: ngmobile_toolbar_multiline_pic
    :align: center
    :width: 6cm
    
-   Toolbox of edit multilinestrings.
+   Multiline editing toolbar.
 
-The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multilinestring; 4 - add line; 5 - delete multilinestring; 5 - delete vertex to the center of screen; 6 - delete line; 7 - edit attributes.
+The numbers indicate: 1 - finish editing; 2 - cancel editing; 3 - add new multilines; 4 - add new line; 5 - delete multiline; 6 - delete line; 7 - edit attributes.
 
 To create a layer on multilinestring select the vector layer from the layers tree and add the line geometry (see :numref:`ngmobile_select_layer_dialogtch_pic`)
 
-On the map in the center of screen the new multiline geometry will be created. One of the vertices of multiline, which can be moved all round the layer on the map will be highlighted by red and have arrow near (see :numref:`ngmobile_creating_multiline_pic`).
+New multiline will show up in the center of the map. One of the vertices of multiline will be highlighted in red and will have an arrow icon (see :numref:`ngmobile_creating_multiline_pic`).
 
 .. figure:: _static/creating_multiline.png
    :name: ngmobile_creating_multiline_pic
    :align: center
    :width: 6cm
 
-   Step of multilinestring creation in the layer.
+   Creating a multiline.
 
-When new multiline appears on the map in the bottom edit toolbox for line geometry button 1 changes its image from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multiline1_pic`).
+After new multiline appears button 1 on the bottom editing toolbar changes from "tick" to "floppy" (see :numref:`ngmobile_toolbar_multiline1_pic`).
 
 .. figure:: _static/toolbar_multiline1.png
    :name: ngmobile_toolbar_multiline1_pic
    :align: center
    :width: 6cm
 
-   Edit toolbox on the step of multilinestring creation and saving.
+   Mulitline editing and saving toolbar.
 
-By pressing the button 1 with a “floppy” icon created multiline will be saved and entry form of attributes for new geometry will open. Form of attributes entry for new multilinestring looks this way (see :numref:`ngmobile_input_form_attributes_pic`).
+By pressing button 1 with a “floppy” icon created multiline will be saved and attributes editing form will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
 Creating a multipolygon
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -213,7 +211,7 @@ To add multipolygon into the vector layer choose button 2 (see :numref:`ngmobile
    :align: center
    :width: 6cm
 
-   Toolbox of multipolygon edit.
+   Multipolygon editing toolbar.
 
 The numbers indicate: 1 - finish edit mode; 2 - add new multipolygon; 3 - add polygon; 4- ?; 5 - delete multipolygon; 6 - delete polygon; 7 - edit attributes.
 
@@ -224,7 +222,7 @@ New multipolygon geometry will apear on the map in the center of screen. One of 
    :align: center
    :width: 6cm
 
-   Step of multipolygon creation.
+   Creating a multipolygon.
 
 In a result of new multipolygon appear on the map, the button 1 of bottom toolbox of edit will change its image from "tick" to "floppy" and new button the "cross" - cancelation of edits, will be added under the button number 2 (see :numref:`ngmobile_toolbar_mpolyg1_pic`).
 
