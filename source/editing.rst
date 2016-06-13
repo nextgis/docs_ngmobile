@@ -152,8 +152,8 @@ When new multipoint appears button 1 at the bottom editing toolbar will change f
    :align: center
    :width: 6cm
   
-	Multipoint editing and saving toolbar.
-
+   Multipoint editing and saving toolbar.
+ 
 By pressing button 1 with a “floppy” icon new multipoint will be saved and attributes editing form for this geometry will open (see :numref:`ngmobile_input_form_attributes_pic`).
 
 Creating a multiline
@@ -269,7 +269,7 @@ Further, with the accumulation of a minimum number of points (for line - two poi
 
    Toolbox of editing by tracking.
 
-  The numbers indicate:  1 - save entered feature; 2 - cancel tracking enter mode; 3 - edits of tracking enter.
+   The numbers indicate:  1 - save entered feature; 2 - cancel tracking enter mode; 3 - edits of tracking enter.
 
 After you finish tracking and choose to save input geometry (see :numref:`ngmobile_edit_walk_pic`), by pressing button with "floppy" icon, entry form will open (default or custom, see :numref:`ngmobile_attributes_edit_pic`). 
 
@@ -278,7 +278,7 @@ If you cancel geometry saving by pressing button 2 on the bottom toolbar, app re
 If you open the settings menu while tracking by pressing button 3 on the bottom toolbox, the window of settings shown on :numref:`ngmobile_settings_place_pic` opens. Changes made in this dialog box, affects not only the tracking input, but also on the displaying of current location.
 
 .. note::
-	If you choose the location settings in this way (minimum update time 2 sec or more, minimum update distance 10 m or more) operating system begins to filter runouts.
+   If you choose the location settings in this way (minimum update time 2 sec or more, minimum update distance 10 m or more) operating system begins to filter runouts.
 
 Editing a geometry
 ------------------
@@ -362,7 +362,7 @@ All vertices in the line are allocated while editing. Current vertex is highligh
 Edit toolbar allows to delete all vertices from line (delete line) or selected vertex.
 
 .. note::
-	If only one vertex will remain in the line, this line will be deleted.
+   If only one vertex will remain in the line, this line will be deleted.
 
 There are following operations available for selected vertex in line:
 
@@ -414,7 +414,7 @@ During the multiline edit all vertices belonged to the multiline are selected (b
 Edit toolbox allows to delete all vertices from polygon (delete polygon) or selected vertex.
 
 .. note::
-	If only two vertices will remain in the polygon - polygon will be deleted.
+   If only two vertices will remain in the polygon - polygon will be deleted.
 
 There are following operations are available for selected vertex in the ring of polygon:
 
@@ -425,7 +425,7 @@ There are following operations are available for selected vertex in the ring of 
 When you add the polygon, in the center of screen there will be created the polygon which consists of three vertices.
 
 .. note::
-	An addition of the inner rings is not supported yet.
+   An addition of the inner rings is not supported yet.
 
 Editing a Multipolygon
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -461,8 +461,7 @@ Editing attributes using standard form
 After pressing button 1 the dialog of attributes edit will open (see :numref:`ngmobile_attributes_edit_pic`). Button 2 is a cancel of edits.
 
 .. note::
-
-	If you close dialog of attributes edit without applying changes (button 2 :numref:`ngmobile_attributes_edit_pic`) nothing saves (any adding or edits of geometry, any attributes).
+   If you close dialog of attributes edit without applying changes (button 2 :numref:`ngmobile_attributes_edit_pic`) nothing saves (any adding or edits of geometry, any attributes).
 
 Press button 2 to cancel edits (see :numref:`ngmobile_edit_point_pic` p. 2). Edit can be canceled only before pressing the "Save" button in the dialog of attributes edit which opens after pressing button with "floppy" icon.
 
@@ -485,7 +484,7 @@ After selection of layer the form of attributes edit will be open (see :numref:`
    The numbers indicate: 1 - return to previous menu; 2 - save edits; 3 - cancel edits; 4 - additional operations menu.
 
 .. note::
-	In the dialog of layer selection only visible layers are shown. The dialog is shown only if there are few layers. If a suitable layer is only one, attributes edit form opens instantly.
+   In the dialog of layer selection only visible layers are shown. The dialog is shown only if there are few layers. If a suitable layer is only one, attributes edit form opens instantly.
 
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -564,7 +563,7 @@ The "Photo" field is necessary for creation of photo or load existing photos (se
    :align: center
    :width: 8cm 
  
- 	The "Photo" entry form.
+   The "Photo" entry form.
 
 After filling of all necessary attributes for saving edits press the button :numref:`ngmobile_attributes_edit_pic` p. 2. Pressing the buttons 1 or 3 returns to the window of map without saving. Point will not be added.
 
