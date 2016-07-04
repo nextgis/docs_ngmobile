@@ -116,7 +116,14 @@
    (см. :numref:`ngmobile_settings_ngw_pic`). 
 4. В открывшемся окне необходимо выбрать ранее созданную учетную запись 
    NextGIS Web (см. :numref:`ngmobile_select_ngw_layer_pic`). 
-5. Выбрать пункт меню "Редактировать учетную запись"  
+5. Выбрать пункт меню "Редактировать учетную запись" (см. :numref:`ngmobile_remove_account_pic`).
+
+.. figure:: _static/remove_account.png
+   :name: ngmobile_remove_account_pic
+   :align: center
+   :height: 10cm
+    
+   Редактирование учетной записи NextGIS Web.  
 
 !!!!!!!!!!!!!!ДОПИСАТЬ!!!!!!!!!!!!!
 
@@ -137,10 +144,10 @@
 4. В открывшемся окне необходимо выбрать ранее созданную учетную запись 
    NextGIS Web (см. :numref:`ngmobile_select_ngw_layer_pic`). 
    
-5. Выбрать пункт меню "Удалить учетную запись"(см. :numref:`ngmobile_remove_account_pic`).
+5. Выбрать пункт меню "Удалить учетную запись"(см. :numref:`ngmobile_remove_account1_pic`).
 
 .. figure:: _static/remove_account.png
-   :name: ngmobile_remove_account_pic
+   :name: ngmobile_remove_account1_pic
    :align: center
    :height: 10cm
     
