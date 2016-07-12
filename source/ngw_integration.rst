@@ -132,7 +132,7 @@
 2. Пароль.
 
 .. figure:: _static/ng_mobile_edit_account.png
-   :name: ng_mobile_edit_account_pic
+   :name: ngmobile_edit_account_pic
    :align: center
    :height: 10cm
 
