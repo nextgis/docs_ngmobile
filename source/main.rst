@@ -55,7 +55,7 @@ More information about geodata upload can be found in ":ref:`ngmobile_load_geoda
 
 **Map screen** (item 6 in :numref:`ngmobile_main_activity_pic`) is a set of raster and vector layers. Hierarchy and visibility of layers can be configured in the layers tree panel (see :ref:`ngmobile_layer_tree`).
 
-Holding down finger on vector layer geometry switches map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`).
+Long-press on vector layer geometry switches map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`).
 
 .. figure:: _static/ngmobile_selectmode.png
    :name: ngmobile_selectmode_pic
@@ -109,7 +109,7 @@ Layers tree panel is designed to show the content of a map and to control the vi
 
    The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Layer contextual menu icon; 5 - Layer contextual menu.
 
-To change the hierarchy of map layers hold down your finger on the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep holding finger down and move the selected layer to its new position.
+To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
 
 For turning  layer visibility on/off press Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 

@@ -5,12 +5,12 @@
 Adding layers
 ==============
 
-NextGIS Mobile has the ability to upload data from cloud storage or 
-mobile device storage and also to create new empty vector layers. Supported types of uploaded data: 
+NextGIS Mobile has the ability to create layers using data from cloud storage or 
+mobile device storage and also to create new empty vector layers. Supported data types: 
 GeoJSON, cached tiles, custom forms.
 
-Creating new layer
--------------------
+Creating new vector layer
+---------------------------
   
 .. versionadded:: 2.3
 
@@ -59,8 +59,8 @@ Dialog for creation of a new field contains the following parameters:
 2. Field type - select field type (string, integer, real, date&time, date, time)
 
 
-Uploading GeoJSON data
-------------------------
+Creating vector layer from GeoJSON data
+-----------------------------------------
 
 To open data in GeoJSON format:
 
@@ -137,8 +137,8 @@ You can only use standard attributes form (not custom NGFP form) for editing Geo
 
 For more information about GeoJSON layer editing see :ref:`ngmobile_editing`.
 
-Uploading Tile cache
-----------------------
+Creating new raster layer from Tile cache
+-------------------------------------------
 
 Tile cache is a zip-archive with folders and tiles stored in accordance with a tiling scheme (for example, folder_z/folder_x/y.png). Folders of level Z can be located in the root or in a folder in the root folder (name of the folder doesn't matter, but there have to be only one folder). Deeper nesting of level Z folders is not allowed.
 
@@ -183,8 +183,8 @@ You can check if the new layer was created successfully in the layers tree panel
    Layers tree panel.
 
 
-Uploading Custom forms (NGFP)
--------------------------------
+Creating new vector layer from Custom forms (NGFP)
+-----------------------------------------------------
 
 .. versionadded:: 2.2
 
@@ -273,7 +273,7 @@ To pre-load tiles for current map extent select "Download tiles" (see :numref:`n
  
  	Selecting zoom levels to download tiles.
 
-The lower selected zoom levels for downloading of tiles, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded.
+The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded.
 
 .. note::
 	If number of tiles to download for selected zoom levels is more than 1000 tiles, only first 1000 tiles will be downloaded. The rest will not be downloaded due to danger for memory overflow.
