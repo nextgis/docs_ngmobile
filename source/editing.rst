@@ -89,7 +89,7 @@ To add a line to an existing layer first select a vector layer with line geometr
 
    The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new line; 4 - Delete line; 5 - Delete vertex;  6 - Move vertex to the center of screen; 7 - Move vertex to current location; 8 - Edit attributes.
 
-New line will appear in the center of the screen, with one of its vertexes highlighted in red and with arrow icon (see :numref:`ngmobile_creating_lines_pic`).
+New line will appear in the center of the screen, with one of its vertices highlighted in red and with arrow icon (see :numref:`ngmobile_creating_lines_pic`).
 
 .. figure:: _static/creating_lines.png
    :name: ngmobile_creating_lines_pic
@@ -112,9 +112,9 @@ To add a polygon to an existing layer first select a vector layer with polygon g
    
    Polygon editing toolbar.
 
-The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new polygon; 4 - Delete polygon; 5 - Delete vertex; 6 - Move vertex to the center of screen; 7 - Move vertex to current location; 8 - Edit attributes.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new polygon; 4 - Delete polygon; 5 - Delete vertex; 6 - Move vertex to the center of screen; 7 - Move vertex to current location; 8 - Edit attributes.
 
-New polygon will appear in the center of the screen, with one of its vertexes highlighted in red and with arrow icon (see :numref:`ngmobile_creation_landfill_pic`).
+New polygon will appear in the center of the screen, with one of its vertices highlighted in red and with arrow icon (see :numref:`ngmobile_creation_landfill_pic`).
 
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
@@ -173,7 +173,7 @@ To add a multiline to an existing layer first select a vector layer with multili
 
    The numbers indicate: 1 - Quit Edit mode; 2 - Add new multiline; 3 - Add new line; 4 - Delete multiline; 5 - Delete line; 6 - Move vertex to the center of screen; 7 - Contextual menu.
 
-New multiline will appear in the center of the screen, with one of its vertexes highlighted in red and with arrow icon (see :numref:`ngmobile_creating_multiline_pic`).
+New multiline will appear in the center of the screen, with one of its vertices highlighted in red and with arrow icon (see :numref:`ngmobile_creating_multiline_pic`).
 
 .. figure:: _static/creating_multiline.png
    :name: ngmobile_creating_multiline_pic
@@ -214,9 +214,9 @@ Then press icon 2 in Bottom toolbar (see :numref:`ngmobile_toolbar_mpolyg_pic`).
 
    Multipolygon editing toolbar.
 
-The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- ?; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- ?; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
 
-New multipolygon will appear in the center of the screen, with one of its vertexes highlighted in red and with arrow icon (see :numref:`ngmobile_creating_mpolyg_pic`).
+New multipolygon will appear in the center of the screen, with one of its vertices highlighted in red and with arrow icon (see :numref:`ngmobile_creating_mpolyg_pic`).
 
 .. figure:: _static/creating_mpolyg.png
    :name: ngmobile_creating_mpolyg_pic
@@ -239,7 +239,7 @@ Pressing floppy icon will save a new multipolygon and open Attributes editing fo
 Adding current location 
 --------------------------
 
-To add current location to a vector layer press Main actions button, and then press a pushpin icon (see :numref:`ngmobile_edit_menu_pic`). Select a layer you'd like to add current location to in an opened dialog (only point and multipoint geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). If there is only one points/multipoints layer available, it will be selected automatically. 
+To add current location to a vector layer press Main actions button, and then press a pushpin icon (see :numref:`ngmobile_edit_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only point and multipoint geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). If there is only one points/multipoints layer available, it will be selected automatically. 
 
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
@@ -253,7 +253,7 @@ Current location will be added to selected layer as a new point or a new multipo
 Adding line or polygon by tracking
 -------------------------------------
 
-To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (see :numref:`ngmobile_edit_menu_pic`). Select a layer you'd like to add current location to in an opened dialog (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). After you select a layer, map screen switches into Edit Tracking mode (see :numref:`ngmobile_edit_walk_pic1`).
+To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (see :numref:`ngmobile_edit_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). After you select a layer, map screen switches into Edit Tracking mode (see :numref:`ngmobile_edit_walk_pic1`).
 
 .. figure:: _static/edit_panel_circumvention_tools.png
    :name: ngmobile_edit_walk_pic1
@@ -283,174 +283,173 @@ Pressing Settings icon while tracking will open location settings (:numref:`ngmo
    If you set value of minimum update time at 2 sec or more and value of minimum update distance at 10 m or more, the operating system will start to smooth the track (remove outliers).
 
 Editing a geometry
-------------------
+-------------------
 
-Hold for a long time your finger on the geometry of vector layer to go to the edit mode of existing geometry. In a result of this action the map window switches into the action selection mode (see :numref:`ngmobile_selectmode_pic`). 
+Long-press the geometry of vector layer to switch map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`). 
 
 .. figure:: _static/ngmobile_selectmode.png
    :name: ngmobile_selectmode_pic
    :align: center
    :height: 11cm
    
-   Window of map in selection mode.
+   Map screen in Selection mode.
 
-   The numbers indicate: 1 - selected geometry; 2 - attribute view; 3 - geometry delete; 4 - geometry edit; 5 - completion of selection mode.
+   The numbers indicate: 1 - Selected geometry; 2 - View attributes; 3 - Delete geometry; 4 - Edit geometry; 5 - Quit Selection mode.
 
-If information bar is opened it is hidden and instead of it, bottom toolbox is displayed, which is composed of the command "Go to edit of selected geometry" (see :ref:`ngmobile_editing`). This command is designated as a pencil icon. If you press it the bottom toolbox with relevant to existing geometry, buttons for edit this geometry appear.
+Bottom toolbar in Selection mode allows user to switch to Edit Geometry mode by pressing a pencil icon. 
 
 Editing a point
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
-In the mode of edit points bottom toolbox is opened :numref:`ngmobile_edit_point_pic`.
+Switching to Edit Point mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_edit_point_pic`.
 
 .. figure:: _static/ngmobile_edit_point.png
    :name: ngmobile_edit_point_pic
    :align: center
    :width: 8cm
    
-   Toolbox of edit points.
+   Point editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new point; 4 - delete point; 5 - move point to the center of screen; 6 - move point to the current location; 8 - edit attributes. 
+   The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new point; 4 - Delete point; 5 - Move point to the center of screen; 6 - Move point to current location; 7 - Edit attributes.
 
-User can select a point existing in the layer (it will be highlighted by red and have arrow near) or create the new one (new point will be created in the center of screen, will be highlighted by red and have arrow near).
+User can either edit an existing point or create a new one (new point will be created in the center of the screen). To start editing a point it should be selected by pressing on it. Selected point will be highlighted in red and have an arrow pointing at it.
 
-Next, the selected point can be shifted just by pulling it out or pulling arrow pointing on it. Furthermore, the point can be shifted to the screen center (see :numref:`ngmobile_edit_point_pic` p. 5) or in the current location (see :numref:`ngmobile_edit_point_pic` p. 6), by choosing appropriate commands at the bottom toolbox.
+To change location of a selected point simply pull it or arrow pointing at it to a desired place. Also a point can be moved using buttons from Bottom toolbar - to the center of the screen (see item 5 in :numref:`ngmobile_edit_point_pic`) or to the current device location (see item 6 in :numref:`ngmobile_edit_point_pic`).
 
-By default, the cancel button (see :numref:`ngmobile_edit_point_pic` p. 2) is shown  only after some edits.
+By default the Cancel editing button (see item 2 in :numref:`ngmobile_edit_point_pic`) is shown only after any edits are made.
 
 Editing a multipoint
 ^^^^^^^^^^^^^^^^^^^^
 
-In the mode of multipoint edit the bottom toolbox opens
-:numref:`ngmobile_edit_multipoint1_pic`.
+Switching to Edit Multipoint mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_edit_multipoint1_pic`.
 
 .. figure:: _static/ngmobile_edit_multipoint.png
    :name: ngmobile_edit_multipoint1_pic
    :align: center
    :width: 8cm
    
-   Toolbox of multipoint edit.
+   Multipoint editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new multipoint; 4 - add point to multipoint; 5 - delete multipoint; 6 - delete point from multipoint; 7 - move point to the center of screen; 8 - move point to the current location; 9 - edit attributes.
+   1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new multipoint; 4 - Add point to multipoint; 5 – Delete multipoint; 6 - Delete point from multipoint; 7 - Move point to the center of screen; 8 - Move point to current location; 9 - Edit attributes.
 
-While multipoint edit all included points are selected. Current point is highlighted by red color and have arrow near.
+When multipoint is being edited all points in that multipoint are selected. Current point is highlighted in red and has an arrow pointing at it.
 
-Edit bar allows to delete all points from multipoint or selected point. You can do following operations with selected point:
+Multipoint editing toolbar allows to delete either all points from multipoint or only selected points. User can do the following operations with a selected point:
 
 * delete;
-* move to the center of screen;
-* move to the current location.
+* move to the center of the screen;
+* move to the current device location.
 
-You can also add a point to multipoint (see :numref:`ngmobile_edit_multipoint_pic` 
-p. 4).
+You can also add a point to multipoint (see item 4 in :numref:`ngmobile_edit_multipoint1_pic`).
 
 Editing a line
 ^^^^^^^^^^^^^^
 
-In the mode of line edit the bottom toolbox will open :numref:`ngmobile_edit_line_pic`.
-
+Switching to Edit Line mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_edit_line_pic`.
 
 .. figure:: _static/ngmobile_edit_line.png
    :name: ngmobile_edit_line_pic
    :align: center
    :width: 8cm
    
-   Toolbox of line edit.
+   Line editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new line; 4 - delete line; 5 - move point to the center of screen; 6 - move point to the current location; 8 - edit attributes.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new line; 4 - Delete line; 5 - Delete vertex;  6 - Move vertex to the center of screen; 7 - Move vertex to current location; 8 - Edit attributes.
 
-All vertices in the line are allocated while editing. Current vertex is highlighted by red color and have arrow near. Furthermore, center of line segment between  vertices is indicated. While selecting the center of segment by finger, new vertex addes to the line and immediately becomes selected. You can move vertex after it has been added.
+When line is being edited all vertices in that line are selected. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to new vertex being added to the line. New vertex can be moved or otherwise edited right after it has been added.
 
-Edit toolbar allows to delete all vertices from line (delete line) or selected vertex.
+Line editing toolbar allows to delete either all vertices from line (delete line) or only selected vertex.
 
 .. note::
-   If only one vertex will remain in the line, this line will be deleted.
+   If only one vertex remains in a line this line is deleted automatically.
 
-There are following operations available for selected vertex in line:
+User can do the following operations with a selected vertex in line:
 
 * delete;
-* move to the center of screen;
-* move to the current location.
+* move to the center of the screen;
+* move to the current device location.
 
-When you add a new line in the center of the screen the new line is creating by default. It consists of two points. By adding a point you can stretch the line to change its configuration.
+By default a new line is created in the center of the screen and consists of two vertices. You can change configuration of the line by adding new vertices.
 
 Editing a multiline
 ^^^^^^^^^^^^^^^^^^^
 
-To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`). 
+Switching to Edit Multiline mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_toolbar_multiline1_pic`.
 
-.. figure:: _static/window_mode_selection_ml.png
-   :name: ngmobile_window_mode_selection_ml_pic
+.. figure:: _static/toolbar_multiline.png
+   :name: ngmobile_toolbar_multiline1_pic
    :align: center
-   :height: 11cm
+   :width: 6cm
    
-   Window of map in the selection mode.
+   Multiline editing toolbar.
 
-In the multiline edit mode the bottom toolbox become opened, there the icon with pencil is placed. This icon allows to start edit of selected geometry on the layer (see :ref:`ngmobile_editing`). By pressing on the pencil icon bottom toolbox appears. There you can find buttons appropriated to the available geometry for its editing. In a process of multiline edit all vertices belonged to the multiline are selected. Current vertex is highlighted by red and have an arrow near (see :numref:`ngmobile_Map_window_edit_mode_ml_pic`). 
+   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multiline; 3 - Add new line; 4 - Delete multiline; 5 - Delete line; 6 - Move vertex to the center of screen; 7 - Contextual menu.
 
-.. figure:: _static/Map_window_edit_mode_ml.png
-   :name: ngmobile_Map_window_edit_mode_ml_pic
-   :align: center
-   :height: 11cm  
+When multiline is being edited all vertices in that multilines are selected. Current vertex is highlighted in red and has an arrow pointing at it.
 
-   Map window in the edit mode.
+Multiline editing toolbar allows to delete either all vertices from multiline (delete multiline) or only selected vertices (lines). User can do the following operations with a selected vertex:
 
-Edit toolbox allows to delete all vertices from multiline (delete multiline) or selected point.
+* delete;
+* move to the center of the screen;
+* move to the current device location.
+
+You can also add a line to multiline (see item 3 in :numref:`ngmobile_toolbar_multiline1_pic`).
 
 Editing a polygon
 ^^^^^^^^^^^^^^^^^
 
-In the polygon edit mode bottom toolbox become opened :numref:`ngmobile_edit_polygon_pic`.
+Switching to Edit Polygon mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_edit_polygon_pic`.
 
 .. figure:: _static/ngmobile_edit_polygon.png
    :name: ngmobile_edit_polygon_pic
    :align: center
    :width: 8cm
    
-   Toolbox of polygon edit.
+   Polygon editing toolbar.
 
-   The numbers indicate: 1 - finish edit mode; 2 - cancellation of edits; 3 - add new polygon; 4 - delete polygon; 5 - delete vertex from polygon; 6 - move vertex to the center of screen; 7 - move vertex to current location; 8 - edit attributes.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Cancel editing; 3 - Add new polygon; 4 - Delete polygon; 5 - Delete vertex; 6 - Move vertex to the center of screen; 7 - Move vertex to current location; 8 - Edit attributes.
 
-During the multiline edit all vertices belonged to the multiline are selected (both the outer contour, and the each inner ring). Current vertex is highlighted by red and have an arrow near. In addition, between the vertices on the ring of the polygon (external or internal) center of line segment become marked. When you select the center of line segment by finger the new vertex is added to the ring and immediately become selected. You can move vertex after it has been added.
+When polygon is being edited all vertices in that polygon are selected (in both outer ring and all inner rings). Current vertex is highlighted in red and has an arrow pointing at it. The centers of line segments between vertices in polygon rings (outer and inner) are also indicated. Pressing the center of line segment leads to new vertex being added to the polygon ring. New vertex can be moved or otherwise edited right after it has been added.
 
-Edit toolbox allows to delete all vertices from polygon (delete polygon) or selected vertex.
+Polygon editing toolbar allows to delete either all vertices from polygon (delete polygon) or only selected vertex.
 
 .. note::
-   If only two vertices will remain in the polygon - polygon will be deleted.
+   If only two vertices remain in a polygon this polygon is deleted automatically.
 
-There are following operations are available for selected vertex in the ring of polygon:
+User can do the following operations with a selected vertex in polygon ring:
 
 * delete;
-* move to the center of screen;
-* move into the current location.
+* move to the center of the screen;
+* move to the current device location.
 
-When you add the polygon, in the center of screen there will be created the polygon which consists of three vertices.
+By default a new polygon is created in the center of the screen and consists of three vertices. You can change configuration of the outer polygon ring by adding new vertices.
 
 .. note::
-   An addition of the inner rings is not supported yet.
+   Creation of internal polygon rings is not yet supported.
 
 Editing a Multipolygon
 ^^^^^^^^^^^^^^^^^^^^^^
 
-To enter the edit mode of existing geometry you need to keep your finger on the vector layer geometries for a long time. As a result, window of map is switching to action selection mode (see :numref:`ngmobile_window_mode_selection_ml_pic`).
+Switching to Edit Multipolygon mode leads to transformation of Bottom toolbar as seen on :numref:`ngmobile_toolbar_mpolyg1_pic`.
 
-.. figure:: _static/window_mode_selection_ml.png
-   :name: ngmobile_window_mode_selection_ml_pic
+.. figure:: _static/toolbar_mpolyg.png
+   :name: ngmobile_toolbar_mpolyg1_pic
    :align: center
-   :height: 11cm
-   
-   Window map in the selection mode.
+   :width: 6cm
 
-In the multipolygon edit mode the bottom toolbox opens, where the icon with pencil is placed. This icon allows to start edit of selected geometry on the layer (see :ref:`ngmobile_editing`). By pressing on the pencil icon bottom toolbox appears. There you can find buttons appropriated to the available geometry for its editing. (see :numref:`ngmobile_edit_mode_pic`). 
+   Multipolygon editing toolbar.
 
-.. figure:: _static/edit_mode.png
-   :name: ngmobile_edit_mode_pic
-   :align: center
-   :height: 11cm  
+   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- ?; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
 
-   Map window in edit mode.
+When multipolygon is being edited all vertices in that multipolygon are selected. Current vertex is highlighted in red and has an arrow pointing at it.
 
-Edit toolbar allows to delete all vertices from multipolygon (delete multipolygon) or selected vertex.
+Multipolygon editing toolbar allows to delete either all vertices from multipolygon (delete multipolygon) or only selected vertices (polygons). User can do the following operations with a selected vertex:
+
+* delete;
+* move to the center of the screen;
+* move to the current device location.
+
+You can also add a polygon to multipolygon (see item 3 in :numref:`ngmobile_toolbar_mpolyg1_pic`).
 
 Editing attributes
 --------------------
