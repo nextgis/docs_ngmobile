@@ -41,7 +41,7 @@ To add feature to a vector layer press Main actions button, and then press a pen
    
    Select layer dialog.
 
-After you select a layer, map screen switches into Edit Layer mode. Displayed editing tools depend on the geometry of a selected layer. You can create any type of geometry (points, lines, polygons, multipoints, multilines, multipolygons).
+After you select a layer, map screen switches into Edit mode. Displayed editing tools depend on the geometry of a selected layer. You can create any type of geometry (points, lines, polygons, multipoints, multilines, multipolygons).
 
 Adding a point
 ^^^^^^^^^^^^^^^^
@@ -214,7 +214,7 @@ Then press icon 2 in Bottom toolbar (see :numref:`ngmobile_toolbar_mpolyg_pic`).
 
    Multipolygon editing toolbar.
 
-   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- ?; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- Add inner ring to polygon; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
 
 New multipolygon will appear in the center of the screen, with one of its vertices highlighted in red and with arrow icon (see :numref:`ngmobile_creating_mpolyg_pic`).
 
@@ -275,7 +275,7 @@ After accumulation of a minimum number of points (for line - 2 points, for polyg
 
 Pressing floppy icon will save a new geometry (line or polygon) and open default or custom Attributes editing form (see :numref:`ngmobile_attributes_edit_pic`). 
 
-Pressing Cancel icon will stop Edit Tracking mode and switch the app to Edit Layer mode.
+Pressing Cancel icon will stop Edit Tracking mode and switch the app to Edit mode.
 
 Pressing Settings icon while tracking will open location settings (:numref:`ngmobile_settings_place_pic`). These settings affect not only the tracking accuracy but also accuracy of current location.
 
@@ -439,7 +439,7 @@ Switching to Edit Multipolygon mode leads to transformation of Bottom toolbar as
 
    Multipolygon editing toolbar.
 
-   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- ?; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
+   The numbers indicate: 1 - Quit Edit mode; 2 - Add new multipolygon; 3 - Add polygon; 4- Add inner ring to polygon; 5 - Delete multipolygon; 6 - Delete polygon; 7 - Contextual menu.
 
 When multipolygon is being edited all vertices in that multipolygon are selected. Current vertex is highlighted in red and has an arrow pointing at it.
 
@@ -454,43 +454,35 @@ You can also add a polygon to multipolygon (see item 3 in :numref:`ngmobile_tool
 Editing attributes
 --------------------
 
-When changes are made in the layer button 1 on the edit bar (see :numref:`ngmobile_edit_point_pic`) changes from "tick" to "floppy" and the cancel button appears in the toolbar.
+After layer is edited icon 1 in Bottom toolbar (see :numref:`ngmobile_edit_point_pic`) changes from "tick" to "floppy" and Cancel button appears.
 
 Editing attributes using standard form
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After pressing button 1 the dialog of attributes edit will open (see :numref:`ngmobile_attributes_edit_pic`). Button 2 is a cancel of edits.
-
-.. note::
-   If you close dialog of attributes edit without applying changes (button 2 :numref:`ngmobile_attributes_edit_pic`) nothing saves (any adding or edits of geometry, any attributes).
-
-Press button 2 to cancel edits (see :numref:`ngmobile_edit_point_pic` p. 2). Edit can be canceled only before pressing the "Save" button in the dialog of attributes edit which opens after pressing button with "floppy" icon.
-
-Save or cancel edits to edit the new record. The current geometry will be overwritten during editing of record If you select the new geometry create button.
-
-If you activate the button 7 when geometry is selected (see :numref:`ngmobile_edit_point_pic` p. 7), the dialog of attributes edit of this geometry opens (see :numref:`ngmobile_attributes_edit_pic`). Dialog of attributes edit is a vertical list of field names and controls for each type of attributes:
-
-* text field - for text and digits
-* date picker - for date and time
-
-After selection of layer the form of attributes edit will be open (see :numref:`ngmobile_attributes_edit_pic`). 
+In Edit mode press icon 1 or icon 7 in Bottom toolbar to open Edit attributes dialog (see :numref:`ngmobile_attributes_edit_pic`) or press icon 2 to cancel your edits.
 
 .. figure:: _static/ngmobile_edit_attributes.png
    :name: ngmobile_attributes_edit_pic
    :align: center
    :width: 6cm
    
-   Window of attributes edit.
+   Edit attributes dialog.
 
-   The numbers indicate: 1 - return to previous menu; 2 - save edits; 3 - cancel edits; 4 - additional operations menu.
+   The numbers indicate: 1 - Back to previous screen; 2 - Save edits; 3 - Cancel edits; 4 - Additional operations menu.
+
+Edit attributes dialog is a vertical list of field names and controls for each type of attributes:
+
+* text field - for text and digits
+* date picker - for date and time
 
 .. note::
-   In the dialog of layer selection only visible layers are shown. The dialog is shown only if there are few layers. If a suitable layer is only one, attributes edit form opens instantly.
+   If you close Edit attributes dialog without applying changes (pressing button 2 in :numref:`ngmobile_attributes_edit_pic`), all changes in the layer (added or edited geometries or attributes) will be lost.
+
 
 Editing attributes using custom form
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer is compared customizable form, this form will be open. In the result of made changes and saving this changes in the vector layer a dialog form of attributes edit will open. Dialog of attributes edit has the following entry fields:
+If the layer includes customized attributes form, this form will be used in Edit attributes dialog instead of standard one (see :numref:`ngmobile_attributes_edit_pic`). Customized attributes form may contain the following entry fields:
 
 * Text;
 * Space;
@@ -501,9 +493,9 @@ If the layer is compared customizable form, this form will be open. In the resul
 * Date Picker;
 * Photo.
 
-The "Text" information field serves to make additional textual explanation to information about created geometry.
+"Text" field is used to provide additional information about created geometry.
 
-The "Space" field is required for increasing of interval between the fields (see :numref:`ngmobile_text_probel_pic`).
+"Space" field is used to increase interval between the fields (see :numref:`ngmobile_text_probel_pic`).
 
 .. figure:: _static/text_probel.png
    :name: ngmobile_text_probel_pic
@@ -512,7 +504,7 @@ The "Space" field is required for increasing of interval between the fields (see
 
    "Text" and "Space" fields.
 
-The "Text field" information input field is necessary to enter text or figures, depending on the field type (see :numref:`ngmobile_text_pole_pic`). 
+"Text field" can be used to add text or figures, depending on the field type (see :numref:`ngmobile_text_pole_pic`). 
 
 .. figure:: _static/text_pole.png
    :name: ngmobile_text_pole_pic
@@ -521,34 +513,34 @@ The "Text field" information input field is necessary to enter text or figures, 
 
    "Text field" entry field.
 
-The "List" and "Tandem list" information entry fields are necessary for storing and fast selection of one of the values included to the selection list, for example, "List" - region/subject/the republic/territory, "Tandem list" - district/area/administrative unit in the region/subject/the republic/territory (see :numref:`ngmobile_spisok_pic`). 
+"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see :numref:`ngmobile_spisok_pic`). 
 
 .. figure:: _static/spisok.png
    :name: ngmobile_spisok_pic
    :align: center
    :width: 8cm
 
-   The "List" / "Tandem list" entry fields.
+   "List" and "Tandem list" entry fields.
 
-The "Checkbox" information entry field turns on or off a value (see :numref:`ngmobile_flag_pic`). 
+"Checkbox" field turns on/off an assigned value (see :numref:`ngmobile_flag_pic`). 
 
 .. figure:: _static/flag.png
    :name: ngmobile_flag_pic
    :align: center
    :width: 8cm
 
-   The "Checkbox" entry field.
+   "Checkbox" entry field.
 
-Entry field "Radio-button 1", "Radio-button 2" is a switcher which allows to select one element from a limited set of mutually exclusive options (see :numref:`ngmobile_radio_kn_pic`). 
+"Radio button" field allows to select one element from a list of mutually exclusive options (see :numref:`ngmobile_radio_kn_pic`). 
 
 .. figure:: _static/radio_kn.png
    :name: ngmobile_radio_kn_pic
    :align: center
    :width: 8cm
 
-   "Radio-button" entry field.
+   "Radio button" entry field.
 
-The "Date picker" information entry field is an element which is used to select a date, time or both of them (see :numref:`ngmobile_date_pic`). 
+"Date picker" field allows to select date, time or both of them (see :numref:`ngmobile_date_pic`). 
 
 .. figure:: _static/date.png
    :name: ngmobile_date_pic
@@ -557,14 +549,13 @@ The "Date picker" information entry field is an element which is used to select 
 
    "Date picker" entry form.
 
-The "Photo" field is necessary for creation of photo or load existing photos (see :numref:`ngmobile_photo_pic`). 
+"Photo" field is used to create new or load existing photos (see :numref:`ngmobile_photo_pic`). 
 
 .. figure:: _static/photo.png
    :name: ngmobile_photo_pic
    :align: center
    :width: 8cm 
  
-   The "Photo" entry form.
+   "Photo" entry form.
 
-After filling of all necessary attributes for saving edits press the button :numref:`ngmobile_attributes_edit_pic` p. 2. Pressing the buttons 1 or 3 returns to the window of map without saving. Point will not be added.
-
+After filling in all required attributes press button 2 (item 2 in :numref:`ngmobile_attributes_edit_pic`) to save edits. Pressing buttons 1 or 3 will return you to Map screen, all changes in the layer (added or edited geometries or attributes) will be lost.
