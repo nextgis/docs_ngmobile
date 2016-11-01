@@ -5,56 +5,56 @@
 Tracks
 ======
 
-NextGIS Mobile allows to record and display tracks. During the track recording points are storing in the internal database. When the track points are displaying within the session they are combining and displaying as a line on the map.
+NextGIS Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
 
-Record
-------
+Recording a track
+------------------
 
-To begin the record of track chose the command on the toolbar or in the menu (see :numref:`ngmobile_track_menu_pic` p. 1 p 2 accordingly). 
+To start recording a track press "Start new track" button in Top toolbar or select "Start new track" item in Contextual menu on the Main screen (items 1 and 2 in :numref:`ngmobile_track_menu_pic`). 
 
 .. figure:: _static/ngmobile_track_menu.png
    :name: ngmobile_track_menu_pic
    :align: center
    :width: 5cm
    
-   Track record command.
+   "Start new track" options.
 
-    The numbers indicate: 1 - track record button on the toolbar; 2 - track record menu item.
+    The numbers indicate: 1 - "Start new track" button in Top toolbar; 2 - "Start new track" item in Contextual menu.
 
 .. note::
-	Commands moves to context menu if there is no enough space on the toolbar.
+	The button moves to Contextual menu if there's not enough space in Top toolbar.
 
-After choosing of command track record is beginning. Track record is performed free from app in the background mode. Status message is displaying in the status bar of operating system (see :numref:`ngmobile_status_track_pic`).
+Track recording is performed in background mode. To indicate that the process is running a status message is displayed in Android Status bar (see :numref:`ngmobile_status_track_pic`).
 
 .. figure:: _static/ngmobile_status_track.png
    :name: ngmobile_status_track_pic
    :align: center
    :height: 5cm
  
- 	Record track status.
+ 	Recording track status.
 
- 	The numbers indicate: 1 - name of track record session; 2 - button of finish track record; 3 - an app activation button of the track record process.
+ 	The numbers indicate: 1 - Name of track session; 2 - "Stop track recording" button; 3 - "Open recording app" button.
 
-Recording track is displaying on the map immediately. Tracks points are grouped by days and sessions within the day. If the recording of track goes to next day, track will clash to two parts.  
+Recorded track is displayed on the map immediately. Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be divided into two parts.  
 
-Control
--------
+Managing recorded tracks
+---------------------------
 
-Tracks are represented in a layers tree (see :numref:`ngmobile_layer_tree_pic`) as a group layer. The following operations can be performed over a group layer:
+All recorded tracks are displayed in Layers tree (see :numref:`ngmobile_layer_tree_pic`) as a group layer. The following actions can be performed with a group layer:
 
-* on / off the visibility of the group layer (tracks);
-* display of the tracks control window (see :numref:`ngmobile_settings_track_pic`).
+* switch on / off the visibility of the group layer (tracks);
+* display Tracks control panel (see :numref:`ngmobile_settings_track_pic`).
 
 .. figure:: _static/ngmobile_track_settings.png
    :name: ngmobile_settings_track_pic
    :align: center
    :height: 11cm
  
- 	Track control window.
+ 	Tracks control panel.
 
-The numbers indicate: 1 - amount of selected tracks; 2 - button of all tracks selection (deselection); 4 - context menu; 5 - on / off display track button; 6 - track selection button; 7 - on / off of the tracks displaying menu item; 8 - delete selected tracks.
+   The numbers indicate: 1 - Number of selected tracks; 2 - "All tracks selection" button; 2 - "All tracks visibility" button; 4 - Contextual menu; 5 - "Track visibility" button; 6 - "Track selection" button; 7 - "Track visibility" contextual menu item; 8 - "Delete track" contextual menu item.
 
- The tracks control window contains a list of tracks. Tracks points are grouped by days and sessions within the day. None of the track will be highlighted when the tracks control window is open. You can only change the visibility of the individual track in this mode. Select the group of tracks to perform operations on them (see :numref:`ngmobile_settings_track_pic` Рї. 6). The window will look this way after you select at least one track :numref:`ngmobile_settings_track_pic`. In this case, the following operations can be performed on selected tracks:
+Tracks control panel contains a list of recorded tracks. None of the tracks is selected when Tracks control panel is being opened. You can only change individual or all tracks visibility in this mode. To perform actions with a group of tracks select them first (item 6 in :numref:`ngmobile_settings_track_pic`). When you select at least one track Tracks control panel will change its look as seen on :numref:`ngmobile_settings_track_pic`. After that the following actions can be performed with selected tracks:
 
- * on / off visibility;
- * delete.
+* switch on / off the visibility of selected tracks;
+* delete selected tracks.
