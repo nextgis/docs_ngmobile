@@ -1,44 +1,44 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>.. 
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 _ngmobile_share:
 
-Uploading data
-==============
+Exporting data
+===============
 
-GeoJSON
--------
+Exporting data in GeoJSON
+---------------------------
 
-The standard system menu of transmission exported data method selection opens if you choose the context menu "Share" (for example, by mail, cloud file storage, memory card, etc.). The selection window is shown in :numref:`ngmobile_share_pic`.
+To export data from NextGIS Mobile vector layer open Layer tree and select "Share" in Layer contextual menu. Android standard Share dialog window with a list of available Share options (for example, by email, using cloud file storage, memory card, etc.) will open. Share dialog window is shown in :numref:`ngmobile_share_pic`.
 
 .. figure:: _static/ngmobile_share.png
    :name: ngmobile_share_pic
    :align: center
    :height: 10cm
    
-   Selection window of exported data transmission method.
+   Share dialog window.
 
-Data from the layer will be stored in the :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) after you select one of the options and will be shared by using of chosen app. A name of the file is the same as name of the layer.
+After you select a share option data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported using the selected application. A name of the GeoJSON file corresponds to the name of the layer.
 
 .. note::
-   In a lot of Android versions to have an opportunity to save a file on the disk some file manager is required (for example ES Explorer or similar).
+   In a lot of Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
 
-Applications uploading
-----------------------
+Exporting attachments
+-----------------------
 
-To the each object in NGM can be attached one or few photos. Photos are stored separately in files and are added to the archive of layer after the export. For the each object in the archive creates its own folder with the applications where folder name equals to the object ID.
+Each feature in vector layer can have 1 or more photos attached to it. Photos are stored separately as image files and added to archive file with layer data during the export. For each feature a separate attachments folder is generated in the archive, the name of the folder correposnds to feature ID.
 
-Example of entries:
+Example:
 
 (4:10000002.jpg,10000000.jpg,10000001.jpg,10000003.jpg)
 
 Explanation:
 
-4 photos with corresponding names are attached to the current object. These 4 photos are stored in the folder which name is the same to object ID.
+4 photos are attached to a feature. These 4 photos are stored in the folder which name correposnds to ID of this feature.
 
-Upload tracks in GPX
---------------------
+Exporting tracks in GPX
+------------------------
 
-Tracks exporting processes begins with the selection of "My Tracks" layer in the layers tree. Then select the "Settings" item in a context menu  :numref:`ngmobile_tree_layers_gpx_pic`. 
+To start exporting tracks first find "My Tracks" group layer in Layers tree. Then select the "Settings" item in a contextual menu  :numref:`ngmobile_tree_layers_gpx_pic`. 
 
 .. figure:: _static/tree_layers_gpx.png
    :name: ngmobile_tree_layers_gpx_pic
@@ -47,20 +47,20 @@ Tracks exporting processes begins with the selection of "My Tracks" layer in the
 
    Layers tree.
 
-The window with recorded tracks will open. Tracks will be divided by cession if a few tracks have been recorded in a one day. If one of the tracks was recorded in a few days then a recorded track will be splitted up to pieces by days when record was made :numref:`ngmobile_tracks_list_gpx_pic`. 
+Tracks control panel will open. If a few tracks have been recorded on same day, these tracks are grouped by sessions. If track recording continued for a few days, this track is split up into few parts corresponding to the number of days.
 
 .. figure:: _static/tracks_list_gpx.png
    :name: ngmobile_tracks_list_gpx_pic
    :align: center
    :height: 10cm
 
-   Recorded tracks list.
+   List of recorded tracks.
 
-Choose a desired track from the list of recorded tracks by setting flag in the checkbox. In the result, buttons on the top toolbar will be active. Choose the button with icon of three points. Select "Share" :numref:`ngmobile_tracks_list_and_menus_pic`. 
+Select tracks you want to export. Buttons in Top toolbar will become active. Open contextual menu and select "Share" item :numref:`ngmobile_tracks_list_and_menus_pic`. 
 
 .. figure:: _static/tracks_list_and_menus.png
    :name: ngmobile_tracks_list_and_menus_pic
    :align: center
    :height: 10cm   
 
-   List of recorded tracks menu activation.
+   Tracks control panel contextual menu.

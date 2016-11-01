@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru><dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. tracks:
 
@@ -35,7 +35,7 @@ Track recording is performed in background mode. To indicate that the process is
 
  	The numbers indicate: 1 - Name of track session; 2 - "Stop track recording" button; 3 - "Open recording app" button.
 
-Recorded track is displayed on the map immediately. Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be divided into two parts.  
+Recorded track is displayed on the map immediately. Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be split up into two parts.  
 
 Managing recorded tracks
 ---------------------------
