@@ -169,7 +169,7 @@
 
 Блок настроек "Местоположения" содержит настройки местоположения (см. :numref:`ngmobile_settings_place_pic`).
 
-.. figure:: _static/ngmobile_settings2.png
+.. figure:: _static/ngmobile_settings_place.png
    :name: ngmobile_settings_place_pic
    :align: center
    :height: 10cm
