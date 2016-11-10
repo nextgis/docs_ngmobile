@@ -62,9 +62,9 @@
 
 Контекстное меню растрового слоя имеет следующий состав (см. :numref:`ngmobile_raster_layer_menu_pic`):
 
-1. Загрузить тайлы
-2. Удалить
-3. Настройки
+1. Загрузить тайлы.
+2. Удалить.
+3. Настройки.
 
 .. figure:: _static/raster_layer_menu.png
    :name: ngmobile_raster_layer_menu_pic
