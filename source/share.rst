@@ -56,7 +56,7 @@ GeoJSON
 Откроется окно со списком записанных треков. Если несколько треков записывались 
 один день, то треки будут разбиты по сессиям. Если один трек записывался несколько 
 дней, то записанный трек будет дробиться на части по дням, в которые происходила 
-запись :numref:`ngmobile_tracks_list_gpx_pic`. 
+запись трека :numref:`ngmobile_tracks_list_gpx_pic`. 
 
 .. figure:: _static/tracks_list_gpx.png
    :name: ngmobile_tracks_list_gpx_pic
