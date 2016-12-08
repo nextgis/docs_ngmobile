@@ -2,7 +2,7 @@
 
 .. _ngmob_intro:
 
-Introduction
+Introduction to Praxis
 =============
 
 .. _ngmob_purpose:
