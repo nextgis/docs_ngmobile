@@ -1,23 +1,30 @@
 .. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
-_ngmobile_share:
+.. _ngmobile_share:
 
 Exporting data
 ===============
 
+.. _ngmobile_export_vector:
+
 Exporting data in GeoJSON
 ---------------------------
 
-To export data from NextGIS Mobile vector layer open Layer tree and select "Share" in Layer contextual menu. Android standard Share dialog window with a list of available Share options (for example, by email, using cloud file storage, memory card, etc.) will open. Share dialog window is shown in :numref:`ngmobile_share_pic`.
+To export data from NextGIS Mobile vector layer, tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Share". Android standard Share dialog window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
 
 .. figure:: _static/ngmobile_share.png
    :name: ngmobile_share_pic
    :align: center
    :height: 10cm
    
-   Share dialog window.
+   Share dialogue window.
+   
+After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported using the selected application. A name of the GeoJSON file corresponds to the name of the layer.
 
-After you select a share option data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported using the selected application. A name of the GeoJSON file corresponds to the name of the layer.
+* You can send the file as attachment via your email App or Gmail.
+* You can upload it to Google Drive, which may or may not be shared with your colleague.
+* You can share it to another Android mobile via Bluetooth or SHAREit.
+* You can even copy it on to your laptop via Bluetooth, if possible.
 
 .. note::
    In a lot of Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
@@ -35,10 +42,12 @@ Explanation:
 
 4 photos are attached to a feature. These 4 photos are stored in the folder which name correposnds to ID of this feature.
 
+.. _ngmobile_export_GPX:
+
 Exporting tracks in GPX
 ------------------------
 
-To start exporting tracks first find "My Tracks" group layer in Layers tree. Then select the "Settings" item in a contextual menu  :numref:`ngmobile_tree_layers_gpx_pic`. 
+To start exporting tracks first find "My Tracks" group layer in Layers tree. It is shown in the orange box. Then select the "Settings" item in a contextual menu as shown in :numref:`ngmobile_tree_layers_gpx_pic` and tap on "List". 
 
 .. figure:: _static/tree_layers_gpx.png
    :name: ngmobile_tree_layers_gpx_pic
@@ -47,20 +56,8 @@ To start exporting tracks first find "My Tracks" group layer in Layers tree. The
 
    Layers tree.
 
-Tracks control panel will open. If a few tracks have been recorded on same day, these tracks are grouped by sessions. If track recording continued for a few days, this track is split up into few parts corresponding to the number of days.
+This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`
 
-.. figure:: _static/tracks_list_gpx.png
-   :name: ngmobile_tracks_list_gpx_pic
-   :align: center
-   :height: 10cm
+To export the track, tick on the Chekbox in front of its name. The buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic`.
 
-   List of recorded tracks.
-
-Select tracks you want to export. Buttons in Top toolbar will become active. Open contextual menu and select "Share" item :numref:`ngmobile_tracks_list_and_menus_pic`. 
-
-.. figure:: _static/tracks_list_and_menus.png
-   :name: ngmobile_tracks_list_and_menus_pic
-   :align: center
-   :height: 10cm   
-
-   Tracks control panel contextual menu.
+To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same "Share dialogue window" as shown in :numref:`ngmobile_share_pic` above. Further operations are in the similar manner. 

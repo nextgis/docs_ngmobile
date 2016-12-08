@@ -7,9 +7,9 @@ User interface (UI)
 
 There are 3 major elements of NextGIS Mobile UI:
 
-* Main screen
-* Layers tree panel
-* Settings dialog
+* Main Screen
+* Layers Tree Panel
+* Settings Dialog
 
 UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
 
@@ -18,116 +18,92 @@ UI is designed in accordance with `Google Material design <http://www.google.com
 Main screen
 ------------
 
-Main screen is shown on :numref:`ngmobile_main_activity_pic`.
+Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
 
-.. figure:: _static/ngmobile_mainscreen.png
-   :name: ngmobile_main_activity_pic
+.. figure:: _static/ngmobile_mainscreen_1.png
+   :name: ngmobile_main_activity_pic_1
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Main screen.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Add geodata" button; 4 - "Show my location" button; 5 - Contextual menu icon; 6 - Map screen; 7 - Main actions button; 8 - Status bar.
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Measure button; 7 - Map screen; 8 - Action menu button; 9 - Status info panel.
 
-The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic`).
+The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
 **Top toolbar** contains the following buttons:
 
-* Add :term:`geodata`
 * Show my location
+* Load or refresh geodata
 * Start new track
 * Settings
 * About
 
-"Add geodata" button (item 3 in :numref:`ngmobile_main_activity_pic`) allows you to select the data source using the following menu:
-
-* Open local
-* Add web
-* Add from NGW
-
-By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
-
-* :term:`GeoJSON` file;
-* ZIP file with cached tiles;
-* *.ngfp format.
-
-More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
-
-**Map screen** (item 6 in :numref:`ngmobile_main_activity_pic`) is a set of raster and vector layers. Hierarchy and visibility of layers can be configured in the layers tree panel (see :ref:`ngmobile_layer_tree`).
-
-Long-press on vector layer geometry switches map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`).
-
-.. figure:: _static/ngmobile_selectmode.png
-   :name: ngmobile_selectmode_pic
-   :align: center
-   :height: 11cm
-
-   Map screen in Selection mode.
-
-   The numbers indicate: 1 - Selected geometry; 2 - "View attributes" button; 3 - "Delete geometry" button; 4 - "Edit geometry" button; 5 - Cancel button.
-   
-If Status bar was active before switching to Selection mode, it will be hidden and replaced by Bottom toolbar with the following buttons:
-
-* Cancel
-* Edit selected geometry (see :ref:`ngmobile_editing`)
-* Delete selected geometry
-* View attributes of selected geometry.
-
-Attributes are displayed in a separate panel. Panel can be opened in full-screen mode or be placed on the right side of screen, depending on your device screen size (in the latter case, on the left side a map with a selected and highlighted geometry is displayed). Attributes panel is shown on :numref:`ngmobile_attributes_pic`.
-
-.. figure:: _static/ngmobile_attributes.png
-   :name: ngmobile_attributes_pic
-   :align: center
-   :height: 10cm
-   
-   Attributes panel.
-
-There are the following buttons at the bottom of the Attributes panel: "Cancel" and "Switch between entries" (If Status bar was active before opening Attributes panel, it will be hidden and replaced by these buttons).
-
-**Status bar** can be shown at the bottom of the Main screen (if it is activated in the Settings). Status bar shows:
+**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
 
 * Device coordinates (latitude and longitude);
 * Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
 * Device altitude (meters);
 * Device speed (kmph)
 
-Depending on the size of the screen Status bar can occupy one or two rows.
+Depending on the size of the screen Status info panel can occupy one or two rows.
 
 .. _ngmobile_layer_tree:
 
 Layers tree
 ------------
 
-Layers tree panel is designed to show the content of a map and to control the visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on: numref: `ngmobile_layer_tree_pic`.
+Layers tree panel is designed to show the content of a map and to control the visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
 
 .. figure:: _static/ngmobile_layertree.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Layers tree panel.
 
-   The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Layer contextual menu icon; 5 - Layer contextual menu.
-
+   The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Add geodata; 5 - Layer contextual menu icon; 6 - Layer contextual menu items.
+   
 To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
 
-For turning  layer visibility on/off press Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
+For turning  layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
-Layer contextual menu depends on layer's type. Vector layer contextual menu contains the following items:
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`), facilitates creating vector layers and importing vector as well as raster layers, from Android local storage, cloud or a few selected web services, as shown below:
+
+.. figure:: _static/options_menu_new_layer.png
+   :name: options_menu_new_layer
+   :align: center
+   :height: 10cm
+   
+   Add geodata options
+
+By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
+
+* :term:`GeoJSON` file;
+* ZIP file with cached tiles;
+* *.ngrc file
+* *.ngfp format.
+
+More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
+
+Layer contextual menu depends on layer's type, whether it is Vector or raster. When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`), contextual menue items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
 
 * Zoom to extent
+* Attributes
 * Share
+* Edit
 * Delete
 * Settings
 
-By pressing "Delete" you not only remove layer from the map but also erase all its data from the memory card.
+.. warining::
+   By pressing "Delete" you not only remove layer from the map but also erase all its data from the local storage.
 
 .. _ngmobile_settings:
 
-Settings dialog
--------------------
+Settings dialogue
+-----------------
 
-Depending on the screen size Settings dialog can fit into one or two panels. Settings dialog is shown on :numref:`ngmobile_settings_pic` (one panel mode).
+Depending on the screen size Settings dialogue can fit into one or two panels. Settings dialogue is shown on :numref:`ngmobile_settings_pic` (one panel mode).
 
 .. figure:: _static/ngmobile_settings.png
    :name: ngmobile_settings_pic
@@ -142,7 +118,18 @@ There are following Settings on the main panel:
 * Map
 * Location
 * My tracks
-* NextGIS Web
+* NextGIS Settings
+
+"General" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_general_pic`).
+
+.. figure:: _static/ngmobile_settings3.png
+   :name: ngmobile_settings_general_pic
+   :align: center
+   :height: 10cm
+   
+   General settings.
+   
+Here you can select one of the themes from Light & Dark and select for compass settings.
 
 "Map" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_map_pic`).
 
@@ -155,11 +142,13 @@ There are following Settings on the main panel:
 
 Map settings include:
 
-* Show/hide Status bar
-* The way current location displays (show position and accuracy, show only position, do not show position)
+* Show/hide Status info panel
+* The way current location displays (show current location, show marker, how marker & accuracy radius)
 * Show mini compass
 * Do not turn off the screen when map displays - works only on the map screen
 * Show/hide zoom control buttons
+* Show scale ruler
+* Show measuring button
 * Coordinates format (for coordinates in Status bar and other dialogs and screens)
 * Map background (light, dark, neutral)
 * Map path (here you can specify a path where map and layers data will be stored)
@@ -167,7 +156,7 @@ Map settings include:
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
-"Location" settings contain location settings (see :numref:`ngmobile_settings_place_pic`).
+"Location" settings offers a few location specific settings (see :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
@@ -178,13 +167,53 @@ Map settings include:
 
 Location settings include:
 
-* Coordinate source (mobile networks/Wi-Fi + :term:`GPS` or only GPS)
+* Coordinate source (mobile networks/Wi-Fi + :term:`GPS`, Other networks or only GPS)
 * Minimum update time
 * Minimum update distance
 * Count of GPS fixes
 
 "Tracks" settings are similar to the location settings, but they are applied only for track recording.
 
-.. Note::
-
+.. note::
    If you set value of the minimum update distance at more than 5 m, the operating system will start to smooth the track (remove outliers).
+
+.. _ngmobile_useful_facilities:
+
+Useful facilities
+-----------------
+
+From the Main screen itself the App offers a couple of facilities useful in the field.
+
+.. _ngmobile_show_my_location:
+
+Show my location
+^^^^^^^^^^^^^^^^
+
+To know your current location, just tap on the "Show my location: button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your "status info panel" (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is visible via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`), you will be able to view the relevant information there itself.
+
+.. note::
+   Your "Location" settings must be made ON from your Android mobile settings.
+   
+Measure distance
+^^^^^^^^^^^^^^^^
+
+It is possible to measure the distance between two points from the map screen in a easy manner. Just tap on the measure button on the map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). It will give a message like "Tap on map to check points". Tap on your starting point. A red point with handle appears on the screen. Then tap on your second point. The first point becomes blue & second red dot will appear. A blue line is drawn between the points and the distance appears on the 
+top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
+
+.. figure:: _static/measure_distance.png
+   :name: ngmobile_measure_distance_pic
+   :align: center
+   :height: 10cm
+   
+   Measure distance.
+
+You can even tap the third point and the distance between first & third point will be captured & shown. This way you can measure distance of a smooth curve, too.
+
+If your third point forms a triangle, then a thin line between the first & third point is seen & the resultant triangle that would form. In this case the system shows the area of that triangle in the top toolbar.
+
+This also applies to any number of points. A polygon may be formed in this way & the resultsnt area.
+
+When you are done, tap the blue tick button to exit the measure mode.
+
+.. note::
+   To avail this facility, "Show measuring button" check box must be ticked ON in the map settings. (see :numref:`ngmobile_settings_map_pic`).
