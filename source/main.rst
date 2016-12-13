@@ -27,7 +27,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic1`.
    
    Main screen.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Map screen; 7 - Main actions button; 8 - Status bar.
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Map screen; 7 - Main actions button; 8 - Status info panel.
 
 The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
@@ -39,44 +39,14 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 * Settings
 * About
 
-**Map screen** (item 6 in :numref:`ngmobile_main_activity_pic`) is a set of raster and vector layers. Hierarchy and visibility of layers can be configured in the layers tree panel (see :ref:`ngmobile_layer_tree`).
-
-Long-press on vector layer geometry switches map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`).
-
-.. figure:: _static/ngmobile_selectmode.png
-   :name: ngmobile_selectmode_pic
-   :align: center
-   :height: 11cm
-
-   Map screen in Selection mode.
-  The numbers indicate: 1 - Selected geometry; 2 - "View attributes" button; 3 - "Delete geometry" button; 4 - "Edit geometry" button; 5 - Cancel button.
-   
-If Status bar was active before switching to Selection mode, it will be hidden and replaced by Bottom toolbar with the following buttons:
-
-* Cancel
-* Edit selected geometry (see :ref:`ngmobile_editing`)
-* Delete selected geometry
-* View attributes of selected geometry.
-
-Attributes are displayed in a separate panel. Panel can be opened in full-screen mode or be placed on the right side of screen, depending on your device screen size (in the latter case, on the left side a map with a selected and highlighted geometry is displayed). Attributes panel is shown on :numref:`ngmobile_attributes_pic`.
-
-.. figure:: _static/ngmobile_attributes.png
-   :name: ngmobile_attributes_pic
-   :align: center
-   :height: 10cm
-   
-   Attributes panel.
-
-There are the following buttons at the bottom of the Attributes panel: "Cancel" and "Switch between entries" (If Status bar was active before opening Attributes panel, it will be hidden and replaced by these buttons).
-
-**Status bar** can be shown at the bottom of the Main screen (if it is activated in the Settings). Status bar shows:
+**Status info panel** (item 8 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
 
 * Device coordinates (latitude and longitude);
 * Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
 * Device altitude (meters);
 * Device speed (kmph)
 
-Depending on the size of the screen Status bar can occupy one or two rows.
+Depending on the size of the screen Status info panel can occupy one or two rows.
 
 .. _ngmobile_layer_tree:
 
@@ -103,14 +73,9 @@ For turning  layer visibility on/off tap on Layer visibility button (item 3 in :
 .. figure:: _static/options_menu_new_layer.png
    :name: options_menu_new_layer
    :align: center
-   :height: 10cm
+   :height: 11cm
    
    Add geodata options
-
-* Create layer
-* Open local
-* Add web
-* Add from NGW
 
 By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
 
