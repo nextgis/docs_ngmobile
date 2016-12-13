@@ -18,10 +18,10 @@ UI is designed in accordance with `Google Material design <http://www.google.com
 Main screen
 ------------
 
-Main screen is shown on :numref:`ngmobile_main_activity_pic1`.
+Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
 
 .. figure:: _static/ngmobile_mainscreen_1.png
-   :name: ngmobile_main_activity_pic1
+   :name: ngmobile_main_activity_pic_1
    :align: center
    :height: 11cm
    
