@@ -1,354 +1,284 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. _ngmobile_load_geodata:
 
-Добавление слоев
-=================
+Adding layers
+==============
 
-В программе имеется возможность загрузки локальных данных с облачных хранилищ и 
-с хранилища мобильного устройства, а также возможность создавать пустой векторный слой.
-Существуют следующие типы хранения локальных данных: GeoJSON, тайловый кэш, 
-настраиваемые формы.
+NextGIS Mobile has the ability to create layers using data from cloud storage or 
+mobile device storage and also to create new empty vector layers. Supported data types: 
+GeoJSON, cached tiles, custom forms.
 
-Создание слоя
---------------
-
+Creating new vector layer
+---------------------------
+  
 .. versionadded:: 2.3
 
-Для того, чтобы создать пустой векторный слой в программу необходимо выполнить 
-следующую последовательность шагов:
+Here are the steps to create an empty vector layer:
 
-1. Вызвать меню опций и выбрать пункт меню "Новый слой", далее выбрать пункт меню
-"Создать слой" (см. :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. Open contextual menu and select "New Layer", then select "Create Layer" (see :numref:`ngmobile_options_menu_new_layer_pic`)
 
 .. figure:: _static/options_menu_new_layer.png
    :name: ngmobile_options_menu_new_layer_pic
    :align: center
    :height: 10cm
  
-   Окно меню опций.
+   Contextual menu.
 
-2. В открывшемся окне необходимо заполнить поля стандартной формы атрибутов создаваемого
-векторного слоя (см. :numref:`ngmobile_input_form_attributes_new_layer_pic`) 
+2. In the opened dialog enter the parameters of new vector layer (see :numref:`ngmobile_input_form_attributes_new_layer_pic`) 
 
 .. figure:: _static/input_form_attributes_new_layer.png
    :name: ngmobile_input_form_attributes_new_layer_pic
    :align: center
    :height: 10cm
    
-   Форма ввода атрибутов нового векторного слоя. 
+   Parameters of new vector layer.
 
-Стандартная форма атрибутов создаваемого векторного слоя имеет следующие для заполнения 
-поля:
+The standard form for the creation of new vector layer contains the following parameters:
 
-1. Имя слоя - название слоя, которое будет отображаться в дереве слоев.
-2. Тип геометрии - выбор геометрии (точка, линия, полигон, мультиточка, мультилиния, мультиполигон).
-3. Поля - список полей, содержащий поля, которые можно добавлять, изменять и удалять.
+1. Layer name - enter the name of layer which will be displayed in layers tree.
+2. Geometry type - select layer geometry type (point, linestring, polygon, multypoint, multilinestring or multipolygon).
+3. Fields - list of fields which can be added, edited or deleted.
 
-Выборе в стандартной форме атрибутов поля для заполнения "Поля" откроется диалог 
-создания нового поля (см. :numref:`ngmobile_dialogue_create_new_field_pic`) 
+New dialog will be opened for creation of each field (see :numref:`ngmobile_dialogue_create_new_field_pic`) 
 
 .. figure:: _static/dialogue_create_new_field.png
    :name: ngmobile_dialogue_create_new_field_pic
    :align: center
    :height: 10cm
 
-   Диалог создания нового поля.
+   Dialog for creation of a new field.
 
-Открывшийся диалог содержит следующие для заполнения поля:
+Dialog for creation of a new field contains the following parameters:
 
-1. Имя поля - название поля. 
+1. Field name – enter the name of the field.
 
 .. note:: 
-   Имя поля может быть введено только на английском языке (буквы и цифры!) 
-   и без пробелов. Также не должно совпадать со служебными словами SQL.
+	The field name can only be entered in Latin characters (letters and numbers!) without spaces. It should also differ from SQL reserved keywords.
 
-2. Тип поля - выбор типа поля (строка, целочисленное, вещественное, дата и время,
-   дата, время) 
+2. Field type - select field type (string, integer, real, date&time, date, time)
 
 
-GeoJSON
--------
+Creating vector layer from GeoJSON data
+-----------------------------------------
 
-Для того, чтобы загрузить в программу файл формата GeoJSON необходимо выполнить 
-следующую последовательность шагов:
+To open data in GeoJSON format:
 
-1. Вызвать меню опций и выбрать пункт "Добавить слой", далее выбрать пункт меню    "Локальный" (см. :numref:`ngmobile_add_ngw_layer_geo_pic`) 
+1. Open contextual menu, select "New layer", then select "Open local" (see :numref:`ngmobile_add_ngw_layer_geo_pic`)
 
 .. figure:: _static/add_layer1.png
    :name: ngmobile_add_ngw_layer_geo_pic
    :align: center
    :height: 10cm
     
-   Добавление локального слоя.
+    Adding local layer.
 
-2. В открывшемся окне выбора сохраненных файлов на диске мобильного устройства 
-   выбрать необходимый для загрузки файл формата GeoJSON    (см. :numref:`ngmobile_saved_files_on_the_drive_unit_pic`): 
+2. Select the GeoJSON dataset from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_unit_pic`): 
 
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_unit_pic
    :align: center
    :height: 10cm
    
-   Окно с сохраненными файлами на диске мобильного устройства.
+   Android local storage.
 
-
-3. После выбора файла откроется диалог настройки параметров создаваемого слоя, в 
-   котором можно задать имя слоя (см. :numref:`ngmobile_layer_settings_geo_pic`): 
+3. When the file is selected a layer settings dialog opens. Here you can specify a layer name. (see :numref:`ngmobile_layer_settings_geo_pic`): 
 
 .. figure:: _static/layer_settings_geo.png
    :name: ngmobile_layer_settings_geo_pic
    :align: center
    :height: 10cm
 
-   Настройки параметров создаваемого слоя.
+   Layer settings dialog.
 
-   
-4. При нажатии на кнопку "Создать", начнется 
-   процесс обработки и создания слоя (см. :numref:`ngmobile_processing_and_creation_layer_pic`): 
+4. Pressing "Create" button starts data processing for creation of a new layer (see :numref:`ngmobile_processing_and_creation_layer_pic`): 
 
 .. figure:: _static/processing_and_creation_layer.png
    :name: ngmobile_processing_and_creation_layer_pic
    :align: center
    :height: 10cm  
 
-   Окно обработки и создания слоя.
+   Data processing for creation of a new layer.
 
-.. note::
-   В случае загрузки в программу файла формата GeoJSON создаваемый слой в результате 
-   загрузки геоданных такого типа будет всегда векторным!
+.. note::  
+	In case of GeoJSON data uploading the new layer will always be a vector type layer!
 
-Наличие или отсутствие слоя можно проверить в дереве слоев. В случае удачной процедуры 
-обработки и создания слоя, новый слой располагается первым в дереве слоев (см. :numref:`ngmobile_tree_layers_geo_pic`): 
+You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up first in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`):
 
 .. figure:: _static/tree_layers_geo.png
    :name: ngmobile_tree_layers_geo_pic
    :align: center
    :height: 10cm  
 
-   Дерево слоев.
+   Layers tree panel.
 
-*Требования к формату GeoJSON:*
+*GeoJSON: format requirements*
 
-* :term:`Система координат` геометрий может быть WGS 84 (EPSG:4326) или Web Mercator (EPSG:3857). Если на вход будет подан файл   в другой системе координат, то будет выведено сообщение о том, что такая система координат не поддерживается. 
-* Геометрия в файле должна быть одного типа. Если во входном файле содержаться геометрии 
-  разного типа, то будут загружены записи, у которых тип геометрии совпадает с первой 
-  записью (геометрия первой записи файла определяет тип геометрии слоя).
-* Текстовые строки должны быть кодированы в формате UTF-8. 
+* :term:`Coordinate system` of input geometries can be WGS 84 (EPSG:4326) or Web Mercator (EPSG:3857) only. If input file has different coordinate system you will see a warning message about unsupported coordinate system.
+* All geometries in the file must be of the same type. If input file contains varying types of geometry in the output you will have a file with geometries type that coincides with the type of first record, i.e. geometry of first entry will determine the type of layer geometry.
+* Text strings must be encoded in UTF-8 format.
 
 .. note::
-   Подробнее о формате GeoJSON можно прочитать в его `спецификации <http://geojson.org/>`_. 
-   GeoJSON основывается на формате JSON (см. `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
+	You can read more about the GeoJSON format in its `specification <http://geojson.org/>`_.
+	GeoJSON is based on the format JSON (see `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
 
-Особенностью редактирования векторного слоя, полученного при загрузке файла формата GeoJSON, 
-является заполнение стандартной формы редактирования атрибутов. Такая стандартная 
-форма содержит следующие поля:
+You can only use standard attributes form (not custom NGFP form) for editing GeoJSON layer. Standard attributes form contains the following fields:
 
-1. Текстовое поле для ввода текста и цифр.
-2. Диалог ввода и времени.
-3. Кнопка добавления фотографии и записи.
-
-Пример стандартной формы редактирования атрибутов слоя представлен на :numref:`ngmobile_standard_form_layer_attributes_pic`: 
+1. Text field for entering characters or digits.
+2. Dialog for entering time.
+3. "Add pictures and records" button.
 
 .. figure:: _static/standard_form_layer_attributes.png
    :name: ngmobile_standard_form_layer_attributes_pic
    :align: center
    :height: 10cm  
     
-   Стандартная форма редактирования атрибутов слоя.
+    Standard attributes form.
 
-Подробнее о редактировании файла формата GeoJSON описано разделе :ref:`ngmobile_editing`.
+For more information about GeoJSON layer editing see :ref:`ngmobile_editing`.
 
+Creating new raster layer from Tile cache
+-------------------------------------------
 
-Тайловый кэш
-------------
+Tile cache is a zip-archive with folders and tiles stored in accordance with a tiling scheme (for example, folder_z/folder_x/y.png). Folders of level Z can be located in the root or in a folder in the root folder (name of the folder doesn't matter, but there have to be only one folder). Deeper nesting of level Z folders is not allowed.
 
-Тайловый кэш представляет собой архив формата zip, в котором упакованы папки и тайлы 
-в соответствии с нарезкой (например, folder_z/folder_x/y.png). Сами папки уровня Z 
-могут находится в корне архива или в одной папке в корне архива (название папки 
-может быть любым, но папка должна быть одна). Более глубокая вложенность не допускается. 
+Follow these steps to open zip-archive with tiles:
 
-Тайловый кэш может быть получен при помощи модуля расширения NextGIS QGIS - QTiles. 
-Полученный в результате работы модуля архив можно загрузить на устройство в любую 
-доступную папку.
+1. Open contextual menu and select "New layer", then select "Open local" (see :numref:`ngmobile_add_ngw_layer_geo_pic`) 
 
-Для того, чтобы загрузить в программу архив формата zip, в котором упакованы папки 
-и тайлы необходимо выполнить следующую последовательность шагов:
-
-1. Вызвать меню опций и выбрать пункт "Добавить слой", далее выбрать пункт меню "Локальный" 
-   (см. :numref:`ngmobile_add_ngw_layer_geo_pic`) 
-
-2. В открывшемся окне выбора сохраненных файлов на диске мобильного устройства 
-   выбрать необходимый для загрузки архив формата ziр (см. :numref:`ngmobile_files_on_the_drive_unit_tms_pic`): 
+2. Select zip-archive from your mobile device storage (see :numref:`ngmobile_files_on_the_drive_unit_tms_pic`): 
 
 .. figure:: _static/files_on_the_drive_unit_tms.png
    :name: ngmobile_files_on_the_drive_unit_tms_pic
    :align: center
    :height: 10cm
    
-   Окно с файлами на диске мобильного устройства. 
+   Android local storage.
 
-3. После выбора  на диске устройства архива формата zip откроется диалог настройки 
-параметров создаваемого слоя, в котором можно выбрать тип тайлового слоя (систему 
-кодирования тайлов) - XYZ (OSM) или TMS (OSGeo) (см. :numref:`ngmobile_layer_setting_tms_pic`): 
+3. When zip-archive is selected a layer settings dialog opens. Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (OSGeo) (see :numref:`ngmobile_layer_setting_tms_pic`):
 
 .. figure:: _static/layer_setting_tms.png
    :name: ngmobile_layer_setting_tms_pic
    :align: center
    :height: 10cm
 
-   Настройка параметров тайлового слоя.
+   Tile layer settings dialog.
 
-4. При нажатии на кнопку "Создать", 
-начнется процесс обработки и создания слоя (см. :numref:`ngmobile_processing_and_creation_layer_tms_pic`): 
+4. Pressing "Create" button starts data processing for creation of a new layer (see :numref:`ngmobile_processing_and_creation_layer_tms_pic`): 
 
 .. figure:: _static/processing_and_creation_layer_tms.png
    :name: ngmobile_processing_and_creation_layer_tms_pic
    :align: center
    :height: 10cm  
 
-   Окно обработки и создания слоя.
+   Data processing for creation of a new layer from tiles.
 
-Наличие или отсутствие тайлового слоя можно проверить в дереве слоев. В случае 
-удачной процедуры обработки и создания слоя,  имя нового слоя будет отображаться 
-первым в дереве слоев (см. :numref:`ngmobile_tree_layers_tms_pic`): 
+You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up first in the layers tree (see :numref:`ngmobile_tree_layers_tms_pic`):  
 
 .. figure:: _static/tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
    :align: center
    :height: 10cm  
 
-   Меню дерева слоев.
+   Layers tree panel.
 
 
-Настраиваемые формы
--------------------
+Creating new vector layer from Custom forms (NGFP)
+-----------------------------------------------------
 
 .. versionadded:: 2.2
 
-Файл формата ngfp получается в результате работы программы NextGIS FormBuilder и представляет собой файл :term:`GeoJSON` 
-и файлы с дополнительной информацией (JSON), которые упакованы в архив zip, но расширением ngfp.
+NGFP files can be generated using NextGIS FormBuilder. NGFP is a :term:`GeoJSON` file with additional information (JSON) which is packaged in zip archive and has .ngfp extension.
 
-Для того, чтобы загрузить в программу файл формата ngfp, необходимо выполнить 
-следующую последовательность шагов:
+Perform the following steps to add NGFP file to NextGIS Mobile:
 
-1. Вызвать меню опций и выбрать пункт "Добавить слой", далее выбрать пункт меню "Локальный" (см. :numref:`ngmobile_add_ngw_layer_geo_pic`) 
+1. Open contextual menu and select "New layer", then select "Open local" (see :numref:`ngmobile_add_ngw_layer_geo_pic`) 
 
-2. В открывшемся окне выбора сохраненных файлов на диске мобильного устройства 
-   выбрать необходимый для загрузки файл формата ngfp (см. :numref:`ngmobile_files_on_the_drive_unit_tms_pic`)
+2. Select NGFP file from your mobile device storage (see :numref:`ngmobile_files_on_the_drive_unit_tms_pic`)
 
-3. После выбора файла откроется диалог настройки параметров создаваемого слоя, в 
-   котором можно задать имя слоя (см. :numref:`ngmobile_settind_layer_form_pic`): 
+3. When the file is selected a layer settings dialog opens. Here you can specify a layer name (see :numref:`ngmobile_settind_layer_form_pic`): 
 
 .. figure:: _static/settind_layer_form.png
    :name: ngmobile_settind_layer_form_pic
    :align: center
    :height: 10cm
 
-   Настройки параметров создаваемого слоя.
+   Layer settings dialog.
 
-   
-4. При нажатии на кнопку "Создать", начнется процесс обработки и создания слоя (см. :numref:`ngmobile_loading_layer_form_pic`): 
+4. Pressing "Create" button starts data processing for creation of a new layer (see :numref:`ngmobile_loading_layer_form_pic`): 
 
 .. figure:: _static/loading_layer_form.png
    :name: ngmobile_loading_layer_form_pic
    :align: center
    :height: 10cm  
 
-   Окно создания слоя.
+   Data processing for creation of a new layer.
 
-Особенностью редактирования слоя на базе файла формата ngfp является заполнение пользовательской 
-формы редактирования атрибутов. Такая пользовательская форма содержит разные поля, 
-доступные для заполнения или выбора из выпадающего списка.
-
-
-Пример пользовательской формы редактирования атрибутов слоя представлен на :numref:`ngmobile_non-standard_form_pic`: 
+NGFP layers use custom (not standard) attributes form optimized for attributes viewing and editing. Custom form may contain special controls for editing, such as dropdowns, checkboxes or linked lists.
 
 .. figure:: _static/non-standard_form.png
    :name: ngmobile_non-standard_form_pic
    :align: center
    :height: 10cm  
     
-   Пользовательская форма редактирования атрибутов слоя.
+    Custom attributes form.
 
-Подробнее о редактировании файла формата ngfp изложено в разделе :ref:`ngmobile_editing`.
+For more information about NGFP layer editing see :ref:`ngmobile_editing`.
 
-Подключение тайлового сервиса
------------------------------
- 
-При выборе пункта меню "веб" (см. :numref:`ngmobile_main_activity_pic` п. 3) открывается диалог, представленный на :numref:`ngmobile_add_tms_pic`.
+Adding tile service
+--------------------
+
+"Add web" from new layer menu (see :numref:`ngmobile_main_activity_pic` p. 3) opens the following dialog :numref:`ngmobile_add_tms_pic`.
 
 .. figure:: _static/ngmobile_addtms.png
    :name: ngmobile_add_tms_pic
    :align: center
    :height: 11cm
    
-   Диалог подключения тайлового источника геоданных.
-   
-   Цифрами обозначено: 1 - название нового слоя; 2 - адрес тайлов слоя; 3 - тип тайлового сервиса; 4 - логин; 5 - пароль; 6 - кнопка создания слоя; 7 - кнопка отмены.
-   
-При формировании адреса сервиса тайлов необходимо указать место в адресе значений X (номер тайла по горизонтали), Y (номер тайла по вертикали) и Z (уровень зума). Для этого в строке адреса на месте цифры соответствующей Х необходимо поставить подстановочный код **{x}**, для Y - **{y}**, для Z - **{z}**. Дополнительно в строке адреса можно указать поддомены (например, для поддоменов a.tileopenstreetmap.org, b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выглядеть так: **{a,b,c}.tile.openstreetmap.org**).
+   Dialog for adding tile geodata source.
+
+   The numbers indicate: 1 - Tile layer name; 2 - Tile layer URL; 3 - Tile layer type; 4 - Login; 5 - Password; 6 - Create button; 7- Cancel button.
+
+Tile layer URL should specify location of X value (number of tile by horizontal), Y (number of tile by vertical) and Z (zoom level). These values are specified using wildcard code for X - **{x}**, for Y - **{y}**, for Z - **{z}**. Additionally you can specify subdomains (e.g. for subdomains a.tileopenstreetmap.org, b.tileopenstreetmap.org, c.tileopenstreetmap.org the address will look like this: **{a,b,c}.tile.openstreetmap.org**).
 
 .. note::
 
-   При загрузке тайлов на каждый адрес (поддомен) приложение осуществляет запрос 
-   в два потока. Таким образом для адреса {a,b,c}.tile.openstreetmap.org приложение 
-   будет скачивать тайлы в 6 потоков.
-   
-Все полученные из сети Интернет/Интранет тайлы кэшируются на карте памяти. При 
-запросе конкретного тайла, в начале проверяется локальный кэш. Если в локальном 
-кэше есть тайл и его время создания менее семи дней, то на карту будет выведен он. 
-Также кэшированный тайл будет выведен при отсутствии подключения к сети Интернет/Интранет 
-или если в ходе загрузи был сбой. Полученный из сети Интернет/Интранет тайл перекрывает 
-имеющийся в кэше.
+	NextGIS Mobile requests tiles from each URL (subdomain) in 2 streams. So from URL like {a,b,c}.tile.openstreetmap.org tiles will be downloaded in 6 streams.
 
-В списке выбора типа тайлового слоя (см. :numref:`ngmobile_add_tms_pic`, п. 3) имеется следующий выбор:
+All tiles received from Internet/Intranet are cached on memory card. When you request a specific tile, local cache is checked first. If there's a tile in the local cache which was created less then 7 days ago, it will be displayed on the map. Cached tile will also be displayed if device is not connected to Internet/Intranet or if there was a failure while downloading a tile. Tiles obtained from Internet/Intranet replace cached tiles.
 
-* XYZ (OSM) - стандартный тип тайлового сервиса;
-* TMS (OSGeo) - в соответствии со стандартом OSGeo.
+Following types of tile layers are supported (item 3 in :numref:`ngmobile_add_tms_pic`):
 
-Если для доступа к тайлам необходима аутентификация, то можно указать логин и пароль.
+* XYZ (OSM) - standard type of tile service;
+* TMS (OSGeo) - OSGeo standard.
+
+If authentication is required for accessing tiles, you can specify credentials (login and password) (items 4 and 5 in :numref:`ngmobile_add_tms_pic`).
 
 .. note::
 
-   Поддерживается только `Basic access authentication <http://en.wikipedia.org/wiki/Basic_access_authentication>`_. 
+	Only `Basic access authentication <http://en.wikipedia.org/wiki/Basic_access_authentication>`_ is currently supported.
 
-Кэширование данных тайлового сервиса
-------------------------------------
+Caching of tile service data 
+----------------------------
 
 .. versionadded:: 2.2
 
-Для создания изображения используются :term:`тайлы <тайл>`, полученные из сети Интернет, 
-которые кэшируются на карте памяти устройства. Кэшированный тайл будет доступен 
-при отсутствии подключения к сети Интернет. 
-Для загрузки тайлов на текущий охват карты следует выбрать пункт меню "Загрузить тайлы", после 
-выбора которого откроется окно с настройками загрузки тайлов (см. :numref:`ngmobile_levels_of_zoom_pic`):
+NextGIS Mobile maps are using :term:`tiles <tile>` received from Internet/Intranet and cached in device memory. Cached tiles are available without Internet/Intranet connection.
+To pre-load tiles for current map extent select "Download tiles" (see :numref:`ngmobile_levels_of_zoom_pic`) in Layer contextual menu and select zoom levels:
 
 .. figure:: _static/levels_of_zoom.png
    :name: ngmobile_levels_of_zoom_pic
    :align: center
    :height: 10cm
  
-   Окно выбора уровня зума для загрузки тайлов.
+ 	Selecting zoom levels to download tiles.
 
-Следует обратить внимание, что чем меньше уровень выбранного зума для загрузки тайлов, 
-тем меньшее количество тайлов попадают в интересующую нас область и тем быстрее 
-происходит загрузка всего изображения.
+The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded.
 
 .. note::
-   Если список загружаемых тайлов для заданного диапазона зумов превышает 1000, 
-   то будет загружена только первая 1000 тайлов. Остальные тайлы не будут загружаться 
-   из-за ограничений на переполнение памяти.
+	If number of tiles to download for selected zoom levels is more than 1000 tiles, only first 1000 tiles will be downloaded. The rest will not be downloaded due to danger for memory overflow.
 
-После установки на шкале масштабов необходимого диапазона зума загрузки тайлов можно начинать 
-загрузку тайлов. В открывшемся окне выбраем пункт меню "Начать".
-Процесс загрузки тайлов переносится в панель статуса, где за ним можно наблюдать.
-Если необходимо завершить загрузку тайлов,то в области панели загрузки тайлов следует 
-сделать следующее.
-Коснитесь экрана большим и указательным пальцами и разведите 
-их в стороны, скользя пальцами по экрану. 
-В результате таких действий появится кнопка "Стоп", при нажатии на которую процесс 
-загрузки тайлов завершится (см. :numref:`ngmobile_loading_tiles_in_the_status_bar_pic`):
+After setting up required zoom levels you can start downloading tiles by pressing "Start" button. Download process will be moved to Android status bar. You can stop download process by pressing "Stop" button in Android notification area (see :numref:`ngmobile_loading_tiles_in_the_status_bar_pic`):
 
 
 .. figure:: _static/loading_tiles_in_the_status_bar.png
@@ -356,5 +286,5 @@ GeoJSON
    :align: center
    :height: 10cm
 
-   Индикация процесса загрузки тайлов в панели статуса.
+   Loading tiles progress.
 

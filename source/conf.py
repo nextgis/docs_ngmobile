@@ -55,7 +55,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'NextGIS Mobile'
 copyright = u'2015-2016, NextGIS'
-author = u'Команда NextGIS'
+author = u'NextGIS team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -71,7 +71,7 @@ release = '2.4'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -112,9 +112,9 @@ todo_include_todos = True
 
 numfig = True
 
-numfig_format = {'figure': u'Рис. %s', 'table': u'Таблица %s', 'code-block': u'Listing %s'}
+numfig_format = {'figure': u'Fig. %s', 'table': u'Table %s', 'code-block': u'Listing %s'}
 
-illufig_format = {'illustrate': u'Рис. %s (%s)'}
+illufig_format = {'illustrate': u'Pic. %s (%s)'}
 
 locale_dirs = ['locale/']
 gettext_compact = False
@@ -204,7 +204,7 @@ html_static_path = ['_static']
 # Sphinx supports the following languages:
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'
-html_search_language = 'ru'
+html_search_language = 'en'
 
 # A dictionary with options for the search language support, empty by default.
 # Now only 'ja' uses this config value
@@ -243,8 +243,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'NextGISMobile.tex', u'Документация NextGIS Mobile',
-   u'Команда NextGIS', 'manual', 'true'),
+  (master_doc, 'NextGISMobile.tex', u'NextGIS Mobile documentation',
+   author, 'manual', 'true'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -273,7 +273,7 @@ latex_appendices = ['appendix']
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'nextgismobile', u'Документация NextGIS Mobile',
+    (master_doc, 'nextgismobile', u'NextGIS Mobile documentation',
      [author], 1)
 ]
 
@@ -287,7 +287,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'NextGISMobile', u'Документация NextGIS Mobile',
+  (master_doc, 'NextGISMobile', u'NextGIS Mobile documentation',
    author, 'NextGISMobile', 'One line description of project.',
    'Miscellaneous'),
 ]

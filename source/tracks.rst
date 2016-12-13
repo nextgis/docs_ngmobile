@@ -1,61 +1,60 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. tracks:
 
-Треки
-=====
+Tracks
+======
 
-Программа позволяет записывать и отображать треки. В процессе записи сохраняются точки трека во внутреннюю базу данных. При отображении точки трека в рамках сессии объединяются и отображаются в виде линий на карте. 
+NextGIS Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
 
+Recording a track
+------------------
 
-Запись
-------
-
-Для начала записи трека необходимо выбрать команду на панели инструментов или в меню (см. :numref:`ngmobile_track_menu_pic` п. 1 и 2 соответственно). 
+To start recording a track press "Start new track" button in Top toolbar or select "Start new track" item in Contextual menu on the Main screen (items 1 and 2 in :numref:`ngmobile_track_menu_pic`). 
 
 .. figure:: _static/ngmobile_track_menu.png
    :name: ngmobile_track_menu_pic
    :align: center
    :width: 5cm
    
-   Команда записи трека.
-   
-   Цифрами обозначено: 1 - кнопка на панели инструментов для записи стрека; 2 - пункт меню для записи трека.
+   "Start new track" options.
+
+    The numbers indicate: 1 - "Start new track" button in Top toolbar; 2 - "Start new track" item in Contextual menu.
 
 .. note::
-   Если места на панели инструментов не хватает, то команды переносятся в контекстное меню.
-   
-После выбора команды запускается запись трека. Запись трека выполняется независимо от приложения в фоновом процессе. Для индикации состояния выводится сообщение в панель статуса операционной системы (см. :numref:`ngmobile_status_track_pic`).
+	The button moves to Contextual menu if there's not enough space in Top toolbar.
+
+Track recording is performed in background mode. To indicate that the process is running a status message is displayed in Android Status bar (see :numref:`ngmobile_status_track_pic`).
 
 .. figure:: _static/ngmobile_status_track.png
    :name: ngmobile_status_track_pic
    :align: center
    :height: 5cm
  
-   Статус записи трека.
-   
-   Цифрами обозначено: 1 - название сессии записи трека; 2 - кнопка завершения записи трека; 3 - кнопка активации приложения, из которого запущен процесс записи трека.
-   
-Записываемый трек сразу же рисуется на карте. Точки трека группируются по дням и сессиям внутри одного дня. Если запись трека переходит на другой день, то он будет разбит на две части.
+ 	Recording track status.
 
-Управление
-----------
+ 	The numbers indicate: 1 - Name of track session; 2 - "Stop track recording" button; 3 - "Open recording app" button.
 
-Треки представлены в дереве слоев (см. :numref:`ngmobile_layer_tree_pic`) в виде группового слоя. Над групповым слоем можно выполнить следующие операции:
-    
-* включение/выключение видимости группового слоя (треков);
-* отображение окна управления треками (см. :numref:`ngmobile_settings_track_pic`).
+Recorded track is displayed on the map immediately. Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be split up into two parts.  
+
+Managing recorded tracks
+---------------------------
+
+All recorded tracks are displayed in Layers tree (see :numref:`ngmobile_layer_tree_pic`) as a group layer. The following actions can be performed with a group layer:
+
+* switch on / off the visibility of the group layer (tracks);
+* display Tracks control panel (see :numref:`ngmobile_settings_track_pic`).
 
 .. figure:: _static/ngmobile_track_settings.png
    :name: ngmobile_settings_track_pic
    :align: center
    :height: 11cm
  
-   Окно управления треками.
-   
-   Цифрами обозначено: 1 - количество выделенных треков; 2 - кнопка выделения всех треков (снятия выделения); 4 - кнопка открытия контекстного меню; 5 - кнопка включения/выключения отображения трека; 6 - кнопка выделения трека; 7 - пункт меню включения/выключения видимости треков; 8 - пункт меню удаления выделенных треков.
-   
-В окне управления треками представлен их список. Точки треков сгруппированы по дням и по сессиям внутри дня. При открытии окна управления треками ни один из треков не будет выделен. В таком режиме можно только менять видимость отдельных треков. Для выполнения операций над группами треков их необходимо выделить (см. :numref:`ngmobile_settings_track_pic` п. 6). После выделения хотя бы одного трека, окно примет вид, представленный на :numref:`ngmobile_settings_track_pic`. В этом случае над выделенными треками можно выполнять следующие операции:
-    
-* включение/выключение видимости;
-* удаление.
+ 	Tracks control panel.
+
+   The numbers indicate: 1 - Number of selected tracks; 2 - "All tracks selection" button; 2 - "All tracks visibility" button; 4 - Contextual menu; 5 - "Track visibility" button; 6 - "Track selection" button; 7 - "Track visibility" contextual menu item; 8 - "Delete track" contextual menu item.
+
+Tracks control panel contains a list of recorded tracks. None of the tracks is selected when Tracks control panel is being opened. You can only change individual or all tracks visibility in this mode. To perform actions with a group of tracks select them first (item 6 in :numref:`ngmobile_settings_track_pic`). When you select at least one track Tracks control panel will change its look as seen on :numref:`ngmobile_settings_track_pic`. After that the following actions can be performed with selected tracks:
+
+* switch on / off the visibility of selected tracks;
+* delete selected tracks.

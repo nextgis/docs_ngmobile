@@ -1,68 +1,66 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
-.. _ngmobile_intro:
+.. _ngmob_intro:
 
-Введение
-========
+Introduction
+=============
 
-.. _ngmobile_purpose:
+.. _ngmob_purpose:
 
-Назначение программы 
---------------------
+About the NextGIS App
+------------------------
 
-**NextGIS Mobile** - это мобильная :term:`геоинформационная система` (:abbr:`ГИС (геоинформационная система)`) для операционной системы :term:`Android`.
+**NextGIS Mobile** - is a mobile :term:`Geographic Information System` (:abbr:`GIS`) for :term:`Android` OS.
 
-ГИС NextGIS Mobile позволяет:
+NextGIS Mobile allows to:
 
-* отображать карту в виде набора слоев;
-* выполнять навигацию по карте (увеличение, уменьшение, перемещение);
-* добавлять векторные данные из формата :term:`GeoJSON`;
-* добавлять растровые данные в виде кэша в архиве zip;
-* подключать онлайн источник тайлов (XYZ и :term:`TMS`); 
-* подключать растровые и векторные слои из NextGIS Web;
-* создавать и модифицировать векторные :term:`геоданные` (геометрии и атрибуты); 
-* просматривать атрибуты выбранной геометрии через диалог идентификации; 
-* модифицировать атрибуты векторного слоя при помощи настраиваемых форм ввода;
-* записывать треки и управлять их отображением, а также удалять выбранные треки или все треки;
-* отображать координаты, скорость, высоту устройства на карте, источник географических координат, 
-  количество спутников, используемых для фиксирования местоположения (в случае :term:`GPS`);
-* накапливать и передавать в фоновом режиме по сети Интернет (при наличии подключения) в NextGIS Web 
-  созданные и/или измененные :term:`геоданные` из векторных слоев.
+* display a map from a set of layers;
+* perform map navigation (zoom in, zoom out, roam);
+* add vector data from :term:`GeoJSON` format;
+* add cached raster data in zip archive;
+* add online tile sources (XYZ and :term:`TMS`);
+* add raster and vector layers from `NextGIS Web <http://nextgis.com/nextgis-web/>`_;
+* create and modify vector :term:`geodata` (geometries and attributes);
+* browse the attributes of selected geometry through identify dialog;
+* modify the attributes of vector layer with customizable input forms;
+* record the tracks and manage their display parameters, remove selected or all tracks;
+* display coordinates, velocity, altitude of device on the map, as well as a source of geographical coordinates and amount of satellites used for georeferencing (if :term:`GPS` is used);
+* collect and transmit to `NextGIS Web <http://nextgis.com>`_ created and/or edited :term:'geodata' in background mode (when internet connection is on).
 
-NextGIS Mobile - это программное обеспечение с открытым исходным кодом 
-(лицензия :ref:`GPL v3 <ngmobile_gplv3>`). 
+NextGIS Mobile is open source
+(license :ref:`GPL v3 <ngmobile_gplv3>`).
 
-Некоторые иконки, использованные в приложении, получены с сайтов:
+Some icons used in NextGIS Mobile are from:
 
-* `Icons8.com <http://icons8.com/android-icons>`_ распространяются по `CC BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>`_;
+* `Icons8.com <http://icons8.com/android-icons>`_ distributed on `CC BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>`_;
 * `romannurik.github.io <http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html>`_ - `CC BY 3.0 <http://creativecommons.org/licenses/by/3.0/>`_.
 
 .. only:: latex
 
-   Данная документация распространяется по лицензии Creative Commons 
-   **"Attribution-NoDerivs" ("Атрибуция — Без производных произведений") СC BY-ND**
+   This documentation is distributed under Creative Commons license
+	**"Attribution-NoDerivs" ("Attribution - without derivative works") СC BY-ND**
    
    .. image:: _static/cc_by.png  
 
-Документация описывает NextGIS Mobile версии 2.2. 
+Documentation is describing NextGIS Mobile version 2.2. Newer versions of NextGIS Mobile may be currently available.
 
  
 .. _ngmobile_launch_conditions:
 
-Условия выполнения программы
-----------------------------
+Hardware and software requirements
+-------------------------------------
 
-Для выполнения программы необходимо устройство (смартфон, планшет и т.п.) под 
-управлением операционной системы :term:`Android` версии **2.2** и выше. Желательно, 
-чтобы устройство было оснащено следующим оборудованием:
+To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term:`Android` 4.4 or higher.
 
-* датчик :term:`GPS` и/или :term:`ГЛОНАСС`;
-* цифровой компас;
-* модуль сотовой связи;
-* тыловая фотокамера. 
+To be able to use all NextGIS Mobile features the device should have the following hardware:
+
+* :term:`GPS` and/or :term:`GLONASS` sensor;
+* digital compass;
+* cellular module;
+* rear camera.
 
 .. note::
 
-   Если какое либо оборудование из перечисленного отсутствует в устройстве, то связанные функции будут не доступны.
+   If any of these items are missing from the device, the related functions will not be available.
 
-Программа не предъявляет специфических системных требований, однако, количество оперативной памяти и памяти для хранения данных может ограничивать размер загружаемых геоданных на карту. 
+NextGIS Mobile does not impose specific system requirements. However, the amount of system memory and storage space can limit the size of uploaded geodata.

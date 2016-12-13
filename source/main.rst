@@ -1,190 +1,178 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. _ngmobile_gui:
 
-Пользовательский интерфейс
+User interface (UI)
 ==========================
 
-В пользовательском интерфейсе имеется ряд основных экранов:
+There are 3 major elements of NextGIS Mobile UI:
 
-* главное окно приложения;
-* выезжающая панель дерева слоев;
-* окно настроек.
+* Main Screen
+* Layers Tree Panel
+* Settings Dialog
 
-Интерфейс приложения выполнен в соответствии с руководством `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_.
+UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
 
 .. _ngmobile_main_activity:
 
-Главное окно
+Main screen
 ------------
 
-Главное окно приложения представлено на :numref:`ngmobile_main_activity_pic`.
+Main screen is shown on :numref:`ngmobile_main_activity_pic1`.
 
-.. figure:: _static/ngmobile_mainscreen.png
-   :name: ngmobile_main_activity_pic
+.. figure:: _static/ngmobile_mainscreen_1.png
+   :name: ngmobile_main_activity_pic1
    :align: center
    :height: 11cm
    
-   Главное окно приложения.
-   
-   Цифрами обозначено: 1 - кнопка открытия дерева слоев; 2 - заголовок приложения; 3 - кнопка добавления новых геоданных; 4 - кнопка позиционирования окна карты в текущих координатах; 5 - кнопка меню; 6 - карта; 7 - кнопка меню основных операций; 8 - информационная панель.
-   
-В зависимости от размера экрана в верхней панели инструментов может быть больше или меньше кнопок. Все что не помещается на панель инструментов, переносится в меню (см. :numref:`ngmobile_main_activity_pic` п. 5).
+   Main screen.
 
-Панель инструментов имеет следующий состав:
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Map screen; 7 - Main actions button; 8 - Status info panel.
 
-* добавить :term:`геоданные`;
-* переместить карту в текущее местоположение;
-* начать запись трека;
-* настройки;
-* о программе.
+The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
-Карта (см. :numref:`ngmobile_main_activity_pic` п. 6) представляет собой набор растровых и векторных слоев. Порядок и видимость слоев настраивается при помощи дерева слоев (см. :ref:`ngmobile_layer_tree`).
+**Top toolbar** contains the following buttons:
 
-При нажатии на кнопку панели инструментов "добавить геоданные" (см. :numref:`ngmobile_main_activity_pic` п. 3) открывается меню следующего состава:
+* Show my location
+* Load or refresh geodata
+* Start new track
+* Settings
+* About
 
-* локальный
-* веб
-* NGW
+**Status info panel** (item 8 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
 
-Выбор пункта меню "локальный" открывает системный диалог выбора данных, в котором можно выбрать как локальные :term:`геоданные` (на карте памяти), так и с облачных хранилищ. Приложение позволяет загружать следующие геоданные:
+* Device coordinates (latitude and longitude);
+* Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
+* Device altitude (meters);
+* Device speed (kmph)
 
-* файл формата :term:`GeoJSON`;
-* файл формата ZIP с тайловым кэшем;
-* файл формата ngfp.
-
-Подробнее о загрузке геоданных описано в разделе ":ref:`ngmobile_load_geodata`".
-   
-При долгом удержании пальца на геометрии векторного слоя окно карты переходит в режим выбора действия (см. :numref:`ngmobile_selectmode_pic`). 
-
-.. figure:: _static/ngmobile_selectmode.png
-   :name: ngmobile_selectmode_pic
-   :align: center
-   :height: 11cm
-   
-   Окно карты в режиме выделения.
-   
-   Цифрами обозначено: 1 - выделенная геометрия; 2 - просмотр атрибутов; 3 - удаление геометрии; 4 - редактирование геометрии; 5 - завершение режима выделения.
-
-Если открыта информационная панель, то она будет скрыта, и на ее месте будет выведена нижняя панель инструментов, которая имеет следующий состав команд:
-
-* отменить режим;
-* перейти к редактированию выбранной геометрии (см. :ref:`ngmobile_editing`);
-* удалить выделенную геометрию;
-* показать панель с атрибутами выбранной геометрии.
-
-При выборе режима показа атрибутов открывается отдельная панель с атрибутами. В зависимости от размера экрана панель может раскрываться на весь экран или занимать правую часть экрана (слева отображается карта с подсвеченной геометрией текущего набора атрибутов). Панель атрибутов показана на :numref:`ngmobile_attributes_pic`.
-
-.. figure:: _static/ngmobile_attributes.png
-   :name: ngmobile_attributes_pic
-   :align: center
-   :height: 10cm
-   
-   Панель атрибутов.
-   
-В режиме показа атрибутов в нижней панели инструментов отображаются кнопка завершения просмотра атрибутов и кнопки перехода между записями (если информационная панель была активна, то она скрывается). 
-
-В нижней части экрана может размещаться панель информации (если включена соответсвующая опция в настройках). 
-В панели информации отображается следующая информация (при наличии зафиксированного местоположения):
-
-* координаты (широта и долгота);
-* источник сигнала позиционирования (сотовые сети/Wi-Fi или спутник), а также количество спутников, которые фиксируют местоположение (если позиционирование осуществляется при помощи :term:`GPS`/:term:`ГЛОНАСС`);
-* высота в метрах;
-* скорость движения в км/ч.
-
-В зависимости от размера экрана панель может занимать одну или две строки.    
+Depending on the size of the screen Status info panel can occupy one or two rows.
 
 .. _ngmobile_layer_tree:
 
-Дерево слоев
+Layers tree
 ------------
 
-Дерево слоев предназначено для просмотра состава карты и управлением видимостью и порядком слоев на карте. Дополнительные операции над слоями вынесены в отдельное меню слоя. Дерево слоев представлено на :numref:`ngmobile_layer_tree_pic`.
+Layers tree panel is designed to show the content of a map and to control the visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
 
 .. figure:: _static/ngmobile_layertree.png
    :name: ngmobile_layer_tree_pic
    :align: center
    :height: 11cm
    
-   Дерево слоев карты.
+   Layers tree panel.
+
+   The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Add geodata; 5 - Layer contextual menu icon; 6 - Layer contextual menu items.
    
-   Цифрами обозначено: 1 - иконка слоя; 2 - название слоя; 3 - кнопка переключения видимости слоя; 4 - кнопка вызова контекстного меню слоя; 5 - контекстное меню слоя.
+To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
+
+For turning  layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
+
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`), apart from facilitating :Create Layer", allows you to select the data source using the following menu, as shown below:
+
+.. figure:: _static/options_menu_new_layer.png
+   :name: options_menu_new_layer
+   :align: center
+   :height: 11cm
    
-Для изменения порядка слоев нужно на слое, который необходимо переместить, выполнить долгое нажатие на экран устройства. При этом список перейдет в режим изменения порядка слоев. Далее, не отнимая пальца от экрана, необходимо переместить слой в новую позицию.
+   Add geodata options
 
-Для включения/выключения видимости слоя достаточно нажать на соответствующую иконку (см. :numref:`ngmobile_layer_tree_pic`, п. 3).
+By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
 
-Контекстное меню слоя зависит от его типа. Для векторного слоя меню имеет следующий состав:
+* :term:`GeoJSON` file;
+* ZIP file with cached tiles;
+* *.ngrc file
+* *.ngfp format.
 
-* настройки слоя;
-* экспорт слоя (см. :ref:`ngmobile_share`);
-* удаление слоя.
+More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
 
-При выборе пункта "удаление слоя", слой удаляется с карты, а также удаляются все его данные с карты памяти.
+Layer contextual menu depends on layer's type, whether it is Vector or raster. When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`), contextual menue items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
+
+* Zoom to extent
+* Attributes
+* Share
+* Edit
+* Delete
+* Settings
+
+**By pressing "Delete" you not only remove layer from the map but also erase all its data from the memory card.**
 
 .. _ngmobile_settings:
 
-Окно настроек
--------------
+Settings dialog
+-------------------
 
-В зависимости от размера экрана окно настроек может быть однопанельным и двупанельным. Окно настроек представлено на :numref:`ngmobile_settings_pic` (однопанельный режим). 
+Depending on the screen size Settings dialog can fit into one or two panels. Settings dialog is shown on :numref:`ngmobile_settings_pic` (one panel mode).
 
 .. figure:: _static/ngmobile_settings.png
    :name: ngmobile_settings_pic
    :align: center
    :height: 10cm
    
-   Окно настроек.
+   Settings.
+
+There are following Settings on the main panel:
+
+* General
+* Map
+* Location
+* My tracks
+* NextGIS Settings
+
+"General" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_general_pic`).
+
+.. figure:: _static/ngmobile_settings3.png
+   :name: ngmobile_settings_general_pic
+   :align: center
+   :height: 10cm
    
-На основной панели имеются следующие блоки настроек:
+   General settings.
+   
+Here you can select one of the themes from Light & Dark and select for compass settings.
 
-* карта
-* местоположение
-* треки
-* NextGIS Web
-
-Блок настроек "Карта" содержит основные настройки карты (см. :numref:`ngmobile_settings_map_pic`).
+"Map" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_map_pic`).
 
 .. figure:: _static/ngmobile_settings1.png
    :name: ngmobile_settings_map_pic
    :align: center
    :height: 10cm
    
-   Окно настроек карты.
-   
-Настройки карты имеют следующий состав:
+   Map settings.
 
-* отображать/скрыть панель статуса (информационную панель);
-* каким образом показывать текущее местоположения (показывать местоположение и точность, только местоположение, не показывать местоположение);
-* при показе карты не выключать экран (работает только в окне карты);
-* отображать/скрыть кнопки управления масштабом;
-* формат вывода координат (действует на отображение координат в панели статуса и других диалогах и окнах);
-* путь к карте (можно указать свой путь для хранения данных карты и слоев геоданных). 
+Map settings include:
+
+* Show/hide Status info panel
+* The way current location displays (show current location, show marker, how marker & accuracy radius)
+* Show mini compass
+* Do not turn off the screen when map displays - works only on the map screen
+* Show/hide zoom control buttons
+* Show scale ruler
+* Show measuring button
+* Coordinates format (for coordinates in Status bar and other dialogs and screens)
+* Map background (light, dark, neutral)
+* Map path (here you can specify a path where map and layers data will be stored)
 
 .. note::
-   В случае наличия устройства с несколькими SD карточками и ОС Android 4.4 (KitKat) и выше, путь к карте 
-   на не основной SD карточке может быть указан только в домашнюю директорию приложения и ее подпапки 
-   (например, Android/data/com.nextgis.mobile). Это справедливо для некоторых устройств без root прав.
-   При отображении диалога выбора, папки, в которые запрещена запись, не будут иметь отметки для их выбора.
+	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
-Блок настроек "Местоположения" содержит настройки местоположения (см. :numref:`ngmobile_settings_place_pic`).
+"Location" settings contain location settings (see :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
    :align: center
    :height: 10cm
    
-   Окно настроек местоположения.
-  
-Настройки местоположения имеют следующий состав:
-  
-* источник координат (Сотовая сеть/Wi-Fi + :term:`GPS` или только GPS);
-* минимальное время для снятия координат;
-* минимальное расстояние для снятия координат.
+   Location settings.
 
-Настройка треков аналогична настройкам местоположения, но влияет на запись треков.
+Location settings include:
 
-.. note::
+* Coordinate source (mobile networks/Wi-Fi + :term:`GPS`, Other networks or only GPS)
+* Minimum update time
+* Minimum update distance
+* Count of GPS fixes
 
-   Если поставить значение минимального расстояния получения координат более 5 м, то операционная система начинает сглаживать трек (убирает выбросы).
-   
+"Tracks" settings are similar to the location settings, but they are applied only for track recording.
+
+.. Note::
+
+   If you set value of the minimum update distance at more than 5 m, the operating system will start to smooth the track (remove outliers).

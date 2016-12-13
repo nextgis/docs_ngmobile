@@ -1,32 +1,26 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. _ngmobile_install:
 
-Установка
-==========
+Installation
+==============
 
-Программа может устанавливается на устройство следующими способами:
+NextGIS Mobile can be installed in one of these ways:
 
-* при помощи пакетного файла `nextgismobile.apk <http://nextgis.ru/nextgis-mobile/>`_;
-* через магазин приложений (`Google play <https://play.google.com/store>`_).
+* using an APK file `nextgismobile.apk <http://nextgis.com/nextgis-mobile/>`_;
+* from `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_.
 
-Для установки из пакетного файла необходимо в настройках устройства разрешить 
-установку программ из неизвестных источников («настройки/безопасность/неизвестные 
-источники»). После установки программы возможность установки из неизвестных 
-источников можно деактивировать.
+To install from the APK file first allow application installation from unknown sources ("settings/security/unknown sources"). After installation you can deactivate this option.
 
-Для установки из магазина приложений необходимо запустить приложение Play маркет 
-и в строке поиска ввести "NextGIS Mobile". Далее установить найденное приложение 
-на устройство.
+To install application from Google Play open Google Play store, enter "NextGIS Mobile" in the search bar and install the application.
 
-Для запуска программы используется ярлык, автоматически создаваемый при ее 
-установке (см. :numref:`ngmobile_launch_shortcut_pic`). 
+To launch NextGIS Mobile use a shortcut created automatically during setup  (see :numref:`ngmobile_launch_shortcut_pic`). 
 
 .. figure:: _static/nextgismobile1.png
    :name: ngmobile_launch_shortcut_pic
    :align: center
    :height: 10cm
 
-   Ярлыки приложений.
-   
-   Красным прямоугольником выделен ярлык NextGIS Mobile.
+   Application shortcuts.
+
+   NextGIS Mobile shortcut is highlighted by the orange rectangle.
