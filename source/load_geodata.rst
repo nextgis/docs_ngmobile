@@ -132,7 +132,7 @@ Follow these steps to open tile cached raster file in ngrc format:
 
 1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`) and select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
-2. Select ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_unit_pic`): 
+2. Select ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_unit_pic`). E.g. tap on the file name "Tandali_Wadgaon.ngrc" 
 
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_unit_pic
@@ -141,7 +141,14 @@ Follow these steps to open tile cached raster file in ngrc format:
    
    Android local storage.
 
-You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up first in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`):  
+3. You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up in the layers tree (see :numref:`ngmobile_tree_layers_ngrc_pic`). The "Tandali Wadgaon" layer is shown in orange rectangle.
+
+.. figure:: _static/tree_layers_ngrc.png
+   :name: ngmobile_tree_layers_ngrc_pic
+   :align: center
+   :height: 10cm  
+
+   Layers tree panel.
 
 Creating new vector layer from Custom forms (NGFP)
 -----------------------------------------------------
@@ -154,7 +161,7 @@ Perform the following steps to add NGFP file to NextGIS Mobile:
 
 1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`) and select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
-2. Select NGFP file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_unit_pic`): 
+2. Select NGFP file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_unit_pic`). E.g. tap on  "Structures.ngfp" to open the Structures layer.
 
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_unit_pic
@@ -165,12 +172,26 @@ Perform the following steps to add NGFP file to NextGIS Mobile:
 
 3. When the file is selected a layer settings dialog opens. Here you can specify a layer name (see :numref:`ngmobile_settind_layer_form_pic`): 
 
-.. figure:: _static/tree_layers_ngfp.png
+.. figure:: _static/settind_layer_form.png
    :name: ngmobile_settind_layer_form_pic
    :align: center
    :height: 10cm
 
    Layer settings dialog.
+   
+4. Pressing "Create" button starts data processing for creation of a new layer 
+
+.. note::  
+	In case of NGFP format data uploading the new layer will always be a vector type layer!
+
+You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up in the layers tree (see :numref:`ngmobile_tree_layers_ngfp_pic`). The "Structures" layer is shown in orange rectangle.
+
+.. figure:: _static/tree_layers_ngfp.png
+   :name: ngmobile_tree_layers_ngfp_pic
+   :align: center
+   :height: 10cm  
+
+   Layers tree panel.   
 
 NGFP layers use custom (not standard) attributes form optimized for attributes viewing and editing. Custom form may contain special controls for editing, such as dropdowns, checkboxes or linked lists.
 
