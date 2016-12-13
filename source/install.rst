@@ -23,4 +23,4 @@ To launch NextGIS Mobile use a shortcut created automatically during setup  (see
 
    Application shortcuts.
 
-   NextGIS Mobile shortcut is highlighted by the red rectangle.
+   NextGIS Mobile shortcut is highlighted by the orange rectangle.
