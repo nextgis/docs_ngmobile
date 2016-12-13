@@ -18,8 +18,8 @@ NextGIS Mobile allows to:
 * perform map navigation (zoom in, zoom out, roam);
 * add vector data from :term:`GeoJSON` format;
 * add cached raster data in zip archive;
-* add online tile sources (XYZ and :term:`TMS`);
-* add raster and vector layers from `NextGIS Web <http://nextgis.com/nextgis-web/>`_;
+* add online tile sources (:term:`XYZ` and :term:`TMS`);
+* add raster and vector layers from `NextGIS Web <http://nextgis.com/nextgis-com/>`_;
 * create and modify vector :term:`geodata` (geometries and attributes);
 * browse the attributes of selected geometry through identify dialog;
 * modify the attributes of vector layer with customizable input forms;
