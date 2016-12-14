@@ -27,7 +27,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
    
    Main screen.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Map screen; 7 - Main actions button; 8 - Status info panel.
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Measure button; 7 - Map screen; 8 - Action menu button; 9 - Status info panel.
 
 The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
