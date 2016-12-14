@@ -16,7 +16,7 @@ Switching to Edit mode
 
 There are several ways to start edit mode.
 
-1. The first way is Main actions button (the big blue button in the right bottom corner of map screen (FAB)). Pressing Main actions button opens a menu of most common actions (see :numref:`ngmobile_common_action_menu_pic`).
+1. The first way is Main actions button (the big blue button in the right bottom corner of map screen). Pressing Main actions button opens a menu of most common actions (see :numref:`ngmobile_common_action_menu_pic`).
 
 .. figure:: _static/ngmobile_mainscreen_2.png
    :name: ngmobile_common_action_menu_pic
@@ -53,7 +53,7 @@ After switching to edit mode from any of the above, an Editing Toolbar is opened
 Adding features
 -----------------
 
-To add feature to a vector layer press Main actions button, and then press a pencil icon (see item 6 in :numref:`ngmobile_common_action_menu_pic`). Tap on a layer name, you'd like to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). 
+If you select the first method To add feature to a vector layer by pressing Main actions button, press a pencil icon (see item 6 in :numref:`ngmobile_common_action_menu_pic`). Tap on a layer name, you'd like to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). 
 
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
@@ -207,6 +207,8 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    :height: 10cm
    
    Editing point
+   
+   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creation_of_points_pic` above.
 
 Editing a line
 ^^^^^^^^^^^^^^
@@ -226,7 +228,9 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    :align: center
    :height: 10cm
    
-   Editing line   
+   Editing line
+   
+   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creating_lines_pic` above.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.
@@ -248,6 +252,8 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    :height: 10cm
    
    Editing polygon
+   
+   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creation_landfill_pic` above.
 
 Editing attributes
 --------------------
@@ -283,7 +289,33 @@ The Attributes toolbar is common for all the geometric features, viz. point, lin
    The numbers indicate: 1 - Close attributes info; 2 - Set attributes; 3 - Previous record; 4 - Next record.
    
 .. note::
-   This Attribute Toolbar is common for all type of layers, viz, point, line or polygon   
+   This Attribute Toolbar is common for all type of layers, viz, point, line or polygon
+   
+Alternate method
+^^^^^^^^^^^^^^^^^
+
+Tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Attribute table for that layer opens as shown in :numref:`ngmobile_attribute_table_pic` below.
+
+.. figure:: _static/attribute_table.png
+   :name: ngmobile_attribute_table_pic
+   :align: center
+   :height: 10cm
+   
+   Attributes Table.
+
+Here you can tap on any record (row) in the table. Attribute table toolbar appears at the bottom of the screen. This facilitates a few actions for that record with corresponding ID as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
+
+.. figure:: _static/attribute_table_toolbar.png
+   :name: ngmobile_attribute_table_toolbar_pic
+   :align: center
+   :height: 10cm
+   
+   Attributes table toolbar.
+   
+   The numbers indicate: 1 - Close attribute table; 2 - Layer name; 3 - Attribute table;  4 - Close toolbar; 5 - selected feature ID; 6 - Show this feature on map screen; 7 - Delete feature; 8 - Open attribute editing form.
+   
+.. note::
+   If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system deletes the feature momentarily although providing **undo** menu, live for 5 seconds. If undo action is not selected, the feature gets deleted permanently.   
 
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -319,4 +351,4 @@ Customized attributes form may contain the following entry fields:
 
 "Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_non-standard_form_pic`). 
 
-After filling in all required attributes press button 2 (item 2 in :numref:`ngmobile_non-standard_form_pic`) to save edits. Pressing buttons 1 or 3 will return you to Map screen, all changes in the layer (added or edited geometries or attributes) will be lost.
+After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_non-standard_form_pic`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
