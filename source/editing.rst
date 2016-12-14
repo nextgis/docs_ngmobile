@@ -41,7 +41,7 @@ After switching to edit mode from any of the above, an Editing Toolbar is opened
 .. figure:: _static/toolbar_edit_layer.png
    :name: ngmobile_editing_toolbar_pic
    :align: center
-   :width: 6cm
+   :width: 10cm
    
    Editing Toolbar.
    
@@ -282,7 +282,7 @@ The Attributes toolbar is common for all the geometric features, viz. point, lin
 .. figure:: _static/toolbar_edit_attributes.png
    :name: ngmobile_editing_attributes_toolbar_pic
    :align: center
-   :width: 6cm
+   :width: 10cm
    
    Attributes Toolbar.
    
@@ -320,10 +320,10 @@ Here you can tap on any record (row) in the table. Attribute table toolbar appea
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_non-standard_form_pic`  will be used in Edit attributes dialog. 
+If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_custom_form_pic`  will be used in Edit attributes dialog. 
 
-.. figure:: _static/non-standard_form.png
-   :name: ngmobile_non-standard_form_pic
+.. figure:: _static/custom_form.png
+   :name: ngmobile_custom_form_pic
    :align: center
    :height: 10cm
    
@@ -343,12 +343,12 @@ Customized attributes form may contain the following entry fields:
 * Photo.
 
 "Text" field is used to provide additional information about created geometry.
-"Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_non-standard_form_pic`). 
+"Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_custom_form_pic`). 
 
-"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_non-standard_form_pic`). 
+"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic`). 
 
-"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_non-standard_form_pic`). 
+"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic`). 
 
-"Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_non-standard_form_pic`). 
+"Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic`). 
 
-After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_non-standard_form_pic`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
+After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
