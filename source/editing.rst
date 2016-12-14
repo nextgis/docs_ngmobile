@@ -46,6 +46,9 @@ After switching to edit mode from any of the above, an Editing Toolbar is opened
    Editing Toolbar.
    
    The numbers indicate: 1 - Quit edit mode; 2 - Add new feature; 3 – Edit feature; 4 - Delete feature; 5 - Atributes info.
+   
+.. note::
+   This editing toolbar is common for all type of layers, viz, point, line or polygon.
 
 Adding features
 -----------------
@@ -84,9 +87,11 @@ After new point is added geometrically, you need to set its attributes by tappin
    :align: center
    :height: 10cm
    
-   Attributes editing form.
+   Standard attributes editing form.
    
-Once all the attributes are filled, tap on the Tick icon on the right top corner to save the point. If you tap on the back button on the left top corner, the system will warn you of any unsaved changes. The Camera icon at the bottom facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
+   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera
+   
+Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
 Adding a line
 ^^^^^^^^^^^^^^^
@@ -108,7 +113,7 @@ You can move the vertices any where on the map screen by holding their handle. I
 
 After new line is added geometrically, you need to set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creating_lines_pic`). Pressing floppy icon will save a new line and open Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic` above.   
 
-Once all the attributes are filled, tap on the Tick icon on the right top corner to save the line. If you tap on the back button on the left top corner, the system will warn you of any unsaved changes. The Camera icon at the bottom facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
+Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
 Adding a polygon
 ^^^^^^^^^^^^^^^^^^
@@ -130,7 +135,7 @@ New polygon will appear in the center of the screen, with one of its vertices hi
 
 After new polygon is added geometrically, you need to set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creation_landfill_pic`). Pressing floppy icon will save a new polygon and open Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic` above.   
 
-Once all the attributes are filled, tap on the Tick icon on the right top corner to save the polygon. If you tap on the back button on the left top corner, the system will warn you of any unsaved changes. The Camera icon at the bottom facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
+Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
 Adding current location 
 --------------------------
@@ -185,8 +190,6 @@ Editing a geometry
 
 To edit an existing layer first select that vector layer from any of the 3 methods mentioned above and enter the editing mode. The feature will turn its colour to **Blue**. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The feature will turn its colour to **Red** in edit mode.
 
-**Editing Geometry has the same interface of that of Add Features, for that type.**
-
 Editing a point
 ^^^^^^^^^^^^^^^^
 
@@ -195,6 +198,15 @@ To start editing a point it should be first selected by pressing on it. It will 
 To change location of a selected point simply pull it or arrow pointing at it to a desired place. Also a point can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 6 in :numref:`ngmobile_creation_of_points_pic`) or to the current device location (see item 7 in :numref:`ngmobile_creation_of_points_pic`).
 
 You can cancel editing at any point of time, without saving changes, by close editing button. (see item 1 in :numref:`ngmobile_creation_of_points_pic`). The system will warn you about this.
+
+In the end you can have your geofeatures digitized as shown below. See :numref:`ngmobile_editing_of_points_pic`.
+
+.. figure:: _static/editing_of_points.png
+   :name: ngmobile_editing_of_points_pic
+   :align: center
+   :height: 10cm
+   
+   Editing point
 
 Editing a line
 ^^^^^^^^^^^^^^
@@ -240,35 +252,54 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
 Editing attributes
 --------------------
 
-After layer is edited icon 1 in Bottom toolbar (see :numref:`ngmobile_edit_point_pic`) changes from "tick" to "floppy" and Cancel button appears.
+After layer is in edit mode as explained before, an editing toolbar, as shown in :numref:`ngmobile_editing_toolbar_pic`, appears in the bottom of the map screen. You need to tap on "Attribute info" (see item 5 in :numref:`ngmobile_editing_toolbar_pic`). This will open Attribute info panel as shown in :numref:`ngmobile_attributes_info_pic` below.
+
+.. figure:: _static/ngmobile_attributes_info.png
+   :name: ngmobile_attributes_info_pic
+   :align: center
+   :height: 10cm
+   
+   Attribute info
+   
+   The numbers indicate: 1 - Back to previous screen; 2 - Layer name & feature count; 3 - Settings; 4 - Attribute fields; 5 - Close attribute info panel; 6 - Set attributes; 7 - Previous record; 8 - Next record.
 
 Editing attributes using standard form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In Edit mode press icon 1 or icon 7 in Bottom toolbar to open Edit attributes dialog (see :numref:`ngmobile_attributes_edit_pic`) or press icon 2 to cancel your edits.
+You need to tap on "Set attributes" button (see item 6 in :numref:`ngmobile_attributes_info_pic`). This opens a standard attribute editing form as shown in :numref:`ngmobile_input_form_attributes_pic`. Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object under intervention.
 
-.. figure:: _static/ngmobile_edit_attributes.png
-   :name: ngmobile_attributes_edit_pic
+The Attributes toolbar
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The Attributes toolbar is common for all the geometric features, viz. point, line or polygon, as shown below in :numref:`ngmobile_editing_attributes_toolbar_pic`   
+
+.. figure:: _static/toolbar_edit_attributes.png
+   :name: ngmobile_editing_attributes_toolbar_pic
    :align: center
    :width: 6cm
    
-   Edit attributes dialog.
-
-   The numbers indicate: 1 - Back to previous screen; 2 - Save edits; 3 - Cancel edits; 4 - Additional operations menu.
-
-Edit attributes dialog is a vertical list of field names and controls for each type of attributes:
-
-* text field - for text and digits
-* date picker - for date and time
-
+   Attributes Toolbar.
+   
+   The numbers indicate: 1 - Close attributes info; 2 - Set attributes; 3 - Previous record; 4 - Next record.
+   
 .. note::
-   If you close Edit attributes dialog without applying changes (pressing button 2 in :numref:`ngmobile_attributes_edit_pic`), all changes in the layer (added or edited geometries or attributes) will be lost.
-
+   This Attribute Toolbar is common for all type of layers, viz, point, line or polygon   
 
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer includes customized attributes form, this form will be used in Edit attributes dialog instead of standard one (see :numref:`ngmobile_attributes_edit_pic`). Customized attributes form may contain the following entry fields:
+If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_non-standard_form_pic`  will be used in Edit attributes dialog. 
+
+.. figure:: _static/non-standard_form.png
+   :name: ngmobile_non-standard_form_pic
+   :align: center
+   :height: 10cm
+   
+   Custom attributes editing form.
+   
+  The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
+
+Customized attributes form may contain the following entry fields:
 
 * Text;
 * Space;
@@ -280,19 +311,12 @@ If the layer includes customized attributes form, this form will be used in Edit
 * Photo.
 
 "Text" field is used to provide additional information about created geometry.
+"Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_non-standard_form_pic`). 
 
-"Space" field is used to increase interval between the fields (see :numref:`ngmobile_text_probel_pic`).
+"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_non-standard_form_pic`). 
 
-"Text field" can be used to add text or figures, depending on the field type (see :numref:`ngmobile_text_pole_pic`). 
+"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_non-standard_form_pic`). 
 
-"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see :numref:`ngmobile_spisok_pic`). 
+"Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_non-standard_form_pic`). 
 
-"Checkbox" field turns on/off an assigned value (see :numref:`ngmobile_flag_pic`). 
-
-"Radio button" field allows to select one element from a list of mutually exclusive options (see :numref:`ngmobile_radio_kn_pic`). 
-
-"Date picker" field allows to select date, time or both of them (see :numref:`ngmobile_date_pic`). 
-
-"Photo" field is used to create new or load existing photos (see :numref:`ngmobile_photo_pic`). 
-
-After filling in all required attributes press button 2 (item 2 in :numref:`ngmobile_attributes_edit_pic`) to save edits. Pressing buttons 1 or 3 will return you to Map screen, all changes in the layer (added or edited geometries or attributes) will be lost.
+After filling in all required attributes press button 2 (item 2 in :numref:`ngmobile_non-standard_form_pic`) to save edits. Pressing buttons 1 or 3 will return you to Map screen, all changes in the layer (added or edited geometries or attributes) will be lost.
