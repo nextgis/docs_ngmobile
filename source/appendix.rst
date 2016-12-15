@@ -2,7 +2,7 @@
 
 .. _ngmobile_gplv3:
 
-Лицензия GPL v.3
+License GPL v.3
 ================
 
 
