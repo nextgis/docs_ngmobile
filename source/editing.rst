@@ -12,7 +12,7 @@ NextGIS Mobile allows you to edit vector layers added to the map. While editing,
 * edit features.
 
 Switching to Edit mode
-^^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 There are several ways to start edit mode.
 
@@ -34,7 +34,7 @@ You need to tap the pencil button (item 6 in :numref:`ngmobile_common_action_men
 3. In the third way, tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Edit".
 
 The Editing Toolbar
-^^^^^^^^^^^^^^^^^^^^
+-------------------
 
 After switching to edit mode from any of the above, an Editing Toolbar is opened at the bottom of the map screen. (see :numref:`ngmobile_editing_toolbar_pic`)
 
