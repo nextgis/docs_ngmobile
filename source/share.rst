@@ -15,7 +15,7 @@ To export data from NextGIS Mobile vector layer, tap on "Layers tree menu" (item
    :align: center
    :height: 10cm
    
-   Share dialog window.
+   Share dialogue window.
    
 After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported using the selected application. A name of the GeoJSON file corresponds to the name of the layer.
 
@@ -69,6 +69,10 @@ When you select the track by ticking on the Chekbox in front of it, buttons in T
    :height: 10cm
 
    Toolbar for selected track.
+   
+   The numbers indicate: 1 - Close; 2 - Track ID; 3 – Colour pallate; 4 - Share button; 5 - Contextual menu; 6 - Hide track.
+
+To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`) above. It will open the same "Share dialogue window" as shown above in :numref:`ngmobile_share_pic`. Further operations are in the same manner. 
 
 When you tap to open contextual menu (see item 5 in :numref:`ngmobile_layer_gpx_selected_pic`), the associated menu items pop up as shown below in :numref:`ngmobile_layer_gpx_menu_pic`. 
 
