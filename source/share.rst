@@ -43,7 +43,7 @@ Explanation:
 Exporting tracks in GPX
 ------------------------
 
-To start exporting tracks first find "My Tracks" group layer in Layers tree. It is shown in the orange box. Then select the "Settings" item in a contextual menu as shown in :numref:`ngmobile_tree_layers_gpx_pic`. 
+To start exporting tracks first find "My Tracks" group layer in Layers tree. It is shown in the orange box. Then select the "Settings" item in a contextual menu as shown in :numref:`ngmobile_tree_layers_gpx_pic` and tap on "List". 
 
 .. figure:: _static/tree_layers_gpx.png
    :name: ngmobile_tree_layers_gpx_pic
@@ -52,37 +52,8 @@ To start exporting tracks first find "My Tracks" group layer in Layers tree. It 
 
    Layers tree.
 
-Tracks control panel will open. If a few tracks have been recorded on same day, these tracks are grouped by sessions. If track recording continued for a few days, this track is split up into few parts corresponding to the number of days.
+This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`
 
-.. figure:: _static/tracks_list_gpx.png
-   :name: ngmobile_tracks_list_gpx_pic
-   :align: center
-   :height: 10cm
+To export the track, tick on the Chekbox in front of its name. The buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic`.
 
-   List of recorded tracks.
-
-When you select the track by ticking on the Chekbox in front of it, buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic` below
-
-.. figure:: _static/layer_gpx_selected.png
-   :name: ngmobile_layer_gpx_selected_pic
-   :align: center
-   :height: 10cm
-
-   Toolbar for selected track.
-   
-   The numbers indicate: 1 - Close; 2 - Track ID; 3 – Colour pallate; 4 - Share button; 5 - Contextual menu; 6 - Hide track.
-
-To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`) above. It will open the same "Share dialogue window" as shown above in :numref:`ngmobile_share_pic`. Further operations are in the same manner. 
-
-When you tap to open contextual menu (see item 5 in :numref:`ngmobile_layer_gpx_selected_pic`), the associated menu items pop up as shown below in :numref:`ngmobile_layer_gpx_menu_pic`. 
-
-.. figure:: _static/layer_gpx_menu.png
-   :name: ngmobile_layer_gpx_menu_pic
-   :align: center
-   :height: 10cm   
-
-   Tracks contextual menu.
-   
-* Here you can Show or Hide the selected track in the map screen. The starting point is shown in Green markere & the end point is shown in Red marker.
-* You can delete the track (permanently).
-* You can select all the tracks and perform above actions for all at a once.
+To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same "Share dialogue window" as shown in :numref:`ngmobile_share_pic`. Further operations are in the similar manner. 
