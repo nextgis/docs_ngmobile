@@ -15,6 +15,8 @@ Recording a track
 
 Tracks can be recorded in two ways.
 
+.. _ngmobile_record_tracks:
+
 Record & export tracks in GPX
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -50,6 +52,8 @@ To stop tracking open notification bar & tap on "Stop" (see item 4 in :numref:`n
 The GPX track is now ready for export. To know more about exporting the tracks, see :ref:`_ngmobile_export_GPX`.
 
 Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be split up into two parts.  
+
+.. _ngmobile_editing_vector_tracks:
 
 Record tracks to vector layer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,6 +92,8 @@ When tracking is finished tap on the "floppy" button (see item 4 in :numref:`ngm
    Vector layer attribute editing
    
 The newly added track is now part of the geometry feature of that line or polygon vector layer.  
+
+.. _ngmobile_manage_tracks:
 
 Managing recorded tracks
 ------------------------
