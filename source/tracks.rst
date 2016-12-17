@@ -10,27 +10,26 @@ NextGIS Mobile allows to record and display tracks. Recorded track points are sa
 .. note::
    Make sure that the Location mode is active in your Android mobile phone settings. Also check the configurations of "Location" settings from NextGIS App settings contextual menu, as shown in :numref:`ngmobile_settings_place_pic`.
 
-
 Recording a track
 -----------------
 
-Tracks can be recorded in two fashions.
+Tracks can be recorded in two ways.
 
 Record & export tracks in GPX
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To start recording a track press "Start new track" button in the Contextual menu on the Main screen (item 5 in :numref:`ngmobile_main_activity_pic_1`). 
 
-Track recording is performed in background mode. To indicate that the process is running a status icon of the walking man is displayed in Android Notification bar. For more information just open it (scroll it down!) and it will show the status as shown in :numref:`ngmobile_new_gpx_layer_1_pic` below.
+Track recording is performed in background mode. To indicate that the process is running a status icon of the walking man is displayed in Android Notification bar. For more information just open it and it will show the status as shown in :numref:`ngmobile_new_gpx_layer_1_pic` below.
 
 .. figure:: _static/new_gpx_layer_1.png
    :name: ngmobile_new_gpx_layer_1_pic
    :align: center
    :height: 4cm
- 
- 	Recording track status.
-
- 	The numbers indicate: 1 - The status icon; 2 - Name of track session; 3 - "Open recording" button; 4 - "Stop track recording" button.
+   
+   Recording track status.
+   
+   The numbers indicate: 1 - The status icon; 2 - Name of track session; 3 - "Open recording" button; 4 - "Stop track recording" button.
 
 When the track recording is done, we see on the map screen the path traced so far, as shown below in  :numref:`ngmobile_new_gpx_layer_2_pic`.
 
@@ -39,7 +38,7 @@ When the track recording is done, we see on the map screen the path traced so fa
    :align: center
    :height: 10cm
 
-Recorded track is displayed on the map immediately. We have not stopped tracking yet. The status icon (walking man) is still seen in the notification bar. The green flag shows the starting point of the track whereas the location marker shows the current location.
+Recorded track is displayed on the map immediately. We have not stopped tracking yet. The status icon (walking man) is still seen in the notification bar. The green flag shows the starting point of the track where as the location marker shows the current location.
 
 To stop tracking open notification bar & tap on "Stop" (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`). The status icon now vanishes, The location marker gets repalced by the red flag indicating end of the track and the track is visible in different colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`.
 
@@ -48,14 +47,14 @@ To stop tracking open notification bar & tap on "Stop" (see item 4 in :numref:`n
    :align: center
    :height: 10cm
 
-The GPX track is now ready for export.
+The GPX track is now ready for export. To know more about exporting the tracks, see :ref:`_ngmobile_export_GPX`.
 
 Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be split up into two parts.  
 
 Record tracks to vector layer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We can also add a feature in existing line or polygon vector layer by tracking.
+We can also add a feature to an existing line or polygon vector layer by tracking.
 
 For this, tap on "Action button" (see item 8 in :numref:`ngmobile_main_activity_pic_1`) & then tap "Geometry by tracking" (see item 5 in :numref:`ngmobile_common_action_menu_pic`). It will open list of Line & Polygon vector layers in a separate panel as shown below in :numref:`ngmobile_selectlayer1_pic`.
 
@@ -66,7 +65,7 @@ For this, tap on "Action button" (see item 8 in :numref:`ngmobile_main_activity_
 
    Line & Polygon Layers tree.
    
-Seletc the layer to which you need to add the feature by tracking. This will open that layer in editing mode as shown below in :numref:`ngmobile_new_gpx_vector_1`.
+Select the layer to which you need to add the feature by tracking. This will open that layer in editing mode as shown below in :numref:`ngmobile_new_gpx_vector_1`.
 
 .. figure:: _static/new_gpx_vector_1.png
    :name: ngmobile_new_gpx_vector_1
@@ -111,7 +110,7 @@ This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list
 
    List of recorded tracks.
 
-When you select the track by ticking on the Chekbox in front of it, buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic`below.
+When you select the track by ticking on the Chekbox in front of it, buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic`below.
 
 .. figure:: _static/layer_gpx_selected.png
    :name: ngmobile_layer_gpx_selected_pic
