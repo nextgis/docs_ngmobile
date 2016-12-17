@@ -10,7 +10,7 @@ Map is a set of raster and vector layers. Order and visibility of layers are con
 You can perform further operations with the layers by tapping layer context menu (item 5 in :numref:`ngmobile_layer_tree_pic`).
 It will pop up a list of menues as shown in item 6 in :numref:`ngmobile_layer_tree_pic`.
 
-Menu for the vector type has a following composition (:numref:`ngmobile_vector_layer_menu_pic`):
+Menu for the vector type has a following composition.
 
 1. Zoom to  extent
 2. Attributes
