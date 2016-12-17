@@ -23,7 +23,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
 .. figure:: _static/ngmobile_mainscreen_1.png
    :name: ngmobile_main_activity_pic_1
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Main screen.
 
@@ -39,7 +39,7 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 * Settings
 * About
 
-**Status info panel** (item 8 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
+**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
 
 * Device coordinates (latitude and longitude);
 * Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
@@ -58,7 +58,7 @@ Layers tree panel is designed to show the content of a map and to control the vi
 .. figure:: _static/ngmobile_layertree.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Layers tree panel.
 
@@ -68,12 +68,12 @@ To change the hierarchy of map layers long-press the layer which is to be moved 
 
 For turning  layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
-"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`), apart from facilitating :Create Layer", allows you to select the data source using the following menu, as shown below:
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`), facilitates creating vector layers and importing vector as well as raster layers, from Android local storage, cloud or a few selected web services, as shown below:
 
 .. figure:: _static/options_menu_new_layer.png
    :name: options_menu_new_layer
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Add geodata options
 
@@ -95,7 +95,8 @@ Layer contextual menu depends on layer's type, whether it is Vector or raster. W
 * Delete
 * Settings
 
-**By pressing "Delete" you not only remove layer from the map but also erase all its data from the memory card.**
+.. warining::
+   By pressing "Delete" you not only remove layer from the map but also erase all its data from the local storage.
 
 .. _ngmobile_settings:
 
@@ -173,6 +174,5 @@ Location settings include:
 
 "Tracks" settings are similar to the location settings, but they are applied only for track recording.
 
-.. Note::
-
+.. note::
    If you set value of the minimum update distance at more than 5 m, the operating system will start to smooth the track (remove outliers).
