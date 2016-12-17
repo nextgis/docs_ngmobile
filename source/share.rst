@@ -5,6 +5,8 @@
 Exporting data
 ===============
 
+.. _ngmobile_export_vector:
+
 Exporting data in GeoJSON
 ---------------------------
 
@@ -40,6 +42,8 @@ Explanation:
 
 4 photos are attached to a feature. These 4 photos are stored in the folder which name correposnds to ID of this feature.
 
+.. _ngmobile_export_GPX:
+
 Exporting tracks in GPX
 ------------------------
 
@@ -56,4 +60,4 @@ This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list
 
 To export the track, tick on the Chekbox in front of its name. The buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic`.
 
-To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same "Share dialogue window" as shown in :numref:`ngmobile_share_pic`. Further operations are in the similar manner. 
+To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same "Share dialogue window" as shown in :numref:`ngmobile_share_pic` above. Further operations are in the similar manner. 
