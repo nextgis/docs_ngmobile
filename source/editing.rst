@@ -3,7 +3,7 @@
 .. _ngmobile_editing:
 
 Editing layers
-=================
+==============
 
 NextGIS Mobile allows you to edit vector layers added to the map. While editing, you can:
 
@@ -50,8 +50,10 @@ After switching to edit mode from any of the above, an Editing Toolbar is opened
 .. note::
    This editing toolbar is common for all type of layers, viz, point, line or polygon.
 
+.. _ngmobile_add_geometry:
+
 Adding features
------------------
+---------------
 
 If you select the first method To add feature to a vector layer by pressing Main actions button, press a pencil icon (see item 6 in :numref:`ngmobile_common_action_menu_pic`). Tap on a layer name, you'd like to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). 
 
@@ -64,8 +66,10 @@ If you select the first method To add feature to a vector layer by pressing Main
 
 After you select a layer, map screen switches into Edit mode. It displays an editing toolbar at the bottom of the map screen, as shown in :numref:`ngmobile_editing_toolbar_pic`. You can create any type of geometry (points, lines or polygons).
 
+.. _ngmobile_add_point:
+
 Adding a point
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 To add a point to an existing layer first select a point vector layer from any of the 3 methods mentioned above. Then tap on the + icon in Bottom toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`).
 
@@ -89,12 +93,14 @@ After new point is added geometrically, you need to set its attributes by tappin
    
    Standard attributes editing form.
    
-   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera
+   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera.
    
 Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
+.. _ngmobile_add_line:
+
 Adding a line
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 To add a line to an existing layer first select a line vector layer from any of the 3 methods mentioned above. Then tap on the + icon in Bottom toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`).
 
@@ -115,6 +121,8 @@ After new line is added geometrically, you need to set its attributes by tapping
 
 Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
+.. _ngmobile_add_polygon:
+
 Adding a polygon
 ^^^^^^^^^^^^^^^^^^
 
@@ -131,14 +139,17 @@ New polygon will appear in the center of the screen, with one of its vertices hi
    
    The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
    
+.. note::   
    The left 2 buttons are for multi polygon editing, an advanced topic not covered here.
 
 After new polygon is added geometrically, you need to set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creation_landfill_pic`). Pressing floppy icon will save a new polygon and open Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic` above.   
 
 Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object just digitized.
 
+.. _ngmobile_add_location:
+
 Adding current location 
---------------------------
+-----------------------
 
 To add current location to a vector layer press Main actions button, and then press a pushpin icon (item 7 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only point geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). If there is only one points layer available, it will be selected automatically. 
 
@@ -153,42 +164,25 @@ Current location will be added to selected layer as a new point consisting of 1 
 
 Further actions are same as in "Adding a point"
 
+.. _ngmobile_add_track:
+
 Adding line or polygon by tracking
--------------------------------------
+----------------------------------
 
-To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). After you select a layer, map screen switches into Edit Tracking mode (see :numref:`ngmobile_edit_walk_pic1`).
+Here we have a separate chapter on :ref:`tracks`.
 
-.. figure:: _static/edit_panel_circumvention_tools.png
-   :name: ngmobile_edit_walk_pic1
-   :align: center
-   :width: 6cm
-   
-   Edit Tracking toolbar.
+To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
 
-After accumulation of a minimum number of points (for line - 2 points, for polygon - 3 points) Bottom toolbar will transform.
+Find more information about this & further topics at :ref:`ngmobile_editing_vector_tracks`.
 
-.. figure:: _static/ngmobile_edit_walk.png
-   :name: ngmobile_edit_walk_pic
-   :align: center
-   :width: 6cm
-
-   Edit Tracking toolbar.
-
-   The numbers indicate:  1 - Save a geometry; 2 - Quit Edit Tracking mode; 3 - Location settings.
-
-Pressing floppy icon will save a new geometry (line or polygon) and open default or custom Attributes editing form (see :numref:`ngmobile_attributes_edit_pic`). 
-
-Pressing Cancel icon will stop Edit Tracking mode and switch the app to Edit mode.
-
-Pressing Settings icon while tracking will open location settings (:numref:`ngmobile_settings_place_pic`). These settings affect not only the tracking accuracy but also accuracy of current location.
-
-.. note::
-   If you set value of minimum update time at 2 sec or more and value of minimum update distance at 10 m or more, the operating system will start to smooth the track (remove outliers).
+.. _ngmobile_edit_geometry:
 
 Editing a geometry
 -------------------
 
 To edit an existing layer first select that vector layer from any of the 3 methods mentioned above and enter the editing mode. The feature will turn its colour to **Blue**. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The feature will turn its colour to **Red** in edit mode.
+
+.. _ngmobile_edit_point:
 
 Editing a point
 ^^^^^^^^^^^^^^^^
@@ -210,6 +204,8 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creation_of_points_pic` above.
 
+.. _ngmobile_edit_line:
+
 Editing a line
 ^^^^^^^^^^^^^^
 
@@ -230,10 +226,12 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing line
    
-   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creating_lines_pic` above.
+   The numbers from 1 to 9 explains the same as shown in :numref:`ngmobile_creating_lines_pic` above.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.
+
+.. _ngmobile_edit_polygon:
 
 Editing a polygon
 ^^^^^^^^^^^^^^^^^
@@ -253,7 +251,9 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing polygon
    
-   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creation_landfill_pic` above.
+   The numbers from 1 to 9 explains the same as shown in :numref:`ngmobile_creation_landfill_pic` above.
+
+.. _ngmobile_edit_attributes:
 
 Editing attributes
 --------------------
@@ -290,9 +290,11 @@ The Attributes toolbar is common for all the geometric features, viz. point, lin
    
 .. note::
    This Attribute Toolbar is common for all type of layers, viz, point, line or polygon
-   
-Alternate method
-^^^^^^^^^^^^^^^^^
+
+.. _ngmobile_attribute_table:
+
+Editing through attribute table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Attribute table for that layer opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
@@ -314,10 +316,12 @@ Here you can tap on any record (row) in the table. Attribute table toolbar appea
    
    The numbers indicate: 1 - Close attribute table; 2 - Layer name; 3 - Attribute table;  4 - Close toolbar; 5 - selected feature ID; 6 - Show this feature on map screen; 7 - Delete feature; 8 - Open attribute editing form.
    
-.. note::
+.. warning::
    If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system deletes the feature momentarily although providing **undo** menu, live for 5 seconds. If undo action is not selected, the feature gets deleted permanently.   
 
-Editing attributes using custom form
+.. _ngmobile_edit_attributes_ngfp:
+
+Editing attributes of a custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_custom_form_pic`  will be used in Edit attributes dialog. 
