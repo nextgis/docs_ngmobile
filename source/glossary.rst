@@ -20,6 +20,10 @@ Glossary
    Raster
       Raster image is a dot matrix data structure  representing a generally rectangular grid of pixels or cells. The information is stored in a cell.
 
+   Geodata
+   Geodata
+      Geodata is collection of geographic features & asociated information about them, also known as spacial information.
+   
    Cloud
    Cloud Computing
       Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand. It is a model for enabling ubiquitous, on-demand access to a shared pool of configurable computing resources (e.g., computer networks, servers, storage, applications and services), which can be rapidly provisioned and released with minimal management effort. Cloud computing and storage solutions provide users and enterprises with various capabilities to store and process their data in third-party data centers, that may be located far from the user–ranging in distance from across a city to across the world.
@@ -30,7 +34,7 @@ Glossary
 
    GeoJSON
    GeoJSON
-     GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JavaScript Object Notation. The features include points, linestrings & polygons and multi-part collection of these types.
+      GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JavaScript Object Notation. The features include points, linestrings & polygons and multi-part collection of these types.
      
    GPS
    Global Positioning System
@@ -38,7 +42,7 @@ Glossary
 
    GLONASS
    Globalnaya Navigatsionnaya Sputnikovaya Sistema
-"Global Navigation Satellite System", is a space-based satellite navigation system operating in the radionavigation-satellite service and used by the Russian Aerospace Defence Forces. It provides an alternative to GPS and is the second alternative navigational system in operation with global coverage and of comparable precision. Manufacturers of GPS devices say that adding GLONASS made more satellites available to them, meaning positions can be fixed more quickly and accurately (location to within 2 meters).
+      "Global Navigation Satellite System", is a space-based satellite navigation system operating in the radionavigation-satellite service and used by the Russian Aerospace Defence Forces. It provides an alternative to GPS and is the second alternative navigational system in operation with global coverage and of comparable precision. Manufacturers of GPS devices say that adding GLONASS made more satellites available to them, meaning positions can be fixed more quickly and accurately (location to within 2 meters).
     
    Android
    Android
@@ -46,11 +50,11 @@ Glossary
       
    XYZ
    Raster Tile Map
-Slippy map (in OpenStreetMap terminology) or Tiled Web Map is a map displayed by seamlessly joining dozens of individually requested image files over the internet. It is currently the most popular way to display and navigate maps, replacing other methods such as WMS which typically display a single large image, with arrow buttons to navigate to nearby areas. X, Y & Z denotes the numbering scheme to serve the images. The images are commonly of the size 256 X 256 in PNG format.
+      Slippy map (in OpenStreetMap terminology) or Tiled Web Map is a map displayed by seamlessly joining dozens of individually requested image files over the internet. It is currently the most popular way to display and navigate maps, replacing other methods such as WMS which typically display a single large image, with arrow buttons to navigate to nearby areas. X, Y & Z denotes the numbering scheme to serve the images. The images are commonly of the size 256 X 256 in PNG format.
 
    TMS
    Tile Map Service
-     Tile Map Service or TMS, is a specification for tiled web maps, developed by the Open Source Geospatial Foundation. The definition generally requires a URI structure which attempts to fulfill REST principles. The TMS protocol fills a gap between the very simple standard used by OpenStreetMap (XYZ) and the complexity of the Web Map Service standard, providing simple urls to tiles while also supporting alternate spatial referencing system.
+      Tile Map Service or TMS, is a specification for tiled web maps, developed by the Open Source Geospatial Foundation. The definition generally requires a URI structure which attempts to fulfill REST principles. The TMS protocol fills a gap between the very simple standard used by OpenStreetMap (XYZ) and the complexity of the Web Map Service standard, providing simple urls to tiles while also supporting alternate spatial referencing system.
    
    URL
    Uniform Resource Locator
