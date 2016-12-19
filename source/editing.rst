@@ -343,10 +343,10 @@ If the layer includes customized attributes form (layer created with a ngfp file
    :name: ngmobile_custom_form_pic_1
    :align: center
    :height: 10cm
-   
+ 
    Custom attributes form.
    
-  The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
+   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
 
 Customized attributes form may contain the following entry fields:
 
@@ -368,4 +368,6 @@ Customized attributes form may contain the following entry fields:
 
 "Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic_1`). 
 
-After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
+After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save edits. 
+
+Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
