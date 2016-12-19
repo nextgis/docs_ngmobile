@@ -100,10 +100,10 @@ Layer contextual menu depends on layer's type, whether it is Vector or raster. W
 
 .. _ngmobile_settings:
 
-Settings dialog
--------------------
+Settings dialogue
+-----------------
 
-Depending on the screen size Settings dialog can fit into one or two panels. Settings dialog is shown on :numref:`ngmobile_settings_pic` (one panel mode).
+Depending on the screen size Settings dialogue can fit into one or two panels. Settings dialogue is shown on :numref:`ngmobile_settings_pic` (one panel mode).
 
 .. figure:: _static/ngmobile_settings.png
    :name: ngmobile_settings_pic
@@ -156,7 +156,7 @@ Map settings include:
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
-"Location" settings contain location settings (see :numref:`ngmobile_settings_place_pic`).
+"Location" settings offers a few location specific settings (see :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
@@ -176,3 +176,44 @@ Location settings include:
 
 .. note::
    If you set value of the minimum update distance at more than 5 m, the operating system will start to smooth the track (remove outliers).
+
+.. _ngmobile_useful_facilities:
+
+Useful facilities
+-----------------
+
+From the Main screen itself the App offers a couple of facilities useful in the field.
+
+.. _ngmobile_show_my_location:
+
+Show my location
+^^^^^^^^^^^^^^^^
+
+To know your current location, just tap on the "Show my location: button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your "status info panel" (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is visible via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`), you will be able to view the relevant information there itself.
+
+.. note::
+   Your "Location" settings must be made ON from your Android mobile settings.
+   
+Measure distance
+^^^^^^^^^^^^^^^^
+
+It is possible to measure the distance between two points from the map screen in a easy manner. Just tap on the measure button on the map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). It will give a message like "Tap on map to check points". Tap on your starting point. A red point with handle appears on the screen. Then tap on your second point. The first point becomes blue & second red dot will appear. A blue line is drawn between the points and the distance appears on the 
+top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
+
+.. figure:: _static/measure_distance.png
+   :name: ngmobile_measure_distance_pic
+   :align: center
+   :height: 10cm
+   
+   Measure distance.
+
+You can even tap the third point and the distance between first & third point will be captured & shown. This way you can measure distance of a smooth curve, too.
+
+If your third point forms a triangle, then a thin line between the first & third point is seen & the resultant triangle that would form. In this case the system shows the area of that triangle in the top toolbar.
+
+This also applies to any number of points. A polygon may be formed in this way & the resultsnt area.
+
+When you are done, tap the blue tick button to exit the measure mode.
+
+.. note::
+   To avail this facility, "Show measuring button" check box must be ticked ON in the map settings. (see :numref:`ngmobile_settings_map_pic`).
