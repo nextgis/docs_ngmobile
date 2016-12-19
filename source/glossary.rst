@@ -24,7 +24,7 @@ Glossary
    Cloud Computing
       Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand. It is a model for enabling ubiquitous, on-demand access to a shared pool of configurable computing resources (e.g., computer networks, servers, storage, applications and services), which can be rapidly provisioned and released with minimal management effort. Cloud computing and storage solutions provide users and enterprises with various capabilities to store and process their data in third-party data centers, that may be located far from the user–ranging in distance from across a city to across the world.
 
-Coordinate System
+   Coordinate System
    Geographic Coordinate System
       A geographic coordinate system is a coordinate system that enables every location on Earth to be specified by a set of numbers, letters or symbols. The coordinates are often chosen such that one of the numbers represents a vertical position, and two or three of the numbers represent a horizontal position. A common choice of coordinates is latitude, longitude and elevation.
 
