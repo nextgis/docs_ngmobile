@@ -14,7 +14,7 @@ Creating new vector layer
   
 Here are the steps to create an empty vector layer:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown below in see :numref:`ngmobile_options_menu_new_layer_pic`. Tap on "Create layer".
+1. First tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown below in see :numref:`ngmobile_options_menu_new_layer_pic`. Tap on "Create layer".
 
 .. figure:: _static/options_menu_new_layer.png
    :name: ngmobile_options_menu_new_layer_pic
@@ -63,7 +63,7 @@ Creating vector layer from GeoJSON data
 
 We can create a vector layer by importing an existing GeoJSON file. To open data in GeoJSON format:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in see :numref:`ngmobile_options_menu_new_layer_pic` above. Tap on "Open local".
+1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Tap on "Open local".
 
 2. Select the GeoJSON dataset from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_1`). E.g. tap on the file "Roads.geojson" to import the "Roads" vector data file.
 
@@ -126,7 +126,7 @@ A sample standard attributes form is shown below in :numref:`ngmobile_standard_i
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera.
 
-You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about GeoJSON layer editing see :ref:`_ngmobile_edit_geometry`.
+You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about GeoJSON layer editing see :ref:`ngmobile_edit_geometry`.
 
 .. _ngmobile_import_ngrc:
 
@@ -137,7 +137,7 @@ Tile cache is a zip-archive with folders and tiles stored in accordance with a t
 
 Follow these steps to open tile cached raster file in ngrc format:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in see :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
 2. Select ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_2`). E.g. tap on the file "Tandali_Wadgaon.ngrc" to import the "Tandali Wadgaon" raster satellite image. 
 
@@ -201,7 +201,7 @@ NGFP files can be generated using NextGIS FormBuilder. NGFP is a :term:`GeoJSON`
 
 Perform the following steps to add NGFP file to NextGIS Mobile:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in see :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
 2. Select NGFP file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_3`). E.g. tap on the file "Structures.geojson" to import the "Structures" vector data file. 
 
@@ -232,7 +232,7 @@ You can check if the new layer was created successfully in the layers tree panel
 
    Layers tree panel.
 
-NGFP layers use custom (not standard) attributes form optimized for attributes viewing and editing. Custom form may contain special controls for editing, such as dropdowns, checkboxes or linked lists.
+NGFP layers use custom (not standard) attributes form optimized for attributes viewing and editing. Custom form contains special controls for editing, such as dropdown lists, radio buttons or linked lists.
 
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic
@@ -243,4 +243,4 @@ NGFP layers use custom (not standard) attributes form optimized for attributes v
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons.
 
-You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about NGFP layer editing see :ref:`_ngmobile_edit_geometry`.
+You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about NGFP layer editing see :ref:`ngmobile_edit_geometry`.
