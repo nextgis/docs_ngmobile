@@ -293,7 +293,7 @@ The Attributes toolbar is common for all the geometric features, viz. point, lin
 
 .. _ngmobile_attribute_table:
 
-Editing through attribute table
+The attribute table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Attribute table for that layer opens as shown in :numref:`ngmobile_attribute_table_pic` below.
@@ -315,6 +315,8 @@ Here you can tap on any record (row) in the table. Attribute table toolbar appea
    Attributes table toolbar.
    
    The numbers indicate: 1 - Close attribute table; 2 - Layer name; 3 - Attribute table;  4 - Close toolbar; 5 - selected feature ID; 6 - Show this feature on map screen; 7 - Delete feature; 8 - Open attribute editing form.
+   
+You can open the standard attribute form for editing as shown in :numref:`ngmobile_standard_input_form_attributes_pic` by selecting "Open attribute editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
    
 .. warning::
    If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system deletes the feature momentarily although providing **undo** menu, live for 5 seconds. If undo action is not selected, the feature gets deleted permanently.   
