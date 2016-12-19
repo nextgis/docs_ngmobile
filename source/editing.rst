@@ -137,7 +137,7 @@ New polygon will appear in the center of the screen, with one of its vertices hi
 
    Creating a polygon.
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Append geometry by walk.
    
 .. note::   
    The left 2 buttons are for multi polygon editing, an advanced topic not covered here.
@@ -174,11 +174,11 @@ Adding line or polygon by tracking
 
 To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
 
-Find more information about this & further topics at :ref:`ngmobile_editing_vector_tracks`.
+Find more information about this & further topics at :ref:`ngmobile_edit_vector_tracks`.
 
 .. note::
    You can add tracks to either Line or Polygon geometry layers.
-
+   
 .. _ngmobile_edit_geometry:
 
 Editing a geometry
@@ -206,7 +206,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing point
    
-   The numbers from 1 to 7 explains the same as shown in :numref:`ngmobile_creation_of_points_pic` above.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
 
 .. _ngmobile_edit_line:
 
@@ -230,7 +230,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing line
    
-   The numbers from 1 to 9 explains the same as shown in :numref:`ngmobile_creating_lines_pic` above.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.
@@ -255,7 +255,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing polygon
    
-   The numbers from 1 to 9 explains the same as shown in :numref:`ngmobile_creation_landfill_pic` above.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Append geometry by walk.
 
 .. _ngmobile_edit_attributes:
 
@@ -344,7 +344,7 @@ If the layer includes customized attributes form (layer created with a ngfp file
    :align: center
    :height: 10cm
    
-   Custom attributes editing form.
+   Custom attributes form.
    
   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
 
