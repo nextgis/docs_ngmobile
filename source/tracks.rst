@@ -1,6 +1,6 @@
 .. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
-.. tracks:
+.. _tracks:
 
 Tracks
 ======
@@ -53,7 +53,7 @@ The GPX track is now ready for export. To know more about exporting the tracks, 
 
 Track points are grouped by days and sessions within a day. If track recording continues the next day, track will be split up into two parts.  
 
-.. _ngmobile_editing_vector_tracks:
+.. _ngmobile_edit_vector_tracks:
 
 Record tracks to vector layer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
