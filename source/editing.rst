@@ -162,18 +162,22 @@ To add current location to a vector layer press Main actions button, and then pr
 
 Current location will be added to selected layer as a new point consisting of 1 point.
 
-Further actions are same as in "Adding a point"
+Further actions are same as in "Adding a point".
+
+.. note::
+   You can add current location to Point geometry layers only!
 
 .. _ngmobile_add_track:
 
 Adding line or polygon by tracking
 ----------------------------------
 
-Here we have a separate chapter on :ref:`tracks`.
-
 To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only line and polygon geometry layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
 
 Find more information about this & further topics at :ref:`ngmobile_editing_vector_tracks`.
+
+.. note::
+   You can add tracks to either Line or Polygon geometry layers.
 
 .. _ngmobile_edit_geometry:
 
@@ -189,9 +193,9 @@ Editing a point
 
 To start editing a point it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The selected point feature will be highlighted in red and have an arrow pointing at it.
 
-To change location of a selected point simply pull it or arrow pointing at it to a desired place. Also a point can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 6 in :numref:`ngmobile_creation_of_points_pic`) or to the current device location (see item 7 in :numref:`ngmobile_creation_of_points_pic`).
+To change location of a selected point simply pull it or arrow pointing at it to a desired place. Also a point can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 6 in :numref:`ngmobile_editing_of_points_pic`) or to the current device location (see item 7 in :numref:`ngmobile_editing_of_points_pic`).
 
-You can cancel editing at any point of time, without saving changes, by close editing button. (see item 1 in :numref:`ngmobile_creation_of_points_pic`). The system will warn you about this.
+You can cancel editing at any point of time, without saving changes, by close editing button. (see item 1 in :numref:`ngmobile_editing_of_points_pic`). The system will warn you about this.
 
 In the end you can have your geofeatures digitized as shown below. See :numref:`ngmobile_editing_of_points_pic`.
 
@@ -211,9 +215,9 @@ Editing a line
 
 To start editing a line it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The line will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
 
-New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_creating_lines_pic`) or to the current device location (see item 8 in :numref:`ngmobile_creating_lines_pic`).
+New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_lines_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_lines_pic`).
 
-You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_creating_lines_pic`)
+You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_editing_lines_pic`)
 
 In this way you can even get a smooth curve as per the geographic shape.
 
@@ -238,9 +242,9 @@ Editing a polygon
 
 To start editing a polygon it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The polygon will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
 
-New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_creation_landfill_pic`) or to the current device location (see item 8 in :numref:`ngmobile_creation_landfill_pic`).
+New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_polygon_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_polygon_pic`).
 
-You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_creation_landfill_pic`)
+You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_editing_polygon_pic`)
 
 In the end you can have your geofeatures digitized as shown below. See :numref:`ngmobile_editing_polygon_pic`.
 
@@ -268,6 +272,13 @@ After layer is in edit mode as explained before, an editing toolbar, as shown in
    Attribute info
    
    The numbers indicate: 1 - Back to previous screen; 2 - Layer name & feature count; 3 - Settings; 4 - Attribute fields; 5 - Close attribute info panel; 6 - Set attributes; 7 - Previous record; 8 - Next record.
+   
+.. note::
+   When you tap on to view attributes (see item 4 in :numref:`ngmobile_attributes_info_pic`),
+   
+   * For Point layer, system shows that point's current location in Latitude/Longitude by default.
+   * For Line layer, system shows the length of that line features in meters by default.
+   * For Polygon layer, system shows the perimeter of that polygon feature in meters & the area in square meters by default.
 
 Editing attributes using standard form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -326,10 +337,10 @@ You can open the standard attribute form for editing as shown in :numref:`ngmobi
 Editing attributes of a custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_custom_form_pic`  will be used in Edit attributes dialog. 
+If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_custom_form_pic_1`  will be used in Edit attributes dialog. 
 
 .. figure:: _static/custom_form.png
-   :name: ngmobile_custom_form_pic
+   :name: ngmobile_custom_form_pic_1
    :align: center
    :height: 10cm
    
@@ -349,12 +360,12 @@ Customized attributes form may contain the following entry fields:
 * Photo.
 
 "Text" field is used to provide additional information about created geometry.
-"Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_custom_form_pic`). 
+"Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_custom_form_pic_1`). 
 
-"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic`). 
+"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic_1`). 
 
-"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic`). 
+"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic_1`). 
 
-"Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic`). 
+"Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic_1`). 
 
-After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
+After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save edits. Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
