@@ -19,7 +19,7 @@ To launch NextGIS Mobile use a shortcut created automatically during setup  (see
 .. figure:: _static/nextgismobile1.png
    :name: ngmobile_launch_shortcut_pic
    :align: center
-   :height: 10cm
+   :height: 8cm
 
    Application shortcuts.
 
