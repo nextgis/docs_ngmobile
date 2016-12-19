@@ -14,7 +14,7 @@ Creating new vector layer
   
 Here are the steps to create an empty vector layer:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`) and select "Create layer" (see :numref:`ngmobile_options_menu_new_layer_pic`)
+1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown below in see :numref:`ngmobile_options_menu_new_layer_pic`. Tap on "Create layer".
 
 .. figure:: _static/options_menu_new_layer.png
    :name: ngmobile_options_menu_new_layer_pic
@@ -38,7 +38,7 @@ The standard form for the creation of new vector layer contains the following pa
 2. Geometry type - select layer geometry type (point, linestring, polygon).
 3. Fields - list of fields which can be added, edited or deleted. These are attribute values of the layer.
 
-New dialog will be opened for creation of each field (see :numref:`ngmobile_dialogue_create_new_field_pic`) 
+You can add many attributes to a layer. For each attribute creation just tap on "+" button next to Fields. This will open new dialog every time for creation of each field (see :numref:`ngmobile_dialogue_create_new_field_pic`) below.
 
 .. figure:: _static/dialogue_create_new_field.png
    :name: ngmobile_dialogue_create_new_field_pic
@@ -63,7 +63,7 @@ Creating vector layer from GeoJSON data
 
 We can create a vector layer by importing an existing GeoJSON file. To open data in GeoJSON format:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`) and select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`)
+1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in see :numref:`ngmobile_options_menu_new_layer_pic` above. Tap on "Open local".
 
 2. Select the GeoJSON dataset from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic`). E.g. tap on the file "Roads.geojson" to import the "Roads" vector data file.
 
@@ -73,7 +73,7 @@ We can create a vector layer by importing an existing GeoJSON file. To open data
    :height: 10cm
    
    Android local storage.
-
+   
 3. When the file is selected a layer settings dialog opens. Here you can specify your own layer name or keep the name as it is. (see :numref:`ngmobile_layer_settings_geo_pic`). E.g. "Roads". 
 
 .. figure:: _static/layer_settings_geo.png
@@ -83,7 +83,7 @@ We can create a vector layer by importing an existing GeoJSON file. To open data
 
    Layer settings dialogue.
 
-4. Pressing "Create" button starts data processing for creation of a new layer 
+4. Pressing "Create" button starts data processing for creation of a new layer. 
 
 .. note::  
 	In case of GeoJSON data importing the new layer will always be a vector layer!
@@ -107,11 +107,15 @@ You can check if the new layer was created successfully in the layers tree panel
 	You can read more about the GeoJSON format in its `specification <http://geojson.org/>`_.
 	GeoJSON is based on the format JSON (see `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
 
-You can only use standard attributes form for editing GeoJSON layer as against custom attributes form of ngfp format. To know more about ngfp format see :ref:`ngmobile_import_ngfp` ahead. A sample standard attributes form is shown below.  It contains the following fields:
+You can only use standard attributes form for editing GeoJSON layer. 
+
+It contains the following fields:
 
 1. Text field for entering characters or digits.
-2. Dialog for entering time.
-3. "Add pictures and records" button.
+2. Dialog for entering date time.
+3. "Add pictures" button.
+
+A sample standard attributes form is shown below in :numref:`ngmobile_standard_input_form_attributes_pic`.
 
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_standard_input_form_attributes_pic
@@ -122,7 +126,7 @@ You can only use standard attributes form for editing GeoJSON layer as against c
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera.
 
-You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about GeoJSON layer editing see :ref:`_ngmobile_edit_geometry` and :ref:`ngmobile_editing_vector_gpx`.
+You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about GeoJSON layer editing see :ref:`_ngmobile_edit_geometry`.
 
 .. _ngmobile_import_ngrc:
 
