@@ -63,7 +63,7 @@ Creating vector layer from GeoJSON data
 
 We can create a vector layer by importing an existing GeoJSON file. To open data in GeoJSON format:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Tap on "Open local".
+1. First tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Tap on "Open local".
 
 2. Select the GeoJSON dataset from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_1`). E.g. tap on the file "Roads.geojson" to import the "Roads" vector data file.
 
@@ -137,7 +137,7 @@ Tile cache is a zip-archive with folders and tiles stored in accordance with a t
 
 Follow these steps to open tile cached raster file in ngrc format:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. First tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
 2. Select ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_2`). E.g. tap on the file "Tandali_Wadgaon.ngrc" to import the "Tandali Wadgaon" raster satellite image. 
 
@@ -173,9 +173,9 @@ For this, first tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_act
 
    Add Geoservice.
    
-   Select your service provider and tap "Add" to create layer for that service. It will be shown in the Layer tree.
+Select your service provider and tap "Add" to create layer for that service. It will be shown in the Layer tree.
    
-   If you have your own hosting service or have an valid account from private service provider, you can create that layer by tapping "New" in above :numref:`ngmobile_ngmobile_add_geoservice_pic`. It will open up a configuration panel for that layer as shown in :numref:`ngmobile_ngmobile_new_geoservice_pic` below.
+If you have your own hosting service or have an valid account from private service provider, you can create that layer by tapping "New" in above :numref:`ngmobile_ngmobile_add_geoservice_pic`. It will open up a configuration panel for that layer as shown in :numref:`ngmobile_ngmobile_new_geoservice_pic` below.
 
 .. figure:: _static/ngmobile_new_geoservice.png
    :name: ngmobile_ngmobile_new_geoservice_pic
@@ -201,7 +201,7 @@ NGFP files can be generated using NextGIS FormBuilder. NGFP is a :term:`GeoJSON`
 
 Perform the following steps to add NGFP file to NextGIS Mobile:
 
-1. First tap on "Layers tree menue" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. First tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" (item 4 in :numref:`ngmobile_layer_tree_pic`). It will pop up a panel as shown in :numref:`ngmobile_options_menu_new_layer_pic` above. Select "Open local" (see :numref:`ngmobile_options_menu_new_layer_pic`) 
 
 2. Select NGFP file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_3`). E.g. tap on the file "Structures.geojson" to import the "Structures" vector data file. 
 
