@@ -10,7 +10,7 @@
 
    glossary
    
-Индекс и таблицы
+Index and Tables
 ================
 
 * :ref:`genindex`

@@ -5,8 +5,8 @@
 NextGIS Mobile documentation
 ==============================
 
-Содержание:
-    
+Table of Contents
+
 .. toctree::
    :maxdepth: 2
 
