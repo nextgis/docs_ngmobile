@@ -255,6 +255,86 @@ GeoJSON
   
    Страница профиля на сайте NextGIS.com . 
 
+Далее следует заполнить форму создания Веб ГИС, в которой назначается и заполняется заголовок домена вашей Веб ГИС, выбирается язык интерфейса. Также следует выбрать тарифный план с перечнем возможных услуг, нажав на кнопку Выбрать/Select.
+(см. :numref:`ngmobile_creation_form_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_creation_form_WebGIS.png
+   :name: ngmobile_creation_form_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Заполнение формы Веб ГИС.
+
+
+Закончить создание своей Веб ГИС следует нажатием на кнопку Create Web GIS (см. :numref:`ngmobile_creation_form_1_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_creation_form_1_WebGIS.png
+   :name: ngmobile_creation_form_1_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Создание Веб ГИС.
+
+.. note::
+
+   После ввода заголовка домена вашей Веб ГИС и выбора языка для интерфейса изменить их будет невозможно!
+
+
+Далее откроется окно с информацией о том, что ваша Веб ГИС находится в процессе создания. И когда этот процесс завершится, вам на электронную почту придет письмо с логином и паролем для последующих входов в вашу Веб ГИС через сайт NextGIS.com (см. :numref:`ngmobile_e-mail_WebGIS_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_e-mail_WebGIS.png
+   :name: ngmobile_e-mail_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Окно с информацией о создании Веб ГИС.
+
+После создания вашей Веб ГИС в вашем профиле пользователя будет иметься ссылка с названием вашей Веб ГИС. Ссылка находится в верхнем правом углу рядом с вашей электронной почтой (см. :numref:`ngmobile_profile_with_a_link_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_profile_with_a_link_WebGIS.png
+   :name: ngmobile_profile_with_a_link_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Профиль со ссылкой на вашу Веб ГИС.
+
+Следует пройти по это ссылке. Откроется окно с Основными группами ресурсов (см. :numref:`ngmobile_main_resources_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_main_resources_WebGIS.png
+   :name: ngmobile_main_resources_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Окно "Основная группа ресурсов".
+
+Для работы в ашей Веб ГИС, для загрузки файлов необходимо воспользоваться кнопкой меню Справка (см. :numref:`ngmobile_help_button_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_help_button_WebGIS.png
+   :name: ngmobile_help_button_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Кнопка Справка.
+
+После нажатия на кнопку Справка откроется окно в котором следует выбрать пункт Начало работы с Веб ГИС (см. :numref:`ngmobile_beginning_of_work_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_beginning_of_work_WebGIS.png
+   :name: ngmobile_beginning_of_work_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Окно Начало работы в Веб ГИС.
+
+Откроется станица с документацией "Начало работы с Веб ГИС". Выбираем раздел "Как загружать данные" (см. :numref:`ngmobile_documentation_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_documentation_WebGIS.png
+   :name: ngmobile_documentation_WebGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Окно документации, Начало работы с Веб ГИС. 
+
+
 
 
 Настраиваемые формы
