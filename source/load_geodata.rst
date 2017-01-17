@@ -217,6 +217,46 @@ GeoJSON
    Меню дерева слоев.
 
 
+
+
+Создание Вeб GIS в браузере
+----------------------------
+
+Для начала работы Вам необходимо зайти на сайт NextGIS и зарегистрировать учётную запись, которая позволит начать работу с Веб ГИС. Для создания учетной записи необходимо нажать на кнопку Создать Веб ГИС на странице сайта nextgis.ru (см. :numref:`ngmobile_create_an_account_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_create_an_account_WebGIS.png
+   :name: ngmobile_create_an_account_WebGIS_pic
+   :align: center
+   :height: 10cm  
+
+   Сайт NextGIS с кнопкой для создания учетной записи.   
+
+
+Откроется форма для заполнения аккаунта, в которой необходимо заполнить полe e-mail и назначить пароль для вашего аккаунта, а затем нажать на кнопку "Создать аккаунт"/ Create account (см. :numref:`ngmobile_account_form_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_account_form_WebGIS.png
+   :name: ngmobile_account_form_WebGIS_pic
+   :align: center
+   :height: 10cm  
+
+   Форма для заполнения аккаунта.
+
+.. note::
+
+   Собственную учетную запись, которая позволит работать с Веб ГИС, можно было создать, через социальные сети, в которых вы зарегистрированы. 
+
+От NextGIS.com на указанную в форме почту придет письмо со ссылкой. Кликнув по ссылке, вы подтвердите электронную почту для обратной связи.
+После активации ссылки и подтверждения адреса электронной почты на сайте NextGIS.com откроется станица с профилем, который необходимо заполнить, выбрать язык общения и нажать кнопку Сохранить/Save (см. :numref:`ngmobile_profile_1_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_profile_1_WebGIS.png
+   :name: ngmobile_profile_1_WebGIS_pic
+   :align: center
+   :height: 10cm    
+  
+   Страница профиля на сайте NextGIS.com . 
+
+
+
 Настраиваемые формы
 -------------------
 
