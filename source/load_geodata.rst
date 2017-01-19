@@ -217,8 +217,6 @@ GeoJSON
    Меню дерева слоев.
 
 
-
-
 Создание Вeб GIS в браузере
 ----------------------------
 
@@ -252,7 +250,7 @@ GeoJSON
 От NextGIS.com на указанную в форме почту придет письмо со ссылкой. Кликнув по ссылке, 
 вы подтвердите электронную почту для обратной связи.
 После активации ссылки и подтверждения адреса электронной почты на сайте NextGIS.com 
-откроется станица с профилем, который необходимо заполнить, выбрать язык общения и 
+откроется страница с профилем, который необходимо заполнить, выбрать язык общения и 
 нажать кнопку Сохранить/Save (см. :numref:`ngmobile_profile_1_WebGIS_pic`): 
 
 .. figure:: _static/ngmobile_profile_1_WebGIS.png
@@ -369,6 +367,94 @@ GeoJSON
 :ref:`Веб ГИС <ngcom_description>` можно ознакомиться в следующих разделах 
 документации :ref:`Растровый слой <ngcom_raster_layer>` и 
 :ref:`Векторный слой <ngcom_vector_layer>`.
+
+Добавление геоданных из NextGIS
+-------------------------------
+
+Для того, чтобы загрузить в программу файлы/геоданные из Веб ГИС необходимо выполнить 
+следующую последовательность шагов:
+
+1. Вызвать меню опций, далее выбрать и нажать на иконку с изображением папки. Из списка 
+выбрать пункт меню “Добавить из NextGIS” (см. :numref:`ngmobile_addition_of_NextGIS_pic`): 
+
+.. figure:: _static/ngmobile_addition_of_NextGIS.png
+   :name: ngmobile_addition_of_NextGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Добавление из NextGIS.
+ 
+2. В открывшемся окне следует выбрать пункт Добавить аккаунт и нажать кнопку Добавить
+(см. :numref:`ngmobile_add_an_account_NextGIS_pic`): 
+
+.. figure:: _static/ngmobile_add_an_account_NextGIS.png
+   :name: ngmobile_add_an_account_NextGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Добавление учетной записи.
+
+3. В открывшемся окне заполняем форму диалога для подключения Веб ГИС. Заполняются 
+следующие поля формы (см. :numref:`ngmobile_conversation_connection_WebGIS_pic`): 
+
+    - Название домена вашей Веб ГИС.
+    - Пароль, который назначен для последующих входов в вашу Веб ГИС через сайт NextGIS.com.
+
+.. figure:: _static/ngmobile_conversation_connection_WebGIS.png
+   :name: ngmobile_conversation_connection_WebGIS_pic
+   :align: center
+   :height: 10cm  
+
+   Диалог подключения Веб ГИС.
+
+    - По окончании заполнения формы необходимо нажать кнопку Войти.
+
+4. По окончании подключения Веб ГИС, откроется в окно, в котором следует выбрать 
+учетную запись, которая соответствует заголовку домена вашей Веб ГИС, и нажать кнопку 
+Добавить (см. :numref:`ngmobile_account_election_Web_GIS_pic`): 
+
+.. figure:: _static/ngmobile_account_election_Web_GIS.png
+   :name: ngmobile_account_election_Web_GIS_pic
+   :align: center
+   :height: 10cm    
+
+   Выбор учетной записи Веб ГИС. 
+
+5. Далее откроется окно диалога выбора слоя для импорта геоданных из вашей Веб ГИС в NextGIS 
+Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic`): 
+
+.. figure:: _static/ngmobile_layer_selection_dialog_for_importing.png
+   :name: ngmobile_layer_selection_dialog_for_importing_pic
+   :align: center
+   :height: 10cm    
+
+   Окно диалога выбора слоя для импорта геоданных из Веб ГИС. 
+
+Если стиль у слоя в Веб ГИС создан, то появляется возможность выбрать для импорта 
+помимо векторного слоя еще и растровый слой. Таким образом векторный слой можно 
+добавить/импортировать в виде вектора либо в виде растра. Для этого следует поставить 
+галочку в пустом окошке под названием необходимого слоя в правой части экрана 
+(см. :numref:`ngmobile_layer_type_selection_pic`): 
+
+.. figure:: _static/ngmobile_layer_type_selection.png
+   :name: ngmobile_layer_type_selection_pic
+   :align: center
+   :height: 10cm    
+  
+   Выбор типа слоя.
+
+На верхней панели инструментов в правом углу имеется иконка в виде папки с плюсом.
+При нажатии на эту иконку откроется диалог для создания новой группы геоданных в 
+вашей Веб ГИС. В поле диалога следует задать имя для новой группы и нажать на кнопку ОК.
+В удачного создания и сохранения новой папки, название новой папки появится в 
+окне содержимого вашей Веб ГИС (см. :numref:`ngmobile_add_a_new_group_pic`): 
+
+.. figure:: _static/ngmobile_add_a_new_group.png
+   :name: ngmobile_add_a_new_group_pic
+   :align: center
+   :height: 10cm    
+   
+   Создание новой группы.  
 
 
 Настраиваемые формы
