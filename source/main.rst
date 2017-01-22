@@ -7,9 +7,9 @@ User interface (UI)
 
 There are 3 major elements of NextGIS Mobile UI:
 
-* Main Screen
-* Layers Tree Panel
-* Settings Dialog
+* Main screen
+* Layers tree panel
+* Settings dialogue
 
 UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
 
@@ -27,7 +27,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
    
    Main screen.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - Load/Refresh geodata; 5 - Contextual menu icon; 6 - Measure button; 7 - Map screen; 8 - Action menu button; 9 - Status info panel.
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - "Load/Refresh geodata" button; 5 - Contextual menu icon; 6 - Measuring button; 7 - Map screen; 8 - Action menu button; 9 - Status info panel.
 
 The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
@@ -68,16 +68,16 @@ To change the hierarchy of map layers long-press the layer which is to be moved 
 
 For turning  layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
-"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`), facilitates creating vector layers and importing vector as well as raster layers, from Android local storage, cloud or a few selected web services, as shown below:
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_:
 
 .. figure:: _static/options_menu_new_layer.png
    :name: options_menu_new_layer
    :align: center
    :height: 10cm
    
-   Add geodata options
+   Add geodata dialogue.
 
-By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
+By using "Open local" menu item you can upload :term:`geodata` from local storage in one of the following formats:
 
 * :term:`GeoJSON` file;
 * ZIP file with cached tiles;
@@ -86,7 +86,7 @@ By using "Open local" menu item you can upload :term:`geodata` from SD card or c
 
 More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
 
-Layer contextual menu depends on layer's type, whether it is Vector or raster. When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`), contextual menue items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
+Layer contextual menu depends on layer's type (whether it is vector or raster layer). When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`) contextual menu items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
 
 * Zoom to extent
 * Attributes
@@ -95,13 +95,13 @@ Layer contextual menu depends on layer's type, whether it is Vector or raster. W
 * Delete
 * Settings
 
-.. warining::
+.. warning::
    By pressing "Delete" you not only remove layer from the map but also erase all its data from the local storage.
 
 .. _ngmobile_settings:
 
 Settings dialogue
------------------
+------------------
 
 Depending on the screen size Settings dialogue can fit into one or two panels. Settings dialogue is shown on :numref:`ngmobile_settings_pic` (one panel mode).
 
@@ -129,7 +129,7 @@ There are following Settings on the main panel:
    
    General settings.
    
-Here you can select one of the themes from Light & Dark and select for compass settings.
+Here you can select the theme (Light or Dark) and tune up compass settings.
 
 "Map" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_map_pic`).
 
@@ -179,26 +179,25 @@ Location settings include:
 
 .. _ngmobile_useful_facilities:
 
-Useful facilities
+Useful features
 -----------------
 
-From the Main screen itself the App offers a couple of facilities useful in the field.
+From the Main screen itself you can access a couple of features useful in the field.
 
 .. _ngmobile_show_my_location:
 
 Show my location
 ^^^^^^^^^^^^^^^^
 
-To know your current location, just tap on the "Show my location: button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your "status info panel" (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is visible via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`), you will be able to view the relevant information there itself.
+To know your current location, just tap on the "Show my location: button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your Status info panel (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is switched on via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`) you'll also be able to view the relevant information there.
 
 .. note::
-   Your "Location" settings must be made ON from your Android mobile settings.
+   Your "Location" settings must be switched ON in your Android mobile settings.
    
 Measure distance
 ^^^^^^^^^^^^^^^^
 
-It is possible to measure the distance between two points from the map screen in a easy manner. Just tap on the measure button on the map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). It will give a message like "Tap on map to check points". Tap on your starting point. A red point with handle appears on the screen. Then tap on your second point. The first point becomes blue & second red dot will appear. A blue line is drawn between the points and the distance appears on the 
-top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
+It is possible to measure the distance between two points directly on the map screen. Just tap on the Measuring button on Map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). Tap on your starting point (a new point in Edit mode will appear on the screen). Then tap on your finishing point (a second point in Edit mode and line between the points will appear on the screen). The distance between two points will be shown in Top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
 
 .. figure:: _static/measure_distance.png
    :name: ngmobile_measure_distance_pic
@@ -207,13 +206,11 @@ top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
    
    Measure distance.
 
-You can even tap the third point and the distance between first & third point will be captured & shown. This way you can measure distance of a smooth curve, too.
+You can add further points, to measure distance of complex lines and smooth curves, as well as measure areas of the formed polygons. 
 
-If your third point forms a triangle, then a thin line between the first & third point is seen & the resultant triangle that would form. In this case the system shows the area of that triangle in the top toolbar.
+Position of any point may be edited by tapping on it and dragging it to the correct location.
 
-This also applies to any number of points. A polygon may be formed in this way & the resultsnt area.
-
-When you are done, tap the blue tick button to exit the measure mode.
+To exit Measure mode tap the blue tick button in the corner of the screen.
 
 .. note::
-   To avail this facility, "Show measuring button" check box must be ticked ON in the map settings. (see :numref:`ngmobile_settings_map_pic`).
+   To use this feature "Show measuring button" checkbox must be switched ON in Map settings (see :numref:`ngmobile_settings_map_pic`).
