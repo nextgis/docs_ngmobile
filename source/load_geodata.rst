@@ -349,7 +349,7 @@ You can work **Offline** with raster layers created from external geoservices. I
  
    Download tiles button.
 
-4. A new dialogue will open as shown in :numref:`ngmobile_levels_of_zoom_pic`. Select zoom levels you need and tap "Start" button.
+4. A new dialogue will open as shown in :numref:`ngmobile_levels_of_zoom_pic`. Select zoom levels you need and tap "Start" button. 
 
 .. figure:: _static/levels_of_zoom.png
    :name: ngmobile_levels_of_zoom_pic
@@ -359,7 +359,7 @@ You can work **Offline** with raster layers created from external geoservices. I
    Select zoom levels dialogue.
 
 .. note::
-   The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded.
+   The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded. You can track downloading progress in Android Status Bar. Notifications for NextGIS Mobile app should be switched ON in System Settings.
 
 .. warning::
-   If number of tiles to download for selected zoom levels is more than 1000 tiles, only first 1000 tiles will be downloaded. The rest will not be downloaded due to danger of memory overflow.
+   If number of tiles to download for selected zoom levels is more than 6000 tiles for each zoom level, only first 6000 tiles for each zoom level will be downloaded. The rest will not be downloaded due to danger of memory overflow. 
