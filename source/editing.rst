@@ -469,10 +469,10 @@
 
 
 При редактировании мультиточки выделяются все точки в нее входящие. Текущая точка 
-подсвечена красным цветом, рядом с точкой отображена стрелка (см :numref:`ngmobile_creating_multipoint2_pic`)
+подсвечена красным цветом, рядом с точкой отображена стрелка (см :numref:`ngmobile_creating_multipoint3_pic`)
 
-.. figure:: _static/ngmobile_creating_multipoint2.png
-   :name: ngmobile_creating_multipoint2_pic
+.. figure:: _static/ngmobile_creating_multipoint3.png
+   :name: ngmobile_creating_multipoint3_pic
    :align: center
    :width: 6cm
 
@@ -492,15 +492,7 @@
 выбранную точку. Для того, чтобы удалить точку из состава мультиточки, следует активировать 
 иконку 2 на нижней панели инструментов. Для этого следует воспользоваться иконкой 1 
 на нижней панели инструментов для добавления точки/точек в состав мультиточки. Выбрать 
-ту точку, которую необходимо удалить и нажать на иконку 2 на нижней панели инструментов 
-(см :numref:`ngmobile_creating_multipoint3_pic`)
-
-.. figure:: _static/ngmobile_creating_multipoint3.png
-   :name: ngmobile_creating_multipoint3_pic
-   :align: center
-   :width: 6cm
-
-   Окно в режиме редактирования.
+ту точку, которую необходимо удалить и нажать на иконку 2 на нижней панели инструментов. 
 
 Над выбранной точкой можно выполнять операции:
 
@@ -509,7 +501,6 @@
 * переместить в текущие координаты.
 
 
- 
 Кроме того, можно добавить точку к мультиточке (см. :numref:`ngmobile_edit_multipoint_pic` 
 п. 4).    
 
