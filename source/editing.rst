@@ -293,7 +293,7 @@
    мультиполигон; 3 - добавить полигон; 4 - добавить внутреннее кольцо в полигон; 5 - удалить мультиполигон; 6 - удалить 
    полигон; 7 - редактирование атрибутов.
 
-На карте появится новая геометрия, мультиполигон, который будет создана в центре 
+На карте появится новая геометрия, мультиполигон, которая будет создана в центре 
 экрана. Одна из точек мультиполигона, которую можно перемещать по слою на карте, 
 подсвечена красным светом, рядом с этой точкой будет отображена стрелка. Выделение 
 любой точки мультиполигона позволяет ее перемещать по карте (см. :numref:`ngmobile_creating_mpolyg_pic`).
@@ -697,10 +697,10 @@
 
 Для того чтобы перейти в режим редактирования имеющейся геометрии, необходимо долго
 удерживать палец на геометрии векторного слоя. В результате такого действия окно 
-карты переходит в режим выбора действия (см. :numref:`ngmobile_map_window_mode_selection_pic`). 
+карты переходит в режим выбора действия (см. :numref:`ngmobile_map_window_selection_mode2_pic`). 
 
-.. figure:: _static/map_window_mode_selection.png
-   :name: ngmobile_map_window_mode_selection_pic
+.. figure:: _static/ngmobile_map_window_selection_mode2.png
+   :name: ngmobile_map_window_selection_mode2_pic
    :align: center
    :height: 11cm
    
@@ -711,10 +711,10 @@
 перейти к редактированию выбранной геометрии (см. :ref:`ngmobile_editing`). 
 При нажатии на иконку карандаша появляется нижняя панель инструментов, 
 которая содержит соответствующие имеющейся геометрии кнопки для редактирования 
-этой геометрии (см. :numref:`ngmobile_edit_mode_pic`). 
+этой геометрии (см. :numref:`ngmobile_map_window_in_edit_mode2_pic`). 
 
-.. figure:: _static/edit_mode.png
-   :name: ngmobile_edit_mode_pic
+.. figure:: _static/ngmobile_map_window_in_edit_mode2.png
+   :name: ngmobile_map_window_in_edit_mode2_pic
    :align: center
    :height: 11cm  
 
