@@ -26,13 +26,13 @@ Menu for the vector type has a following composition (СЃРј. :numref:`ngmobil
 
 Window of vector layer settings
 -------------------------------
-A window of vector layer settings opens if you select "Settings" from the layer menu. Window of settings for vector layer modification has the following view (see :numref:`ngmobile_preferenСЃes_window_vector_layer_pic`):
+A window of vector layer settings opens if you select "Settings" from the layer menu. Window of settings for vector layer modification has the following view (see :numref:`ngmobile_preferences_window_vector_layer_pic`):
 
 .. figure:: _static/preferences_window_vector_layer.png
-   :name: ngmobile_preferenСЃes_window_vector_layer_pic
+   :name: ngmobile_preferences_window_vector_layer_pic
    :align: center
    :height: 10cm
-   
+
    Vector layer settings.
 
 There are following setting blocks in the settings window:
@@ -48,7 +48,7 @@ The second settings block "Main settings" allows to edit layer configuration.
 2. Zoom levels to show the layer.
 3. To rebuild СЃache button for optimize the processes of a layer creating with the ability to save and cancel changes.
 
-The third setting block has information about settings of layers addition and has an option to edit color of layer display, plus an option to cancel edits. 
+The third setting block has information about settings of layers addition and has an option to edit color of layer display, plus an option to cancel edits.
 
 Context menu of raster layer has the following composition (see :numref:`ngmobile_raster_layer_menu_pic`):
 
@@ -60,7 +60,7 @@ Context menu of raster layer has the following composition (see :numref:`ngmobil
    :name: ngmobile_raster_layer_menu_pic
    :align: center
    :height: 10cm
-   
+
    Raster layer menu.
 
 Raster layers settings window
