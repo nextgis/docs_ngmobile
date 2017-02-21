@@ -217,7 +217,6 @@
 
    Окно настроек Общие.
 
-
 3. Третий блок - Кэш - содержит кнопку для удаления кэша (см. :numref:`ngmobile_cache_settings_pic`):
 
 .. figure:: _static/ngmobile_cache_settings.png
