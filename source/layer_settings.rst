@@ -43,12 +43,12 @@
 4. Общие.
 5. Кэш.
 
-.. figure:: _static/ngmobile_preferences_window_vector_layer1.png
-   :name: ngmobile_preferences_window_vector_layer1_pic
-   :align: center
-   :height: 8cm
-
-   Меню настроек для векторного слоя.
+.. .. figure:: _static/ngmobile_preferences_window_vector_layer1.png
+..   :name: ngmobile_preferences_window_vector_layer1_pic
+..   :align: center
+..   :height: 8cm
+..
+..   Меню настроек для векторного слоя.
 
 В окне настроек слоя имеются следующие блоки настроек:
 
