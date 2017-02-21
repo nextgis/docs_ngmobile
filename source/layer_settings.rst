@@ -35,7 +35,8 @@
 Окно настроек векторного слоя
 -----------------------------------
 При выборе пункта "Настройки" в меню слоя открывается окно настроек векторного слоя.
-Окно настроек для модификации векторного слоя имеет следующие вкладки настроек свойств слоя(см. :numref:`ngmobile_preferenсes_window_vector_layer1_pic`):
+Окно настроек для модификации векторного слоя имеет следующие вкладки настроек свойств 
+слоя (см. :numref:`ngmobile_preferenсes_window_vector_layer2_pic`):
 
 1. Стиль.
 2. Поля.
@@ -43,12 +44,12 @@
 4. Общие.
 5. Кэш.
 
-.. .. figure:: _static/ngmobile_preferences_window_vector_layer1.png
-..   :name: ngmobile_preferences_window_vector_layer1_pic
-..   :align: center
-..   :height: 8cm
-..
-..   Меню настроек для векторного слоя.
+.. figure:: _static/ngmobile_preferenсes_window_vector_layer2.png
+   :name: ngmobile_preferenсes_window_vector_layer2_pic
+   :align: center
+   :height: 8cm
+
+   Меню настроек для векторного слоя.
 
 В окне настроек слоя имеются следующие блоки настроек:
 
@@ -78,7 +79,7 @@
 .. figure:: _static/ngmobile_choice_field_value_attribute.png
    :name: ngmobile_choice_field_value_attribute_pic
    :align: center
-   :height: 10cm
+   :height: 8cm
 
    Выбор значения атрибутов слоя.
 
@@ -125,7 +126,7 @@
 .. figure:: _static/ngmobile_synchronization_direction.png
    :name: ngmobile_synchronization_direction_pic
    :align: center
-   :height: 10cm
+   :height: 8cm
 
    Выбор направления синхронизации.
 
