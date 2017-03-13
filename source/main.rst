@@ -5,10 +5,11 @@
 User interface (UI)
 ==========================
 
-There are 3 major elements of NextGIS Mobile UI:
+There are 4 major elements of NextGIS Mobile UI:
 
 * Main screen
 * Layers tree panel
+* Attributes table
 * Settings dialogue
 
 UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
@@ -97,6 +98,40 @@ Layer contextual menu depends on layer's type (whether it is vector or raster la
 
 .. warning::
    By pressing "Delete" you not only remove layer from the map but also erase all its data from the local storage.
+
+.. _ngmobile_attributes_table:
+
+Attributes table
+-----------------
+
+Attributes table is designed to show and manage the contents of each vector layer in table format.
+
+To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". 
+
+Attributes table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
+
+.. figure:: _static/attribute_table.png
+   :name: ngmobile_attribute_table_pic
+   :align: center
+   :height: 10cm
+   
+   Attributes Table.
+
+If you tap any record (row) in the table, the Attributes table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
+
+.. figure:: _static/attribute_table_toolbar.png
+   :name: ngmobile_attribute_table_toolbar_pic
+   :align: center
+   :height: 10cm
+   
+   Attributes table toolbar.
+   
+   The numbers indicate: 1 - Close Attributes table; 2 - Layer name; 3 - Features attributes;  4 - Close toolbar; 5 - Selected feature ID; 6 - Show selected feature on the map; 7 - Delete selected feature; 8 - Open Attributes editing form.
+   
+You can open the standard Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic` by selecting "Open Attributes editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
+   
+.. warning::
+   If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system will delete the selected feature immediately. You will be able to undo the removal, but if undo action is not applied in 5 seconds after removal, the feature gets deleted permanently.   
 
 .. _ngmobile_settings:
 

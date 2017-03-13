@@ -259,7 +259,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing point
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
 
 .. _ngmobile_edit_line:
 
@@ -283,7 +283,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing line
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.
@@ -308,100 +308,64 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing polygon
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature Id & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Append geometry by walk.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Append geometry by walk.
 
 .. _ngmobile_edit_attributes:
 
 Editing attributes
 --------------------
 
-After layer is in edit mode as explained before, an editing toolbar, as shown in :numref:`ngmobile_editing_toolbar_pic`, appears in the bottom of the map screen. You need to tap on "Attribute info" (see item 5 in :numref:`ngmobile_editing_toolbar_pic`). This will open Attribute info panel as shown in :numref:`ngmobile_attributes_info_pic` below.
+To start editing attributes first select a layer you want to edit attributes in. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
+
+After Editing Toolbar is opened tap "Attributes info" button (item 5 in :numref:`ngmobile_editing_toolbar_pic`). This will open Attributes Info panel as shown in :numref:`ngmobile_attributes_info_pic` below.
 
 .. figure:: _static/ngmobile_attributes_info.png
    :name: ngmobile_attributes_info_pic
    :align: center
    :height: 10cm
    
-   Attribute info
+   Attributes Info panel
    
-   The numbers indicate: 1 - Back to previous screen; 2 - Layer name & feature count; 3 - Settings; 4 - Attribute fields; 5 - Close attribute info panel; 6 - Set attributes; 7 - Previous record; 8 - Next record.
+   The numbers indicate: 1 - Back to previous screen; 2 - Layer name & feature count; 3 - Settings; 4 - Attribute fields; 5 - Close Attributes Info panel; 6 - Set attributes; 7 - Previous record; 8 - Next record.
    
 .. note::
-   When you tap on to view attributes (see item 4 in :numref:`ngmobile_attributes_info_pic`),
+   NextGIS Mobile shows the following attribute fields by default  (see item 4 in :numref:`ngmobile_attributes_info_pic`),
    
-   * For Point layer, system shows that point's current location in Latitude/Longitude by default.
-   * For Line layer, system shows the length of that line features in meters by default.
-   * For Polygon layer, system shows the perimeter of that polygon feature in meters & the area in square meters by default.
+   * For Point layers: each point's location (in Latitude/Longitude).
+   * For Line layers: length of each line feature (in meters).
+   * For Polygon layer: length of each polygon feature's perimeter (in meters) & area of each polygon feature (in square meters).
 
 Editing attributes using standard form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You need to tap on "Set attributes" button (see item 6 in :numref:`ngmobile_attributes_info_pic`). This opens a standard attribute editing form as shown in :numref:`ngmobile_input_form_attributes_pic`. Once all the attributes are filled, tap on the Tick icon on the right top corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap on the back button on the left top corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`), the system will warn you of any unsaved changes. The Camera icon at the bottom (item 3 in :numref:`ngmobile_input_form_attributes_pic`) facilitates you to open any photograph from the local storage or take a new photograph of the geographic object under intervention.
+To start editing attributes using standard form first tap on "Set attributes" button (see item 6 in :numref:`ngmobile_attributes_info_pic`). 
 
-The Attributes toolbar
-^^^^^^^^^^^^^^^^^^^^^^^
+This opens a standard Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic`. 
 
-The Attributes toolbar is common for all the geometric features, viz. point, line or polygon, as shown below in :numref:`ngmobile_editing_attributes_toolbar_pic`   
+After all the attributes are set tap "Tick" icon in the top right corner (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the edits. 
 
-.. figure:: _static/toolbar_edit_attributes.png
-   :name: ngmobile_editing_attributes_toolbar_pic
-   :align: center
-   :width: 10cm
-   
-   Attributes Toolbar.
-   
-   The numbers indicate: 1 - Close attributes info; 2 - Set attributes; 3 - Previous record; 4 - Next record.
-   
 .. note::
-   This Attribute Toolbar is common for all type of layers, viz, point, line or polygon
+   If you tap the back button in the top left corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`) instead, the system will warn you about unsaved changes. 
 
-.. _ngmobile_attribute_table:
-
-The attribute table
-^^^^^^^^^^^^^^^^^^^^
-
-Tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Attribute table for that layer opens as shown in :numref:`ngmobile_attribute_table_pic` below.
-
-.. figure:: _static/attribute_table.png
-   :name: ngmobile_attribute_table_pic
-   :align: center
-   :height: 10cm
-   
-   Attributes Table.
-
-Here you can tap on any record (row) in the table. Attribute table toolbar appears at the bottom of the screen. This facilitates a few actions for that record with corresponding ID as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
-
-.. figure:: _static/attribute_table_toolbar.png
-   :name: ngmobile_attribute_table_toolbar_pic
-   :align: center
-   :height: 10cm
-   
-   Attributes table toolbar.
-   
-   The numbers indicate: 1 - Close attribute table; 2 - Layer name; 3 - Attribute table;  4 - Close toolbar; 5 - selected feature ID; 6 - Show this feature on map screen; 7 - Delete feature; 8 - Open attribute editing form.
-   
-You can open the standard attribute form for editing as shown in :numref:`ngmobile_standard_input_form_attributes_pic` by selecting "Open attribute editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
-   
-.. warning::
-   If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system deletes the feature momentarily although providing **undo** menu, live for 5 seconds. If undo action is not selected, the feature gets deleted permanently.   
+The Camera icon at the bottom of a standard Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`) allows to add image files (e.g. photos) to each feature from the local storage or take new photos.
 
 .. _ngmobile_edit_attributes_ngfp:
 
-Editing attributes of a custom form
+Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer includes customized attributes form (layer created with a ngfp file), instead of standard one (see :numref:`ngmobile_input_form_attributes_pic`), the following form as shown below in :numref:`ngmobile_custom_form_pic_1`  will be used in Edit attributes dialog. 
+If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>` the custom Attributes editing form will be used for editing. An example of such custom form is shown below in :numref:`ngmobile_custom_form_pic_1`. 
 
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic_1
    :align: center
    :height: 10cm
  
-   Custom attributes form.
+   Custom Attributes editing form.
    
-   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
+   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer field; 5 - Dropdown list; 6 - Date & Datetime; 7 - Radio buttons. 
 
-Customized attributes form may contain the following entry fields:
+Custom Attributes editing forms may contain the following entry fields:
 
 * Text;
 * Space;
@@ -412,15 +376,17 @@ Customized attributes form may contain the following entry fields:
 * Date Picker;
 * Photo.
 
-"Text" field is used to provide additional information about created geometry.
+"Text" field is used to provide additional information about geometry feature.
+
 "Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_custom_form_pic_1`). 
 
 "List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic_1`). 
 
-"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic_1`). 
-
 "Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic_1`). 
 
-After filling in all required attributes press Tick button (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save edits. 
+"Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic_1`). 
 
-Pressing buttons 1 or 5 will return you to Map screen. The system will warn you about any unsaved changes.
+After all the attributes are set tap "Tick" icon in the top right corner (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save the edits. 
+
+.. note::
+   If you tap the back button in the top left corner (item 1 in :numref:`ngmobile_custom_form_pic_1`) instead, the system will warn you about unsaved changes. 
