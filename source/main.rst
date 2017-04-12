@@ -78,7 +78,7 @@
 .. figure:: _static/ngmobile_attributes.png
    :name: ngmobile_attributes_pic
    :align: center
-   :height: 10cm
+   :height: 11cm
    
    Панель атрибутов.
    
@@ -132,7 +132,7 @@
 .. figure:: _static/ngmobile_settings.png
    :name: ngmobile_settings_pic
    :align: center
-   :height: 10cm
+   :height: 11cm
    
    Окно настроек.
    
@@ -149,7 +149,7 @@
 .. figure:: _static/ngmobile_settings_map.png
    :name: ngmobile_settings_map_pic
    :align: center
-   :height: 10cm
+   :height: 11cm
    
    Окно настроек карты.
    
@@ -177,7 +177,7 @@
 .. figure:: _static/ngmobile_settings_place.png
    :name: ngmobile_settings_place_pic
    :align: center
-   :height: 10cm
+   :height: 11cm
    
    Окно настроек местоположения.
   
