@@ -593,7 +593,7 @@
 .. figure:: _static/ngmobile_map_window.png
    :name: ngmobile_map_window_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
 
    Окно карты. 
 
@@ -610,7 +610,7 @@
 .. figure:: _static/ngmobile_map_window_in_edit_mode.png
    :name: ngmobile_map_window_in_edit_mode_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Окно карты в режиме выделения. Слева направо в верхней панели инструментов:
    1 - завершения режима редактирования;
@@ -640,7 +640,7 @@
 .. figure:: _static/ngmobile_polygon_editing.png
    :name: ngmobile_polygon_editing_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
    
    Панели инструментов редактирования полигона.
    
@@ -671,7 +671,7 @@
 .. figure:: _static/ngmobile_add_points_to_polygon.png
    :name: ngmobile_add_points_to_polygon_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
    
    Добавление новых точек в полигон.
 
@@ -704,7 +704,7 @@
 .. figure:: _static/ngmobile_map_window_selection_mode2.png
    :name: ngmobile_map_window_selection_mode2_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Окно карты в режиме выделения.
 
@@ -718,7 +718,7 @@
 .. figure:: _static/ngmobile_map_window_in_edit_mode2.png
    :name: ngmobile_map_window_in_edit_mode2_pic
    :align: center
-   :height: 11cm  
+   :height: 10cm  
 
    Окно карты в режиме редактирования. Слева направо иконки на верхней панели инструментов:
    1 - завершения режима редактирования;
@@ -738,7 +738,7 @@
 .. figure:: _static/ngmobile_menu_contents_mp.png
    :name: ngmobile_menu_contents_mp_pic
    :align: center
-   :height: 11cm   
+   :height: 10cm   
    
    Варианты редактирования из состава меню.
 
@@ -751,7 +751,7 @@
 .. figure:: _static/ngmobile_action_selection_mode.png
    :name: ngmobile_action_selection_mode_pic
    :align: center
-   :height: 11cm   
+   :height: 10cm   
  
    Окно режима выбора действия.
    Слева направо иконки на нижней панели инструментов:
@@ -767,7 +767,7 @@
 .. figure:: _static/ngmobile_editing_attributes.png
    :name: ngmobile_editing_attributes_pic
    :align: center
-   :height: 11cm   
+   :height: 10cm   
 
    Окно для перехода в режим редактирования атрибутов.
    Слева направо иконки на нижней панели инструментов:
@@ -782,7 +782,7 @@
 .. figure:: _static/ngmobile_attribute_edit_window.png
    :name: ngmobile_attribute_edit_window_pic
    :align: center
-   :height: 11cm   
+   :height: 10cm   
 
    Окно в режиме редактирования атрибутов выбранной геометрии.
    Слева направо иконки на верхней панели инструментов:
@@ -834,7 +834,7 @@
 .. figure:: _static/text_pole.png
    :name: ngmobile_text_pole_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
 
    Поле ввода "Текстовое поле".
 
@@ -845,7 +845,7 @@
 .. figure:: _static/spisok.png
    :name: ngmobile_spisok_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
 
    Поле ввода "Список"/ "Сдвоенный список".
 
@@ -854,7 +854,7 @@
 .. figure:: _static/flag.png
    :name: ngmobile_flag_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
 
    Поле ввода "Флажок".
 
@@ -864,7 +864,7 @@
 .. figure:: _static/radio_kn.png
    :name: ngmobile_radio_kn_pic
    :align: center
-   :width: 8cm
+   :width: 6cm
 
    Поле ввода "Радио-кнопка".
 
@@ -874,7 +874,7 @@
 .. figure:: _static/date.png
    :name: ngmobile_date_pic
    :align: center
-   :width: 8cm 
+   :width: 6cm 
 
    Поле ввода "Пикер даты".
 
@@ -883,7 +883,7 @@
 .. figure:: _static/photo.png
    :name: ngmobile_photo_pic
    :align: center
-   :width: 8cm 
+   :width: 6cm 
  
    Поле ввода "Фотографии".
  
