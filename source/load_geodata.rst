@@ -275,7 +275,7 @@ GeoJSON
 .. figure:: _static/ngmobile_create_an_account_WebGIS.png
    :name: ngmobile_create_an_account_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Сайт NextGIS с кнопкой для создания учетной записи.   
 
@@ -286,7 +286,7 @@ GeoJSON
 .. figure:: _static/ngmobile_account_form_WebGIS.png
    :name: ngmobile_account_form_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Форма для заполнения аккаунта.
 
@@ -304,7 +304,7 @@ GeoJSON
 .. figure:: _static/ngmobile_profile_1_WebGIS.png
    :name: ngmobile_profile_1_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
   
    Страница профиля на сайте NextGIS.com . 
 
@@ -327,7 +327,7 @@ GeoJSON
 .. figure:: _static/ngmobile_creation_form_1_WebGIS.png
    :name: ngmobile_creation_form_1_WebGIS_pic
    :align: center
-   :width: 18cm     
+   :width: 16cm     
 
    Создание Веб ГИС.
 
@@ -345,7 +345,7 @@ GeoJSON
 .. figure:: _static/ngmobile_e-mail_WebGIS.png
    :name: ngmobile_e-mail_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Окно с информацией о создании Веб ГИС.
 
@@ -355,7 +355,7 @@ GeoJSON
 .. figure:: _static/ngmobile_profile_with_a_link_WebGIS.png
    :name: ngmobile_profile_with_a_link_WebGIS_pic
    :align: center
-   :width: 18cm     
+   :width: 16cm     
 
    Профиль со ссылкой на вашу Веб ГИС.
 
@@ -365,7 +365,7 @@ GeoJSON
 .. figure:: _static/ngmobile_main_resources_WebGIS.png
    :name: ngmobile_main_resources_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Окно "Основная группа ресурсов".
 
@@ -382,7 +382,7 @@ GeoJSON
 .. figure:: _static/ngmobile_help_button_WebGIS.png
    :name: ngmobile_help_button_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Кнопка Справка.
 
@@ -392,7 +392,7 @@ GeoJSON
 .. figure:: _static/ngmobile_beginning_of_work_WebGIS.png
    :name: ngmobile_beginning_of_work_WebGIS_pic
    :align: center
-   :width: 18cm     
+   :width: 16cm     
 
    Окно Начало работы в Веб ГИС.
 
@@ -402,7 +402,7 @@ GeoJSON
 .. figure:: _static/ngmobile_documentation_WebGIS.png
    :name: ngmobile_documentation_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Окно документации, Начало работы с Веб ГИС. 
 
