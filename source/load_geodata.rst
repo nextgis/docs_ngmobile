@@ -316,7 +316,7 @@ GeoJSON
 .. figure:: _static/ngmobile_creation_form_WebGIS.png
    :name: ngmobile_creation_form_WebGIS_pic
    :align: center
-   :width: 18cm    
+   :width: 16cm    
 
    Заполнение формы Веб ГИС.
 
