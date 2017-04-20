@@ -27,7 +27,7 @@ There are several ways to switch to Edit mode.
    
    Common actions menu.   
    
-   The numbers indicate: 1 - Zoom in; 2 - Zoom out; 3 – Scale ruler; 4 - Measure button; 5 - Add geometry by tracking; 6 - Edit layers; 7 - Add current location; 8 - Close action menu.
+   The numbers indicate: 1 - Zoom in; 2 - Zoom out; 3 – Scale ruler; 4 - Measure button; 5 - Add geometry by walk; 6 - Edit layers; 7 - Add current location; 8 - Close action menu.
 
 You need to tap the pencil button (item 6 in :numref:`ngmobile_common_action_menu_pic`) to switch to Edit mode.
 
@@ -138,7 +138,7 @@ Adding a line
 
    Adding a line to Linestring layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move vertex to the center of Map screen; 8 - Move vertex to the current location; 9 - Edit by walk.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move vertex to the center of Map screen; 8 - Move vertex to the current location; 9 - Append geometry by walk.
    
 You can move the vertices anywhere on the map simply by dragging the circular handle attached to the selected vertex. If you tap on the vertex in the middle of the line, two new vertices will be created automatically. This way you can add as many vertices as you need and shape the line geometry any way you like, including smooth curves.
 
@@ -151,7 +151,7 @@ You can move the vertices anywhere on the map simply by dragging the circular ha
 
    Adding a line to Multilinestring layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Edit by walk.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Append geometry by walk.
 
 5. After a geometry of new line is added you may set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creating_lines_pic` and :numref:`ngmobile_creating_multilines_pic`). Pressing floppy icon will save a new line and open Attributes editing form (see :numref:`ngmobile_input_form_attributes_pic`).   
 
@@ -222,12 +222,12 @@ You can then add attributes as described in :ref:`ngmobile_add_point` section.
 
 .. _ngmobile_add_track:
 
-Adding line or polygon by tracking
+Adding line or polygon by walk
 ----------------------------------
 
-To add line or polygon by tracking to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add a track to (only linestring/multilinestring and polygon/multipolygon layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
+To add line or polygon by walk to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add a new feature to (only linestring/multilinestring and polygon/multipolygon layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
 
-Find more information about tracking in :ref:`ngmobile_edit_vector_tracks` section.
+Find more information about adding geometries in :ref:`ngmobile_edit_vector_tracks` section.
 
 .. note::
    You can add tracks to either Linestring/Multilinestring or Polygon/Multipolygon layers.
@@ -283,7 +283,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    Editing line
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Start tracking mode.
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Edit by walk.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.

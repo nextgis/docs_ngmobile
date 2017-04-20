@@ -28,7 +28,8 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
    
    Main screen.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - "Load/Refresh geodata" button; 5 - Contextual menu icon; 6 - Measuring button; 7 - Map screen; 8 - Action menu button; 9 - Status info panel.
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - "Load/Refresh geodata" button; 5 - Contextual menu icon; 6 - Measuring button; 7 - Map screen; 8 - Main actions button
+   ; 9 - Status info panel.
 
 The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
 
@@ -191,7 +192,7 @@ Map settings include:
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
-"Location" settings offers a few location specific settings (see :numref:`ngmobile_settings_place_pic`).
+"Location" settings offer a few location specific settings (see :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
