@@ -23,7 +23,7 @@
 .. figure:: _static/edit_menu.png
    :name: ngmobile_edit_menu_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Меню редактирования.
 
@@ -50,7 +50,7 @@
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Диалог выбора слоя.
 
@@ -81,7 +81,7 @@
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания точки. 
 
@@ -93,7 +93,7 @@
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Форма ввода атрибутов геометрии.
 
@@ -125,7 +125,7 @@
 .. figure:: _static/creating_lines.png
    :name: ngmobile_creating_lines_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания линии в слое.
 
@@ -163,7 +163,7 @@
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания полигона в слое.     
 
@@ -202,7 +202,7 @@
 .. figure:: _static/phase_of_the_multipoint.png
    :name: ngmobile_phase_of_the_multipoint_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания мультиточки в слое. 
 
@@ -247,7 +247,7 @@
 .. figure:: _static/creating_multiline.png
    :name: ngmobile_creating_multiline_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания мультилинии в слое.
 
@@ -274,7 +274,7 @@
 .. figure:: _static/tree_layers_mpolig.png
    :name: ngmobile_tree_layers_mpolig_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Диалог выбора слоя.
 
@@ -301,7 +301,7 @@
 .. figure:: _static/creating_mpolyg.png
    :name: ngmobile_creating_mpolyg_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Этап создания мультиполигона.    
 
@@ -333,7 +333,7 @@
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Диалог выбора слоя.
 
@@ -395,7 +395,7 @@
 .. figure:: _static/ngmobile_selectmode.png
    :name: ngmobile_selectmode_pic
    :align: center
-   :height: 11cm
+   :height: 10cm
    
    Окно карты в режиме выделения.
    
@@ -432,7 +432,7 @@
 .. figure:: _static/ngmobile_edit_mode_dot.png
    :name: ngmobile_edit_mode_dot_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Окно карты в режиме редактирования. Слева направо в верхней панели инструментов 
    иконками обозначено: 
@@ -474,7 +474,7 @@
 .. figure:: _static/ngmobile_creating_multipoint3.png
    :name: ngmobile_creating_multipoint3_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
 
    Окно в режиме редактирования. Слева направо в верхней панели инструментов иконками 
    обозначено: 
@@ -640,7 +640,7 @@
 .. figure:: _static/ngmobile_polygon_editing.png
    :name: ngmobile_polygon_editing_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Панели инструментов редактирования полигона.
    
@@ -671,7 +671,7 @@
 .. figure:: _static/ngmobile_add_points_to_polygon.png
    :name: ngmobile_add_points_to_polygon_pic
    :align: center
-   :width: 6cm
+   :height: 10cm
    
    Добавление новых точек в полигон.
 
@@ -725,7 +725,7 @@
    2 - отмена действия;
    3 - повтор действия;
    4 - сохранение изменений.
-   Слева направо иконки на нижней панели инструметов:
+   Слева направо иконки на нижней панели инструментов:
    1 - добавить новый полигон;
    2 - удалить новый полигон;
    3 - добавить внутреннее кольцо в полигон;
@@ -798,9 +798,7 @@
 иконку в виде "галочки" на верхней панели инструментов для сохранения внесенных изменений.
 
 
-
-
-   
+ 
 Настраиваемая форма редактирования атрибутов
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
    

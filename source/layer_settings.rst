@@ -47,7 +47,7 @@
 .. figure:: _static/ngmobile_preferences_window_vector_layer2.png
    :name: ngmobile_preferences_window_vector_layer2_pic
    :align: center
-   :height: 7cm
+   :width: 10cm
 
    Меню настроек для векторного слоя.
 
@@ -69,7 +69,7 @@
 .. figure:: _static/ngmobile_rendering.png
    :name: ngmobile_rendering_pic
    :align: center
-   :height: 9cm
+   :height: 7cm
 
    Отрисовка По правилу.
 
@@ -79,7 +79,7 @@
 .. figure:: _static/ngmobile_choice_field_value_attribute.png
    :name: ngmobile_choice_field_value_attribute_pic
    :align: center
-   :height: 6cm
+   :width: 10cm
 
    Выбор значения атрибутов слоя.
 

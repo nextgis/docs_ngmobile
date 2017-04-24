@@ -223,7 +223,7 @@
 .. figure:: _static/file_selection.png
    :name: ngmobile_file_selection_pic
    :align: center
-   :height: 5.85cm
+   :width: 10cm
    
    Выбор в группе ресурсов NextGIS Web необходимого слоя.  
 
