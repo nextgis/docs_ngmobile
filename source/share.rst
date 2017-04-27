@@ -10,7 +10,9 @@ Exporting data
 Exporting data in GeoJSON
 ---------------------------
 
-To export data from NextGIS Mobile vector layer, tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Share". Android standard Share dialog window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
+To export data from NextGIS Mobile vector layer open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the contextual menu icon next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Share". 
+
+Android standard Share dialogue window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
 
 .. figure:: _static/ngmobile_share.png
    :name: ngmobile_share_pic
@@ -19,20 +21,21 @@ To export data from NextGIS Mobile vector layer, tap on "Layers tree menu" (item
    
    Share dialogue window.
    
-After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported using the selected application. A name of the GeoJSON file corresponds to the name of the layer.
+After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported via the selected application. The name of GeoJSON file will be the same as the name of the exported layer.
 
-* You can send the file as attachment via your email App or Gmail.
-* You can upload it to Google Drive, which may or may not be shared with your colleague.
-* You can share it to another Android mobile via Bluetooth or SHAREit.
-* You can even copy it on to your laptop via Bluetooth, if possible.
+Some of the share options (availability is dependant on the apps installed on your device):
+* You can send the file as an attachment via Gmail or different Email app.
+* You can upload the file to Google Drive/Dropbox/other cloud service and then share it with your colleagues.
+* You can send the file to another device via Bluetooth or SHAREit.
+* You can save the file on a memory card.
 
-.. note::
-   In a lot of Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
+.. warning::
+   In many Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
 
 Exporting attachments
 -----------------------
 
-Each feature in vector layer can have 1 or more photos attached to it. Photos are stored separately as image files and added to archive file with layer data during the export. For each feature a separate attachments folder is generated in the archive, the name of the folder correposnds to feature ID.
+Each feature in vector layer can have 1 or more photos attached to it. Photos are stored separately as image files and added to archive file with layer data during the export. For each feature a separate attachments folder is generated in the archive, the name of the folder corresponds to feature ID.
 
 Example:
 
@@ -40,24 +43,26 @@ Example:
 
 Explanation:
 
-4 photos are attached to a feature. These 4 photos are stored in the folder which name correposnds to ID of this feature.
+4 photos are attached to a feature. These 4 photos are stored in the folder which name is similar to the feature ID.
 
 .. _ngmobile_export_GPX:
 
 Exporting tracks in GPX
 ------------------------
 
-To start exporting tracks first find "My Tracks" group layer in Layers tree. It is shown in the orange box. Then select the "Settings" item in a contextual menu as shown in :numref:`ngmobile_tree_layers_gpx_pic` and tap on "List". 
+To start exporting tracks first find "My Tracks" group in Layers tree panel. Then tap on contextual menu button as shown in :numref:`ngmobile_tree_layers_gpx_pic` and select "List".
 
 .. figure:: _static/tree_layers_gpx.png
    :name: ngmobile_tree_layers_gpx_pic
    :align: center
    :height: 10cm
 
-   Layers tree.
+   "My tracks" in Layers tree panel.
 
-This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`
+This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`.
 
-To export the track, tick on the Chekbox in front of its name. The buttons in Top toolbar will become active as shown in :numref:`ngmobile_layer_gpx_selected_pic`.
+Select a track you want to export by ticking the corresponding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic`.
 
-To share the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same "Share dialogue window" as shown in :numref:`ngmobile_share_pic` above. Further operations are in the similar manner. 
+To export the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same Share dialogue window as shown in :numref:`ngmobile_share_pic` above.
+
+After you select a share option, data in the selected track will be recorded in GPX format and exported via the selected application.

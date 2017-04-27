@@ -111,7 +111,7 @@ To start managing recorded tracks first find "My Tracks" group in Layers tree pa
 
    "My tracks" in Layers tree panel.
    
-This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic` below.
+This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic` below.
 
 .. figure:: _static/tracks_list_gpx.png
    :name: ngmobile_tracks_list_gpx_pic
@@ -120,7 +120,7 @@ This will open list of recorded tracks as shown in :numref:`ngmobile_tracks_list
 
    List of recorded tracks.
 
-Select a track by ticking the correspoiding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic`below.
+Select a track by ticking the corresponding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic` below.
 
 .. figure:: _static/layer_gpx_selected.png
    :name: ngmobile_layer_gpx_selected_pic

@@ -42,7 +42,7 @@ Then select a vector layer you want to edit in an opened dialog (see :numref:`ng
 
 2. The second way to switch to Edit mode is to long-press the geometry you want to edit. 
 
-3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will the contextual menu items (item 6 in :numref:`ngmobile_layer_tree_pic`). There you need to select "Edit".
+3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items (item 6 in :numref:`ngmobile_layer_tree_pic`). There you need to select "Edit".
 
 The Editing Toolbar
 --------------------
