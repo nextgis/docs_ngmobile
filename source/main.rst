@@ -55,7 +55,7 @@ Depending on the size of the screen Status info panel can occupy one or two rows
 Layers tree
 ------------
 
-Layers tree panel is designed to show the content of a map and to control the visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
+Layers tree panel is designed to display the content of a map and to control visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
 
 .. figure:: _static/ngmobile_layertree.png
    :name: ngmobile_layer_tree_pic
@@ -68,7 +68,7 @@ Layers tree panel is designed to show the content of a map and to control the vi
    
 To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
 
-For turning  layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
+For turning layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
 "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_:
 
