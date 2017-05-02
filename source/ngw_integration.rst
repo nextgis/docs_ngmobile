@@ -2,7 +2,7 @@
 
 .. _ngmobile_integration:
 
-Integration with NextGIS Web
+Integration with Gramrekha Web
 ============================
 
 Work Under Construction...
