@@ -5,10 +5,10 @@
 Tracks
 ======
 
-NextGIS Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
+Gramrekha Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
 
 .. note::
-   Make sure that the Location mode is active in your Android mobile phone settings. Also check the configurations of "Location" settings from NextGIS App settings contextual menu, as shown in :numref:`ngmobile_settings_place_pic`.
+   Make sure that the Location mode is active in your Android mobile phone settings. Also check the configurations of "Location" settings from Gramrekha App settings contextual menu, as shown in :numref:`ngmobile_settings_place_pic`.
 
 Recording a track
 -----------------
