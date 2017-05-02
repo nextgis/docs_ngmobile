@@ -5,7 +5,7 @@
 Editing layers
 ==============
 
-NextGIS Mobile allows you to edit vector layers added to the map. While editing, you can:
+Gramrekha Mobile allows you to edit vector layers added to the map. While editing, you can:
 
 * add new features;
 * delete features;
