@@ -5,7 +5,7 @@
 Adding layers
 ==============
 
-NextGIS Mobile has the ability to create new empty vector layers or by importing vector as well as raster data from cloud storage or mobile device storage. The supported data types are GeoJSON, cached tiles in a special format and custom forms with vector in a special format.
+Gramrekha Mobile has the ability to create new empty vector layers or by importing vector as well as raster data from cloud storage or mobile device storage. The supported data types are GeoJSON, cached tiles in a special format and custom forms with vector in a special format.
 
 .. _ngmobile_create_vector:
 
