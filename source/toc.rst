@@ -2,7 +2,7 @@
 
 .. NextGIS Mobile TOC
 
-NextGIS Mobile documentation
+Gramrekha Mobile documentation
 ==============================
 
 Table of Contents
