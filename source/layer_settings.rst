@@ -110,7 +110,7 @@ To do this tap on "FIELDS" tab (see item 3 in :numref:`ngmobile_style_vector_pic
    :align: center
    :height: 10cm
    
-   "FIELDS" layer settings tab.
+   "FIELDS" vector layer settings tab.
 
 .. warning::
    The selected field will not be used for rendering features labels on the map. For label settings see "Style settings" above.
@@ -125,7 +125,7 @@ General settings
    :align: center
    :height: 10cm
    
-   "GENERAL" layer settings tab.
+   "GENERAL" vector layer settings tab.
 
 Using this tab you can change layer name and zoom levels to show.
 
@@ -139,42 +139,63 @@ Using "CACHE" settings tab you can execute "Rebuild cache" command to optimize t
 Raster layer settings
 ----------------------
 
-Context menu of raster layer has the following composition (see :numref:`ngmobile_raster_layer_menu_pic`):
+Raster layer contextual menu includes the following items (see :numref:`ngmobile_raster_layer_menu_pic`):
 
-1. Zoom to extent
-2. Delete
-3. Settings
+* Zoom to extent
+* Delete
+* Settings
 
 .. figure:: _static/raster_layer_menu.png
    :name: ngmobile_raster_layer_menu_pic
    :align: center
    :height: 10cm
    
-   Raster layer menu.
+   Raster layer contextual menu.
 
-Tap on "Settings" to open raster layer settings. It will open up the raster layer settings panel as shown in :numref:`ngmobile_style_raster_pic` below.
+.. note::
+   Raster layer created from external geoservice will have the option "Download tiles" instead of "Zoom to extent". See :ref:`ngmobile_tile_cache` for details.
+
+Style settings
+^^^^^^^^^^^^^^^
+
+Open layer contextual menu and tap on "Settings". Raster layer style settings will open as shown in :numref:`ngmobile_style_raster_pic` below.
 
 .. figure:: _static/style_raster.png
    :name: ngmobile_style_raster_pic
    :align: center
    :height: 10cm
 
-   Raster layers settings.
+   Raster layer style settings.
    
-You can set the values for
+Here you can set the values for:
 
-1. Opacity. The value of layer opacity determines how intensive it hides or displays the contents of the underlying layer. Layer with 1% opacity is substantially transparent. Completely opaque layer has an opacity of 100%.
-2. Contrast. Contrast of the layer can be changed to spice up the image.
-3. Brightness. Brightness of layer can be changed to make image darker or lighter.
-4. Greyscale (the color image mode value of grayscale brightness values expressed in percent. 0% is a white color (the absence of black pigment on a white background), 100% is a black color).
+1. **Opacity.** The value of layer opacity determines how intensive it hides or displays the contents of the underlying layer. Raster layer with 1% opacity is almost transparent. Completely opaque raster layer has an opacity of 100%.
+2. **Contrast.** 
+3. **Brightness.**
 
-The "GENERAL" menu shows information about layer as its path, name & allowed zoom levels to show. It is possible to show the layer within certain zoom levels only. For rest all other zoom levels it will be invisible on the map screen. See :numref:`ngmobile_style_raster_general_pic` below.
+You can also apply to Raster layer the option "Make grayscale" - the layer will be displayed in shades of gray instead of original colors.
+
+General settings
+^^^^^^^^^^^^^^^^^^
+
+"GENERAL" settings tab shows such information about raster layer as its local path, layer name & zoom levels to show on the map (it is possible to display the layer within certain zoom levels only). See :numref:`ngmobile_style_raster_general_pic` below.
 
 .. figure:: _static/style_raster_general.png
    :name: ngmobile_style_raster_general_pic
    :align: center
    :height: 10cm
    
-   Raster General menu.
+   "GENERAL" raster layer settings tab.
 
-The "Rebuild cache" item in "CACHE" menu is used to optimize the processes of a layer creating with the ability to save and cancel changes.
+Using this tab you can change layer name and zoom levels to show.
+
+Cache settings
+^^^^^^^^^^^^^^^^
+
+Using "CACHE" settings tab you can set TMS in-memory cache size for a raster layer from these options::
+* No cache
+* 1 screen
+* 2 screens (recommended)
+*3 screens
+
+You can also clear in-memory cache for this layer from this settings tab.
