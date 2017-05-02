@@ -10,7 +10,7 @@ Exporting data
 Exporting data in GeoJSON
 ---------------------------
 
-To export data from NextGIS Mobile vector layer, tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Share". Android standard Share dialog window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
+To export data from Gramrekha Mobile vector layer, tap on "Layers tree menu" (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the context menu button next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the context menu itms as shown in item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Share". Android standard Share dialog window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
 
 .. figure:: _static/ngmobile_share.png
    :name: ngmobile_share_pic
