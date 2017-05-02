@@ -5,7 +5,7 @@
 User interface (UI)
 ==========================
 
-There are 3 major elements of NextGIS Mobile UI:
+There are 3 major elements of Gramrekha Mobile UI:
 
 * Main Screen
 * Layers Tree Panel
