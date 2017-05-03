@@ -1,4 +1,4 @@
-.. sectionauthor::  Наталья Барышникова <Nshelekhova@gmail.com>
+.. sectionauthor::  Natalia Baryshnikova <Nshelekhova@gmail.com>
 
 .. _ngmobile_integration:
 
