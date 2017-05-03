@@ -109,8 +109,8 @@ You can check if the new layer was created successfully in the layers tree panel
 * Text strings must be encoded in UTF-8 format.
 
 .. note::
-	You can read more about the GeoJSON format in its `specification <http://geojson.org/>`_.
-	GeoJSON is based on the format JSON (see `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
+	You can read more about GeoJSON format in its `specification <http://geojson.org/>`_.
+	GeoJSON is based on JSON format (see `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
 
 You can only use standard attributes form (not custom *.ngfp form) for editing GeoJSON layer. 
 
