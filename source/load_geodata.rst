@@ -102,7 +102,7 @@ You can check if the new layer was created successfully in the layers tree panel
 
    Layers tree panel.
 
-*GeoJSON: format requirements*
+**GeoJSON: format requirements**
 
 * :term:`Coordinate system` of input geometries can be WGS 84 (EPSG:4326) or Web Mercator (EPSG:3857) only. If input file has different coordinate system you will see a warning message about unsupported coordinate system.
 * All geometries in the file must be of the same type. If input file contains varying types of geometry in the output you will have a file with geometries type that coincides with the type of first record, i.e. geometry of first entry will determine the type of layer geometry.
@@ -135,8 +135,8 @@ You can further perform standard edit operations like Add, Modify or Delete oper
 
 .. _ngmobile_import_ngfp:
 
-Creating new vector layer from Custom forms (NGFP)
---------------------------------------------------
+Creating vector layer from Custom forms (NGFP)
+-----------------------------------------------
 
 NextGIS Mobile allows to create a vector layer by importing an existing NGFP file. 
 
@@ -166,7 +166,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
    
    Android local storage.
 
-3. 3. When the file is selected Layer settings dialogue opens. Here you can specify a new vector layer name or keep the name as it is, e.g. "Structures" (see :numref:`ngmobile_settind_layer_form_pic`): 
+3. When the file is selected Layer settings dialogue opens. Here you can specify a new vector layer name or keep the name as it is, e.g. "Structures" (see :numref:`ngmobile_settind_layer_form_pic`): 
 
 .. figure:: _static/settind_layer_form.png
    :name: ngmobile_settind_layer_form_pic
@@ -190,8 +190,8 @@ You can further perform standard edit operations like Add, Modify or Delete oper
 
 .. _ngmobile_import_cache:
 
-Creating new raster layer from Tile cache (XYZ/TMS)
-------------------------------------------------------
+Creating raster layer from Tile cache (XYZ/TMS)
+------------------------------------------------
 
 NextGIS Mobile allows to create a raster layer by importing tile cache. 
 
@@ -246,8 +246,8 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
 
 .. _ngmobile_import_ngrc:
 
-Creating new raster layer from Tile cache (NGRC)
-------------------------------------------------
+Creating raster layer from Tile cache (NGRC)
+----------------------------------------------
 
 NextGIS Mobile also allows to create a raster layer by importing tile cache in *.ngrc format. 
 
@@ -275,8 +275,8 @@ Follow these steps to import tile cache in *.ngrc format :
 
 .. _ngmobile_add_geoservice:
 
-Creating new raster layer from external geoservice
-----------------------------------------------------
+Creating raster layer from external geoservice
+------------------------------------------------
 
 NextGIS Mobile also supports creation of raster layers from external geoservices. 
 
@@ -285,8 +285,8 @@ NextGIS Mobile also supports creation of raster layers from external geoservices
 
 .. _ngmobile_qms_service:
 
-Creating new raster layer from QuickMapServices tile service
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating raster layer from QuickMapServices tile service
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Follow these steps to add raster layer from TMS services listed in `QuickMapServices catalog <https://qms.nextgis.com/>`_:
 
@@ -303,10 +303,10 @@ Follow these steps to add raster layer from TMS services listed in `QuickMapServ
 
 .. _ngmobile_tile_service:
 
-Creating new raster layer from private tile service
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating raster layer from private tile service
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you want to add tile service not listed `QuickMapServices catalog <https://qms.nextgis.com/>`_ you can do it by following these steps:
+If you want to add tile service not listed in `QuickMapServices catalog <https://qms.nextgis.com/>`_ you can do it by following these steps:
 
 1. Tap "New" in above :numref:`ngmobile_ngmobile_add_geoservice_pic`. It will open up "Create" dialogue for a new TMS service as shown in :numref:`ngmobile_ngmobile_new_geoservice_pic` below.
 

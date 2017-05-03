@@ -27,7 +27,7 @@ There are several ways to switch to Edit mode.
    
    Common actions menu.   
    
-   The numbers indicate: 1 - Zoom in; 2 - Zoom out; 3 – Scale ruler; 4 - Measure button; 5 - Add geometry by walk; 6 - Edit layers; 7 - Add current location; 8 - Close action menu.
+   The numbers indicate: 1 - Zoom in; 2 - Zoom out; 3 – Scale ruler; 4 - Measure button; 5 - Add geometry by walk; 6 - Edit layers; 7 - Add current location; 8 - Close Common actions menu.
 
 You need to tap the pencil button (item 6 in :numref:`ngmobile_common_action_menu_pic`) to switch to Edit mode.
 
@@ -52,7 +52,7 @@ After switching to Edit mode using any of the methods described in :ref:`ngmobil
 .. figure:: _static/toolbar_edit_layer.png
    :name: ngmobile_editing_toolbar_pic
    :align: center
-   :width: 6cm
+   :width: 10cm
    
    Editing Toolbar.
    
@@ -166,7 +166,7 @@ Adding a polygon
 
 2. Tap "Add new feature" button in Editing Toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`).  
 
-3. In a polygon layer a new polygon will appear in the center of the screen, with one of its vertices highlighted in red (see :numref:`ngmobile_creation_landfill_pic` or ...).
+3. In a polygon layer a new polygon will appear in the center of the screen, with one of its vertices highlighted in red (see :numref:`ngmobile_creation_landfill_pic`).
 
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
@@ -175,7 +175,7 @@ Adding a polygon
 
    Adding a polygon to Polygon layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add hole; 7 - Delete hole; 8 - Delete vertex; 9 - Move vertex to the center of Map screen, 10 - Move vertex to the current location, 11 - Append geometry by walk).
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add hole; 7 - Delete hole; 8 - Delete vertex; 9 - Move vertex to the center of Map screen, 10 - Move vertex to the current location, 11 - Append geometry by walk.
 
 You can move the vertices anywhere on the map simply by dragging the circular handle attached to the selected vertex. If you tap on the vertex in the middle of the line, two new vertices will be created automatically. This way you can add as many vertices as you need and shape the polygon geometry any way you like, including smooth curves.
 
@@ -297,9 +297,7 @@ To start editing a polygon it should be first selected by pressing on it. It wil
 
 New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_polygon_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_polygon_pic`).
 
-You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_editing_polygon_pic`)
-
-In the end you can have your geofeatures digitized as shown below. See :numref:`ngmobile_editing_polygon_pic`.
+You can delete the unrequired vertex by highlighting it and tapping "Delete vertex" button (see item 6 in :numref:`ngmobile_editing_polygon_pic`).
 
 .. figure:: _static/editing_polygon.png
    :name: ngmobile_editing_polygon_pic
@@ -354,7 +352,7 @@ The Camera icon at the bottom of a standard Attributes editing form (item 3 in :
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>` the custom Attributes editing form will be used for editing. An example of such custom form is shown below in :numref:`ngmobile_custom_form_pic_1`. 
+If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>` the custom Attributes editing form will be used for editing. An example of such custom form is shown below in :numref:`ngmobile_custom_form_pic_1` 
 
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic_1

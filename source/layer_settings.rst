@@ -52,6 +52,7 @@ Simple rendering
 :numref:`ngmobile_style_vector_pic` shows Simple Render style settings. If you select this Render type, all the features in the layer will have the same shape, color, size, etc.
 
 For example, for a point/multipoint layer you can select features shape by using "Type" menu (see item 6 in :numref:`ngmobile_style_vector_pic`) using the following options:
+
 * Circle 
 * Diamond 
 * Cross 

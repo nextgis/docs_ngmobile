@@ -33,7 +33,7 @@ Track recording is performed in background mode. To indicate that the process is
    
    The numbers indicate: 1 - The status icon; 2 - Name of track session; 3 - "Open recording" button; 4 - "Stop track recording" button.
 
-During track recording you can see the geometry of the track on Map screen as shown below in  :numref:`ngmobile_new_gpx_layer_2_pic`.
+During track recording you can see the geometry of the track on Map screen as shown below in  :numref:`ngmobile_new_gpx_layer_2_pic`
 
 .. figure:: _static/new_gpx_layer_2.png
    :name: ngmobile_new_gpx_layer_2_pic
@@ -45,14 +45,14 @@ Recorded track is displayed on the map immediately even though recording is not 
 .. note::
    Track points are grouped by days and sessions within a day. If track recording continues the next day track will be split up into two parts.  
 
-2. To stop track recording, tap "Stop" button either in notification bar (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`) or in Contextual menu (see item 5 in :numref:`ngmobile_main_activity_pic_1`). The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track, and the track line will change its colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`.
+2. To stop track recording, tap "Stop" button either in notification bar (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`) or in Contextual menu (see item 5 in :numref:`ngmobile_main_activity_pic_1`). The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track, and the track line will change its colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`
 
 .. figure:: _static/new_gpx_layer_3.png
    :name: ngmobile_new_gpx_layer_3_pic
    :align: center
    :height: 10cm
 
-3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`_ngmobile_export_GPX`.
+3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`.
 
 .. _ngmobile_edit_vector_tracks:
 
@@ -61,7 +61,7 @@ Record tracks to vector layer
 
 You can also add a feature to an existing line or polygon vector layer by tracking.
 
-1. Tap on Main actions button (see item 8 in :numref:`ngmobile_main_activity_pic_1`) and then"Add geometry by walk" button (see item 5 in :numref:`ngmobile_common_action_menu_pic`). It will open list of all editable Linestring/Multilinestring and Polygon/Multipolygon vector layers in a separate dialogue as shown below in :numref:`ngmobile_selectlayer1_pic`.
+1. Tap on Main actions button (see item 8 in :numref:`ngmobile_main_activity_pic_1`) and then"Add geometry by walk" button (see item 5 in :numref:`ngmobile_common_action_menu_pic`). It will open list of all editable Linestring/Multilinestring and Polygon/Multipolygon vector layers in a separate dialogue as shown below in :numref:`ngmobile_selectlayer1_pic`
 
 .. figure:: _static/ngmobile_selectlayer1.png
    :name: ngmobile_selectlayer1_pic

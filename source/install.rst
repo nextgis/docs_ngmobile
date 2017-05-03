@@ -5,7 +5,7 @@
 Installation
 ==============
 
-NextGIS Mobile can be installed in one of these ways:
+NextGIS Mobile can be installed:
 
 * using an APK file `nextgismobile.apk <http://nextgis.com/nextgis-mobile/>`_;
 * from `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_.
