@@ -1,4 +1,4 @@
-.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>, Abhay Kulkarni <praxisnfp@gmail.com>
 
 .. _ngmob_intro:
 
@@ -7,25 +7,26 @@ Introduction
 
 .. _ngmob_purpose:
 
-Software description
+About NextGIS Mobile
 ------------------------
 
-**NextGIS Mobile** - is a mobile :term:`geographic information system` (:abbr:`GIS`) for :term:`Android` OS.
+**NextGIS Mobile** is a mobile :abbr:`GIS (Geographic Information System)` for :term:`Android` OS.
 
 NextGIS Mobile allows to:
 
 * display a map from a set of layers;
-* perform map navigation (zoom in, zoom out, roam);
+* perform map navigation (zoom in, zoom out, pan);
 * add vector data from :term:`GeoJSON` format;
 * add cached raster data in zip archive;
-* add online tile sources (XYZ and :term:`TMS`);
-* add raster and vector layers from `NextGIS Web <http://nextgis.com/nextgis-web/>`_;
+* add online tile sources (:term:`XYZ` and :term:`TMS`);
+* add raster and vector layers from `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ and `NextGIS Web <http://nextgis.com/nextgis-web/>`_;
 * create and modify vector :term:`geodata` (geometries and attributes);
 * browse the attributes of selected geometry through identify dialog;
-* modify the attributes of vector layer with customizable input forms;
+* modify vector layer attributes with customizable input forms;
+* share vector geodata using standard Android tools;
 * record the tracks and manage their display parameters, remove selected or all tracks;
-* display coordinates, velocity, altitude of device on the map, as well as a source of geographical coordinates and amount of satellites used for georeferencing (if :term:`GPS` is used);
-* collect and transmit to `NextGIS Web <http://nextgis.com/nextgis-web/>`_ created and/or edited :term:'geodata' in background mode (when internet connection is on).
+* display device coordinates, velocity, altitude on the map, as well as a source of geographical coordinates and amount of satellites used for georeferencing (when :term:`GPS` is in use);
+* collect :term:'geodata' and transmit it to `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_ in background mode (when internet connection is on).
 
 NextGIS Mobile is open source
 (license :ref:`GPL v3 <ngmobile_gplv3>`).
@@ -42,7 +43,7 @@ Some icons used in NextGIS Mobile are from:
    
    .. image:: _static/cc_by.png  
 
-Documentation is describing NextGIS Mobile version 2.2. Newer versions of NextGIS Mobile may be currently available.
+Documentation is describing NextGIS Mobile version 2.4.
 
  
 .. _ngmobile_launch_conditions:
@@ -50,7 +51,7 @@ Documentation is describing NextGIS Mobile version 2.2. Newer versions of NextGI
 Hardware and software requirements
 -------------------------------------
 
-To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term: `Android` 2.2 or higher.
+To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term:`Android` 2.3 or higher.
 
 To be able to use all NextGIS Mobile features the device should have the following hardware:
 

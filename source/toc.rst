@@ -1,12 +1,12 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
 .. NextGIS Mobile TOC
 
 NextGIS Mobile documentation
 ==============================
 
-Содержание:
-    
+Table of Contents
+
 .. toctree::
    :maxdepth: 2
 
