@@ -10,7 +10,7 @@
 .. only:: html
    
    С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
-   в подразделе :ref:`ngweb_keyfeatures`.
+   в подразделе :ref:`ngw_keyfeatures`.
 
 .. only:: latex
 
