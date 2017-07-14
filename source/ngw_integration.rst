@@ -289,7 +289,7 @@
    
    Меню "Настройки".
 
-4. Из имеющиего списка аккаунтов выбрать необходимый (см. :numref:`ngmobile_add_entry_one_pic`).
+4. Из имеющегося списка аккаунтов выбрать необходимый (см. :numref:`ngmobile_add_entry_one_pic`).
 
 .. figure:: _static/add_entry.png
    :name: ngmobile_add_entry_one_pic
