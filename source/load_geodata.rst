@@ -203,7 +203,7 @@ GeoJSON
 4. При нажатии на кнопку "Создать", начнется процесс обработки и создания слоя
    (см. :numref:`ngmobile_processing_and_creation_layer_tms_pic`): 
 
-.. figure:: _static/processing_and_creation_layer_tms.png
+.. figure:: _static/ngmobile_processing_and_creation_layer_tms.png
    :name: ngmobile_processing_and_creation_layer_tms_pic
    :align: center
    :height: 10cm  
@@ -214,7 +214,7 @@ GeoJSON
 удачной процедуры обработки и создания слоя, имя нового слоя будет отображаться 
 первым в дереве слоев (см. :numref:`ngmobile_tree_layers_tms_pic`): 
 
-.. figure:: _static/tree_layers_tms.png
+.. figure:: _static/ngmobile_tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
    :align: center
    :height: 10cm  
