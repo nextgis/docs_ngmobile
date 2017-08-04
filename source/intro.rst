@@ -26,7 +26,7 @@ NextGIS Mobile allows to:
 * share vector geodata using standard Android tools;
 * record the tracks and manage their display parameters, remove selected or all tracks;
 * display device coordinates, velocity, altitude on the map, as well as a source of geographical coordinates and amount of satellites used for georeferencing (when :term:`GPS` is in use);
-* collect :term:'geodata' and transmit it to `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_ in background mode (when internet connection is on).
+* collect :term:`geodata` and transmit it to `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_ in background mode (when internet connection is on).
 
 NextGIS Mobile is open source
 (license :ref:`GPL v3 <ngmobile_gplv3>`).
