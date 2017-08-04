@@ -14,10 +14,10 @@ About NextGIS Mobile
 
 NextGIS Mobile allows to:
 
-* display a map from a set of layers;
-* perform map navigation (zoom in, zoom out, pan);
-* add vector data from :term:`GeoJSON` format;
-* add cached raster data in zip archive;
+* create and display a multi-layered map;
+* perform map navigation (panning, zooming in and out);
+* add vector data in :term:`GeoJSON` format;
+* add raster data as a tile cache;
 * add online tile sources (:term:`XYZ` and :term:`TMS`);
 * add raster and vector layers from `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ and `NextGIS Web <http://nextgis.com/nextgis-web/>`_;
 * create and modify vector :term:`geodata` (geometries and attributes);
