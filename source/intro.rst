@@ -43,6 +43,8 @@ Some icons used in NextGIS Mobile are from:
    
    .. image:: _static/cc_by.png  
 
+ This documentation describes NextGIS Mobile 2.5. 
+
  
 .. _ngmobile_launch_conditions:
 
