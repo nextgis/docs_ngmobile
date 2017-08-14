@@ -41,7 +41,7 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 * Settings
 * About
 
-**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings). Status info panel shows:
+**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings - Map - Show status info panel). Status info panel shows:
 
 * Device coordinates (latitude and longitude);
 * Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
@@ -70,7 +70,12 @@ To change the hierarchy of map layers long-press the layer which is to be moved 
 
 For turning layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
-"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_:
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_. This button contains the next menu (:numref:`options_menu_new_layer_pic`):
+
+* Create layer;
+* Open local;
+* Add geoservice;
+* Add from NextGIS.
 
 .. figure:: _static/options_menu_new_layer.png
    :name: options_menu_new_layer
@@ -84,7 +89,7 @@ By using "Open local" menu item you can upload :term:`geodata` from local storag
 * :term:`GeoJSON` file;
 * ZIP file with cached tiles;
 * *.ngrc file
-* *.ngfp format.
+* *.ngfp file.
 
 More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
 
@@ -107,7 +112,7 @@ Attributes table
 
 Attributes table is designed to show and manage the contents of each vector layer in table format.
 
-To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". 
+To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Depending on the screen size the panel could occupy the whole screen or just the right side. 
 
 Attributes table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
