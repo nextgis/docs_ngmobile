@@ -18,8 +18,8 @@
 Для того, чтобы создать пустой векторный слой в программу, необходимо выполнить 
 следующую последовательность шагов:
 
-1. Вызвать меню опций и выбрать пункт меню "Новый слой", далее выбрать пункт меню
-"Создать слой" (см. :numref:`ngmobile_options_menu_new_layer_pic`) 
+1. Вызвать меню опций и выбрать пункт меню «Новый слой», далее выбрать пункт меню 
+«Создать слой» (см. :numref:`ngmobile_options_menu_new_layer_pic`) 
 
 .. figure:: _static/options_menu_new_layer.png
    :name: ngmobile_options_menu_new_layer_pic
@@ -31,7 +31,7 @@
 2. В открывшемся окне необходимо заполнить поля стандартной формы атрибутов для создаваемого
 векторного слоя (см. :numref:`ngmobile_input_form_attributes_new_layer_pic`) 
 
-.. figure:: _static/input_form_attributes_new_layer.png
+.. figure:: _static/ngmobile_input_form_attributes_new_layer.png
    :name: ngmobile_input_form_attributes_new_layer_pic
    :align: center
    :height: 10cm
