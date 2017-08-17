@@ -95,7 +95,7 @@ GeoJSON
 3. После выбора файла откроется диалог настройки параметров создаваемого слоя, в 
    котором можно задать имя слоя (см. :numref:`ngmobile_layer_settings_geo_pic`): 
 
-.. figure:: _static/layer_settings_geo.png
+.. figure:: _static/ngmobile_layer_settings_geo.png
    :name: ngmobile_layer_settings_geo_pic
    :align: center
    :height: 10cm
