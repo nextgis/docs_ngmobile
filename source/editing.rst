@@ -20,7 +20,7 @@
 нижнем углу или основная кнопка приложения (т.н. FAB). При нажатии на кнопку открывается 
 меню наиболее часто используемых действий (см. :numref:`ngmobile_edit_menu_pic`).
 
-.. figure:: _static/edit_menu.png
+.. figure:: _static/ngmobile_edit_menu.png
    :name: ngmobile_edit_menu_pic
    :align: center
    :height: 10cm
