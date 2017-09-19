@@ -410,7 +410,7 @@
 которая содержит соответствующие имеющейся геометрии кнопки для редактирования этой геометрии.  
 
 Особенности редактирования геометрии при помощи кнопок, расположенных на верхней 
-панели инструментов, изображено на следующем рисунке (см. :numref:`ngmobile_upper_toolbar_undo_redo_pic`):
+панели инструментов, рассмотрены на следующем рисунке (см. :numref:`ngmobile_upper_toolbar_undo_redo_pic`):
 
 .. figure:: _static/ngmobile_upper_toolbar_undo_redo.png
    :name: ngmobile_upper_toolbar_undo_redo_pic
