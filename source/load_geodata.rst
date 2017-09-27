@@ -72,7 +72,7 @@ GeoJSON
 следующую последовательность шагов:
 
 1. Вызвать меню опций с помощью кнопки добавления слоев на верхней панели инструментов 
-   в виде белого квадрата с плюсом и выбрать пункт меню "Открыть локальный" (см. :numref:`ngmobile_add_ngw_layer_geo_pic`) 
+   в виде белого квадрата с плюсом и выбрать пункт меню "Открыть локальный" (см. :numref:`ngmobile_add_ngw_layer_geo_pic`): 
 
 .. figure:: _static/ngmobile_add_ngw_layer_geo.png
    :name: ngmobile_add_ngw_layer_geo_pic
