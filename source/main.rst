@@ -50,6 +50,14 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 
 Depending on the size of the screen Status info panel can occupy one or two rows.
 
+A map (item 7 in :numref:`ngmobile_main_activity_pic_1`) is a set of raster and vector layers. 
+The order and the visibility of layers are under control of layers tree (:ref:`ngmobile_layer_tree`).
+
+
+After a long hold of your finger on the vector layer's geometry the map window 
+turns to the select mode. 
+
+
 .. _ngmobile_layer_tree:
 
 Layers tree
