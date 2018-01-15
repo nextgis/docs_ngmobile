@@ -41,7 +41,7 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 * Settings
 * About
 
-**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings - Map - Show status info panel). Status info panel shows:
+**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings - Map - Show status info panel). Status info panel shows (if there is the fixed location):
 
 * Device coordinates (latitude and longitude);
 * Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
@@ -56,7 +56,6 @@ The order and the visibility of layers are under control of layers tree (:ref:`n
 
 After a long hold of your finger on the vector layer's geometry the map window 
 turns to the select mode. 
-
 
 .. _ngmobile_layer_tree:
 
@@ -78,7 +77,7 @@ To change the hierarchy of map layers long-press the layer which is to be moved 
 
 For turning layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
 
-"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_. This button contains the next menu (:numref:`options_menu_new_layer_pic`):
+"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_. This button contains the next menu (:numref:`options_menu_new_layer`):
 
 * Create layer;
 * Open local;
@@ -120,7 +119,7 @@ Attributes table
 
 Attributes table is designed to show and manage the contents of each vector layer in table format.
 
-To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Depending on the screen size the panel could occupy the whole screen or just the right side. 
+To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Depending on the screen size the panel could occupy the whole screen or just the right side (in this case there is a map with a highlighted geometry of the current attributes on the left side). 
 
 Attributes table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
@@ -238,7 +237,7 @@ From the Main screen itself you can access a couple of features useful in the fi
 Show my location
 ^^^^^^^^^^^^^^^^
 
-To know your current location, just tap on the "Show my location: button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your Status info panel (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is switched on via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`) you'll also be able to view the relevant information there.
+To know your current location, just tap on the "Show my location" button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your Status info panel (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is switched on via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`) you'll also be able to view the relevant information there.
 
 .. note::
    Your "Location" settings must be switched ON in your Android mobile settings.
