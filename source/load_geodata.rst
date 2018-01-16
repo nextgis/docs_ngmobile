@@ -114,7 +114,7 @@ You can check if the new layer was created successfully in the layers tree panel
 
 You can only use standard attributes form (not custom *.ngfp form) for editing GeoJSON layer. 
 
-The standard attributes form contains following fields:
+The standard attributes form contains only following three fields:
 
 1. Text field for entering characters or digits.
 2. Dialogue for entering date & time.
