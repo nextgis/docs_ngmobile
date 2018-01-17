@@ -197,6 +197,9 @@ NextGIS Mobile allows to create a raster layer by importing tile cache.
 
 Tile cache is a zip-archive with folders and tiles stored in accordance with a tiling scheme (for example, folder_z/folder_x/y.png). Folders of level Z can be located in the root or in a folder in the root folder (name of the folder doesn't matter, but there have to be only one folder). Deeper nesting of level Z folders is not allowed.
 
+Tile cache can be created with the extension module `NextGIS QGIS - QTiles <http://plugins.qgis.org/plugins/qtiles/>`_. 
+Resulted archive can be uploaded to any available folder in your mobile device storage.
+
 Follow these steps to open zip-archive with tile cache:
 
 1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`). The dialogue will open as shown in :numref:`ngmobile_options_menu_new_layer_pic`. Select "Open local".
