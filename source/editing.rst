@@ -81,7 +81,7 @@ After Editing Toolbar is opened tap "Add new feature" button (item 2 in :numref:
 Adding a point
 ^^^^^^^^^^^^^^^
 
-1. To create a new point first select a point/miltipoint vector layer you want to add this feature to. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
+1. To create a new point first select a point/multipoint vector layer you want to add this feature to. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
 
 2. Tap "Add new feature" button in Editing Toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`). 
 
@@ -118,7 +118,7 @@ Adding a point
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Add photo.
    
-5. When all the attributes are set tap "Apply changes" button (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap "Back" button instead (item 1 in :numref:`ngmobile_input_form_attributes_pic`) the app will warn you of any unsaved changes. You can also attach photos to each feature using "Add photo" button in Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`).
+6. When all the attributes are set tap "Apply changes" button (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap "Back" button instead (item 1 in :numref:`ngmobile_input_form_attributes_pic`) the app will warn you of any unsaved changes. You can also attach photos to each feature using "Add photo" button in Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`).
 
 .. _ngmobile_add_line:
 
