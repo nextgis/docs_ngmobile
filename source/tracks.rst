@@ -111,7 +111,7 @@ To start managing recorded tracks first find "My Tracks" group in Layers tree pa
 
    "My tracks" in Layers tree panel.
    
-This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic` below.
+This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic` below. Tracks' points will be grouped by days and sessions within the day.
 
 .. figure:: _static/tracks_list_gpx.png
    :name: ngmobile_tracks_list_gpx_pic
@@ -132,6 +132,8 @@ Select a track by ticking the corresponding checkbox, and buttons in Top toolbar
    The numbers indicate: 1 - Go back; 2 - Track ID; 3 – Colour palette; 4 - Export button; 5 - Contextual menu; 6 - Track visibility button.
 
 To hide a layer from Map screen tap on "Eye" button (item 6 in :numref:`ngmobile_layer_gpx_selected_pic`).
+
+You can change the colour of the track tapping the "Colour palette" button (item 3 in :numref:`ngmobile_layer_gpx_selected_pic`).
 
 When you tap to open contextual menu (see item 5 in :numref:`ngmobile_layer_gpx_selected_pic`), the following menu items will pop up as shown below in :numref:`ngmobile_layer_gpx_menu_pic`. 
 
