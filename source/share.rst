@@ -23,7 +23,7 @@ Android standard Share dialogue window with a list of available Share options wi
    
 After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported via the selected application. The name of GeoJSON file will be the same as the name of the exported layer.
 
-Some of the share options (availability is dependant on the apps installed on your device):
+Some of the share options (availability is dependent on the apps installed on your device):
 
 * You can send the file as an attachment via Gmail or different Email app.
 * You can upload the file to Google Drive/Dropbox/other cloud service and then share it with your colleagues.
@@ -60,7 +60,7 @@ To start exporting tracks first find "My Tracks" group in Layers tree panel. The
 
    "My tracks" in Layers tree panel.
 
-This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`
+This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`. If there are few tracks recorded in a day, tracks will be divided into sessions. If a track was recorded during few days, this track will be divided into parts corresonding to recording days.
 
 Select a track you want to export by ticking the corresponding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic`
 
