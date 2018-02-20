@@ -39,7 +39,7 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 * Load or refresh geodata
 * Start new track
 * Settings
-* About
+* Help
 
 **Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings - Map - Show status info panel). Status info panel shows (if there is the fixed location):
 
