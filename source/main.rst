@@ -9,7 +9,7 @@ There are 4 major elements of NextGIS Mobile UI:
 
 * Main screen
 * Layers tree panel
-* Attributes table
+* Features table
 * Settings dialogue
 
 UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
@@ -103,7 +103,7 @@ More information about geodata upload can be found in ":ref:`ngmobile_load_geoda
 Layer contextual menu depends on layer's type (whether it is vector or raster layer). When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`) contextual menu items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
 
 * Zoom to extent
-* Attributes
+* Features table
 * Share
 * Edit
 * Delete
@@ -114,34 +114,34 @@ Layer contextual menu depends on layer's type (whether it is vector or raster la
 
 .. _ngmobile_attributes_table:
 
-Attributes table
+Features table
 -----------------
 
-Attributes table is designed to show and manage the contents of each vector layer in table format.
+Features table is designed to show and manage the contents of each vector layer in table format.
 
-To open Attributes table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Attributes". Depending on the screen size the panel could occupy the whole screen or just the right side (in this case there is a map with a highlighted geometry of the current attributes on the left side). 
+To open Features table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Features table". Depending on the screen size the panel could occupy the whole screen or just the right side (in this case there is a map with a highlighted geometry of the current attributes on the left side). 
 
-Attributes table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
+Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
 .. figure:: _static/attribute_table.png
    :name: ngmobile_attribute_table_pic
    :align: center
    :height: 10cm
    
-   Attributes Table.
+   Features Table.
 
-If you tap any record (row) in the table, the Attributes table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
+If you tap any record (row) in the table, the Features table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
 
 .. figure:: _static/attribute_table_toolbar.png
    :name: ngmobile_attribute_table_toolbar_pic
    :align: center
    :height: 10cm
    
-   Attributes table toolbar.
+   Features table toolbar.
    
-   The numbers indicate: 1 - Close Attributes table; 2 - Layer name; 3 - Features attributes;  4 - Close toolbar; 5 - Selected feature ID; 6 - Show selected feature on the map; 7 - Delete selected feature; 8 - Open Attributes editing form.
+   The numbers indicate: 1 - Close Features table; 2 - Layer name; 3 - Features attributes;  4 - Close toolbar; 5 - Selected feature ID; 6 - Show selected feature on the map; 7 - Delete selected feature; 8 - Open Features table editing form.
    
-You can open the standard Attributes editing form as shown in :numref:`ngmobile_input_form_attributes_pic` by selecting "Open Attributes editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
+You can open the standard Features table editing form as shown in :numref:`ngmobile_input_form_attributes_pic` by selecting "Open Features table editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
    
 .. warning::
    If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system will delete the selected feature immediately. You will be able to undo the removal, but if undo action is not applied in 5 seconds after removal, the feature gets deleted permanently.   
