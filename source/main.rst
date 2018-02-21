@@ -21,7 +21,7 @@
 
 Главное окно приложения представлено на :numref:`ngmobile_main_activity_pic`.
 
-.. figure:: _static/ngmobile_mainscreen_1.png
+.. figure:: _static/ngmobile_mainscreen_rus.png
    :name: ngmobile_main_activity_pic
    :align: center
    :height: 10cm
