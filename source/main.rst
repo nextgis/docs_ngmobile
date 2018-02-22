@@ -105,6 +105,7 @@ Layer contextual menu depends on layer's type (whether it is vector or raster la
 * Zoom to extent
 * Features table
 * Share
+* Send to NextGIS
 * Edit
 * Delete
 * Settings
@@ -166,7 +167,8 @@ There are following Settings on the main panel:
 * Map
 * Location
 * My tracks
-* NextGIS Settings
+* Web GIS
+* Account
 
 "General" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_general_pic`).
 
