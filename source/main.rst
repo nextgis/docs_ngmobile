@@ -64,7 +64,7 @@ Layers tree
 
 Layers tree panel is designed to display the content of a map and to control visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
 
-.. figure:: _static/ngmobile_layertree.png
+.. figure:: _static/ngmobile_layer_tree_eng_new.png
    :name: ngmobile_layer_tree_pic
    :align: center
    :height: 10cm
@@ -124,7 +124,7 @@ To open Features table activate Layers tree panel and tap on the Contextual menu
 
 Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
-.. figure:: _static/attribute_table.png
+.. figure:: _static/attribute_table_new.png
    :name: ngmobile_attribute_table_pic
    :align: center
    :height: 10cm
@@ -133,7 +133,7 @@ Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 
 If you tap any record (row) in the table, the Features table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
 
-.. figure:: _static/attribute_table_toolbar.png
+.. figure:: _static/attribute_table_toolbar_new.png
    :name: ngmobile_attribute_table_toolbar_pic
    :align: center
    :height: 10cm
