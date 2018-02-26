@@ -154,7 +154,7 @@ Settings dialogue
 
 Depending on the screen size Settings dialogue can fit into one or two panels. Settings dialogue is shown on :numref:`ngmobile_settings_pic` (one panel mode).
 
-.. figure:: _static/ngmobile_settings.png
+.. figure:: _static/ngmobile_settings_eng_new.png
    :name: ngmobile_settings_pic
    :align: center
    :height: 10cm
@@ -200,6 +200,7 @@ Map settings include:
 * Show scale ruler
 * Show measuring button
 * Coordinates format (for coordinates in Status bar and other dialogs and screens)
+* Decimal places
 * Map background (light, dark, neutral)
 * Map path (here you can specify a path where map and layers data will be stored)
 
