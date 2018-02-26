@@ -176,7 +176,7 @@
 В зависимости от размера экрана окно настроек может быть однопанельным и двупанельным. 
 Окно настроек представлено на :numref:`ngmobile_settings_pic` (однопанельный режим). 
 
-.. figure:: _static/ngmobile_settings.png
+.. figure:: _static/ngmobile_settings_new.png
    :name: ngmobile_settings_pic
    :align: center
    :height: 10cm
@@ -192,8 +192,15 @@
 * Веб ГИС;
 * Учетная запись.
 
-Блок настроек "Общие" позволяет изменять основные настройки карты (см. ...).
+Блок настроек "Общие" позволяет изменять основные настройки карты (см. :numref:`ngmobile_settings_general_pic`).
 
+.. figure:: _static/ngmobile_settings_general_rus.png
+   :name: ngmobile_settings_general_pic
+   :align: center
+   :height: 10cm
+   
+   Блок настроек "Общие".
+   
 Здесь можно выбрать тему (Светлую или Темную) и настроить компас.
 
 Блок настроек "Карта" содержит основные настройки карты (см. :numref:`ngmobile_settings_map_pic`).
