@@ -40,7 +40,7 @@ Here are the steps to create an empty vector layer:
 The standard form for the creation of new vector layer contains the following parameters:
 
 1. Layer name - enter the name of layer which will be displayed in the layers tree.
-2. Geometry type - select layer geometry type (point, linestring, polygon).
+2. Geometry type - select layer geometry type (point, linestring, polygon, multipoint, multilinestring, multipolygon).
 3. Fields - list of fields which can be added, edited or deleted. These are attribute values of the layer.
 
 You can add as many attributes for a new vector layer as you like. To add a new attribute tap on "+" button next to "Fields". This will open a new dialogue for creation of each new field (see :numref:`ngmobile_dialogue_create_new_field_pic`).
@@ -129,7 +129,7 @@ A sample standard attributes form is shown below in :numref:`ngmobile_standard_i
    
    Standard attributes form.
    
-   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Camera.
+   The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Add pictures.
 
 You can further perform standard edit operations like Add, Modify or Delete operations for this layer. For more information about GeoJSON layer editing see :ref:`ngmobile_edit_geometry`.
 
