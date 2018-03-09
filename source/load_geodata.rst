@@ -238,7 +238,7 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
 
    Cache size settings dialog.
 
-4. Pressing "Create" button starts data processing for creation of a new raster layer (see :numref:`ngmobile_processing_and_creation_layer_tms_pic`). You can check if the new raster layer was created successfully in the Layers tree panel. The newly created raster layer will show up first in the Layers tree. 
+4. Pressing "Create" button starts data processing for creation of a new raster layer (see :numref:`ngmobile_processing_and_creation_layer_tms_pic`).
 
 .. figure:: _static/processing_and_creation_layer_tms.png
    :name: ngmobile_processing_and_creation_layer_tms_pic
@@ -246,6 +246,15 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
    :height: 10cm  
 
    Data processing for creation of a new layer from tiles.
+   
+You can check if the new raster layer was created successfully in the Layers tree panel. The newly created raster layer will show up first in the Layers tree (see :numref:`ngmobile_tree_layers_tms_pic`).
+
+.. figure:: _static/tree_layers_tms.png
+   :name: ngmobile_tree_layers_tms_pic
+   :align: center
+   :height: 10cm  
+
+   Layers tree panel.
 
 .. _ngmobile_import_ngrc:
 
