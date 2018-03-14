@@ -374,4 +374,62 @@ You can work **Offline** with raster layers created from external geoservices. I
    The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded. You can track downloading progress in Android Status Bar. Notifications for NextGIS Mobile app should be switched ON in System Settings.
 
 .. warning::
-   If number of tiles to download for selected zoom levels is more than 6000 tiles for each zoom level, only first 6000 tiles for each zoom level will be downloaded. The rest will not be downloaded due to danger of memory overflow. 
+   If number of tiles to download for selected zoom levels is more than 6000 tiles for each zoom level, only first 6000 tiles for each zoom level will be downloaded. The rest will not be downloaded due to danger of memory overflow.
+   
+.. _ngmobile_webgis:
+
+Creating Web GIS in a browser
+-----------------------------
+
+You can begin work with Web GIS after you open NextGIS site <http://nextgis.com>`_ and tap "Create Web GIS" button to create an account (see :numref:`ngmobile_create_an_account_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_create_an_account_WebGIS_eng.png
+   :name: ngmobile_create_an_account_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   NextGIS site.   
+
+A form for account creation will open. There fill the E-mail field, devise a password for your account, then tap "Create account" button (see :numref:`ngmobile_account_form_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_account_form_WebGIS.png
+   :name: ngmobile_account_form_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   A form for account creation.
+      
+.. note::
+
+   You can create an account using social networks.
+   
+After the registration you will receive a confirming link from NextGIS.com to your e-mail indicated in the form. After the confirmation your profile page will open. There fill the profile, choose a language and tap "Save" button (see :numref:`ngmobile_profile_1_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_profile_1_WebGIS.png
+   :name: ngmobile_profile_1_WebGIS_pic
+   :align: center
+   :width: 16cm    
+  
+   Profile page on NextGIS.com. 
+
+After profile page fill a form of Web GIS creation, where you need to choose Web GIS name, domain name and the language. You also need to select tarif plan (see :numref:`ngmobile_creation_form_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_creation_form_WebGIS.png
+   :name: ngmobile_creation_form_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   Web GIS form.
+
+Finally, tap "Create Web GIS" button (see :numref:`ngmobile_creation_form_1_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_creation_form_1_WebGIS.png
+   :name: ngmobile_creation_form_1_WebGIS_pic
+   :align: center
+   :width: 16cm     
+
+   Web GIS creation.
+
+.. note::
+
+   You can't change domain name and language after finishing of Web GIS creation!
