@@ -381,7 +381,7 @@ You can work **Offline** with raster layers created from external geoservices. I
 Creating Web GIS in a browser
 -----------------------------
 
-You can begin work with Web GIS after you open NextGIS site <http://nextgis.com>`_ and tap "Create Web GIS" button to create an account (see :numref:`ngmobile_create_an_account_WebGIS_pic`): 
+You can begin work with Web GIS after you open NextGIS site nextgis.com and tap "Create Web GIS" button to create an account (see :numref:`ngmobile_create_an_account_WebGIS_pic`): 
 
 .. figure:: _static/ngmobile_create_an_account_WebGIS_eng.png
    :name: ngmobile_create_an_account_WebGIS_pic
@@ -412,7 +412,7 @@ After the registration you will receive a confirming link from NextGIS.com to yo
   
    Profile page on NextGIS.com. 
 
-After profile page fill a form of Web GIS creation, where you need to choose Web GIS name, domain name and the language. You also need to select tarif plan (see :numref:`ngmobile_creation_form_WebGIS_pic`): 
+After profile page fill a form of Web GIS creation, where you need to choose Web GIS name, domain name and the language. You also need to select tariff plan (see :numref:`ngmobile_creation_form_WebGIS_pic`): 
 
 .. figure:: _static/ngmobile_creation_form_WebGIS.png
    :name: ngmobile_creation_form_WebGIS_pic
@@ -433,3 +433,34 @@ Finally, tap "Create Web GIS" button (see :numref:`ngmobile_creation_form_1_WebG
 .. note::
 
    You can't change domain name and language after finishing of Web GIS creation!
+   
+The window informing you, that your Web GIS is creating, will open. After the creation you will get an e-mail with login and password for your Web GIS (see :numref:`ngmobile_e-mail_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_e-mail_WebGIS.png
+   :name: ngmobile_e-mail_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   Information about Web GIS creation.
+
+After your Web GIS creation a link with your Web GIS name will appear in your profile. The link will be in an upper right corner of the window near to your e-mail (see :numref:`ngmobile_profile_with_a_link_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_profile_with_a_link_WebGIS_eng.png
+   :name: ngmobile_profile_with_a_link_WebGIS_pic
+   :align: center
+   :width: 16cm     
+
+   Your profile with a link with your Web GIS.
+
+You should click the link. A window with main resource group will open (see :numref:`ngmobile_main_resources_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_main_resources_WebGIS_eng.png
+   :name: ngmobile_main_resources_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   Main resource group.
+
+.. note::
+
+   You should sign in to upload files to your Web GIS. "Sign in" button is located in the upper right corner of the window!
