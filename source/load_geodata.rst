@@ -410,7 +410,7 @@ After the registration you will receive a confirming link from NextGIS.com to yo
    :align: center
    :width: 16cm    
   
-   Profile page on NextGIS.com. 
+   Profile page on nextgis.com. 
 
 After profile page fill a form of Web GIS creation, where you need to choose Web GIS name, domain name and the language. You also need to select tariff plan (see :numref:`ngmobile_creation_form_WebGIS_pic`): 
 
@@ -460,7 +460,39 @@ You should click the link. A window with main resource group will open (see :num
    :width: 16cm    
 
    Main resource group.
-
+   
+   A red rectangle indicates a panel with "Resources", "Control panel" and "Help" buttons.
+   
 .. note::
 
    You should sign in to upload files to your Web GIS. "Sign in" button is located in the upper right corner of the window!
+
+You can get to know how to work with your Web GIS using the "Help" button hidden in the panel (see a red rectangle on :numref:`ngmobile_main_resources_WebGIS_pic`) in the upper right corner
+(см. :numref:`ngmobile_help_button_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_help_button_WebGIS_eng.png
+   :name: ngmobile_help_button_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   "Help" button.
+
+In a window opened after tapping "Help" button choose "Get Started with your Web GIS" item (see :numref:`ngmobile_beginning_of_work_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_beginning_of_work_WebGIS_eng.png
+   :name: ngmobile_beginning_of_work_WebGIS_pic
+   :align: center
+   :width: 16cm     
+
+   Get Started with your Web GIS.
+
+A page "Get Started with your Web GIS" with documentation will open. Choose "How to upload data" 
+(see :numref:`ngmobile_documentation_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_documentation_WebGIS.png
+   :name: ngmobile_documentation_WebGIS_pic
+   :align: center
+   :width: 16cm    
+
+   Documentation of "Get Started with your Web GIS". 
+
