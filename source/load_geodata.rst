@@ -489,10 +489,55 @@ In a window opened after tapping "Help" button choose "Get Started with your Web
 A page "Get Started with your Web GIS" with documentation will open. Choose "How to upload data" 
 (see :numref:`ngmobile_documentation_WebGIS_pic`): 
 
-.. figure:: _static/ngmobile_documentation_WebGIS.png
+.. figure:: _static/ngmobile_documentation_WebGIS_eng.png
    :name: ngmobile_documentation_WebGIS_pic
    :align: center
    :width: 16cm    
 
    Documentation of "Get Started with your Web GIS". 
 
+.. _ngmobile_webgis_download:
+
+Geodata uploading and web-maps creation using geodata from your Web GIS
+-----------------------------------------------------------------------
+
+.. only:: html
+
+   For geodata uploading sign in not as a guest, but with rights for data creation, in your Web GIS. You can learn more about geodata uploading in :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>`. 
+
+.. only:: latex
+
+   For geodata uploading sign in not as a guest, but with rights for data creation, in your Web GIS. You can learn more about geodata uploading in `Raster layer <http://docs.nextgis.com/docs_ngcom/source/data_upload.html#ngcom-raster-layer>`_ and 
+   `Vector layer <http://docs.nextgis.com/docs_ngcom/source/data_upload.html#ngcom-vector-layer>`_.
+   
+Geodata addition from Web GIS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To add files/geodata from Web GIS to NextGIS:
+
+1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`). The dialogue will open as shown in :numref:`ngmobile_addition_of_NextGIS_pic`. Select "Add from Web GIS". 
+
+.. figure:: _static/ngmobile_addition_of_NextGIS_eng.png
+   :name: ngmobile_addition_of_NextGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Addition from Web GIS.
+    
+2. In opened window choose "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
+
+.. figure:: _static/ngmobile_add_an_account_NextGIS_eng.png
+   :name: ngmobile_add_an_account_NextGIS_pic
+   :align: center
+   :height: 10cm    
+
+   Addition of an account.   
+   
+3. Then fill up your Web GIS domain's name and password for Web GIS in the form for Web GIS adding and tap "Sign in" button (see :numref:`ngmobile_conversation_connection_WebGIS_pic`): 
+
+.. figure:: _static/ngmobile_conversation_connection_WebGIS_eng.png
+   :name: ngmobile_conversation_connection_WebGIS_pic
+   :align: center
+   :height: 10cm  
+
+   Web GIS adding dialog.
