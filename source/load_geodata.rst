@@ -524,7 +524,7 @@ To add files/geodata from Web GIS to NextGIS:
 
    Addition from Web GIS.
     
-2. In opened window choose "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
+2. In opened window select "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
 
 .. figure:: _static/ngmobile_add_an_account_NextGIS_eng.png
    :name: ngmobile_add_an_account_NextGIS_pic
@@ -541,3 +541,44 @@ To add files/geodata from Web GIS to NextGIS:
    :height: 10cm  
 
    Web GIS adding dialog.
+   
+4. After Web GIS adding select the account with your Web GIS domain's name and tap "Add" button (see :numref:`ngmobile_account_election_Web_GIS_pic`): 
+
+.. figure:: _static/ngmobile_account_election_Web_GIS_eng.png
+   :name: ngmobile_account_election_Web_GIS_pic
+   :align: center
+   :height: 10cm    
+
+   Web GIS account selection dialog. 
+
+5. The dialog of layer selection for importing geodata from your Web GIS to NextGIS Mobile will open (see :numref:`ngmobile_layer_selection_dialog_for_importing_pic`): 
+
+.. figure:: _static/ngmobile_layer_selection_dialog_for_importing_eng.png
+   :name: ngmobile_layer_selection_dialog_for_importing_pic
+   :align: center
+   :height: 10cm    
+
+   The dialog of layer selection for importing geodata from your Web GIS. 
+   
+If Web GIS layer has a style, there is a possibility to choose not only vector data, but also raster data for importing. Vector data are downloading to the mobile device and can be used offline. Raster data can be used only online.   
+A vector layer can be added/imported either as vector or as raster data. Tick off the type for the layer in the right side of the screen (see :numref:`ngmobile_layer_type_selection_pic`): 
+
+.. figure:: _static/ngmobile_layer_type_selection_eng.png
+   :name: ngmobile_layer_type_selection_pic
+   :align: center
+   :height: 10cm    
+  
+   Layer type selection.
+
+Tap the button in the upper right corner of the screen to create a new group of data in your Web GIS.
+Specify a name for the group and tap "OK". In the case of the success you will see it in your Web GIS window
+(see :numref:`ngmobile_add_a_new_group_pic`): 
+
+.. figure:: _static/ngmobile_add_a_new_group_eng.png
+   :name: ngmobile_add_a_new_group_pic
+   :align: center
+   :height: 10cm    
+   
+   Adding of a new group.  
+
+6. After the layer selection for importing from your Web GIS to NextGIS Mobile, tap "Add" button. The importing process will begin. The newly created layer will show up in Layers tree.
