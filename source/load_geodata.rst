@@ -669,22 +669,5 @@ NextGIS Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic
 
 6. После выбора слоя для импорта из Веб ГИС в NextGIS Mobile следует нажать на 
 кнопку Добавить внизу экрана. После этого начнется процесс импорта из Веб ГИС в 
-NextGIS Mobile (см. :numref:`ngmobile_layer_processing_for_imports_pic`): 
-
-.. figure:: _static/ngmobile_layer_processing_for_imports.png
-   :name: ngmobile_layer_processing_for_imports_pic
-   :align: center
-   :height: 10cm    
-  
-   Обработка слоя перед импортированием в NextGIS Mobile. 
-
-Наличие или отсутствие слоя можно проверить в дереве слоев. В случае удачной процедуры 
-обработки и импортирования слоя, новый слой располагается первым в дереве слоев 
-(см. :numref:`ngmobile_layerstree_of_WebGIS_pic`): 
-
-.. figure:: _static/ngmobile_layerstree_of_WebGIS.png
-   :name: ngmobile_layerstree_of_WebGIS_pic
-   :align: center
-   :height: 10cm     
-    
-   Дерево слоев.
+NextGIS Mobile. Наличие или отсутствие слоя можно проверить в дереве слоев. В случае удачной процедуры 
+обработки и импортирования слоя, новый слой располагается первым в дереве слоев.
