@@ -31,7 +31,7 @@ There are several ways to switch to Edit mode.
 
 You need to tap the pencil button (item 6 in :numref:`ngmobile_common_action_menu_pic`) to switch to Edit mode.
 
-Then select a vector layer you want to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). In such a way you can add different geometry types (points, lines, polygons). 
+Then select a vector layer you want to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). Depending on layer geometry type there will be different contextual menu items in the editor. In such a way you can add different geometry types (points, lines, polygons). 
 
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
@@ -40,9 +40,11 @@ Then select a vector layer you want to edit in an opened dialog (see :numref:`ng
    
    Select layer dialog.
 
-2. The second way to switch to Edit mode is to long-press the geometry you want to edit. 
+2. The second way to switch to Edit mode is to long-press the geometry you want to edit and to select "Edit" in the Editig Toolbar at the bottom of the map screen.  
 
 3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items (item 6 in :numref:`ngmobile_layer_tree_pic`). There you need to select "Edit".
+
+.. _ngmobile_editing_toolbar:
 
 The Editing Toolbar
 --------------------
@@ -85,7 +87,7 @@ Adding a point
 
 2. Tap "Add new feature" button in Editing Toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`). 
 
-3. In a point layer a new point will appear in the center of the screen highlighted in red. You can move this point anywhere on the map simply by dragging the circular handle attached to it. The red crosshair marker indicates the center of Map screen.(see :numref:`ngmobile_creation_of_points_pic`).
+3. In a point layer a new point will appear in the center of the screen highlighted in red. You can move this point anywhere on the map simply by dragging the circular handle attached to it. The red crosshair marker indicates the center of Map screen (see :numref:`ngmobile_creation_of_points_pic`).
 
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
@@ -96,7 +98,7 @@ Adding a point
    
    The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & Name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the center of Map screen; 7 - Move point to the current location.
 
-4. In a multipoint layer tap "Add point" (item 6 in :numref:`ngmobile_creation_of_multipoints_pic`) and follow the steps described above.
+4. For adding a point to a multipoint layer execute steps 1-2 and then tap "Add point" (item 6 in :numref:`ngmobile_creation_of_multipoints_pic`). After that you can set point's location as described above in the step 3.
 
 .. figure:: _static/creation_of_multipoints.png
    :name: ngmobile_creation_of_multipoints_pic
