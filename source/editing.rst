@@ -127,24 +127,24 @@ Adding a point
 Adding a line
 ^^^^^^^^^^^^^
 
-1. To create a new point first select a linestring/multilinestring vector layer you want to add this feature to. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
+1. To create a new line first select a linestring/multilinestring vector layer you want to add this feature to. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
 
 2. Tap "Add new feature" button in Editing Toolbar (item 2 in :numref:`ngmobile_editing_toolbar_pic`).  
 
 3. In a linestring layer a new line will appear in the center of the screen, with one of its vertices highlighted in red (see :numref:`ngmobile_creating_lines_pic`).
 
-.. figure:: _static/creating_lines.png
+.. figure:: _static/creating_lines_eng.png
    :name: ngmobile_creating_lines_pic
    :align: center
    :height: 10cm
 
    Adding a line to Linestring layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move vertex to the center of Map screen; 8 - Move vertex to the current location; 9 - Append geometry by walk.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move vertex to the center of Map screen; 8 - Move vertex to the current location; 9 - Append geometry by walk; 10 - Edit by touch.
    
 You can move the vertices anywhere on the map simply by dragging the circular handle attached to the selected vertex. If you tap on the vertex in the middle of the line, two new vertices will be created automatically. This way you can add as many vertices as you need and shape the line geometry any way you like, including smooth curves.
 
-4. In a multilinestring layer tap "Add line" (item 6 in :numref:`ngmobile_creating_multilines_pic`) and follow the steps described above.
+4. For adding a line to a multilinestring layer execute steps 1-2 and then tap "Add line" (item 6 in :numref:`ngmobile_creating_multilines_pic`). After that you can set vertices' location as described above in the step 3.
 
 .. figure:: _static/creating_multilines.png
    :name: ngmobile_creating_multilines_pic
@@ -153,7 +153,7 @@ You can move the vertices anywhere on the map simply by dragging the circular ha
 
    Adding a line to Multilinestring layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Append geometry by walk.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Append geometry by walk and Append geometry by touch.
 
 5. After a geometry of new line is added you may set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creating_lines_pic` and :numref:`ngmobile_creating_multilines_pic`). Pressing floppy icon will save a new line and open Attributes editing form (see :numref:`ngmobile_input_form_attributes_pic`).   
 
