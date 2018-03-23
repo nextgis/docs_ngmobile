@@ -153,7 +153,7 @@ You can move the vertices anywhere on the map simply by dragging the circular ha
 
    Adding a line to Multilinestring layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Append geometry by walk and Append geometry by touch.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
 
 5. After a geometry of new line is added you may set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creating_lines_pic` and :numref:`ngmobile_creating_multilines_pic`). Pressing floppy icon will save a new line and open Attributes editing form (see :numref:`ngmobile_input_form_attributes_pic`).   
 
@@ -177,7 +177,7 @@ Adding a polygon
 
    Adding a polygon to Polygon layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add hole; 7 - Delete hole; 8 - Delete vertex; 9 - Move vertex to the center of Map screen, 10 - Move vertex to the current location, 11 - Append geometry by walk.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add hole; 7 - Delete hole; 8 - Delete vertex; 9 - Move vertex to the center of Map screen, 10 - Move vertex to the current location, 11 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
 
 You can move the vertices anywhere on the map simply by dragging the circular handle attached to the selected vertex. If you tap on the vertex in the middle of the line, two new vertices will be created automatically. This way you can add as many vertices as you need and shape the polygon geometry any way you like, including smooth curves.
 
@@ -186,7 +186,7 @@ You can also create holes in polygons by tapping button "Add hole" (item 6 in :n
 .. note::
    Hole geometry must be located INSIDE a polygon geometry otherwise the changes won't be saved!
 
-4. In a multilipolygon layer tap "Add polygon" (item 6 in :numref:`ngmobile_creation_multipolygon_pic`) and follow the steps described above.
+4. For adding a polygon to a multilipolygon layer execute steps 1-2 and then tap "Add polygon" (item 6 in :numref:`ngmobile_creation_multipolygon_pic`). After that you can set vertices' location as described above in the step 3.
 
 .. figure:: _static/creation_multipolygon.png
    :name: ngmobile_creation_multipolygon_pic
@@ -195,7 +195,7 @@ You can also create holes in polygons by tapping button "Add hole" (item 6 in :n
 
    Adding a polygon to Multipolygon layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add polygon; 7 - Delete polygon; 8 - Add hole; 9 - Delete hole; 10 - Delete vertex; 11 - Contextual menu with the rest of commands (Move vertex to the center of Map screen, Move vertex to the current location, Append geometry by walk)
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add polygon; 7 - Delete polygon; 8 - Add hole; 9 - Delete hole; 10 - Delete vertex; 11 - Contextual menu with the rest of commands (Move vertex to the center of Map screen, Move vertex to the current location, Append geometry by walk, Append geometry by touch)
 
 5. After a geometry of new polygon is added you may set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creation_landfill_pic` and :numref:`ngmobile_creation_multipolygon_pic`). Pressing floppy icon will save a new line and open Attributes editing form (see :numref:`ngmobile_input_form_attributes_pic`).   
 
