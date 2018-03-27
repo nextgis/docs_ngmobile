@@ -162,7 +162,7 @@ You can move the vertices anywhere on the map simply by dragging the circular ha
 .. _ngmobile_add_polygon:
 
 Adding a polygon
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 1. To create a new polygon first select a polygon/multipolygon vector layer you want to add this feature to. Then switch to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section. 
 
@@ -206,7 +206,7 @@ You can also create holes in polygons by tapping button "Add hole" (item 6 in :n
 Adding current location 
 -----------------------
 
-To add current location to a vector layer press Main actions button, and then press a pushpin icon (item 7 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only point/multipoint geometry will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). If there is only one point/multipoint layer available, it will be selected automatically. 
+To add current location to a vector layer press Main actions button (item 8 in :numref:`ngmobile_main_activity_pic_1`), and then press a pushpin icon (item 7 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add current location to (only point/multipoint geometry will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). If there is only one point/multipoint layer available, it will be selected automatically. 
 
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
@@ -227,12 +227,19 @@ You can then add attributes as described in :ref:`ngmobile_add_point` section.
 Adding line or polygon by walk
 ----------------------------------
 
-To add line or polygon by walk to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add a new feature to (only linestring/multilinestring and polygon/multipolygon layers will be displayed) (see :numref:`ngmobile_select_layer_dialog_pic`). 
+To add line or polygon by walk to a vector layer press Main actions button, and then press a walking man icon (item 5 in  :numref:`ngmobile_common_action_menu_pic`). In an opened dialog select a layer you'd like to add a new feature to (only linestring/multilinestring and polygon/multipolygon layers will be displayed) (see :numref:`ngmobile_select_layer_by_walk_dialog_pic`). 
+
+.. figure:: _static/ngmobile_selectlayer_by_walk_eng.png
+   :name: ngmobile_select_layer_by_walk_dialog_pic
+   :align: center
+   :height: 10cm
+   
+   Select layer dialog.
 
 Find more information about adding geometries in :ref:`ngmobile_edit_vector_tracks` section.
 
 .. note::
-   You can add tracks to either Linestring/Multilinestring or Polygon/Multipolygon layers.
+   You can add tracks to either Linestring/Multilinestring or Polygon/Multipolygon layers!
    
 .. _ngmobile_edit_geometry:
 
