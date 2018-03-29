@@ -266,9 +266,22 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    :align: center
    :height: 10cm
    
-   Editing point
+   Editing point.
    
    The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
+   
+When you edit a multipoint all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_creating_multipoint3_pic`):
+
+.. figure:: _static/ngmobile_edit_multipoint_new_eng.png
+   :name: ngmobile_creating_multipoint3_pic
+   :align: center
+   :height: 10cm
+
+  Editing multipoint.
+   
+  The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & Name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add point; 7 - Delete point; 8 - Move point to the center of Map screen; 9 - Move point to the current location.
+   
+You can delete selected point (item 7 in :numref:`ngmobile_creating_multipoint3_pic`), move it to a new location simply pulling it or arrow pointing at it to a desired place, to the center of the screen shown as Red Crosshair marker (item 8 in :numref:`ngmobile_creating_multipoint3_pic`) or to the current device location (item 9 in :numref:`ngmobile_creating_multipoint3_pic`). Also you can add a new point to the multipoint (item 6 in :numref:`ngmobile_creating_multipoint3_pic`).
 
 .. _ngmobile_edit_line:
 
