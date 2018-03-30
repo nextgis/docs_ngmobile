@@ -270,18 +270,18 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
    
-When you edit a multipoint all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_creating_multipoint3_pic`):
+When you edit a multipoint all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_edit_multipoint_pic`):
 
 .. figure:: _static/ngmobile_edit_multipoint_new_eng.png
-   :name: ngmobile_creating_multipoint3_pic
+   :name: ngmobile_edit_multipoint_pic
    :align: center
    :height: 10cm
    
   Editing multipoint.
-   
+
   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & Name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add point; 7 - Delete point; 8 - Move point to the center of Map screen; 9 - Move point to the current location.
-   
-You can delete selected point (item 7 in :numref:`ngmobile_creating_multipoint3_pic`), move it to a new location simply pulling it or arrow pointing at it to a desired place, to the center of the screen shown as Red Crosshair marker (item 8 in :numref:`ngmobile_creating_multipoint3_pic`) or to the current device location (item 9 in :numref:`ngmobile_creating_multipoint3_pic`). Also you can add a new point to the multipoint (item 6 in :numref:`ngmobile_creating_multipoint3_pic`).
+
+You can delete selected point (item 7 in :numref:`ngmobile_edit_multipoint_pic`), move it to a new location simply pulling it or arrow pointing at it to a desired place, to the center of the screen shown as Red Crosshair marker (item 8 in :numref:`ngmobile_edit_multipoint_pic`) or to the current device location (item 9 in :numref:`ngmobile_edit_multipoint_pic`). Also you can add a new point to the multipoint (item 6 in :numref:`ngmobile_edit_multipoint_pic`).
 
 .. _ngmobile_edit_line:
 
@@ -290,7 +290,7 @@ Editing a line
 
 To start editing a line it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The line will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
 
-New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_lines_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_lines_pic`).
+Selected vertex can be moved simply by pulling it or arrow pointing at it to a desired place. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_lines_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_lines_pic`).
 
 You can delete the unrequired vertex by highlighting it and tapping delete vertex (see item 6 in :numref:`ngmobile_editing_lines_pic`)
 
@@ -298,17 +298,30 @@ In this way you can even get a smooth curve as per the geographic shape.
 
 In the end you can have your geofeatures digitized as shown below. See :numref:`ngmobile_editing_lines_pic`.
 
-.. figure:: _static/editing_lines.png
+.. figure:: _static/editing_lines_eng.png
    :name: ngmobile_editing_lines_pic
    :align: center
    :height: 10cm
    
-   Editing line
+   Editing line.
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Edit by walk.
+The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move vertex to the center of Map screen; 8 - Move vertex to the current location; 9 - Append geometry by walk; 10 - Edit by touch.
 
 .. note::
    If only one vertex remains in a line this line is deleted automatically.
+   
+When you edit a multiline all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_edit_multilines_pic`)
+
+.. figure:: _static/editing_multilines_eng.png
+   :name: ngmobile_edit_multilines_pic
+   :align: center
+   :height: 10cm
+
+   Editing multiline.
+   
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add line; 7 - Delete line; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
+   
+You can delete selected point or line (item 7 and 8 in :numref:`ngmobile_edit_multilines_pic`), move a point to a new location simply pulling it or arrow pointing at it to a desired place, to the center of the screen shown as Red Crosshair marker (item 9 in :numref:`ngmobile_edit_multilines_pic`) or to the current device location (item 10 in :numref:`ngmobile_edit_multilines_pic`). Also you can add a new line to the multiline (item 6 in :numref:`ngmobile_edit_multilines_pic`).
 
 .. _ngmobile_edit_polygon:
 
