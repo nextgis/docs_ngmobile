@@ -276,7 +276,7 @@ When you edit a multipoint all points included in it change their colour to blue
    :name: ngmobile_creating_multipoint3_pic
    :align: center
    :height: 10cm
-
+   
   Editing multipoint.
    
   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & Name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add point; 7 - Delete point; 8 - Move point to the center of Map screen; 9 - Move point to the current location.
