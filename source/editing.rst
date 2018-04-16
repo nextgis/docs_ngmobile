@@ -253,7 +253,7 @@ To edit an existing layer first select that vector layer and switch to Edit mode
 Editing a point
 ^^^^^^^^^^^^^^^^
 
-To start editing a point first select the point layer in the Layer tree and switch to Edit mode, then select a point by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The selected point feature will be highlighted in red and have an arrow pointing at it.
+To start editing a point first select the point/multipoint layer in the Layer tree and switch to Edit mode, then select a point by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The selected point feature will be highlighted in red and have an arrow pointing at it.
 
 To change location of a selected point simply pull it or arrow pointing at it to a desired place. Also a point can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 6 in :numref:`ngmobile_editing_of_points_pic`) or to the current device location (see item 7 in :numref:`ngmobile_editing_of_points_pic`).
 
@@ -270,13 +270,13 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
    
    The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Move point to the Red Crossover (Center); 7 - Move point to the current location.
    
-When you edit a multipoint all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_edit_multipoint_pic`):
+When you edit a multipoint all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_editing_of_points_pic`).
 
 .. figure:: _static/ngmobile_edit_multipoint_new_eng.png
    :name: ngmobile_edit_multipoint_pic
    :align: center
    :height: 10cm
-   
+      
   Editing multipoint.
 
   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & Name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add point; 7 - Delete point; 8 - Move point to the center of Map screen; 9 - Move point to the current location.
@@ -288,7 +288,7 @@ You can delete selected point (item 7 in :numref:`ngmobile_edit_multipoint_pic`)
 Editing a line
 ^^^^^^^^^^^^^^
 
-To start editing a line it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The line will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
+To start editing a line first select the linestring/multilinestring layer in the Layer tree and switch to Edit mode, then select a line by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The line will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
 
 Selected vertex can be moved simply by pulling it or arrow pointing at it to a desired place. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_lines_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_lines_pic`).
 
@@ -328,21 +328,27 @@ You can delete selected point or line (item 7 and 8 in :numref:`ngmobile_edit_mu
 Editing a polygon
 ^^^^^^^^^^^^^^^^^
 
-To start editing a polygon it should be first selected by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The polygon will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
+To start editing a polygon first select the poligon/multipoligon layer in the Layer tree and switch to Edit mode, then select a poligon by pressing on it. It will change its colour to blue. Then tap on the pencil icon in Bottom toolbar (item 3 in :numref:`ngmobile_editing_toolbar_pic`). The polygon will change its colour to red and will show all its vertices. Current vertex is highlighted in red and has an arrow pointing at it. The center of line segment between vertices is also indicated. Pressing the center of line segment leads to two new vertex being added to the line. 
 
-New vertex can be moved or otherwise edited right after it has been added. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_polygon_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_polygon_pic`).
+New vertex can be moved or otherwise edited right after it has been added. Selected vertex can be moved simply by pulling it or arrow pointing at it to a desired place. Also a vertex can be moved using buttons from Bottom toolbar - to the center of the screen shown as Red Crosshair marker (item 7 in :numref:`ngmobile_editing_polygon_pic`) or to the current device location (see item 8 in :numref:`ngmobile_editing_polygon_pic`).
 
 You can delete the unrequired vertex by highlighting it and tapping "Delete vertex" button (see item 6 in :numref:`ngmobile_editing_polygon_pic`).
+   
+.. note::
+   If only two vertices remain in a poligon this poligon is deleted automatically. 
 
 .. figure:: _static/editing_polygon.png
    :name: ngmobile_editing_polygon_pic
    :align: center
    :height: 10cm
    
-   Editing polygon
+   Editing polygon.
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Append geometry by walk.
-
+   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
+  
+.. note::
+   Addition of holes into a poligon is not yet realized.
+   
 .. _ngmobile_edit_attributes:
 
 Editing attributes
