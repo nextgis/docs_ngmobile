@@ -195,7 +195,7 @@ You can also create holes in polygons by tapping button "Add hole" (item 6 in :n
 
    Adding a polygon to Multipolygon layer.
    
-   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add polygon; 7 - Delete polygon; 8 - Add hole; 9 - Delete hole; 10 - Delete vertex; 11 - Contextual menu with the rest of commands (Move vertex to the center of Map screen, Move vertex to the current location, Append geometry by walk, Append geometry by touch)
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add polygon; 7 - Delete polygon; 8 - Add hole; 9 - Delete hole; 10 - Delete vertex; 11 - Contextual menu with the rest of commands (Move vertex to the center of Map screen, Move vertex to the current location, Append geometry by walk, Append geometry by touch).
 
 5. After a geometry of new polygon is added you may set its attributes by tapping on the "floppy" button (item 5 in :numref:`ngmobile_creation_landfill_pic` and :numref:`ngmobile_creation_multipolygon_pic`). Pressing floppy icon will save a new line and open Attributes editing form (see :numref:`ngmobile_input_form_attributes_pic`).   
 
@@ -344,10 +344,20 @@ You can delete the unrequired vertex by highlighting it and tapping "Delete vert
    
    Editing polygon.
    
-   The numbers indicate: 1 - Close editing (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6  - Delete vertex; 7 - Move point to the Red Crossover (Center); 8 - Move point to the current location; 9 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
-  
-.. note::
-   Addition of holes into a poligon is not yet realized.
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add hole; 7 - Delete hole; 8 - Delete vertex; 9 - Move vertex to the center of Map screen; 10 - Move vertex to the current location; 11 - Contextual menu with the rest of commands (Append geometry by walk, Append geometry by touch).
+ 
+When you edit a multipolygon all points included in it change their colour to blue. The selected point will be highlighted in red and have an arrow pointing at it (see :numref:`ngmobile_edit_multipolygon_pic`).
+
+.. figure:: _static/editing_multipolygon_eng.png
+   :name: ngmobile_edit_multipolygon_pic
+   :align: center
+   :height: 10cm
+
+   Editing multipolygon.
+   
+   The numbers indicate: 1 - Quit (without saving); 2 - Feature ID & name of the Layer; 3 - Undo changes; 4 - Redo changes; 5 - Set attributes; 6 - Add polygon; 7 - Delete polygon; 8 - Add hole; 9 - Delete hole; 10 - Delete vertex; 11 - Contextual menu with the rest of commands (Move vertex to the center of Map screen, Move vertex to the current location, Append geometry by walk, Append geometry by touch).
+   
+You can delete selected point or polygon (item 7 and 10 in :numref:`ngmobile_edit_multipolygon_pic`), move a point to a new location simply pulling it or arrow pointing at it to a desired place, to the center of the screen shown as Red Crosshair marker (item 11 in :numref:`ngmobile_edit_multipolygon_pic`) or to the current device location (item 11 in :numref:`ngmobile_edit_multipolygon_pic`). Also you can add a new polygon to the multipolygon (item 6 in :numref:`ngmobile_edit_multipolygon_pic`) and add or delete a hole (item 8 or 9 in :numref:`ngmobile_edit_multipolygon_pic`).
    
 .. _ngmobile_edit_attributes:
 
