@@ -398,14 +398,14 @@ After all the attributes are set tap "Tick" icon in the top right corner (item 2
 .. note::
    If you tap the back button in the top left corner (item 1 in :numref:`ngmobile_input_form_attributes_pic`) instead, the system will warn you about unsaved changes. 
 
-The Camera icon at the bottom of a standard Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`) allows to add image files (e.g. photos) to each feature from the local storage or take new photos.
+The Camera icon at the bottom of a standard Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`) allows to add to each feature image files (e.g. photos) from the local storage or take new photos.
 
 .. _ngmobile_edit_attributes_ngfp:
 
 Editing attributes using custom form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>` the custom Attributes editing form will be used for editing. An example of such custom form is shown below in :numref:`ngmobile_custom_form_pic_1` 
+If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>` the custom Attributes editing form will be used for editing. An example of such custom form is shown below in :numref:`ngmobile_custom_form_pic_1`: 
 
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic_1
@@ -429,13 +429,19 @@ Custom Attributes editing forms may contain the following entry fields:
 
 "Text" field is used to provide additional information about geometry feature.
 
+"Space" field is used to increase intervals between fields.
+
 "Text field" can be used to add text or integers, depending on the field type (see item 4 in :numref:`ngmobile_custom_form_pic_1`). 
 
-"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic_1`). 
+"List" and "Tandem list" fields are used to store and select values included in custom lists, for example, "List" - region/republic/territory, "Tandem list" - district/area in region/republic/territory (see item 5 in :numref:`ngmobile_custom_form_pic_1`).
+
+"Checkbox" field allows to check or uncheck a value.
 
 "Date picker" field allows to select date, time or both of them (see item 6 in :numref:`ngmobile_custom_form_pic_1`). 
 
 "Radio button" field allows to select one element from a list of mutually exclusive options (see item 7 in :numref:`ngmobile_custom_form_pic_1`). 
+
+"Photo" field allows to take a new photo or to add photos from the local storage.
 
 After all the attributes are set tap "Tick" icon in the top right corner (item 2 in :numref:`ngmobile_custom_form_pic_1`) to save the edits. 
 
