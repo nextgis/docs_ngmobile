@@ -39,6 +39,8 @@ During track recording you can see the geometry of the track on Map screen as sh
    :name: ngmobile_new_gpx_layer_2_pic
    :align: center
    :height: 10cm
+   
+   Recording track.
 
 Recorded track is displayed on the map immediately even though recording is not completed. The status icon (walking man) is still visible in the notification bar. The green flag shows the starting point of the track whereas the location marker shows the current device location.
 
@@ -51,6 +53,8 @@ Recorded track is displayed on the map immediately even though recording is not 
    :name: ngmobile_new_gpx_layer_3_pic
    :align: center
    :height: 10cm
+   
+   Recorded track.
 
 3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`.
 
@@ -82,7 +86,7 @@ You can also add a feature to an existing line or polygon vector layer by tracki
    The numbers indicate: 1 - Close editing (without saving); 2 - Status icon; 3 - Feature ID & name of the Layer; 4 - Save feature; 5 - "Edit by walk" mode status; 6 - Location settings; 7 - Start point; 8 - Current device location.
 
 .. note::   
-   You can also switch to "Edit by walk" mode by first switching to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section, and then by tapping "Append geometry by walk" button (see item 9 in :numref:`ngmobile_creating_lines_pic` and item 11 in :numref:`ngmobile_creation_landfill_pic`)
+   You can also switch to "Edit by walk" mode by first switching to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section, and then by tapping "Append geometry by walk" button (see item 9 in :numref:`ngmobile_creating_lines_pic`, item 11 in :numref:`ngmobile_creating_multilines_pic`, item 11 in :numref:`ngmobile_creation_landfill_pic` and item 11 in :numref:`ngmobile_creation_multipolygon_pic`)
 
 If you're not satisfied with the accuracy of the appended geometry, you can access NextGIS Mobile Location settings (see :numref:`ngmobile_settings_place_pic`) directly from "Edit by walk" screen (see item 6 in above :numref:`ngmobile_new_gpx_vector_1`). 
 
