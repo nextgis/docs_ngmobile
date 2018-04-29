@@ -81,7 +81,7 @@ You can also add a feature to an existing line or polygon vector layer by tracki
    :align: center
    :height: 10cm
 
-   Vector layer editing by walk
+   Vector layer editing by walk.
    
    The numbers indicate: 1 - Close editing (without saving); 2 - Status icon; 3 - Feature ID & name of the Layer; 4 - Save feature; 5 - "Edit by walk" mode status; 6 - Location settings; 7 - Start point; 8 - Current device location.
 
@@ -97,7 +97,7 @@ If you're not satisfied with the accuracy of the appended geometry, you can acce
    :align: center
    :height: 10cm
 
-   Vector layer attribute editing
+   Vector layer attribute editing.
    
 4. The new feature is now added to the existing Linestring/Multilinestring or Polygon/Multipolygon vector layer.
 
