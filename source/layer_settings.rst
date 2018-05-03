@@ -18,9 +18,10 @@ For example, contextual menu for a vector layer includes following items:
 1. Zoom to extent
 2. Attributes
 3. Share
-4. Edit
-5. Delete
-6. Settings
+4. Send to NextGIS
+5. Edit
+6. Delete
+7. Settings
 
 .. note::
    Contextual menu depends both on layer type and geodata source. Raster layers have different contextual menus than Vector layers. Raster layers created from tile cache have different contextual menus than raster layers created from external geoservices.
@@ -29,6 +30,8 @@ For example, contextual menu for a vector layer includes following items:
 
 Vector layer settings
 ---------------------
+
+.. _ngmobile_style_settings:
 
 Style settings
 ^^^^^^^^^^^^^^^
@@ -46,6 +49,8 @@ Open layer contextual menu and tap on "Settings". Vector layer style settings wi
    
 Vector layer style settings depend on the selected Render type - Simple or Rule (item 4 in :numref:`ngmobile_style_vector_pic`).
 
+.. _ngmobile_simple_rendering:
+
 Simple rendering
 ~~~~~~~~~~~~~~~~~
 
@@ -53,6 +58,7 @@ Simple rendering
 
 For example, for a point/multipoint layer you can select features shape by using "Type" menu (see item 6 in :numref:`ngmobile_style_vector_pic`) using the following options:
 
+* Point 
 * Circle 
 * Diamond 
 * Cross 
@@ -68,6 +74,8 @@ In linestring/multilinestring layers you can select line type (solid, dash or ed
 In polygon/multipolygon layers you can select stroke color and width. Also you can select to display polygons as filled or empty (the semi-opaque stroke color will be applied if "Filled" is selected).
 
 For any vector layer you can also choose to show Labels for each feature on a map. To do this tick "Text" checkbox and either enter the label text yourself or select the attribute field which will be used to label features on a map (item 9 in :numref:`ngmobile_style_vector_pic`).
+
+.. _ngmobile_rule_rendering:
 
 Rule-based rendering
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -96,9 +104,11 @@ Then tap on "Create new rule" button (item 3 in :numref:`ngmobile_style_vector_r
    
    Rule-based style settings dialogue.
    
-Here you can select and apply the same style settings as described above in Simple rendering (rule-based style settings are also dependant on vector layer type). Select "OK" when finished. 
+Here you can select and apply the same style settings as described above in :ref:`ngmobile_simple_rendering` (rule-based style settings are also dependent on vector layer type). Select "OK" when finished. 
 
 In this way you can create rule-based render styles for every value in the selected attribute field.
+
+.. _ngmobile_fields_settings:
 
 Fields settings
 ^^^^^^^^^^^^^^^^
@@ -114,8 +124,10 @@ To do this tap on "FIELDS" tab (see item 3 in :numref:`ngmobile_style_vector_pic
    "FIELDS" vector layer settings tab.
 
 .. warning::
-   The selected field will not be used for rendering features labels on the map. For label settings see "Style settings" above.
-   
+   The selected field will not be used for rendering features labels on the map. For label settings see :ref:`ngmobile_style_settings`.
+
+.. _ngmobile_tab_general_settings:
+
 General settings
 ^^^^^^^^^^^^^^^^^^
 
@@ -129,6 +141,8 @@ General settings
    "GENERAL" vector layer settings tab.
 
 Using this tab you can change layer name and zoom levels to show.
+
+.. _ngmobile_cache_settings:
 
 Cache settings
 ^^^^^^^^^^^^^^^^
@@ -156,6 +170,8 @@ Raster layer contextual menu includes the following items (see :numref:`ngmobile
 .. note::
    Raster layer created from external geoservice will have the option "Download tiles" instead of "Zoom to extent". See :ref:`ngmobile_tile_cache` for details.
 
+.. _ngmobile_raster_style_settings:
+
 Style settings
 ^^^^^^^^^^^^^^^
 
@@ -176,6 +192,8 @@ Here you can set the values for:
 
 You can also apply to Raster layer the option "Make grayscale" - the layer will be displayed in shades of gray instead of original colors.
 
+.. _ngmobile_raster_general_settings:
+
 General settings
 ^^^^^^^^^^^^^^^^^^
 
@@ -190,13 +208,16 @@ General settings
 
 Using this tab you can change layer name and zoom levels to show.
 
+.. _ngmobile_raster_cache_settings:
+
 Cache settings
 ^^^^^^^^^^^^^^^^
 
-Using "CACHE" settings tab you can set TMS in-memory cache size for a raster layer from these options::
+Using "CACHE" settings tab you can set TMS in-memory cache size for a raster layer from these options:
+
 * No cache
 * 1 screen
 * 2 screens (recommended)
-*3 screens
+* 3 screens
 
 You can also clear in-memory cache for this layer from this settings tab.
