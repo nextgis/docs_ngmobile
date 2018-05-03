@@ -33,6 +33,8 @@ Some of the share options (availability is dependent on the apps installed on yo
 .. warning::
    In many Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
 
+.. _ngmobile_export_attachments:
+
 Exporting attachments
 -----------------------
 
