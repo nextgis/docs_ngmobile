@@ -2,7 +2,7 @@
 
 .. _ngmobile_integration:
 
-Интеграция с NextGIS Web
+Интеграция с nextgis.com 
 ========================
 
 .. versionadded:: 2.2
@@ -10,34 +10,34 @@
 .. only:: html
    
    С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
-   в подразделе :ref:`ngw_keyfeatures`.
+   в разделе :ref:`ngw_keyfeatures`.
 
 .. only:: latex
 
    С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
-   в подразделе `Основные возможности NextGIS Web <http://docs.nextgis.ru/docs_ngweb/source/general.html#ngweb-keyfeatures>`_.
+   в разделе `Основные возможности NextGIS Web <http://docs.nextgis.ru/docs_ngweb/source/general.html#ngweb-keyfeatures>`_.
 
-.. _ngmobile_сreate_a_connection:
+.. _ngmobile_create_a_connection:
 
-Создание подключения к NextGIS Web
------------------------------------
+Создание подключения к Веб ГИС
+------------------------------
 
-Подключение к программному обеспечению NextGIS Web может осуществляться несколькими 
-способами. При использовании **первого способа** подключения к NextGIS Web, необходимо 
+Подключение к программному обеспечению Веб ГИС может осуществляться двумя 
+способами. При использовании **первого способа** необходимо 
 выполнить следующую последовательность шагов:
 
-1. Вызвать меню опций (см. :numref:`ngmobile_main_activity_pic` п. 5). 
-2. Далее выбрать пункт меню "Добавить слой".
-3. В открывшемся меню опций необходимо выбрать пункт "NGW" (см. :numref:`ngmobile_add_ngw_layer_pic`) 
+1. Открыть дерево слоев (см. :numref:`ngmobile_main_activity_pic` п. 1). 
+2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
+3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
 
-.. figure:: _static/add_layer1.png
-   :name: ngmobile_add_ngw_layer_pic
+.. figure:: _static/ngmobile_the_menu_button_Add_data.png
+   :name: ngmobile_the_menu_button_Add_data_pic
    :align: center
    :height: 10cm
   
-   Добавление слоя NextGIS Web.
+   Меню кнопки "Добавить геоданные".
 
-4. В открывшемся окне необходимо выбрать "Добавить учетную запись" (Добавить учетную запись NextGIS Web). 
+4. В открывшемся окне необходимо выбрать "Добавить Веб ГИС". 
    Нажать на эту кнопку (см. :numref:`ngmobile_select_ngw_layer_pic`).
 
 .. figure:: _static/select_layer.png
