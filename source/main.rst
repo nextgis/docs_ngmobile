@@ -85,7 +85,7 @@
 Для включения/выключения видимости слоя достаточно нажать на соответствующую кнопку (см. :numref:`ngmobile_layer_tree_pic`, п. 3).
 
 Нажатие на кнопку "Добавить геоданные" на верхней панели инструментов (см. :numref:`ngmobile_layer_tree_pic`, п. 4) 
-позволяет создавать векторные слои и импортировать векторные и растровые слои из локального хранилища Android, `каталога QuickMapServices <https://qms.nextgis.com/>`_, `nextgis.ru <https://my.nextgis.ru/signup/?next=/webgis/>`_ или `NextGIS Web <http://nextgis.ru/nextgis-web/>`_. Эта кнопка содержит меню следующего состава (см. :numref:`ngmobile_the_menu_button_Add_data_pic`):
+позволяет создавать векторные слои и импортировать векторные и растровые слои из локального хранилища Android, `каталога QuickMapServices <https://qms.nextgis.com/>`_, `nextgis.ru <https://my.nextgis.ru/signup/?next=/webgis/>`_ или `Веб ГИС <http://nextgis.ru/nextgis-web/>`_. Эта кнопка содержит меню следующего состава (см. :numref:`ngmobile_the_menu_button_Add_data_pic`):
 
 * Создать слой;
 * Открыть локальный;
