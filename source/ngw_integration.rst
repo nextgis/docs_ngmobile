@@ -37,8 +37,7 @@
   
    Меню кнопки "Добавить геоданные".
 
-4. В открывшемся окне необходимо выбрать "Добавить Веб ГИС". 
-   Нажать на эту кнопку (см. :numref:`ngmobile_select_ngw_layer_pic`).
+4. В открывшемся окне необходимо выбрать "Добавить из Веб ГИС" (см. :numref:`ngmobile_select_ngw_layer_pic`).
 
 .. figure:: _static/select_layer.png
    :name: ngmobile_select_ngw_layer_pic
