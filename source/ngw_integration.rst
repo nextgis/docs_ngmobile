@@ -35,14 +35,14 @@
   
    Меню кнопки "Добавить геоданные".
 
-4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_add_entry1_pic`).
+4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_select_layer_webgis_pic`).
 
-.. figure:: _static/add_entry.png
-   :name: ngmobile_add_entry1_pic
+.. figure:: _static/select_layer.png.png
+   :name: ngmobile_select_layer_webgis_pic
    :align: center
    :height: 10cm
 
-   Меню "Веб ГИС".
+   Меню "Добавить слой Веб ГИС".
    
 5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль и нажать кнопку "Войти" (см. :numref:`ngmobile_create_webgis_layer_pic`).
 
