@@ -35,14 +35,14 @@
   
    Меню кнопки "Добавить геоданные".
 
-4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_select_layer_webgis_pic`).
+4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_select_ngw_layer_pic`).
 
 .. figure:: _static/select_layer.png.png
-   :name: ngmobile_select_layer_webgis_pic
+   :name: ngmobile_select_ngw_layer_pic
    :align: center
    :height: 10cm
-
-   Меню "Добавить слой Веб ГИС".
+   
+   Выбор учетной записи Веб ГИС.
    
 5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль и нажать кнопку "Войти" (см. :numref:`ngmobile_create_webgis_layer_pic`).
 
@@ -97,23 +97,7 @@
 1. Открыть дерево слоев (см. :numref:`ngmobile_main_activity_pic` п. 1). 
 2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
 3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
-
-.. figure:: _static/ngmobile_the_menu_button_Add_data.png
-   :name: ngmobile_the_menu_button_Add_data_pic
-   :align: center
-   :height: 10cm
-  
-   Меню кнопки "Добавить геоданные".
-
 4. В открывшемся окне необходимо выбрать ранее созданную учетную запись Веб ГИС (см. :numref:`ngmobile_select_ngw_layer_pic`).
-
-.. figure:: _static/select_layer.png.png
-   :name: ngmobile_select_ngw_layer_pic
-   :align: center
-   :height: 10cm
-   
-   Выбор учетной записи Веб ГИС.
-   
 5. В случае удачного подключения откроется окно со списком файлов Веб ГИС. Если у Вас только одна Веб ГИС, то вход в нее будет осуществлен автоматически при нажатии на кнопку "Добавить из Веб ГИС".
 
 .. _ngmobile_create_a_connection_to_nextgis_web:
