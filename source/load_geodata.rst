@@ -524,7 +524,7 @@ To add files/geodata from Web GIS to NextGIS:
 
    Addition from Web GIS.
     
-2. In opened window select "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
+2. In opened dialogue select "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
 
 .. figure:: _static/ngmobile_add_an_account_NextGIS_eng.png
    :name: ngmobile_add_an_account_NextGIS_pic
