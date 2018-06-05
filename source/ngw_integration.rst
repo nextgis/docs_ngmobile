@@ -226,3 +226,97 @@ The **second way** to delete Web GIS account is the following:
    :height: 10cm
    
    Web GIS account deleting through the OS settings.
+
+.. _ngmobile_add_layer_webgis:
+
+Adding of a layer (vector/raster) from Web GIS
+----------------------------------------------
+
+To add a layer (vector/raste) from Web GIS:
+
+1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`).
+2. Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`).
+3. Select “Add from Web GIS” (:numref:`ngmobile_the_menu_button_Add_data_pic`) 
+4. In opened dialogue select Web GIS (:numref:`ngmobile_add_entry1_pic`). You can learn more about creating of Web GIS account in :ref:`ngmobile_сreate_a_connection`.
+5. In opened window you can see the list of internal resources and layers (vector and raster) for the selected Web GIS account (see :numref:`ngmobile_list_of_files_pic`).
+
+.. figure:: _static/list_of_files_eng.png
+   :name: ngmobile_list_of_files_pic
+   :align: center
+   :height: 10cm
+   
+   The list of Web GIS internal resources and layers.
+
+6. Select a group of Web GIS resources and within it tick a layer (vector/raster) you want to add and tap "Add" (see :numref:`ngmobile_file_selection_pic`).
+ 
+.. figure:: _static/file_selection_eng.png
+   :name: ngmobile_file_selection_pic
+   :align: center
+   :width: 10cm
+   
+   Selecting a layer within a Web GIS resources group.  
+
+.. note::
+   If you need to select several layers in different groups of Web GIS account, the tick of the layer selection will keep while you switching over the groups.
+
+7. Layer's processing dialogue includes options "Cancel" and "Hide" (see :numref:`ngmobile_processing_layer_pic`).
+    
+.. figure:: _static/processing_layer_eng.png
+   :name: ngmobile_processing_layer_pic
+   :align: center
+   :height: 10cm
+
+   Layers's processing dialogue.
+
+To stop Web GIS layer's processing tap "Cancel" button.
+To avoid program's interface blocking and to continue working with NextGIS Mobile tap "Hide" button. As a result Web GIS layers's processing dialogue will be transfered to status panel (see :numref:`ngmobile_download_status_pic`).
+
+.. figure:: _static/download_status_eng.png
+   :name: ngmobile_download_status_pic
+   :align: center
+   :height: 10cm
+
+   Status panel.
+ 
+.. note::
+   To stop the processing of Web GIS layer, which was transfered to status panel
+   touch the screen on the layer's processing panel with thumb and forfinger and
+   move them in different directions sliding along the screen. The indicator of
+   the Web GIS layer's processing will be transfered to status panel and the "Stop"
+   button will appear. Tap it to stop the processing of Web GIS layer. 
+
+After you execute all above mentioned selected Web GIS layers (vector/raste) will 
+be added to a map and will be shown up in the layers tree.
+
+.. _ngmobile_synchronization_layer_webgis:
+
+Synchronization settings for Web GIS vector layer
+------------------------------------------------
+
+Synchronization helps to interchange of geodata corrections quickly and to provide the identity of information interchanging between user's PC and mobile gadget. To syncronize Web GIS vector layer:
+ 
+1. Tap contextual menu icon (item 5 in :numref:`ngmobile_main_activity_pic_1`). 
+2. Select "Settings" (:numref:`ngmobile_settings2_pic`).
+3. Select "Web GIS" (:numref:`ngmobile_settings_ngw_pic`). 
+4. Select Web GIS account (:numref:`ngmobile_add_entry2_pic`).
+5. In will open a dialogue with options (see :numref:`ngmobile_connection_properties_window_pic`):
+  
+   - automatic synchronization; 
+   - synchronization interval (can be set to 5 minutes - 2 hours);
+   - synchronization of the Web GIS layers.
+
+.. figure:: _static/connection_properties_window_eng.png
+   :name: ngmobile_connection_properties_window_pic
+   :align: center
+   :height: 10cm
+ 
+   Settings of Web GIS account.
+
+After a Web GIS layer for synchronization is selected the icon of the synchronization beginning appears near the the icon of the selected layer and near the icon of that layer on the layers tree (see :numref:`ngmobile_layers_tree_int_pic`):
+
+.. figure:: _static/layers_tree_int_eng.png
+   :name: ngmobile_layers_tree_int_pic
+   :align: center
+   :height: 10cm
+
+   Layers tree.
