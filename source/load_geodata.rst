@@ -93,7 +93,7 @@ NextGIS Mobile allows to create a vector layer by importing an existing GeoJSON 
 .. note::  
 	In case of GeoJSON file importing the new layer will always be a vector layer!
 
-You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`). The "Roads" layer is marked in orange rectangle.
+You can check if the new layer was created successfully in the layers tree panel. The newly created layer will be shown up in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`). The "Roads" layer is marked in orange rectangle.
 
 .. figure:: _static/tree_layers_geo.png
    :name: ngmobile_tree_layers_geo_pic
@@ -177,7 +177,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
 
 4. Pressing "Create" button starts data processing for creation of a new vector layer.
 
-You can check if the new layer was created successfully in the layers tree panel. The newly created layer will show up in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`). The "Structures" layer is shown in orange rectangle.
+You can check if the new layer was created successfully in the layers tree panel. The newly created layer will be shown up in the layers tree in the layers tree (see :numref:`ngmobile_tree_layers_geo_pic`). The "Structures" layer is shown in orange rectangle.
 
 .. figure:: _static/tree_layers_ngfp.png
    :name: ngmobile_tree_layers_ngfp_pic
@@ -247,7 +247,7 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
 
    Data processing for creation of a new layer from tiles.
    
-You can check if the new raster layer was created successfully in the Layers tree panel. The newly created raster layer will show up first in the Layers tree (see :numref:`ngmobile_tree_layers_tms_pic`).
+You can check if the new raster layer was created successfully in the Layers tree panel. The newly created raster layer will be shown up in the layers tree first in the Layers tree (see :numref:`ngmobile_tree_layers_tms_pic`).
 
 .. figure:: _static/tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
@@ -276,7 +276,7 @@ Follow these steps to import tile cache in *.ngrc format :
    
    Android local storage.
 
-3. NextGIS Mobile will start data processing for creation of a new raster layer. You can check if the new layer was created successfully in the Layers tree panel. The newly created layer will show up in the layers tree as shown in (see :numref:`ngmobile_tree_layers_ngrc_pic`). The "Tandali_Wadgaon" layer is shown in orange rectangle.
+3. NextGIS Mobile will start data processing for creation of a new raster layer. You can check if the new layer was created successfully in the Layers tree panel. The newly created layer will be shown up in the layers tree in the layers tree as shown in (see :numref:`ngmobile_tree_layers_ngrc_pic`). The "Tandali_Wadgaon" layer is shown in orange rectangle.
 
 .. figure:: _static/tree_layers_ngrc.png
    :name: ngmobile_tree_layers_ngrc_pic
@@ -311,7 +311,7 @@ Follow these steps to add raster layer from TMS services listed in `QuickMapServ
 
    Add Geoservice dialogue.
    
-2. Select a geoservice you want to add and tap "Add" to create raster layer from that service. The newly created layer will show up in Layers tree.
+2. Select a geoservice you want to add and tap "Add" to create raster layer from that service. The newly created layer will be shown up in the layers tree in Layers tree.
 
 .. _ngmobile_tile_service:
 
@@ -339,7 +339,7 @@ If you want to add tile service not listed in `QuickMapServices catalog <https:/
 .. note::
    Only `Basic access authentication <http://en.wikipedia.org/wiki/Basic_access_authentication>`_ is currently supported.
 
-4. Tap "Create" to create new raster layer from that TMS service. The newly created layer will show up in Layers tree.
+4. Tap "Create" to create new raster layer from that TMS service. The newly created layer will be shown up in the layers tree in Layers tree.
 
 .. _ngmobile_tile_cache:
 
@@ -581,4 +581,4 @@ Specify a name for the group and tap "OK". In the case of the success you will s
    
    Adding of a new group.  
 
-6. After the layer selection for importing from your Web GIS to NextGIS Mobile, tap "Add" button. The importing process will begin. The newly created layer will show up in Layers tree.
+6. After the layer selection for importing from your Web GIS to NextGIS Mobile, tap "Add" button. The importing process will begin. The newly created layer will be shown up in the layers tree in Layers tree.
