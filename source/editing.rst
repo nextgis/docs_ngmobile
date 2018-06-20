@@ -31,7 +31,7 @@ There are several ways to switch to Edit mode.
 
 You need to tap the pencil button (item 6 in :numref:`ngmobile_common_action_menu_pic`) to switch to Edit mode.
 
-Then select a vector layer you want to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`). Depending on layer geometry type there will be different contextual menu items in the editor. In such a way you can add different geometry types (points, lines, polygons). 
+Then select a vector layer you want to edit in an opened dialog (see :numref:`ngmobile_select_layer_dialogtch_pic`).  
 
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
@@ -40,7 +40,7 @@ Then select a vector layer you want to edit in an opened dialog (see :numref:`ng
    
    Select layer dialog.
 
-2. The second way to switch to Edit mode is to long-press the geometry you want to edit and to select "Edit" in the Editig Toolbar at the bottom of the map screen.  
+2. The second way to switch to Edit mode is to long-press the object on the Map. This will activate Edit mode for the layer which includes this object.  
 
 3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items (item 6 in :numref:`ngmobile_layer_tree_pic`). There you need to select "Edit".
 
