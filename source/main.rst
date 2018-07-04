@@ -257,6 +257,8 @@ It is possible to measure the distance between two points directly on the map sc
    
    Measure distance.
 
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Measured distance; “Show my location” button; 4 - “Load/Refresh geodata” button; 5 - Contextual menu icon; 6 - Change the scale of the map; 7 - Exit Measuring mode.
+
 You can add further points, to measure distance of complex lines and smooth curves, as well as measure areas of the formed polygons. 
 
 Position of any point may be edited by tapping on it and dragging it to the correct location.
