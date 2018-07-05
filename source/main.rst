@@ -245,8 +245,8 @@ To know your current location, just tap on the "Show my location" button (see it
 .. note::
    Your "Location" settings must be switched ON in your Android mobile settings.
    
-Measure distance
-^^^^^^^^^^^^^^^^
+Measure distance and area
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is possible to measure the distance between two points directly on the map screen. Just tap on the Measuring button on Map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). Tap on your starting point (a new point in Edit mode will appear on the screen). Then tap on your finishing point (a second point in Edit mode and line between the points will appear on the screen). The distance between two points will be shown in Top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
 
@@ -257,13 +257,13 @@ It is possible to measure the distance between two points directly on the map sc
    
    Measure distance.
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Measured distance; “Show my location” button; 4 - “Load/Refresh geodata” button; 5 - Contextual menu icon; 6 - Change the scale of the map; 7 - Exit Measuring mode.
-
-You can add further points, to measure distance of complex lines and smooth curves, as well as measure areas of the formed polygons. 
+   The numbers indicate: 1 - Layers tree panel icon; 2 - Measured distance; 3 - “Show my location” button; 4 - “Load/Refresh geodata” button; 5 - Contextual menu icon; 6 - Zoom controls; 7 - Exit Measuring mode.
 
 Position of any point may be edited by tapping on it and dragging it to the correct location.
 
-To exit Measure mode tap the blue tick button in the corner of the screen.
+You can add additional points to measure distance of angled lines and smooth curves, as well as measure areas of the formed polygons. 
+
+To exit Measure mode tap the blue tick button in the corner of the screen (see item 7 in :numref:`ngmobile_measure_distance_pic`).
 
 .. note::
    To use this feature "Show measuring button" checkbox must be switched ON in Map settings (see :numref:`ngmobile_settings_map_pic`).
