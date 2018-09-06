@@ -261,7 +261,7 @@ You can check if the new raster layer was created successfully in the Layers tre
 Creating raster layer from Tile cache (NGRC)
 ----------------------------------------------
 
-NextGIS Mobile also allows to create a raster layer by importing tile cache in *.ngrc format. 
+NextGIS Mobile also allows to create a raster layer by importing tile cache in *.ngrc format. NGRC files can be created from virtually any geodata in QGIS using our QTiles plugin.
 
 Follow these steps to import tile cache in *.ngrc format :
 
