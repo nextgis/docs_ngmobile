@@ -19,4 +19,4 @@
    share  
    layer_settings
    ngw_integration
-   faq_ngmomile
+   faq_ngmobile
