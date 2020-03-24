@@ -19,3 +19,4 @@ Table of Contents
    share  
    layer_settings
    ngw_integration
+   faq_ngmobile
