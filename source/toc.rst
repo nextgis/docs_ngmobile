@@ -12,6 +12,7 @@ Table of Contents
 
    intro
    install
+   auth
    main
    load_geodata
    editing
