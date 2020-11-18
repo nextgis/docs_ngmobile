@@ -5,13 +5,13 @@
 Документация NextGIS Mobile
 ==============================
 
-Содержание:
-    
+ 
 .. toctree::
    :maxdepth: 2
 
    intro
    install
+   auth
    main
    load_geodata
    editing
