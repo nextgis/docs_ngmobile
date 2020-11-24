@@ -13,7 +13,7 @@
 .. figure:: _static/ngm_ngidop.png
    :name: ngm_ngidop
    :align: center
-   :height: 5cm
+   :height: 10cm
    
    Добавление собственного сервера авторизации в NextGIS Mobile
 
