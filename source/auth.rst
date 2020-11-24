@@ -13,6 +13,6 @@ For authorization in NextGIS Mobile via on-premise, specify the appropriate Endp
 .. figure:: _static/ngm_ngidop_en.png
    :name: ngm_ngidop_en
    :align: center
-   :height: 5cm
+   :height: 10cm
    
    Adding your own authorization server in NextGIS Mobile
