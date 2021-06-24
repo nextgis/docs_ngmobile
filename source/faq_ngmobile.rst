@@ -19,5 +19,10 @@ To sign in to NGM, you need to use NextGIS ID, account you've created while regi
 If you created, but forgot the password for NextGIS ID, follow `password recovery instruction <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#q-nextgis-id/>`_. Note that log in part is optional and only needed if you'd like extended NGM functionality.
 
 I sign in to NGM as administrator and the **application** shows an error. What am I doing wrong?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To sign in to NextGIS Mobile, you need to use **NextGIS ID**. Administrator is a Web GIS username local to this Web GIS. You cannot sign in to NGM with this name.
+
+I entered mywebgis.nextgis.com as my authorization server but stil can't sign in. What am I doing wrong?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you're on Premium your authorization server is my.nextgis.com. If you entered something else - please remove it.
+Different authorization setting is for NGW installations on your own servers.
