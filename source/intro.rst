@@ -51,7 +51,7 @@ This documentation describes NextGIS Mobile 2.5.
 Hardware and software requirements
 -------------------------------------
 
-To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term:`Android` **2.3** or higher.
+To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term:`Android` **5.0** or higher.
 
 To be able to use all NextGIS Mobile features the device should have the following hardware:
 
