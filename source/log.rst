@@ -1,3 +1,5 @@
+.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+
 .. _ngcom_logs:
 
 Logging
