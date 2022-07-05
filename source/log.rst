@@ -1,6 +1,6 @@
 .. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
 
-.. _ngcom_logs:
+.. _ngmobile_logs:
 
 Logging
 =======
