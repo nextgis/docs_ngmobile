@@ -1,6 +1,6 @@
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
 
-.. _ngcom_logs:
+.. _ngmobile_logs:
 
 Логирование
 ==========
