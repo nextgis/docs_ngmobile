@@ -26,7 +26,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
    :align: center
    :height: 10cm
    
-   Main screen.
+   Main screen
 
    The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - "Load/Refresh geodata" button; 5 - Contextual menu icon; 6 - Measuring button; 7 - Map screen; 8 - Main actions button; 9 - Status info panel.
 
@@ -68,7 +68,7 @@ Layers tree panel is designed to display the content of a map and to control vis
    :align: center
    :height: 10cm
    
-   Layers tree panel.
+   Layers tree panel
 
    The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Add geodata; 5 - Layer contextual menu icon; 6 - Layer contextual menu items.
    
@@ -88,7 +88,7 @@ For turning layer visibility on/off tap on Layer visibility button (item 3 in :n
    :align: center
    :height: 10cm
    
-   Add geodata dialogue.
+   Add geodata dialogue
 
 By using "Open local" menu item you can upload :term:`geodata` from local storage in one of the following formats:
 
@@ -128,7 +128,7 @@ Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
    :align: center
    :height: 10cm
    
-   Features Table.
+   Features Table
 
 If you tap any record (row) in the table, the Features table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
 
@@ -137,7 +137,7 @@ If you tap any record (row) in the table, the Features table toolbar appears at 
    :align: center
    :height: 10cm
    
-   Features table toolbar.
+   Features table toolbar
    
    The numbers indicate: 1 - Close Features table; 2 - Layer name; 3 - Features attributes;  4 - Close toolbar; 5 - Selected feature ID; 6 - Show selected feature on the map; 7 - Delete selected feature; 8 - Open Features table editing form.
    
@@ -158,7 +158,7 @@ Depending on the screen size Settings dialogue can fit into one or two panels. S
    :align: center
    :height: 10cm
    
-   Settings.
+   Settings
 
 There are following Settings on the main panel:
 
@@ -171,12 +171,12 @@ There are following Settings on the main panel:
 
 "General" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_general_pic`).
 
-.. figure:: _static/ngmobile_settings3.png
+.. figure:: _static/ngmobile_settings3en.png
    :name: ngmobile_settings_general_pic
    :align: center
    :height: 10cm
    
-   General settings.
+   General settings
    
 Here you can select the theme (Light or Dark) and tune up compass settings.
 
@@ -187,7 +187,7 @@ Here you can select the theme (Light or Dark) and tune up compass settings.
    :align: center
    :height: 10cm
    
-   Map settings.
+   Map settings
 
 Map settings include:
 
@@ -213,7 +213,7 @@ Map settings include:
    :align: center
    :height: 10cm
    
-   Location settings.
+   Location settings
 
 Location settings include:
 
@@ -254,7 +254,7 @@ It is possible to measure the distance between two points directly on the map sc
    :align: center
    :height: 10cm
    
-   Measure distance.
+   Measure distance
 
    The numbers indicate: 1 - Layers tree panel icon; 2 - Measured distance; 3 - “Show my location” button; 4 - “Load/Refresh geodata” button; 5 - Contextual menu icon; 6 - Zoom controls; 7 - Exit Measuring mode.
 
