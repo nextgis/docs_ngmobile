@@ -5,8 +5,6 @@
 Integration with NextGIS Web
 ============================
 
-.. versionadded:: 2.2
-
 .. only:: html
    
    You can learn more about main features of Web GIS in :ref:`Web GIS <ngcom_description>`.
