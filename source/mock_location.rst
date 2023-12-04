@@ -5,7 +5,7 @@ Simulation of location data
 
 How to use a third party software as a source of location data for your device.
 
-Install a mock location app. For example, `this one<https://lockito-app.com/>`_.
+Install a mock location app. For example, `this one <https://lockito-app.com/>`_.
 
 Turn on Developer mode on your smart phone.
 To do so, tap the Build number 7 times (in Software information).
