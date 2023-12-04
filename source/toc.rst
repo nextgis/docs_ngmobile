@@ -22,3 +22,4 @@
    ngw_integration
    log
    faq_ngmobile
+   mock_location
