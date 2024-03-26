@@ -26,7 +26,7 @@ Here are the steps to create an empty vector layer:
    :align: center
    :height: 10cm
  
-   Add geodata dialogue.
+   Add geodata dialogue
 
 2. In the opened dialogue enter the parameters of new vector layer (see :numref:`ngmobile_input_form_attributes_new_layer_pic`) 
 
@@ -35,7 +35,7 @@ Here are the steps to create an empty vector layer:
    :align: center
    :height: 10cm
    
-   Parameters of the new vector layer.
+   Parameters of the new vector layer
 
 The standard form for the creation of new vector layer contains the following parameters:
 
@@ -50,7 +50,7 @@ You can add as many attributes for a new vector layer as you like. To add a new 
    :align: center
    :height: 10cm
 
-   Dialog for creation of a new field.
+   Dialog for creation of a new field
 
 Dialog for creation of a new field contains the following parameters:
 
@@ -77,7 +77,7 @@ NextGIS Mobile allows to create a vector layer by importing an existing GeoJSON 
    :align: center
    :height: 10cm
    
-   Android local storage.
+   Android local storage
    
 3. When the file is selected Layer settings dialogue opens. Here you can specify a new vector layer name or keep the name as it is, e.g. "Roads" (see :numref:`ngmobile_layer_settings_geo_pic`).
 
@@ -86,7 +86,7 @@ NextGIS Mobile allows to create a vector layer by importing an existing GeoJSON 
    :align: center
    :height: 10cm
 
-   Layer settings dialogue.
+   Layer settings dialogue
 
 4. Pressing "Create" button starts data processing for creation of a new layer. 
 
@@ -100,7 +100,7 @@ You can check if the new layer was created successfully in the layers tree panel
    :align: center
    :height: 10cm  
 
-   Layers tree panel.
+   Layers tree panel
 
 **GeoJSON: format requirements**
 
@@ -127,7 +127,7 @@ A sample standard attributes form is shown below in :numref:`ngmobile_standard_i
    :align: center
    :height: 10cm
    
-   Standard attributes form.
+   Standard attributes form
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Add pictures.
 
@@ -149,7 +149,7 @@ NGFP file allows to use custom (not standard) attributes forms optimized for att
    :align: center
    :height: 10cm
    
-   Custom attributes form.
+   Custom attributes form
    
    The numbers indicate: 1 - Back to previous screen; 2 - Apply changes; 3 - Settings; 4 - Text or Integer; 5 - Dropdown list; 6 - Date & Time; 7 - Radio buttons.
 
@@ -164,7 +164,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
    :align: center
    :height: 10cm
    
-   Android local storage.
+   Android local storage
 
 3. When the file is selected Layer settings dialogue opens. Here you can specify a new vector layer name or keep the name as it is, e.g. "Structures" (see :numref:`ngmobile_settind_layer_form_pic`): 
 
@@ -173,7 +173,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
    :align: center
    :height: 10cm
 
-   Layer settings dialogue.
+   Layer settings dialogue
 
 4. Pressing "Create" button starts data processing for creation of a new vector layer.
 
@@ -184,7 +184,7 @@ You can check if the new layer was created successfully in the layers tree panel
    :align: center
    :height: 10cm  
 
-   Layers tree panel.
+   Layers tree panel
 
 You can further perform standard edit operations like Add, Modify or Delete operations for this vector layer. For more information about NGFP layer editing see :ref:`ngmobile_edit_geometry`.
 
@@ -211,7 +211,7 @@ Follow these steps to open zip-archive with tile cache:
    :align: center
    :height: 10cm
    
-   Android local storage.
+   Android local storage
 
 3. When zip-archive is selected a layer settings dialog opens (see :numref:`ngmobile_layer_setting_tms_pic`):
 
@@ -220,7 +220,7 @@ Follow these steps to open zip-archive with tile cache:
    :align: center
    :height: 10cm
 
-   Tile layer settings dialog.
+   Tile layer settings dialog
 
 Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (OSGeo) (see :numref:`ngmobile_layer_setting_tms_pic_2`) and in-memory cache size (see :numref:`ngmobile_layer_setting_tms_pic_3`):
 
@@ -229,14 +229,14 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
    :align: center
    :height: 10cm
 
-   Tile structure settings dialog.
+   Tile structure settings dialog
 
 .. figure:: _static/layer_setting_tms_3.png
    :name: ngmobile_layer_setting_tms_pic_3
    :align: center
    :height: 10cm
 
-   Cache size settings dialog.
+   Cache size settings dialog
 
 4. Pressing "Create" button starts data processing for creation of a new raster layer (see :numref:`ngmobile_processing_and_creation_layer_tms_pic`).
 
@@ -245,7 +245,7 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
    :align: center
    :height: 10cm  
 
-   Data processing for creation of a new layer from tiles.
+   Data processing for creation of a new layer from tiles
    
 You can check if the new raster layer was created successfully in the Layers tree panel. The newly created raster layer will be shown up in the layers tree first in the Layers tree (see :numref:`ngmobile_tree_layers_tms_pic`).
 
@@ -254,7 +254,7 @@ You can check if the new raster layer was created successfully in the Layers tre
    :align: center
    :height: 10cm  
 
-   Layers tree panel.
+   Layers tree panel
 
 .. _ngmobile_import_ngrc:
 
@@ -274,7 +274,7 @@ Follow these steps to import tile cache in *.ngrc format :
    :align: center
    :height: 10cm
    
-   Android local storage.
+   Android local storage
 
 3. NextGIS Mobile will start data processing for creation of a new raster layer. You can check if the new layer was created successfully in the Layers tree panel. The newly created layer will be shown up in the layers tree in the layers tree as shown in (see :numref:`ngmobile_tree_layers_ngrc_pic`). The "Tandali_Wadgaon" layer is shown in orange rectangle.
 
@@ -283,7 +283,7 @@ Follow these steps to import tile cache in *.ngrc format :
    :align: center
    :height: 10cm  
 
-   Layers tree panel.
+   Layers tree panel
 
 .. _ngmobile_add_geoservice:
 
@@ -309,7 +309,7 @@ Follow these steps to add raster layer from TMS services listed in `QuickMapServ
    :align: center
    :height: 10cm
 
-   Add Geoservice dialogue.
+   Add Geoservice dialogue
    
 2. Select a geoservice you want to add and tap "Add" to create raster layer from that service. The newly created layer will be shown up in the layers tree in Layers tree.
 
@@ -327,7 +327,7 @@ If you want to add tile service not listed in `QuickMapServices catalog <https:/
    :align: center
    :height: 10cm
 
-   Create TMS service dialogue.
+   Create TMS service dialogue
    
 2. Specify Layer name & Layer URL. Layer URL should specify location of X value (number of tile by horizontal), Y (number of tile by vertical) and Z (zoom level). These values are specified using wildcard code for X - **{x}**, for Y - **{y}**, for Z - **{z}**. Additionally you can specify subdomains (e.g. for subdomains a.tileopenstreetmap.org, b.tileopenstreetmap.org, c.tileopenstreetmap.org the address will look like this: **{a,b,c}.tile.openstreetmap.org**).
 
@@ -359,7 +359,7 @@ You can work **Offline** with raster layers created from external geoservices. I
    :align: center
    :height: 10cm
  
-   Download tiles button.
+   Download tiles button
 
 4. A new dialogue will open as shown in :numref:`ngmobile_levels_of_zoom_pic`. Select zoom levels you need and tap "Start" button. 
 
@@ -368,7 +368,7 @@ You can work **Offline** with raster layers created from external geoservices. I
    :align: center
    :height: 10cm
  
-   Select zoom levels dialogue.
+   Select zoom levels dialogue
 
 .. note::
    The lower selected zoom levels, the smaller number of tiles for an area of interest will have to be downloaded and the faster they will be downloaded. You can track downloading progress in Android Status Bar. Notifications for NextGIS Mobile app should be switched ON in System Settings.
@@ -379,60 +379,53 @@ You can work **Offline** with raster layers created from external geoservices. I
 
 .. _ngmobile_webgis_download:
 
-Geodata uploading and web-maps creation using geodata from your Web GIS
+Adding geodata from Web GIS
 -----------------------------------------------------------------------
 
-NextGIS Mobile supports uploading of geodata from :ref:`Web GIS created at nextgis.com cloud service <ngcom_create>`.
+NextGIS Mobile supports uploading of geodata from :ref:`Web GIS created at nextgis.com cloud service <ngcom_create>` or on-premise.
 
-.. only:: html
+You can learn more about uploading geodata to :ref:`Web GIS <ngcom_description>` in the following sections: :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>`.
 
-   For geodata uploading sign in not as a guest, but with rights for data creation, in your Web GIS. You can learn more about geodata uploading in :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>`. 
+To add files/geodata from Web GIS to NextGIS Mobile:
 
-.. only:: latex
-
-   For geodata uploading sign in not as a guest, but with rights for data creation, in your Web GIS. You can learn more about geodata uploading in `Raster layer <http://docs.nextgis.com/docs_ngcom/source/data_upload.html#ngcom-raster-layer>`_ and 
-   `Vector layer <http://docs.nextgis.com/docs_ngcom/source/data_upload.html#ngcom-vector-layer>`_.
-   
-Geodata addition from Web GIS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To add files/geodata from Web GIS to NextGIS:
-
-1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`). The dialogue will open as shown in :numref:`ngmobile_addition_of_NextGIS_pic`. Select "Add from Web GIS". 
+1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on **Add geodata** button (item 4 in :numref:`ngmobile_layer_tree_pic`). The dialogue will open as shown in :numref:`ngmobile_addition_of_NextGIS_pic`. Select "Add from Web GIS". 
 
 .. figure:: _static/ngmobile_addition_of_NextGIS_eng.png
    :name: ngmobile_addition_of_NextGIS_pic
    :align: center
    :height: 10cm    
 
-   Addition from Web GIS.
+   Adding from Web GIS
     
-2. In opened dialogue select "Add Web GIS" and tap "Add" button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
+2. In opened dialogue select "Add Web GIS" and tap **Add** button (see :numref:`ngmobile_add_an_account_NextGIS_pic`): 
 
 .. figure:: _static/ngmobile_add_an_account_NextGIS_eng.png
    :name: ngmobile_add_an_account_NextGIS_pic
    :align: center
    :height: 10cm    
 
-   Addition of an account.   
+   Adding Web GIS connection
    
-3. Then fill up your Web GIS domain's name and password for Web GIS in the form for Web GIS adding and tap "Sign in" button (see :numref:`ngmobile_conversation_connection_WebGIS_pic`): 
+3. Enter your Web GIS name and password set on nextgis.com, then tap **Sign in** button (see :numref:`ngmobile_conversation_connection_WebGIS_pic`): 
 
 .. figure:: _static/ngmobile_conversation_connection_WebGIS_eng.png
    :name: ngmobile_conversation_connection_WebGIS_pic
    :align: center
    :height: 10cm  
 
-   Web GIS adding dialog.
-   
-4. After Web GIS adding select the account with your Web GIS domain's name and tap "Add" button (see :numref:`ngmobile_account_election_Web_GIS_pic`): 
+   Web GIS adding dialog
+
+If you're adding geodata from an on-premise Web GIS, first you need to `change the authentification server <https://docs.nextgis.com/docs_ngmobile/source/auth.html#ngidop>`_.
+
+
+4. After the connection is successful you will see the list of available Web GIS. Select the one you added (see :numref:`ngmobile_account_election_Web_GIS_pic`): 
 
 .. figure:: _static/ngmobile_account_election_Web_GIS_eng.png
    :name: ngmobile_account_election_Web_GIS_pic
    :align: center
    :height: 10cm    
 
-   Web GIS account selection dialog. 
+   Selecting Web GIS 
 
 5. The dialog of layer selection for importing geodata from your Web GIS to NextGIS Mobile will open (see :numref:`ngmobile_layer_selection_dialog_for_importing_pic`): 
 
@@ -441,7 +434,7 @@ To add files/geodata from Web GIS to NextGIS:
    :align: center
    :height: 10cm    
 
-   The dialog of layer selection for importing geodata from your Web GIS. 
+   Selecting layer for geodata import
    
 If Web GIS layer has a style, there is a possibility to choose not only vector data, but also raster data for importing. Vector data are downloading to the mobile device and can be used offline. Raster data can be used only online.   
 A vector layer can be added/imported either as vector or as raster data. Tick off the type for the layer in the right side of the screen (see :numref:`ngmobile_layer_type_selection_pic`): 
@@ -451,7 +444,7 @@ A vector layer can be added/imported either as vector or as raster data. Tick of
    :align: center
    :height: 10cm    
   
-   Layer type selection.
+   Layer type selection
 
 Tap the button in the upper right corner of the screen to create a new group of data in your Web GIS.
 Specify a name for the group and tap "OK". In the case of the success you will see it in your Web GIS window
@@ -462,6 +455,6 @@ Specify a name for the group and tap "OK". In the case of the success you will s
    :align: center
    :height: 10cm    
    
-   Adding of a new group.  
+   Adding a new group
 
 6. After the layer selection for importing from your Web GIS to NextGIS Mobile, tap "Add" button. The importing process will begin. The newly created layer will be shown up in the layers tree in Layers tree.
