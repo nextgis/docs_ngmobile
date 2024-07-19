@@ -26,7 +26,7 @@
 .. figure:: _static/ngmobile_the_menu_button_Add_data.png
    :name: ngmobile_the_menu_button_new_layer_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Диалог "Добавить геоданные"
 
@@ -35,7 +35,7 @@
 .. figure:: _static/ngmobile_input_form_attributes_new_layer.png
    :name: ngmobile_input_form_attributes_new_layer_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Форма создания нового векторного слоя
 
@@ -50,7 +50,7 @@
 .. figure:: _static/dialogue_create_new_field_new.png
    :name: ngmobile_dialogue_create_new_field_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Диалог создания нового поля
 
@@ -78,7 +78,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_unit_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Окно с сохраненными файлами на диске мобильного устройства
 
@@ -87,7 +87,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 .. figure:: _static/ngmobile_layer_settings_geo.png
    :name: ngmobile_layer_settings_geo_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Диалог настройки параметров создаваемого слоя.
    
@@ -101,7 +101,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 .. figure:: _static/tree_layers_geo.png
    :name: ngmobile_tree_layers_geo_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Дерево слоев
 
@@ -132,7 +132,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 .. figure:: _static/standard_form_layer_attributes.png
    :name: ngmobile_standard_form_layer_attributes_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
     
    Стандартная форма редактирования атрибутов слоя
    
@@ -155,7 +155,7 @@ NextGIS Mobile позволяет создавать векторный слой
 .. figure:: _static/non-standard_form.png
    :name: ngmobile_non-standard_form_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
     
    Пользовательская форма редактирования атрибутов слоя
    
@@ -170,7 +170,7 @@ NextGIS Mobile позволяет создавать векторный слой
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_pic_3
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Выбор файла для загрузки
 
@@ -179,7 +179,7 @@ NextGIS Mobile позволяет создавать векторный слой
 .. figure:: _static/settind_layer_form.png
    :name: ngmobile_settind_layer_form_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Диалог настройки параметров создаваемого слоя
    
@@ -188,7 +188,7 @@ NextGIS Mobile позволяет создавать векторный слой
 .. figure:: _static/tree_layers_ngfp_rus.png
    :name: ngmobile_tree_layers_ngfp_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Дерево слоев
 
@@ -216,7 +216,7 @@ NextGIS Mobile позволяет создавать растровый слой
 .. figure:: _static/ngmobile_files_on_the_drive_unit_tms.png
    :name: ngmobile_files_on_the_drive_unit_tms_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Окно с файлами на диске мобильного устройства
 
@@ -225,7 +225,7 @@ NextGIS Mobile позволяет создавать растровый слой
 .. figure:: _static/layer_setting_tms.png
    :name: ngmobile_layer_setting_tms_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Диалог настройки параметров тайлового слоя
 
@@ -234,14 +234,14 @@ NextGIS Mobile позволяет создавать растровый слой
 .. figure:: _static/layer_setting_tms_2.png
    :name: ngmobile_layer_setting_tms_pic_2
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Настройка типа тайлового слоя
 
 .. figure:: _static/layer_setting_tms_3.png
    :name: ngmobile_layer_setting_tms_pic_3
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Настройка размера кэша тайлов TMS
 
@@ -250,7 +250,7 @@ NextGIS Mobile позволяет создавать растровый слой
 .. figure:: _static/processing_and_creation_layer_tms.png
    :name: ngmobile_processing_and_creation_layer_tms_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Окно обработки данных и создания слоя
 
@@ -259,7 +259,7 @@ NextGIS Mobile позволяет создавать растровый слой
 .. figure:: _static/ngmobile_tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Дерево слоев
    
@@ -279,7 +279,7 @@ NextGIS Mobile также позволяет создавать растровы
 .. figure:: _static/ngmobile_files_on_the_drive_unit_tms.png
    :name: ngmobile_files_on_the_drive_unit_tms_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Окно с файлами на диске мобильного устройства 
 
@@ -288,7 +288,7 @@ NextGIS Mobile также позволяет создавать растровы
 .. figure:: _static/ngmobile_tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Дерево слоев
 
@@ -314,7 +314,7 @@ NextGIS Mobile позволяет создавать растровые слои
 .. figure:: _static/ngmobile_add_geoservice.png
    :name: ngmobile_add_geoservice_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
  
    Диалог добавления геосервисов
 
@@ -336,7 +336,7 @@ NextGIS Mobile позволяет создавать растровые слои
 .. figure:: _static/ngmobile_new_geoservice.png
    :name: ngmobile_ngmobile_new_geoservice_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Диалог добавления сервиса TMS
    
@@ -371,7 +371,7 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
 .. figure:: _static/download_tiles.png
    :name: download_tiles_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Кнопка "Загрузить тайлы"
 
@@ -380,7 +380,7 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
 .. figure:: _static/levels_of_zoom.png
    :name: ngmobile_levels_of_zoom_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Окно выбора уровня зума для загрузки тайлов
 
@@ -409,7 +409,7 @@ NextGIS Mobile позволяет загружать геоданные из :re
 .. figure:: _static/ngmobile_addition_of_NextGIS.png
    :name: ngmobile_addition_of_NextGIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Добавление из Веб ГИС
  
@@ -419,7 +419,7 @@ NextGIS Mobile позволяет загружать геоданные из :re
 .. figure:: _static/ngmobile_add_an_account_NextGIS.png
    :name: ngmobile_add_an_account_NextGIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Добавление учетной записи
 
@@ -428,7 +428,7 @@ NextGIS Mobile позволяет загружать геоданные из :re
 .. figure:: _static/ngmobile_conversation_connection_WebGIS.png
    :name: ngmobile_conversation_connection_WebGIS_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Диалог подключения Веб ГИС
 
@@ -440,7 +440,7 @@ NextGIS Mobile позволяет загружать геоданные из :re
 .. figure:: _static/ngmobile_account_election_Web_GIS.png
    :name: ngmobile_account_election_Web_GIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Выбор учетной записи Веб ГИС
 
@@ -450,7 +450,7 @@ NextGIS Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic
 .. figure:: _static/ngmobile_layer_selection_dialog_for_importing.png
    :name: ngmobile_layer_selection_dialog_for_importing_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Окно диалога выбора слоя для импорта геоданных из Веб ГИС. 
 
@@ -468,7 +468,7 @@ NextGIS Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic
 .. figure:: _static/ngmobile_layer_type_selection.png
    :name: ngmobile_layer_type_selection_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
   
    Выбор типа слоя
 
@@ -481,7 +481,7 @@ NextGIS Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic
 .. figure:: _static/ngmobile_add_a_new_group.png
    :name: ngmobile_add_a_new_group_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
    
    Создание новой группы
 
