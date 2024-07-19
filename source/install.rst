@@ -20,8 +20,8 @@
 .. figure:: _static/nextgismobile1.png
    :name: ngmobile_launch_shortcut_pic
    :align: center
-   :height: 8cm
+   :width: 8cm
 
-   Ярлыки приложений.
+   Ярлыки приложений
    
    Красным прямоугольником выделен ярлык NextGIS Mobile.
