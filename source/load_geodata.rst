@@ -59,7 +59,7 @@ Dialog for creation of a new field contains the following parameters:
 .. note:: 
 	The field name can only be entered in Latin characters (letters and numbers!) without spaces. It should also differ from SQL reserved keywords.
 
-2. Field type - select field type from one of the following types: string, integer, real, date&time, date, time.
+2. Field type - select field type from one of the following types: string, integer, biginteger, real, date&time, date, time.
 
 .. _ngmobile_import_vector:
 
