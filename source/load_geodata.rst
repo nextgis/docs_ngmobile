@@ -24,7 +24,7 @@ Here are the steps to create an empty vector layer:
 .. figure:: _static/options_menu_new_layer.png
    :name: ngmobile_options_menu_new_layer_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Add geodata dialogue
 
@@ -33,7 +33,7 @@ Here are the steps to create an empty vector layer:
 .. figure:: _static/input_form_attributes_new_layer.png
    :name: ngmobile_input_form_attributes_new_layer_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Parameters of the new vector layer
 
@@ -48,7 +48,7 @@ You can add as many attributes for a new vector layer as you like. To add a new 
 .. figure:: _static/dialogue_create_new_field.png
    :name: ngmobile_dialogue_create_new_field_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Dialog for creation of a new field
 
@@ -75,7 +75,7 @@ NextGIS Mobile allows to create a vector layer by importing an existing GeoJSON 
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_pic_1
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Android local storage
    
@@ -84,7 +84,7 @@ NextGIS Mobile allows to create a vector layer by importing an existing GeoJSON 
 .. figure:: _static/layer_settings_geo.png
    :name: ngmobile_layer_settings_geo_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Layer settings dialogue
 
@@ -98,7 +98,7 @@ You can check if the new layer was created successfully in the layers tree panel
 .. figure:: _static/tree_layers_geo.png
    :name: ngmobile_tree_layers_geo_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Layers tree panel
 
@@ -125,7 +125,7 @@ A sample standard attributes form is shown below in :numref:`ngmobile_standard_i
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_standard_input_form_attributes_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Standard attributes form
    
@@ -147,7 +147,7 @@ NGFP file allows to use custom (not standard) attributes forms optimized for att
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Custom attributes form
    
@@ -162,7 +162,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_pic_3
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Android local storage
 
@@ -171,7 +171,7 @@ Follow these steps to open NGFP file in NextGIS Mobile:
 .. figure:: _static/settind_layer_form.png
    :name: ngmobile_settind_layer_form_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Layer settings dialogue
 
@@ -182,7 +182,7 @@ You can check if the new layer was created successfully in the layers tree panel
 .. figure:: _static/tree_layers_ngfp.png
    :name: ngmobile_tree_layers_ngfp_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Layers tree panel
 
@@ -209,7 +209,7 @@ Follow these steps to open zip-archive with tile cache:
 .. figure:: _static/files_on_the_drive_unit_tms.png
    :name: ngmobile_files_on_the_drive_unit_tms_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Android local storage
 
@@ -218,7 +218,7 @@ Follow these steps to open zip-archive with tile cache:
 .. figure:: _static/layer_setting_tms.png
    :name: ngmobile_layer_setting_tms_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Tile layer settings dialog
 
@@ -227,14 +227,14 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
 .. figure:: _static/layer_setting_tms_2.png
    :name: ngmobile_layer_setting_tms_pic_2
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Tile structure settings dialog
 
 .. figure:: _static/layer_setting_tms_3.png
    :name: ngmobile_layer_setting_tms_pic_3
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Cache size settings dialog
 
@@ -243,7 +243,7 @@ Here you can select tile layer type (tile structure system) - XYZ (OSM) or TMS (
 .. figure:: _static/processing_and_creation_layer_tms.png
    :name: ngmobile_processing_and_creation_layer_tms_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Data processing for creation of a new layer from tiles
    
@@ -252,7 +252,7 @@ You can check if the new raster layer was created successfully in the Layers tre
 .. figure:: _static/tree_layers_tms.png
    :name: ngmobile_tree_layers_tms_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Layers tree panel
 
@@ -272,7 +272,7 @@ Follow these steps to import tile cache in *.ngrc format :
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_pic_2
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Android local storage
 
@@ -281,7 +281,7 @@ Follow these steps to import tile cache in *.ngrc format :
 .. figure:: _static/tree_layers_ngrc.png
    :name: ngmobile_tree_layers_ngrc_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Layers tree panel
 
@@ -307,7 +307,7 @@ Follow these steps to add raster layer from TMS services listed in `QuickMapServ
 .. figure:: _static/ngmobile_add_geoservice.png
    :name: ngmobile_ngmobile_add_geoservice_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Add Geoservice dialogue
    
@@ -325,7 +325,7 @@ If you want to add tile service not listed in `QuickMapServices catalog <https:/
 .. figure:: _static/ngmobile_new_geoservice.png
    :name: ngmobile_ngmobile_new_geoservice_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Create TMS service dialogue
    
@@ -357,7 +357,7 @@ You can work **Offline** with raster layers created from external geoservices. I
 .. figure:: _static/download_tiles.png
    :name: download_tiles_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Download tiles button
 
@@ -366,7 +366,7 @@ You can work **Offline** with raster layers created from external geoservices. I
 .. figure:: _static/levels_of_zoom.png
    :name: ngmobile_levels_of_zoom_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Select zoom levels dialogue
 
@@ -393,7 +393,7 @@ To add files/geodata from Web GIS to NextGIS Mobile:
 .. figure:: _static/ngmobile_addition_of_NextGIS_eng.png
    :name: ngmobile_addition_of_NextGIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Adding from Web GIS
     
@@ -402,7 +402,7 @@ To add files/geodata from Web GIS to NextGIS Mobile:
 .. figure:: _static/ngmobile_add_an_account_NextGIS_eng.png
    :name: ngmobile_add_an_account_NextGIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Adding Web GIS connection
    
@@ -411,7 +411,7 @@ To add files/geodata from Web GIS to NextGIS Mobile:
 .. figure:: _static/ngmobile_conversation_connection_WebGIS_eng.png
    :name: ngmobile_conversation_connection_WebGIS_pic
    :align: center
-   :height: 10cm  
+   :width: 10cm  
 
    Web GIS adding dialog
 
@@ -423,7 +423,7 @@ If you're adding geodata from an on-premise Web GIS, first you need to `change t
 .. figure:: _static/ngmobile_account_election_Web_GIS_eng.png
    :name: ngmobile_account_election_Web_GIS_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Selecting Web GIS 
 
@@ -432,7 +432,7 @@ If you're adding geodata from an on-premise Web GIS, first you need to `change t
 .. figure:: _static/ngmobile_layer_selection_dialog_for_importing_eng.png
    :name: ngmobile_layer_selection_dialog_for_importing_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
 
    Selecting layer for geodata import
    
@@ -442,7 +442,7 @@ A vector layer can be added/imported either as vector or as raster data. Tick of
 .. figure:: _static/ngmobile_layer_type_selection_eng.png
    :name: ngmobile_layer_type_selection_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
   
    Layer type selection
 
@@ -453,7 +453,7 @@ Specify a name for the group and tap "OK". In the case of the success you will s
 .. figure:: _static/ngmobile_add_a_new_group_eng.png
    :name: ngmobile_add_a_new_group_pic
    :align: center
-   :height: 10cm    
+   :width: 10cm    
    
    Adding a new group
 
