@@ -20,11 +20,13 @@ Via on-premise (NGIDOP)
 
 If your company has NextGIS Web and NextGIS ID deployed on-premise, you need to change authorization server in the settings.
 
-For authorization in NextGIS Mobile via on-premise, enter the appropriate NextGIS ID address in the authorization settings (Menu -> Settings -> Account -> Sign in -> Change authorization server) (:numref:`ngm_ngidop_en`). If you're already logged in with my.nextgis.com - log out first, select the correct server, then log in again.
+For authorization in NextGIS Mobile via on-premise, enter the appropriate NextGIS ID address in the authorization settings (Menu -> Settings -> Account -> Sign in -> Change authorization server) (:numref:`ngm_ngidop_en`). Select "NextGIS ID from custom server" and enter the address.
 
-.. figure:: _static/ngm_ngidop_en.png
+If you're already logged in with my.nextgis.com - log out first, select the correct server, then log in again.
+
+.. figure:: _static/ngm_ngidop_en_2.jpg
    :name: ngm_ngidop_en
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Adding your own authorization server in NextGIS Mobile
