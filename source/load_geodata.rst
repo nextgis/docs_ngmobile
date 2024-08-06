@@ -12,6 +12,8 @@ NextGIS Mobile allows to create new empty vector layers or import vector and ras
 * tile cache in *.ngrc format;
 * custom forms in *.ngfp format.
 
+To add a basemap use a servise as described `below <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_.
+
 .. _ngmobile_create_vector:
 
 Creating new vector layer
@@ -290,7 +292,7 @@ Follow these steps to import tile cache in *.ngrc format :
 Creating raster layer from external geoservice
 ------------------------------------------------
 
-NextGIS Mobile also supports creation of raster layers from external geoservices. 
+NextGIS Mobile also supports creation of raster layers from external geoservices. For example, you can use them to add basemaps.
 
 .. warning::
    You need to be **Online** while creating layer from external geoservice. It will consume your data pack & apply standard Internet charges from your Internet service provider.
