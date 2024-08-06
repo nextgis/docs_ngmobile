@@ -266,3 +266,10 @@ To exit Measure mode tap the blue tick button in the corner of the screen (see i
 
 .. note::
    To use this feature "Show measuring button" checkbox must be switched ON in Map settings (see :numref:`ngmobile_settings_map_pic`).
+
+.. _ngmobile_view_info:
+
+How to view feature information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Make a short tap on a feature and a tool bar will appear at the bottom on the screen. The only active option will be "info" (i in a circle). Press it to view the attributes and attachments of the feature.
