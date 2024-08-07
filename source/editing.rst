@@ -25,7 +25,7 @@ There are several ways to switch to Edit mode.
    :align: center
    :height: 10cm
    
-   Common actions menu.   
+   Common actions menu 
    
    The numbers indicate: 1 - Zoom in; 2 - Zoom out; 3 – Scale ruler; 4 - Measure button; 5 - Add geometry by walk; 6 - Edit layers; 7 - Add current location; 8 - Close Common actions menu.
 
@@ -38,11 +38,19 @@ Then select a vector layer you want to edit in an opened dialog (see :numref:`ng
    :align: center
    :height: 10cm
    
-   Select layer dialog.
+   Select layer dialog
 
 2. The second way to switch to Edit mode is to long-press the feature on the Map. This will activate Edit mode for the layer which includes this feature.  (A short press will activate a similar menu, but only the "info" icon will be available.) If there are multiple overlaying features, a list will appear. Select the layer you wish to edit from that list.
 
-3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items (:numref:`ngmobile_layer_tree_pic`). There you need to select "Edit".
+
+3. The third way is to open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`) and tap on Layer contextual menu icon next to the vector layer name . This will open the contextual menu items. There you need to select "Edit".
+
+.. figure:: _static/mobile_layer_context_edit_en.png
+   :name: mobile_layer_context_edit_pic
+   :align: center
+   :height: 10cm
+   
+   Layer context menu
 
 .. _ngmobile_editing_toolbar:
 
