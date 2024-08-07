@@ -24,7 +24,7 @@
 .. figure:: _static/ngmobile_edit_menu.png
    :name: ngmobile_edit_menu_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Меню основных операций
    
@@ -37,7 +37,7 @@
 .. figure:: _static/select_layer_dialogtch.png
    :name: ngmobile_select_layer_dialogtch_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
    Диалог выбора слоя
 
@@ -48,7 +48,7 @@
 .. figure:: _static/mobile_layer_context_edit_ru.png
    :name: mobile_layer_context_edit_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
    Контекстное меню слоя
 
@@ -100,7 +100,7 @@
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление точки в точечный слой.
    
@@ -111,7 +111,7 @@
 .. figure:: _static/creation_of_multipoints.png
    :name: ngmobile_creation_of_multipoints_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление точки в мультиточечный слой.
    
@@ -123,7 +123,7 @@
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Форма ввода атрибутов объекта.
    
@@ -145,7 +145,7 @@
 .. figure:: _static/creating_lines.png
    :name: ngmobile_creating_lines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление линии в линейный слой.
    
@@ -158,7 +158,7 @@
 .. figure:: _static/creating_multilines.png
    :name: ngmobile_creating_multilines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление линии в мультилинейный слой.
    
@@ -183,7 +183,7 @@
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление полигона в полигональный слой.
    
@@ -201,7 +201,7 @@
 .. figure:: _static/creation_multipolygon.png
    :name: ngmobile_creation_multipolygon_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Добавление полигона в мультиполигональный слой.
    
@@ -224,7 +224,7 @@
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Диалог выбора слоя для добавления текущего местоположения.
 
@@ -245,7 +245,7 @@
 .. figure:: _static/ngmobile_selectlayer_by_walk.png
    :name: ngmobile_select_layer_by_walk_dialog_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Диалог выбора слоя для добавления геометрии обходом.
    
@@ -273,7 +273,7 @@
 .. figure:: _static/editing_of_points.png
    :name: ngmobile_editing_of_points_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Редактирование точки.
    
@@ -284,7 +284,7 @@
 .. figure:: _static/ngmobile_edit_multipoint_new_rus.png
    :name: ngmobile_creating_multipoint3_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Редактирование мультиточки.
    
@@ -308,7 +308,7 @@
 .. figure:: _static/editing_lines.png
    :name: ngmobile_editing_lines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Редактирование линии.
    
@@ -322,7 +322,7 @@
 .. figure:: _static/editing_multilines.png
    :name: ngmobile_edit_multilines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Редактирование мультилинии.
    
@@ -352,7 +352,7 @@
 .. figure:: _static/ngmobile_polygon_editing.png
    :name: ngmobile_polygon_editing_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Редактирование полигона.
    
@@ -363,7 +363,7 @@
 .. figure:: _static/editing_multipolygon.png
    :name: ngmobile_edit_multipolygon_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Редактирование мультиполигона.
    
@@ -383,7 +383,7 @@
 .. figure:: _static/ngmobile_editing_attributes_new.png
    :name: ngmobile_editing_attributes_pic
    :align: center
-   :height: 10cm   
+   :width: 10cm   
 
    Экран просмотра атрибутов.
    
@@ -422,7 +422,7 @@
 .. figure:: _static/non-standard_form.png
    :name: ngmobile_custom_form_pic_1
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Пользовательская форма редактирования атрибутов слоя.
    
