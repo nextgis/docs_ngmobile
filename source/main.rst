@@ -24,7 +24,7 @@ Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
 .. figure:: _static/ngmobile_mainscreen_1.png
    :name: ngmobile_main_activity_pic_1
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Main screen
 
@@ -66,7 +66,7 @@ Layers tree panel is designed to display the content of a map and to control vis
 .. figure:: _static/ngmobile_layer_tree_eng_new.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Layers tree panel
 
@@ -86,7 +86,7 @@ For turning layer visibility on/off tap on Layer visibility button (item 3 in :n
 .. figure:: _static/options_menu_new_layer.png
    :name: options_menu_new_layer
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Add geodata dialogue
 
@@ -126,7 +126,7 @@ Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
 .. figure:: _static/attribute_table_new.png
    :name: ngmobile_attribute_table_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Features Table
 
@@ -135,7 +135,7 @@ If you tap any record (row) in the table, the Features table toolbar appears at 
 .. figure:: _static/attribute_table_toolbar_new.png
    :name: ngmobile_attribute_table_toolbar_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Features table toolbar
    
@@ -156,7 +156,7 @@ Depending on the screen size Settings dialogue can fit into one or two panels. S
 .. figure:: _static/ngmobile_settings_eng_new.png
    :name: ngmobile_settings_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
    Settings
 
@@ -174,7 +174,7 @@ There are following Settings on the main panel:
 .. figure:: _static/ngmobile_settings3en.png
    :name: ngmobile_settings_general_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    General settings
    
@@ -185,7 +185,7 @@ Here you can select the theme (Light or Dark) and tune up compass settings.
 .. figure:: _static/ngmobile_settings1.png
    :name: ngmobile_settings_map_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Map settings
 
@@ -211,7 +211,7 @@ Map settings include:
 .. figure:: _static/ngmobile_settings2.png
    :name: ngmobile_settings_place_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Location settings
 
@@ -252,7 +252,7 @@ It is possible to measure the distance between two points directly on the map sc
 .. figure:: _static/measure_distance.png
    :name: ngmobile_measure_distance_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Measure distance
 
