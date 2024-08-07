@@ -24,7 +24,7 @@
 .. figure:: _static/ngmobile_mainscreen_rus.png
    :name: ngmobile_main_activity_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Главное окно приложения
    
@@ -68,7 +68,7 @@
 .. figure:: _static/ngmobile_layer_tree_new.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Дерево слоев карты
    
@@ -91,7 +91,7 @@
 .. figure:: _static/ngmobile_the_menu_button_Add_data.png
    :name: ngmobile_the_menu_button_Add_data_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
   
    Диалог "Добавить геоданные"
 
@@ -132,7 +132,7 @@
 .. figure:: _static/attribute_table_rus.png
    :name: ngmobile_attributes_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Таблица объектов
    
@@ -142,7 +142,7 @@
 .. figure:: _static/attribute_table_toolbar_rus.png
    :name: ngmobile_attribute_table_toolbar_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Панель инструментов таблицы объектов
    
@@ -165,7 +165,7 @@
 .. figure:: _static/ngmobile_settings_new.png
    :name: ngmobile_settings_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
    Окно настроек
    
@@ -183,7 +183,7 @@
 .. figure:: _static/ngmobile_settings_general_rus_2.png
    :name: ngmobile_settings_general_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Блок настроек "Общие"
   
@@ -194,7 +194,7 @@
 .. figure:: _static/ngmobile_settings_map.png
    :name: ngmobile_settings_map_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Окно настроек карты
    
@@ -224,7 +224,7 @@
 .. figure:: _static/ngmobile_settings_place.png
    :name: ngmobile_settings_place_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Окно настроек местоположения
   
@@ -266,7 +266,7 @@
 .. figure:: _static/ngmobile_measure.png
    :name: ngmobile_measure_distance_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Измерение расстояния
    
