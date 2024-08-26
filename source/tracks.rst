@@ -7,8 +7,23 @@ Tracks
 
 NextGIS Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
 
-.. note::
-   Make sure that Location mode is switched on in your Android device settings. Also check the configurations of "My Tracks" and "Location" settings in NextGIS Mobile Settings as shown in :numref:`ngmobile_settings_place_pic`.
+.. important::
+   To use this function, make sure to set up your device.
+
+More on sending tracks to Web GIS `here <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking>`_.
+
+.. _tracks_settings:
+
+Settings
+--------
+
+To record tracks, set up the following parameters:
+
+* grant the mobile app permission to access device location (in the Android Settings). 
+* in NextGIS Mobile Settings go to Location page and set it up as show in :numref:`ngmobile_settings_place_pic`.
+* in My tracks page of the Settings check "Send location to server" :numref:`my_tracks_settings_pic`.
+
+
 
 Recording a track
 -----------------
@@ -19,6 +34,8 @@ Tracks can be recorded in two ways.
 
 Record tracks in GPX format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For each point of the track, the following information is recorded: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
 
 1. To start recording a track press "Start new track" button in the Contextual menu on the Main screen (item 5 in :numref:`ngmobile_main_activity_pic_1`). 
 
@@ -56,7 +73,7 @@ Recorded track is displayed on the map immediately even though recording is not 
    
    Recorded track.
 
-3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`.
+3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`. Tracks can also be `displayed on a Web Map <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
 
 .. _ngmobile_edit_vector_tracks:
 
