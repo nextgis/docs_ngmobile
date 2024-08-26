@@ -169,6 +169,11 @@ There are following Settings on the main panel:
 * Web GIS
 * Account
 
+.. _ngmobile_settings_gen:
+
+General
+~~~~~~~~~~~
+
 "General" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_general_pic`).
 
 .. figure:: _static/ngmobile_settings3en.png
@@ -189,6 +194,11 @@ Here you can select the theme (Light or Dark) and tune up compass settings.
    
    Map settings
 
+.. _ngmobile_settings_map:
+
+Map
+~~~~~
+
 Map settings include:
 
 * Show/hide Status info panel
@@ -206,6 +216,11 @@ Map settings include:
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
+.. _ngmobile_settings_loc:
+
+Location
+~~~~~~~~
+
 "Location" settings offer a few location specific settings (see :numref:`ngmobile_settings_place_pic`).
 
 .. figure:: _static/ngmobile_settings2.png
@@ -222,7 +237,21 @@ Location settings include:
 * Minimum update distance
 * Count of GPS fixes
 
+.. _ngmobile_settings_tracks:
+
+My tracks
+~~~~~~~~~~
+
 "Tracks" settings are similar to the location settings, but they are applied only for track recording.
+
+Check "Send location to server" if you want to view tracks on a Web Map or save them to a vector layer. In this settings page you can also check your UID (you'll need it to create a tracker in Web GIS). `More about tracking <https://docs.nextgis.com/docs_ngcom/source/tracking.html>`_.
+
+.. figure:: _static/Mobile_send_to_server_en.png
+   :name: my_tracks_settings_pic
+   :align: center
+   :width: 10cm
+
+   My tracks settings
 
 .. note::
    If you set value of the minimum update distance at more than 5 m, the operating system will start to smooth the track (remove outliers).
