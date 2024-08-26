@@ -259,7 +259,7 @@
 В этом блоке настроек устанавливаются параметры записи изменения местоположения. Чтобы записывать трек, включите опцию "Отправлять местоположение на сервер". Также в этом блоке показывается UID устройства, который нужен для создания трекера в Веб ГИС. `Подробнее о работе с треками <https://docs.nextgis.ru/docs_ngcom/source/tracking.html>`_.
 
 .. figure:: _static/Mobile_send_to_server_ru.png
-   :name: Mobile_send_to_server_pic
+   :name: my_tracks_settings_pic
    :align: center
    :width: 10cm
    
