@@ -46,7 +46,7 @@ Track recording is performed in background mode. To indicate that the process is
    :align: center
    :height: 4cm
    
-   Recording track status.
+   Recording track status
    
    The numbers indicate: 1 - The status icon; 2 - Name of track session; 3 - "Open recording" button; 4 - "Stop track recording" button.
 
