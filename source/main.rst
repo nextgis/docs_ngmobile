@@ -185,6 +185,11 @@ General
    
 Here you can select the theme (Light or Dark) and tune up compass settings.
 
+.. _ngmobile_settings_map:
+
+Map
+~~~~~
+
 "Map" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_map_pic`).
 
 .. figure:: _static/ngmobile_settings1.png
@@ -193,11 +198,6 @@ Here you can select the theme (Light or Dark) and tune up compass settings.
    :width: 10cm
    
    Map settings
-
-.. _ngmobile_settings_map:
-
-Map
-~~~~~
 
 Map settings include:
 
