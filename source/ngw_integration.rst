@@ -258,7 +258,7 @@
 2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
 3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
 4. Выбрать из списка учетную запись Веб ГИС (см. :numref:`ngmobile_select_ngw_layer_pic`).
-   Подробнее о создании учетной записи Веб ГИС см. в разделе :ref:`ngmobile_сreate_a_connection`. 
+   Подробнее о создании учетной записи Веб ГИС см. в разделе :ref:`ngmobile_сreate_a_connection_to_webgis`. 
 5. В открывшемся окне находится список внутренних ресурсов и слоев Веб ГИС (векторных и растровых) выбранной учетной записи (см. :numref:`ngmobile_list_of_files_pic`).
 
 .. figure:: _static/list_of_files.png
