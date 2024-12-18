@@ -4,8 +4,6 @@
 
 NextGIS Mobile
 ===========================
-
-Содержание:
  
 .. toctree::
    :maxdepth: 2
