@@ -1,7 +1,7 @@
 .. _ngmobile_settings:
 
 Окно настроек приложения
---------------------------
+============================
 
 В зависимости от размера экрана окно настроек может быть однопанельным и двупанельным. 
 Внешний вид окна настроек представлен на :numref:`ngmobile_settings_pic` (однопанельный режим). 
@@ -15,17 +15,17 @@
    
 Доступны следующие блоки настроек:
 
-* Общие;
-* Карта;
-* Местоположение;
-* Мои треки;
+* `Общие <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-gen>`_;
+* `Карта <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-map>`_;
+* `Местоположение <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-loc>`_;
+* `Мои треки <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-tracks>`_;
 * Веб ГИС;
 * Учетная запись.
 
 .. _ngmobile_settings_gen:
 
 Общие
-~~~~~~
+-----------
 
 Блок настроек "Общие" позволяет изменять основные настройки приложения (см. :numref:`ngmobile_settings_general_pic`):
 
@@ -41,7 +41,7 @@
 .. _ngmobile_settings_map:
 
 Карта
-~~~~~~
+------
 
 Блок настроек "Карта" содержит основные настройки карты (см. :numref:`ngmobile_settings_map_pic`).
 
@@ -76,7 +76,7 @@
 .. _ngmobile_settings_loc:
 
 Местоположение
-~~~~~~~~~~~~~~
+------------------
 
 Блок настроек "Местоположение" содержит настройки определения местоположения устройства (см. :numref:`ngmobile_settings_place_pic`).
 
@@ -98,7 +98,7 @@
 .. _ngmobile_settings_tracks:
 
 Мои треки
-~~~~~~~~~~~
+----------
 
 В этом блоке настроек устанавливаются параметры записи изменения местоположения. Чтобы записывать трек, включите опцию "Отправлять местоположение на сервер". Также в этом блоке показывается UID устройства, который нужен для создания трекера в Веб ГИС. `Подробнее о работе с треками <https://docs.nextgis.ru/docs_ngcom/source/tracking.html>`_.
 
