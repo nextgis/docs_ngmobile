@@ -194,7 +194,7 @@ View feature information
 
 Make a short tap on a feature and a tool bar will appear at the bottom on the screen. The only active option will be "info" (i in a circle). Press it to view the attributes and attachments of the feature. You can download and view photos previously attached to the feature and stored in the cloud.
 
-.. to do:: _static/ngm_view_photo_en.jpg
+.. figure:: _static/ngm_view_photo_en.jpg
    :name: ngm_view_photo_pic
    :align: center
    :width: 8cm
