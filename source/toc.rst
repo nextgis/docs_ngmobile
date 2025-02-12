@@ -12,6 +12,7 @@ NextGIS Mobile
    install
    auth
    main
+   settings
    load_geodata
    editing
    tracks
