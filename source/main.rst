@@ -150,7 +150,13 @@
 
    При выборе пункта "Удалить" (см. :numref:`ngmobile_attribute_table_toolbar_pic`, п.7) объект сразу же удаляется. Отмена удаления возможна только в течение 5 секунд после удаления, после этого объект будет удален безвозвратно.   
 
+В таблице объектов доступен поиск. Вы можете посмотреть на его работу в видео:
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/8169ee33d4e137cf659f8015a552f1c4/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/yPNAIxG9g3o>`_, `rutube <https://rutube.ru/video/8169ee33d4e137cf659f8015a552f1c4/>`_.
 
 .. _ngmobile_useful_facilities:
 
