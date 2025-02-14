@@ -146,6 +146,13 @@ You can open the standard Features table editing form as shown in :numref:`ngmob
 .. warning::
    If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system will delete the selected feature immediately. You will be able to undo the removal, but if undo action is not applied in 5 seconds after removal, the feature gets deleted permanently.   
 
+You can search by attribute values. See how it works in a video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/9zKwvKlQWyg?si=S6WIzdLE6PRndbV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/9zKwvKlQWyg?si=DVXos2s3V1Jn4-Oe>`_.
 
 .. _ngmobile_useful_facilities:
 
