@@ -28,6 +28,14 @@ GeoJSON
 * Можно отправить файл на другое устройство через Bluetooth или Доступ через LAN.
 * Можно сохранить файл в память устройства.
 
+Процесс сохранения файла на смартфон также показан в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/fbde7d779ec9e6a8fdf889118054faa3/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/30RBNCAOjL8>`_, `rutube <https://rutube.ru/video/fbde7d779ec9e6a8fdf889118054faa3/>`_.
+
 .. warning::
    Во многих версиях Android, для того чтобы появилась возможность сохранения файла в память устройства, необходимо, чтобы на устройстве  был установлен какой-либо файловый менеджер, например ES Explorer или аналогичный.
 
