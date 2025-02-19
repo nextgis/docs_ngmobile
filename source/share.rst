@@ -33,6 +33,14 @@ Some of the share options (availability is dependent on the apps installed on yo
 .. warning::
    In many Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
 
+See how to change the default sharing method:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ducW-h1T-8M?si=K0EY1kNsTMMRQra4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/ducW-h1T-8M?si=9oYserBatgQ72jum>`_.
+
 .. _ngmobile_export_attachments:
 
 Exporting attachments
