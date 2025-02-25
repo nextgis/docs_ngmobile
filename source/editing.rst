@@ -130,7 +130,13 @@ Adding a point
    
 6. When all the attributes are set tap "Apply changes" button (item 2 in :numref:`ngmobile_input_form_attributes_pic`) to save the attributes. If you tap "Back" button instead (item 1 in :numref:`ngmobile_input_form_attributes_pic`) the app will warn you of any unsaved changes. You can also attach photos to each feature using "Add photo" button in Attributes editing form (item 3 in :numref:`ngmobile_input_form_attributes_pic`).
 
-See how to add and label points in our video:
+See how to add and label points in our videos:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/WzMJE9ExGXA?si=9hS3ZjkTWM4pgYDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/WzMJE9ExGXA?si=8yor6iJIVjswuuTu>`_.
 
 .. raw:: html
 
