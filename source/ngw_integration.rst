@@ -24,10 +24,10 @@
 
 1. Открыть дерево слоев (см. :numref:`ngmobile_main_activity_pic` п. 1). 
 2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
-3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
+3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_add_pic`) 
 
 .. figure:: _static/ngmobile_the_menu_button_Add_data.png
-   :name: ngmobile_the_menu_button_Add_data_pic
+   :name: ngmobile_the_menu_button_add_pic
    :align: center
    :height: 10cm
   
