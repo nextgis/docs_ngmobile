@@ -277,7 +277,7 @@ NextGIS Mobile также позволяет создавать растровы
 2. В открывшемся окне выбора сохраненных файлов на диске мобильного устройства выбрать необходимый для загрузки файл в формате \*.ngrc: 
 
 .. figure:: _static/ngmobile_files_on_the_drive_unit_tms.png
-   :name: ngmobile_files_on_the_drive_unit_tms_pic
+   :name: ngmobile_files_on_the_drive_tms_pic
    :align: center
    :width: 10cm
    
