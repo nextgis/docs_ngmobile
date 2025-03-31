@@ -289,7 +289,7 @@ be added to a map and will be shown up in the layers tree.
 .. _ngmobile_synchronization_layer_webgis:
 
 Synchronization settings for Web GIS vector layer
-------------------------------------------------
+--------------------------------------------------
 
 Synchronization helps to interchange of geodata corrections quickly and to provide the identity of information interchanging between user's PC and mobile gadget. To syncronize Web GIS vector layer:
  
