@@ -9,8 +9,8 @@ NextGIS Mobile allows to create new empty vector layers or import vector and ras
 
 * :term:`GeoJSON`;
 * XYZ/TMS tile cache in ZIP-archive;
-* tile cache in *.ngrc format;
-* custom forms in *.ngfp format.
+* tile cache in \*.ngrc format;
+* custom forms in \*.ngfp format.
 
 To add a basemap use a service as described `below <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_.
 
@@ -114,7 +114,7 @@ You can check if the new layer was created successfully in the layers tree panel
 	You can read more about GeoJSON format in its `specification <http://geojson.org/>`_.
 	GeoJSON is based on JSON format (see `RFC 4627 <https://www.ietf.org/rfc/rfc4627.txt>`_).
 
-You can only use standard attributes form (not custom *.ngfp form) for editing GeoJSON layer. 
+You can only use standard attributes form (not custom \*.ngfp form) for editing GeoJSON layer. 
 
 The standard attributes form contains only following three fields:
 
@@ -263,13 +263,13 @@ You can check if the new raster layer was created successfully in the Layers tre
 Creating raster layer from Tile cache (NGRC)
 ----------------------------------------------
 
-NextGIS Mobile also allows to create a raster layer by importing tile cache in *.ngrc format. NGRC files can be created from virtually any geodata in QGIS using our QTiles plugin.
+NextGIS Mobile also allows to create a raster layer by importing tile cache in \*.ngrc format. NGRC files can be created from virtually any geodata in QGIS using our QTiles plugin.
 
-Follow these steps to import tile cache in *.ngrc format :
+Follow these steps to import tile cache in \*.ngrc format :
 
 1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`). The dialogue will open as shown in :numref:`ngmobile_options_menu_new_layer_pic`. Select "Open local".
 
-2. Select *.ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_2`). For example, tap on the file "Tandali_Wadgaon.ngrc" to import the "Tandali Wadgaon" tile cache prepared using satellite raster image. 
+2. Select \*.ngrc file from your mobile device storage (see :numref:`ngmobile_saved_files_on_the_drive_pic_2`). For example, tap on the file "Tandali_Wadgaon.ngrc" to import the "Tandali Wadgaon" tile cache prepared using satellite raster image. 
 
 .. figure:: _static/saved_files_on_the_drive_unit.png
    :name: ngmobile_saved_files_on_the_drive_pic_2
