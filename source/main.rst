@@ -94,8 +94,8 @@ By using "Open local" menu item you can upload :term:`geodata` from local storag
 
 * :term:`GeoJSON` file;
 * ZIP file with cached tiles;
-* *.ngrc file
-* *.ngfp file.
+* \*.ngrc file
+* \*.ngfp file.
 
 More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
 
