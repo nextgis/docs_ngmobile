@@ -131,10 +131,10 @@ If you're not satisfied with the accuracy of the appended geometry, you can acce
 Managing recorded tracks
 ------------------------
 
-To start managing recorded tracks first find "My Tracks" group in Layers tree panel. Then tap on contextual menu button as shown in :numref:`ngmobile_tree_layers_gpx_pic` and select "List".
+To start managing recorded tracks first find "My Tracks" group in Layers tree panel. Then tap on contextual menu button as shown in :numref:`ngm_tree_layers_gpx_pic` and select "List".
 
 .. figure:: _static/tree_layers_gpx.png
-   :name: ngmobile_tree_layers_gpx_pic
+   :name: ngm_tree_layers_gpx_pic
    :align: center
    :height: 10cm
 
