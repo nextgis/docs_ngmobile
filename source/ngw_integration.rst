@@ -15,7 +15,7 @@ Integration with NextGIS Web
 
 .. _ngmobile_create_a_connection_to_webgis:
 
-New Web GIS creation
+Create a new Web GIS
 --------------------
 
 There are two ways to create a new Web GIS. The **first way** is the following:
@@ -84,7 +84,7 @@ The **second way** is the following:
 
 .. _ngmobile_create_a_connection:
 
-Connection to Web GIS
+Connect to Web GIS
 ---------------------
 
 To create a connection to an existing Web GIS account:
@@ -97,7 +97,7 @@ To create a connection to an existing Web GIS account:
 
 .. _ngmobile_create_a_connection_to_nextgis_web:
 
-Connection to NextGIS Web
+Connect to NextGIS Web
 -------------------------
 
 .. only:: html
@@ -133,7 +133,7 @@ In the opened dialog fill up NextGIS Web :term:`URL`, login and password in the 
 
 .. _ngmobile_change_account:
 
-Editing of Web GIS account
+Edit Web GIS account
 -------------------------------------
 
 To edit Web GIS account:
@@ -165,7 +165,7 @@ To edit Web GIS account:
    
 .. _ngmobile_delete_account:
 
-Deleting of Web GIS account
+Delete Web GIS account
 ---------------------------
 
 You can delete Web GIS account in several ways. The **first way** is the following:
@@ -227,7 +227,7 @@ The **second way** to delete Web GIS account is the following:
 
 .. _ngmobile_add_layer_webgis:
 
-Adding of a layer (vector/raster) from Web GIS
+Add a layer (vector/raster) from Web GIS
 ----------------------------------------------
 
 To add a layer (vector/raste) from Web GIS:
@@ -235,7 +235,7 @@ To add a layer (vector/raste) from Web GIS:
 1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`).
 2. Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`).
 3. Select “Add from Web GIS” (:numref:`ngmobile_the_menu_button_Add_data_pic`) 
-4. In the opened dialog select Web GIS (:numref:`ngmobile_add_entry1_pic`). You can learn more about creating of Web GIS account in :ref:`ngmobile_сreate_a_connection`.
+4. In the opened dialog select Web GIS (:numref:`ngmobile_add_entry1_pic`). You can learn more about creating of Web GIS account in :ref:`ngmobile_сreate_a_connection_to_nextgis_web`.
 5. In the opened window you can see the list of internal resources and layers (vector and raster) for the selected Web GIS account (see :numref:`ngmobile_list_of_files_pic`).
 
 .. figure:: _static/list_of_files_eng.png
