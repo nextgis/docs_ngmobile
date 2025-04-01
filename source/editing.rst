@@ -142,7 +142,7 @@ Watch on `youtube <https://youtu.be/WzMJE9ExGXA?si=8yor6iJIVjswuuTu>`_.
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/5M9uzmU_lgA?si=WVE0W30cnQ_C2m-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Watch on `youtube <https://youtu.be/5M9uzmU_lgA?si=ow5589SuuR70Dg1S>`_.
+Watch on `youtube <https://youtu.be/5M9uzmU_lgA?si=ow5589SuuR70Dg1S>`__.
 
 .. _ngmobile_add_line:
 
