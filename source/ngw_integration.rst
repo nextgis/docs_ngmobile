@@ -235,7 +235,7 @@ To add a layer (vector/raste) from Web GIS:
 1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`).
 2. Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`).
 3. Select “Add from Web GIS” (:numref:`ngmobile_the_menu_button_Add_data_pic`) 
-4. In the opened dialog select Web GIS (:numref:`ngmobile_add_entry1_pic`). You can learn more about creating of Web GIS account in :ref:`ngmobile_сreate_a_connection_to_nextgis_web`.
+4. In the opened dialog select Web GIS (:numref:`ngmobile_add_entry1_pic`). You can learn more about creating of Web GIS account in :ref:`ngmobile_create_a_connection_to_nextgis_web`.
 5. In the opened window you can see the list of internal resources and layers (vector and raster) for the selected Web GIS account (see :numref:`ngmobile_list_of_files_pic`).
 
 .. figure:: _static/list_of_files_eng.png
