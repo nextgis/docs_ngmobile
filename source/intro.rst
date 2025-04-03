@@ -10,7 +10,7 @@ Introduction
 About NextGIS Mobile
 ------------------------
 
-**NextGIS Mobile** is a mobile :abbr:`GIS (Geographic Information System)` for :term:`Android` OS.
+**NextGIS Mobile** is a mobile :abbr:`GIS (Geographic Information System)` for Android OS.
 
 NextGIS Mobile allows to:
 
