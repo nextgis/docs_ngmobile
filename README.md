@@ -1,8 +1,8 @@
 # User documentation for NextGIS Mobile
 
 Read online:
-* English - http://docs.nextgis.com/docs_ngmobile/source/toc.html
-* Russian - http://docs.nextgis.ru/docs_ngmobile/source/toc.html
+* English - http://docs.nextgis.com/docs_ngmobile/source/index.html
+* Russian - http://docs.nextgis.ru/docs_ngmobile/source/index.html
 
 # License
 
