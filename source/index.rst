@@ -3,17 +3,28 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: toc.rst
+NextGIS Mobile
+==============================
 
 .. toctree::
    :maxdepth: 2
 
-   
-   
-Index and Tables
-================
+   intro
+   install
+   auth
+   main
+   settings
+   load_geodata
+   editing
+   tracks
+   share  
+   layer_settings
+   ngw_integration
+   log
+   faq_ngmobile
+   mock_location
+
 
 * :ref:`genindex`
-* :ref:`search`
 * :ref:`glossary`
 
