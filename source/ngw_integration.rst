@@ -1,5 +1,3 @@
-.. sectionauthor::  Наталья Барышникова <Nshelekhova@gmail.com>
-
 .. _ngmobile_integration:
 
 Интеграция с nextgis.com 
@@ -7,13 +5,25 @@
 
 .. only:: html
    
-   С основными возможностями программного обеспечения ВебГИС можно ознакомиться 
+   С основными возможностями программного обеспечения Веб ГИС можно ознакомиться 
    в разделе :ref:`Веб ГИС <ngcom_description>`.
 
 .. only:: latex
 
-   С основными возможностями программного обеспечения ВебГИС можно ознакомиться 
-   в разделе `Веб ГИС: описание и возможности :ref:`Веб ГИС <ngcom_description>`.
+   С основными возможностями программного обеспечения Веб ИС можно ознакомиться 
+   в разделе `Веб ГИС: описание и возможности <https://docs.nextgis.ru/docs_ngcom/source/description.html#ngcom-description>`_.
+
+Приложение NextGIS Mobile может быть интегрировано с Веб ГИС, созданной на платформе NextGIS Web. Это позволяет обмениваться данными с Веб ГИС: отправлять в неё локальные слои, скачивать данные с сервера, редактировать данные и просматривать на веб-картах треки, записанные с помощью приложения.
+
+Для того, чтобы подключиться к Веб ГИС, необходимо `авторизоваться <https://docs.nextgis.ru/docs_ngmobile/source/auth.html>`_.
+
+Если из этого личного кабинета NextGIS ID уже была создана Веб ГИС, она будет автоматически добавлена в приложение. Также будут добавлены Веб ГИС, где этот пользователь участвует в `команде <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_.
+
+Если у пользователя ещё нет Веб ГИС, её можно `создать <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-create-a-connection-to-webgis>`_ из приложения.
+
+Также можно дополнительно добавить подключения к другим `облачным Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-create-a-connection>`_ и `Веб ГИС, развёрнутым на своём сервере <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_.
+
+Созданное подключение к Веб ГИС можно `редактировать <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_ или `удалить <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-delete-account>`_.
 
 .. _ngmobile_create_a_connection_to_webgis:
 
@@ -98,10 +108,10 @@
 4. В открывшемся окне необходимо выбрать ранее созданную учетную запись Веб ГИС (см. :numref:`ngmobile_select_ngw_layer_pic`).
 5. В случае удачного подключения откроется окно со списком файлов Веб ГИС. Если в приложение добавлена только одна Веб ГИС, то вход в нее будет осуществлен автоматически при нажатии на кнопку "Добавить из Веб ГИС".
 
-.. _ngmobile_create_a_connection_to_nextgis_web:
+.. _ngm_create_connection_onp:
 
-Создание подключения к NextGIS Web
-----------------------------------
+Создание подключения к NextGIS Web на своём сервере
+-----------------------------------------------------
 
 .. only:: html
    
