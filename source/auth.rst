@@ -1,4 +1,3 @@
-.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.com>
 
 .. _ngmobile_auth:
 
@@ -10,7 +9,14 @@
 Если вы "обычный" пользователь, то для входа нужно:
 
 1. Зарегистрироваться на https://my.nextgis.com, подтвердить учетную запись
-2. Ввести E-mail или имя пользователя и пароль, указанные при регистрации для входа.
+2. Ввести E-mail и пароль, указанные при регистрации для входа.
+
+.. figure:: _static/ngm_login_ru.png
+   :name: ngm_login_pic
+   :align: center
+   :width: 10cm
+
+   Экран авторизации
 
 Через собственный сервер (NGIDOP)
 ---------------------------------
@@ -20,7 +26,7 @@
 
 Если вы перед этим уже вошли через my.nextgis.com - необходимо выйти, указать свой сервер и повторить вход.
 
-.. figure:: _static/ngm_ngidop_ru.jpg
+.. figure:: _static/ngm_ngidop_ru_2.png
    :name: ngm_ngidop
    :align: center
    :width: 10cm
