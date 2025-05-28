@@ -19,94 +19,87 @@
 
 Если из этого личного кабинета NextGIS ID уже была создана Веб ГИС, она будет автоматически добавлена в приложение. Также будут добавлены Веб ГИС, где этот пользователь участвует в `команде <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_.
 
-Если у пользователя ещё нет Веб ГИС, её можно `создать <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-create-a-connection-to-webgis>`_ из приложения.
+Если у пользователя ещё нет Веб ГИС, её можно `создать <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ из личного кабинета.
 
 Также можно дополнительно добавить подключения к другим `облачным Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-create-a-connection>`_ и `Веб ГИС, развёрнутым на своём сервере <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_.
 
 Созданное подключение к Веб ГИС можно `редактировать <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_ или `удалить <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-delete-account>`_.
 
+
 .. _ngmobile_create_a_connection_to_webgis:
 
-Создание новой Веб ГИС
+Добавление Веб ГИС
 ----------------------
 
-Создание новой учетной записи Веб ГИС возможно двумя способами. Для осуществления **первого способа** необходимо выполнить следующую последовательность действий:
+Добавить подключение к Веб ГИС в приложение возможно двумя способами. 
+
+**Через дерево слоёв**
 
 1. Открыть дерево слоев (см. :numref:`ngmobile_main_activity_pic` п. 1). 
 2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
-3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_add_pic`) 
+3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" 
 
 .. figure:: _static/ngmobile_the_menu_button_Add_data.png
    :name: ngmobile_the_menu_button_add_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
   
    Меню кнопки "Добавить геоданные"
 
-4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_select_ngw_layer_pic`).
+4. В открывшемся окне необходимо нажать на кнопку "Добавить Веб ГИС".
 
-.. figure:: _static/select_layer.png.png
-   :name: ngmobile_select_ngw_layer_pic
+.. figure:: _static/ngm_add_webgis_ru.png
+   :name: ngm_add_webgis_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
-   Выбор учетной записи Веб ГИС
+   Переход к добавлению учетной записи Веб ГИС
    
-5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль NextGIS ID и нажать кнопку "Войти" (см. :numref:`ngmobile_create_webgis_layer_pic`).
+5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль NextGIS ID и нажать кнопку "Войти".
 
-.. figure:: _static/new_webgis.png
-   :name: ngmobile_create_webgis_layer_pic
+.. figure:: _static/ngm_webgis_login_ru.png
+   :name: ngm_webgis_login_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
-   Создание новой учетной записи Веб ГИС
+   Добавление новой учетной записи Веб ГИС
    
-Создать новую учетную запись Веб ГИС **вторым способом** можно, выполнив следующую последовательность шагов:
+Если у вас ещё нет Веб ГИС, нажмите на этом экране **Создать**, вы будете перенаправлены в личный кабинет в браузере, где сможете `создать свою Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_.
 
-1. Вызвать контекстное меню (см. :numref:`ngmobile_main_activity_pic` п. 5). 
-   
-2. Далее необходимо выбрать пункт "Настройки" (см. :numref:`ngmobile_settings2_pic`).
+**Через меню настроек**
 
-.. figure:: _static/settings.png.png
+1. Вызвать меню, нажав на три точки в правом верхнем углу (см. :numref:`ngmobile_main_activity_pic` п. 5). 
+   
+2. Далее выбрать пункт "Настройки".
+
+.. figure:: _static/ngm_menu_ru.png
    :name: ngmobile_settings2_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Контекстное меню
 
-3. Выбрать пункт "Веб ГИС" (см. :numref:`ngmobile_settings_ngw_pic`).  
+3. Выбрать пункт "Веб ГИС".  
 
-.. figure:: _static/settings_NGW.png
+.. figure:: _static/ngm_settings_webgis_ru.png
    :name: ngmobile_settings_ngw_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Меню "Настройки"
   
-4. В открывшемся меню следует нажать на кнопку "Добавить Веб ГИС" (см. :numref:`ngmobile_add_entry_pic`).  
+4. В открывшемся меню следует нажать на кнопку "Добавить Веб ГИС".  
    
-.. figure:: _static/add_entry.png
-   :name: ngmobile_add_entry_pic
+.. figure:: _static/ngm_nowebgis_ru.png
+   :name: ngm_nowebgis_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Меню "Веб ГИС"
 
-5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль NextGIS ID и нажать кнопку "Войти" (см. :numref:`ngmobile_create_webgis_layer_pic`).
+5. В открывшемся окне ввести имя ГИС, имя пользователя и пароль NextGIS ID и нажать кнопку "Войти" (см. :numref:`ngm_webgis_login_pic`).
 
-.. _ngmobile_create_a_connection:
 
-Создание подключения к Веб ГИС
-------------------------------
-
-Для подключения к уже существующей учетной записи Веб ГИС необходимо 
-выполнить следующую последовательность шагов:
-
-1. Открыть дерево слоев (см. :numref:`ngmobile_main_activity_pic` п. 1). 
-2. Нажать кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 4).
-3. В открывшемся меню выбрать пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
-4. В открывшемся окне необходимо выбрать ранее созданную учетную запись Веб ГИС (см. :numref:`ngmobile_select_ngw_layer_pic`).
-5. В случае удачного подключения откроется окно со списком файлов Веб ГИС. Если в приложение добавлена только одна Веб ГИС, то вход в нее будет осуществлен автоматически при нажатии на кнопку "Добавить из Веб ГИС".
 
 .. _ngm_create_connection_onp:
 
@@ -123,40 +116,33 @@
    С основными возможностями программного обеспечения NextGIS Web можно ознакомиться 
    в разделе `Основные возможности NextGIS Web <http://docs.nextgis.ru/docs_ngweb/source/general.html#ngweb-keyfeatures>`_.
    
-Если Вы хотите хранить данные на собственном сервере NextGIS Web, можно войти в свою учетную запись, нажав на кнопку "Добавить Веб ГИС" при любом из описанных выше способов создания Веб ГИС и затем перейдя по ссылке внизу экрана (см. :numref:`ngmobile_new_webgis_nextgis_pic`).
+Если Вы хотите хранить данные на собственном сервере NextGIS Web, можно войти в свою учетную запись, нажав на кнопку "Добавить Веб ГИС" при любом из описанных выше способов создания Веб ГИС и затем перейдя по ссылке внизу экрана.
 
-.. figure:: _static/new_webgis_nextgis.png
+.. figure:: _static/ngm_webgis_switch_op_ru.png
    :name: ngmobile_new_webgis_nextgis_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
-   Меню "Добавить Веб ГИС"
+   Экран "Добавить Веб ГИС"
 
-В открывшемся окне следует ввести параметры подключения: NextGIS Web :term:`URL`, имя пользователя и пароль, нажать кнопку "Войти" (см. :numref:`ngmobile_ngw_connection_settings_pic`).
+В открывшемся окне следует ввести параметры подключения: адрес Веб ГИС, имя пользователя и пароль, нажать кнопку "Войти" (см. :numref:`ngmobile_ngw_connection_settings_pic`).
 
-.. figure:: _static/nextgis_web.png
-   :name: ngmobile_ngw_connection_settings_pic
+.. figure:: _static/ngm_webgis_login_op_ru.png
+   :name: ngm_webgis_login_op_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Окно ввода параметров подключения
       
 .. note::
-   В диалогом окне для ввода параметров при создании подключения к NextGIS Web 
-   Имя пользователя/логин и пароль следует вводить без пробелов!
    Mногие клавиатуры смартфонов и планшетов при автоподстановке текста, а также 
    при вставке копируемого текста из буфера обмена добавляют пробел в конце текста 
-   в поле ввода (имя пользователя, пароль). Полученный текст с пробелом воспринимается 
-   NextGIS Web как другое имя пользователя или другой пароль, что приводит к отказу 
-   в создании подключения.
+   в поле ввода (имя пользователя, пароль). В таком случае лишний пробел нужно удалить. Иначе полученный текст с пробелом воспринимается NextGIS Web как другое имя пользователя или другой пароль, что приводит к отказу в создании подключения.
 
 .. _ngmobile_change_account:
 
 Редактирование учетной записи Веб ГИС
 -------------------------------------
-
-Для редактирования учетной записи Веб ГИС необходимо выполнить следующую 
-последовательность шагов:
 
 1. Вызвать контекстное меню (см. :numref:`ngmobile_main_activity_pic` п. 5). 
 2. Далее выбрать пункт меню "Настройки" (см. :numref:`ngmobile_settings2_pic`).
@@ -164,12 +150,12 @@
    (см. :numref:`ngmobile_settings_ngw_pic`). 
 4. Далее в списке необходимо выбрать ранее созданную учетную запись 
    Веб ГИС (см. :numref:`ngmobile_settings_ngw_pic`). 
-5. В открывшемся окне выбрать пункт меню "Редактировать учетную запись" (см. :numref:`ngmobile_remove_account_pic`).
+5. В открывшемся окне выбрать пункт меню "Редактировать учетную запись".
 
-.. figure:: _static/remove_account.png
-   :name: ngmobile_remove_account_pic
+.. figure:: _static/ngm_webgis_edit_acc_ru.png
+   :name: ngm_webgis_edit_acc_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
     
    Редактирование учетной записи Веб ГИС
 
@@ -182,7 +168,7 @@
 .. figure:: _static/ng_mobile_edit_account.png
    :name: ngmobile_edit_account_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Внесение изменений в ранее созданную учетную запись
 
@@ -203,18 +189,23 @@
 4. Далее следует выбрать ранее созданную учетную запись 
    Веб ГИС (см. :numref:`ngmobile_settings_ngw_pic`). 
    
-5. Выбрать пункт меню "Удалить учетную запись" (см. :numref:`ngmobile_remove_account1_pic`).
+5. Выбрать пункт меню "Удалить учетную запись".
 
-.. figure:: _static/remove_account1.png
+.. figure:: _static/ngm_webgis_remove_acc_ru.png
    :name: ngmobile_remove_account1_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
     
    Удаление учетной записи Веб ГИС
    
-6. Удалить выбранную учетную запись Веб ГИС.
-7. В случае удачного удаления откроется окно выбора Веб ГИС, в котором будет отсутствовать 
-   ранее созданная учетная запись Веб ГИС.
+6. Подтвердить удаление.
+
+.. figure:: _static/ngm_webgis_remove_confirm_ru.png
+   :name: ngm_webgis_remove_confirm_pic
+   :align: center
+   :width: 10cm
+    
+   Удаление учетной записи Веб ГИС
 
 Для удаления учетной записи Веб ГИС **вторым способом** необходимо выполнить 
 следующую последовательность шагов:
@@ -225,7 +216,7 @@
 .. figure:: _static/settings_in_os.png
    :name: ngmobile_settings_in_os_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Выбор аккаунтов в настройках ОС
    
@@ -234,7 +225,7 @@
 .. figure:: _static/accounts_in_os.png
    :name: ngmobile_accounts_in_os_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Выбор в настройках ОС аккаунт NextGIS
 
@@ -243,7 +234,7 @@
 .. figure:: _static/remove_account_in_os.png
    :name: ngmobile_remove_account_in_os_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Выбор учетной записи Веб ГИС через настройки ОС
 
@@ -252,7 +243,7 @@
 .. figure:: _static/remove_account1_in_os.png
    :name: ngmobile_remove_account1_in_os_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Удаление учетной записи Веб ГИС через настройки ОС
 
@@ -274,7 +265,7 @@
 .. figure:: _static/list_of_files.png
    :name: ngmobile_list_of_files_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Список ресурсов и слоев Веб ГИС
 
@@ -300,7 +291,7 @@
 .. figure:: _static/processing_layer.png
    :name: ngmobile_processing_layer_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Окно обработки слоя
 
@@ -314,7 +305,7 @@
 .. figure:: _static/download_status.png
    :name: ngmobile_download_status_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Панель статуса
  
@@ -355,7 +346,7 @@
 .. figure:: _static/connection_properties_window.png
    :name: ngmobile_connection_properties_window_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Настройки учетной записи Веб ГИС
 
@@ -367,6 +358,6 @@
 .. figure:: _static/layers_tree_int.png
    :name: ngmobile_layers_tree_int_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Дерево слоев
