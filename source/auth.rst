@@ -28,7 +28,7 @@ For authorization in NextGIS Mobile via on-premise, enter the appropriate NextGI
 
 If you're already logged in with my.nextgis.com - log out first, select the correct server, then log in again.
 
-.. figure:: _static/ngm_ngidop_en_3.jpg
+.. figure:: _static/ngm_ngidop_en_3.png
    :name: ngm_ngidop_en
    :align: center
    :width: 10cm
