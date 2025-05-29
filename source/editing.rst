@@ -1,4 +1,3 @@
-.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>, Abhay Kulkarni <praxisnfp@gmail.com>
 
 .. _ngmobile_editing:
 
@@ -48,7 +47,7 @@ Then select a vector layer you want to edit in an opened dialog (see :numref:`ng
 .. figure:: _static/mobile_layer_context_edit_en.png
    :name: mobile_layer_context_edit_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Layer context menu
 
@@ -100,7 +99,7 @@ Adding a point
 .. figure:: _static/creation_of_points.png
    :name: ngmobile_creation_of_points_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a point to Point layer.
    
@@ -111,7 +110,7 @@ Adding a point
 .. figure:: _static/creation_of_multipoints.png
    :name: ngmobile_creation_of_multipoints_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a point to Multipoint layer.
    
@@ -122,7 +121,7 @@ Adding a point
 .. figure:: _static/input_form_attributes.png
    :name: ngmobile_input_form_attributes_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Attributes editing form.
    
@@ -158,7 +157,7 @@ Adding a line
 .. figure:: _static/creating_lines_eng.png
    :name: ngmobile_creating_lines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a line to Linestring layer.
    
@@ -171,7 +170,7 @@ You can move the vertices anywhere on the map simply by dragging the circular ha
 .. figure:: _static/creating_multilines.png
    :name: ngmobile_creating_multilines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a line to Multilinestring layer.
    
@@ -195,7 +194,7 @@ Adding a polygon
 .. figure:: _static/creation_landfill.png
    :name: ngmobile_creation_landfill_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a polygon to Polygon layer.
    
@@ -213,7 +212,7 @@ You can also create holes in polygons by tapping button "Add hole" (item 6 in :n
 .. figure:: _static/creation_multipolygon.png
    :name: ngmobile_creation_multipolygon_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Adding a polygon to Multipolygon layer.
    
@@ -233,7 +232,7 @@ To add current location to a vector layer press Main actions button (item 8 in :
 .. figure:: _static/ngmobile_selectlayer.png
    :name: ngmobile_select_layer_dialog_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Select layer dialog.
 
@@ -254,7 +253,7 @@ To add line or polygon by walk to a vector layer press Main actions button, and 
 .. figure:: _static/ngmobile_selectlayer_by_walk_eng.png
    :name: ngmobile_select_layer_by_walk_dialog_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Select layer dialog.
 
@@ -286,7 +285,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
 .. figure:: _static/editing_of_points.png
    :name: ngmobile_editing_of_points_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Editing point.
    
@@ -297,7 +296,7 @@ When you edit a multipoint all points included in it change their colour to blue
 .. figure:: _static/ngmobile_edit_multipoint_new_eng.png
    :name: ngmobile_edit_multipoint_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Editing multipoint.
 
@@ -323,7 +322,7 @@ In the end you can have your geofeatures digitized as shown below. See :numref:`
 .. figure:: _static/editing_lines_eng.png
    :name: ngmobile_editing_lines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Editing line.
    
@@ -337,7 +336,7 @@ When you edit a multiline all points included in it change their colour to blue.
 .. figure:: _static/editing_multilines_eng.png
    :name: ngmobile_edit_multilines_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Editing multiline.
    
@@ -362,7 +361,7 @@ You can delete the unrequired vertex by highlighting it and tapping "Delete vert
 .. figure:: _static/editing_polygon.png
    :name: ngmobile_editing_polygon_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Editing polygon.
    
@@ -373,7 +372,7 @@ When you edit a multipolygon all points included in it change their colour to bl
 .. figure:: _static/editing_multipolygon_eng.png
    :name: ngmobile_edit_multipolygon_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
 
    Editing multipolygon.
    
@@ -393,7 +392,7 @@ After Editing Toolbar is opened tap "Attributes info" button (item 5 in :numref:
 .. figure:: _static/ngmobile_attributes_info.png
    :name: ngmobile_attributes_info_pic
    :align: center
-   :height: 10cm
+   :width: 10cm
    
    Attributes Info panel
    
@@ -432,7 +431,7 @@ If the layer was :ref:`created from a custom form (NGFP) <ngmobile_import_ngfp>`
 .. figure:: _static/custom_form.png
    :name: ngmobile_custom_form_pic_1
    :align: center
-   :height: 10cm
+   :width: 10cm
  
    Custom Attributes editing form.
    
