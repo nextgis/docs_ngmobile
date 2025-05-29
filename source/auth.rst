@@ -1,5 +1,3 @@
-.. sectionauthor:: Roman Gainullov <roman.gainullov@nextgis.com>
-
 .. _ngmobile_auth:
 
 Authorization 
@@ -13,6 +11,12 @@ If you are a "regular" user, here's what you do to sign in:
 1. Create an account at https://my.nextgis.com, confirm it.
 2. In the app enter your e-mail or username and password set during registration.
 
+.. figure:: _static/ngm_login_en.png
+   :name: ngm_login_pic
+   :align: center
+   :width: 10cm
+
+   Authorization
 
 
 Via on-premise (NGIDOP)
@@ -24,7 +28,7 @@ For authorization in NextGIS Mobile via on-premise, enter the appropriate NextGI
 
 If you're already logged in with my.nextgis.com - log out first, select the correct server, then log in again.
 
-.. figure:: _static/ngm_ngidop_en_2.jpg
+.. figure:: _static/ngm_ngidop_en_3.jpg
    :name: ngm_ngidop_en
    :align: center
    :width: 10cm
