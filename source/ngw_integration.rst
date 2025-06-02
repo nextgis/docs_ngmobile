@@ -35,7 +35,7 @@ Add a layer (vector/raster) from Web GIS
 
 2. Then tap "Add geodata" button.
 
-3. Select “Add from Web GIS” in he opened menu (:numref:`ngmobile_the_menu_button_Add_data_pic`) 
+3. Select “Add from Web GIS” in the opened menu. 
 
 .. figure:: _static/ngm_layer_tree_add_from_wg_en.png
    :name: ngm_layer_tree_add_from_wg_pic
@@ -109,8 +109,15 @@ To enable synchronization:
 3. Select "Web GIS" 
    (:numref:`ngmobile_settings_ngw_pic`).  
 
-4. Select the Web GIS from the list (см. :numref:`ngmobile_select_ngw_layer_pic`). 
-   
+4. Select the Web GIS from the list.
+
+.. figure:: _static/ngm_webgis_list_en.png
+   :name: ngm_webgis_list_pic
+   :align: center
+   :width: 10cm
+
+   List of added Web GIS connections
+
 5. On the Web GIS settings screen you can:
   
    - Turn on automatic synchronization;
@@ -150,7 +157,7 @@ There are two ways to connect your NextGIS Mobile app to a Web GIS.
 
 1. Open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). 
 2. Then tap on "Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`).
-3. Select “Add from Web GIS” (:numref:`ngmobile_the_menu_button_Add_data_pic`). 
+3. Select “Add from Web GIS”. 
 
 .. figure:: _static/ngm_layer_tree_add_from_wg_en.png
    :name: ngmobile_the_menu_button_add_pic
