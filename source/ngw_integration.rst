@@ -109,7 +109,14 @@
 3. В открывшемся меню опций выберите пункт "Веб ГИС"
    (см. :numref:`ngmobile_settings_ngw_pic`). 
 
-4. Из списка подключенных Веб ГИС выберите нужную (см. :numref:`ngmobile_select_ngw_layer_pic`). 
+4. Из списка подключенных Веб ГИС выберите нужную. 
+
+.. figure:: _static/ngm_webgis_list_ru.png
+   :name: ngm_webgis_list_pic
+   :align: center
+   :width: 10cm
+
+   Список подключённых Веб ГИС
    
 5. На экране настроек Веб ГИС вы можете:
   
@@ -261,8 +268,8 @@
 2. Далее выберите пункт меню "Настройки" (см. :numref:`ngmobile_settings2_pic`).
 3. В открывшемся меню выберите пункт "Веб ГИС"
    (см. :numref:`ngmobile_settings_ngw_pic`). 
-4. Далее в списке необходимо выберите ранее созданную учётную запись 
-   Веб ГИС (см. :numref:`ngmobile_settings_ngw_pic`). 
+4. Далее в списке выберите ранее созданную учётную запись 
+   Веб ГИС (см. :numref:`ngm_webgis_list_pic`). 
 5. В открывшемся окне выберите пункт меню "Редактирова учётную запись".
 
 .. figure:: _static/ngm_webgis_edit_acc_ru.png
