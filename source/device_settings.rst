@@ -7,7 +7,7 @@
 
 Для проверки или изменения настроек зайдите в Настройки, найдите Список приложений и выберите в нём нужное приложение: NextGIS Mobile/Collector/Tracker.
 
-Ниже мы приводим примеры этих настроек для нескольких распространённых моделей сматрфонов. 
+Ниже мы приводим `примеры расположения этих настроек <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#device-examples>`_ для нескольких распространённых моделей сматрфонов. 
 
 .. _permissions_settings:
 
@@ -41,12 +41,12 @@
 
 В общем случае вам нужно зайти в Настройки, перейти к Списку приложений и выбрать там нужное приложение. Здесь приведены примеры настроек для следующих сматрфонов: 
 
-* Huawei
-* Honor
-* Samsung
-* POCO
-* Nothing
-* Xiaomi
+* `Huawei <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#huawei>`_
+* `Honor <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#honor>`_
+* `Samsung <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#samsung>`_
+* `POCO <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#poco>`_
+* `Nothing <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#nothing>`_
+* `Xiaomi (Mi) <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html#xiaomi>`_
 
 
 Huawei
@@ -54,21 +54,21 @@ Huawei
 
 Модели: P30
 
-Симптомы: **прерывается запись трека**.
+**Оптимизация батареи**:
 
 
-*Settings -> Apps -> Apps -> Mobile/Collector/Tracker -> Power usage details -> Launch settings - Manage automatically*
+Settings -> Apps -> Apps -> Mobile/Collector/Tracker -> Power usage details -> Launch settings - Manage automatically
 
 Выключить (вложенные переключатели оставить включенными)
 
 и
 
-*Settings -> Apps -> App launch -> Mobile/Collector/Tracker*
+Settings -> Apps -> App launch -> Mobile/Collector/Tracker
 
 Выключить (вложенные переключатели оставить включенными)
 
 
-*Settings -> Apps -> Apps -> Mobile/Collector/Tracker -> Permissions -> Location -> Allow all the time*
+Settings -> Apps -> Apps -> Mobile/Collector/Tracker -> Permissions -> Location -> Allow all the time
 
 Разрешить постоянный доступ к местоположению
 
@@ -104,6 +104,7 @@ Honor
 Выключить (вложенные переключатели оставить включенными)
 
 Settings - Apps - Apps - NextGIS Mobile/Collector - Power usage details - App launch -  Manage automatically
+
 Настройки - Приложения - Приложения - NextGIS Mobile/Collector - Сведения энергопотребления - Запуск приложений - Автоматическое управление
  
 .. figure:: _static/honor_power_ru.png
@@ -118,6 +119,7 @@ Settings - Apps - Apps - NextGIS Mobile/Collector - Power usage details - App la
 Выключить (вложенные переключатели во всплывающем окне оставить включенными)
 
 Settings - Apps - App launch - NextGIS Mobile/Collector
+
 Настройки - Приложения - Запуск приложений - NextGIS Mobile/Collector - Автоматическое управление
 
 .. figure:: _static/honor_app_launch_ru.png
@@ -199,6 +201,7 @@ POCO
 **Разрешения и повышение точности геолокации**:
 
 Настройки - Приложения - Все приложения - NextGIS Tracker - Разрешения приложений - Местоположение - Разрешить в любом режиме
+
 Использовать точное местоположение - вкл
 
 Настройки - Местоположение - Сервисы геолокации - Точность геолокации:
