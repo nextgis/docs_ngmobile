@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+
 
 .. NextGIS Mobile TOC
 
@@ -21,4 +21,5 @@ NextGIS Mobile
    ngw_integration
    log
    faq_ngmobile
+   device_settings
    mock_location
