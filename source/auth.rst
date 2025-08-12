@@ -8,7 +8,7 @@
 
 Если вы "обычный" пользователь, вам нужно `зарегистрироваться на https://my.nextgis.com <https://docs.nextgis.ru/docs_ngcom/source/create.html#nextgis-id>`_.
 
-Доступ к Веб ГИС, развёрнутым на собственном сервере, осуществляется при помощи `NextGIS ID on-premise <>`_.
+Доступ к Веб ГИС, развёрнутым на собственном сервере, осуществляется при помощи `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_.
 
 .. _auth_standard:
 
