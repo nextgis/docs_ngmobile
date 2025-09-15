@@ -45,7 +45,7 @@ NextGIS Mobile
 **Веб ГИС**
 
 * `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
-* `Отправка слоя <>`_
+* `Отправка слоя <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_
 * `Настройка синхронизации  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
 * `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#nextgis-web>`_
 * `Управление подключениями к Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
