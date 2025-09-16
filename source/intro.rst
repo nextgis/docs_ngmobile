@@ -1,5 +1,3 @@
-.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>, Abhay Kulkarni <praxisnfp@gmail.com>
-
 .. _ngmob_intro:
 
 Introduction
@@ -60,8 +58,6 @@ To be able to use all NextGIS Mobile features the device should have the followi
 * cellular module;
 * rear camera.
 
-.. note::
+If any of these items are missing from the device, the related functions will not be available.
 
-   If any of these items are missing from the device, the related functions will not be available.
-
-NextGIS Mobile does not impose specific system requirements. However, the amount of system memory and storage space can limit the size of uploaded geodata.
+NextGIS Mobile does not impose specific system requirements regarding memory. However, the amount of system memory and storage space can limit the size of uploaded geodata.
