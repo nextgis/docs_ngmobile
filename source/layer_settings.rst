@@ -1,4 +1,4 @@
-.. sectionauthor::  Наталья Барышникова <Nshelekhova@gmail.com>
+
 
 .. _ngmobile_layer_settings:
 
