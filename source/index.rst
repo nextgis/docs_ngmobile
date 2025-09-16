@@ -23,7 +23,7 @@ NextGIS Mobile
 * `Vector layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
 * `Raster layers <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
 * `Geoservices <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
-* `TMS service <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile_qms_service>`_
+* `TMS service <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-qms-service>`_
 * `Raster layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-raster-layer-settings>`_
 * `Export <https://docs.nextgis.com/docs_ngmobile/source/share.html>`_
 
