@@ -94,6 +94,36 @@ If you want to stop downloading the layer,
 open the notification panel and press **Stop**.
 
 
+.. _ngmobile_upload:
+
+Upload layer to Web GIS
+------------------------
+
+Click on three dots next to the layer name to open the context menu and select "Send to NextGIS".
+
+.. figure:: _static/ngm_send_to_wg_en.png
+   :name: ngm_send_to_wg_pic
+   :align: center
+   :width: 10cm
+
+   Layer context menu
+
+Select the Web GIS you wish to add the layer to from the list, see :numref:`ngmobile_select_ngw_layer_pic`.
+
+Next select the resource group and tap **Add**.
+
+.. figure:: _static/ngm_add_to_wg_en.png
+   :name: ngm_add_to_wg_pic
+   :align: center
+   :width: 10cm
+
+   Adding local layer to Web GIS”
+
+If the layer was uploaded successfully, you'll see the sync symbol |icon_layer_sync| next to the layer's icon.
+
+In Web GIS you'll find the uploaded data, with no style.
+
+
 
 .. _ngmobile_synchronization_layer_webgis:
 
