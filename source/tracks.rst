@@ -23,14 +23,14 @@ To record tracks, set up the following parameters:
 * in NextGIS Mobile Settings go to Location page and set it up as show in :numref:`ngmobile_settings_place_pic`.
 * in My tracks page of the Settings check "Send location to server" :numref:`my_tracks_settings_pic`.
 
-
+.. _ngmobile_record_tracks:
 
 Recording a track
 -----------------
 
 Tracks can be recorded in two ways.
 
-.. _ngmobile_record_tracks:
+.. _ngm_record_gpx:
 
 Record tracks in GPX format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
