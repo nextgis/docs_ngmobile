@@ -1,4 +1,4 @@
-.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
+
 
 .. _ngmobile_gplv3:
 
