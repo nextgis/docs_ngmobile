@@ -17,19 +17,19 @@ NextGIS Mobile
 * Векторные слои
 
    * `Создание пустого слоя <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
-   * `Добавление из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#geojson>`_
+   * `Добавление из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
    
 * `Настройки векторного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
-* `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngrc>`_
+* `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
 * `Геосервисы <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
-* `Сервис TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#xyz-tms>`_
+* `Сервис TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-qms-service>`_
 * `Настройки растрового слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-raster-layer-settings>`_
 * `Экспорт данных <https://docs.nextgis.ru/docs_ngmobile/source/share.html>`_
 
 **Объекты**
 
 * `Таблица объектов <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_
-* `Добавление объекта <https://docs.nextgis.ru/docs_ngmobile/source/editing.html>`_
+* `Добавление объекта <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-add-geometry>`_
 * `Редактирование геометрии <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-edit-geometry>`_
 * `Редактирование атрибутов <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-edit-geometry>`_
 * `Вложения <https://docs.nextgis.ru/docs_ngmobile/source/share.html#ngmobile-export-attachments>`_
@@ -47,13 +47,13 @@ NextGIS Mobile
 * `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
 * `Отправка слоя <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_
 * `Настройка синхронизации  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
-* `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#nextgis-web>`_
+* `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
 * `Управление подключениями к Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
 
 **Решение проблем**
 
 * `Вход в приложение <https://docs.nextgis.ru/docs_ngmobile/source/faq_ngmobile.html#ngmobile-change-passwords>`_
-* `Логирование <https://docs.nextgis.ru/docs_ngmobile/source/log.html#ngmobile-logs-steps>`_
+* `Логирование <https://docs.nextgis.ru/docs_ngmobile/source/log.html#>`_
 * `Оптимальные настройки <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html>`_
 * `Подключение внешнего источника координат <https://docs.nextgis.ru/docs_ngmobile/source/mock_location.html>`_
 
