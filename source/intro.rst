@@ -37,7 +37,7 @@ Some icons used in NextGIS Mobile are from:
 .. only:: latex
 
    This documentation is distributed under Creative Commons license
-	**"Attribution-NoDerivs" ("Attribution - without derivative works") СC BY-ND**
+	**"Attribution-NoDerivs" ("Attribution - without derivative works") CC BY-ND**
    
    .. image:: _static/cc_by.png  
 
