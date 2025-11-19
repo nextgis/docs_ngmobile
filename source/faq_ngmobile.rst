@@ -31,4 +31,4 @@ Something went wrong on my device and the data is corrupted. Is there a way to r
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Try restoring the layers in the Settings --> Map --> Restore broken layer
-`More details <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmob-restore-layer>`_.
+`More details <https://docs.nextgis.com/docs_ngmobile/source/settings.html#ngmob-restore-layer>`_.
