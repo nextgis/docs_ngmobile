@@ -68,6 +68,33 @@ Map settings include:
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
 
+.. _ngmob_restore_layer:
+
+Restore layers
+--------------------
+
+Sometimes in case of memory malfunction, problems with writing data etc the synchronization between the layer on the map and in the app's memory may break.
+
+To restore a broken layer open Settings --> Map and click **Restore broken layers**.
+
+Select a layer you want to restore.
+
+.. figure:: _static/settings_restore_en.png
+   :name: settings_restore_pic
+   :align: center
+   :width: 10cm
+
+   Choosing layer to restore
+
+In this menu you'll see the names of the local files in your device memory. The standard vector layers created during the installation of the app are:
+
+* Points - vector_a
+* Lines - vector_b
+* Polygons - vector_c
+
+To see the name of the file corresponding to another layer, open its context menu (three dots), go to Settings. On the `General <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-tab-general-settings>`_ tab you'll find the full path to the file.
+
+
 .. _ngmobile_settings_loc:
 
 Location
