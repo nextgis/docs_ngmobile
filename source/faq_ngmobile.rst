@@ -27,6 +27,11 @@ I entered mywebgis.nextgis.com as my authorization server but stil can't sign in
 If you're on Premium your authorization server is my.nextgis.com. If you entered something else - please remove it.
 Different authorization setting is for NGW installations on your own servers.
 
+.. _ngmobile_work_issues:
+
+Other issues
+------------
+
 Something went wrong on my device and the data is corrupted. Is there a way to restore it?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
