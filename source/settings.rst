@@ -54,16 +54,19 @@ Map
 Map settings include:
 
 * Show/hide Status info panel
-* The way current location displays (show current location, show marker, how marker & accuracy radius)
+* The way current location is displayed (show current location, show marker, how marker & accuracy radius)
 * Show mini compass
-* Do not turn off the screen when map displays - works only on the map screen
-* Show/hide zoom control buttons
+* Keep map screen on - works only on the map screen
+* Show/hide zoom control buttons on the map
+* Measurement system
 * Show scale ruler
+* Show zoom level
 * Show measuring button
 * Coordinates format (for coordinates in Status bar and other dialogs and screens)
 * Decimal places
 * Map background (light, dark, neutral)
 * Map path (here you can specify a path where map and layers data will be stored)
+* `Restore broken layers <https://docs.nextgis.com/docs_ngmobile/source/settings.html#restore-layers>`_
 
 .. note::
 	For devices with several SD cards and Android 4.4 and higher, map path not on the main SD card can only be specified in the application home directory and its subdirectories (for example: Android/data/com.nextgis.mobile). This is also true for some devices without root access. Read-only folders won't show up in path selection dialog.
