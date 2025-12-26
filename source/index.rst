@@ -18,6 +18,7 @@ NextGIS Mobile
 
    * `Создание пустого слоя <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
    * `Добавление из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
+   * `Добавление из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
    
 * `Настройки векторного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
 * `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
