@@ -11,13 +11,13 @@ Integration with NextGIS Web
 .. only:: latex
 
    You can learn more about the main features of Web GIS 
-   in `Web GIS: Description and Main Features <https://docs.nextgis.ru/docs_ngcom/source/description.html#ngcom-description>`_.
+   in `Web GIS: Description and Main Features <https://docs.nextgis.com/docs_ngcom/source/description.html#ngcom-description>`_.
 
 NextGIS Mobile can be connected to a Web GIS created on the NextGIS Web platform. This integration allows to exchange data with a Web GIS: upload local layers to the server, download data from the server, edit the data, view tracks recorded with the app on a Web Map.
 
 To add a connection to a Web GIS, you need to be `logged in <https://docs.nextgis.com/docs_ngmobile/source/auth.html>`_.
 
-If the NextGIS ID already has a Web GIS associated with it, it will be automatically added to the app. All the Web GIS where the user is a `team member <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_ will also be added.
+If the NextGIS ID already has a Web GIS associated with it, it will be automatically added to the app. All the Web GIS where the user is a `team member <https://docs.nextgis.com/docs_ngcom/source/teams.html>`_ will also be added.
 
 If you don't have a Web GIS yet, `create it <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_ from your account.
 
