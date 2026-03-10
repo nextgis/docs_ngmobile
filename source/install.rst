@@ -3,11 +3,11 @@
 Установка и запуск
 ==================
 
-Приложение можно установить на устройство через магазин приложений `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_.
+Приложение можно установить на устройство через магазин приложений `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_ или `из файла APK <https://docs.nextgis.ru/docs_ngmobile/source/install.html#apk>`_.
 
-В строке поиска введите "NextGIS Mobile". Далее установить найденное приложение на устройство.
+В магазине приложений в строке поиска введите "NextGIS Mobile", выберите из списка найденного нужное приложение и нажмите **Установить**.
 
-Для запуска приложения используется ярлык, автоматически создаваемый во время установки (см. :numref:`ngmobile_launch_shortcut_pic`). 
+По завершении установке на экране добавится иконка приложения:
 
 .. figure:: _static/mobileappIcon.png
    :name: ngmobile_launch_shortcut_pic
@@ -16,6 +16,7 @@
 
    Ярлык NextGIS Mobile
 
+.. _apk:
 
 Установка из пакетного файла
 -----------------------------
