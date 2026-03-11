@@ -6,7 +6,7 @@
 Чтобы открыть раздел настроек, нажмите на меню из трёх точек в правом верхнем углу экрана и выберите "Настройки"
 
 .. figure::  _static/ngmobile_open_settings_ru.png
-   :name: ngmobile_settings_pic
+   :name: ngmobile_open_settings_pic
    :align: center
    :width: 16cm
    
