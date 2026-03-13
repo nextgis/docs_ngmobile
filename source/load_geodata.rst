@@ -7,11 +7,11 @@
 
 В программе имеется возможность добавления слоёв разными способами:
 
-* создать пустой векторный слой выбранной геометрии;
+* `создать пустой <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_ векторный слой выбранной геометрии;
 * загрузить векторный или растровый слой:
 
-   * из локального хранилища Android, 
-   * из хранилища `NextGIS Web <http://nextgis.ru/nextgis-web/>`_ в облаке или на своём сервере. 
+   * `из файла на устройстве <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, 
+   * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
    * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
    * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
 
@@ -198,20 +198,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 2. Диалог ввода даты и времени.
 3. Кнопка добавления фотографиий.
 
-Пример стандартной формы редактирования атрибутов слоя представлен на :numref:`ngmobile_standard_form_layer_attributes_pic`: 
-
-.. todo:: move this
-
-.. figure:: _static/standard_form_layer_attributes.png
-   :name: ngmobile_standard_form_layer_attributes_pic
-   :align: center
-   :width: 10cm  
-    
-   Стандартная форма редактирования атрибутов слоя
-   
-   Цифрами обозначены: 1 - кнопка "Назад", 2 - кнопка "Применить изменения", 3 - кнопка "Добавить фото".
-
-После создания слоя над ним можно выполнять стандартные операции редактирования, такие как Добавить, Изменить или Удалить. Подробнее редактирование векторного слоя, созданного на базе файла GeoJSON, описано в разделе :ref:`ngmobile_editing`.
+После создания слоя над ним можно выполнять стандартные операции редактирования, такие как Добавить, Изменить или Удалить. Подробнее редактирование векторного слоя описано в разделе :ref:`ngmobile_editing`.
 
 .. _ngmobile_import_ngfp:
 
@@ -503,101 +490,4 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
    Если список загружаемых тайлов для заданного диапазона зумов превышает 6000, то будут загружены только первые 6000 тайлов. Остальные тайлы не будут загружаться из-за ограничений на переполнение памяти.
 
 
-.. _ngmobile_webgis_download:
-
-Добавление геоданных из Веб ГИС
--------------------------------
-
-NextGIS Mobile позволяет загружать геоданные из :ref:`Веб ГИС, созданной на облачном сервере nextgis.com <ngcom_create>` или размещенной на своём сервере.
-
-Подробнее о загрузке геоданных в :ref:`Веб ГИС <ngcom_description>` можно ознакомиться в следующих разделах 
-документации Веб-ГИС. Например, загрузить можно :ref:`Растровый слой <ngcom_raster_layer>` или :ref:`Векторный слой <ngcom_vector_layer>`.
-
-Для того чтобы загрузить в NextGIS Mobile геоданные из Веб ГИС, необходимо выполнить 
-следующую последовательность шагов:
-
-1. На панели инструментов дерева слоев (:numref:`ngmobile_main_activity_pic`, п.1) нажать на кнопку "Добавить геоданные" (:numref:`ngmobile_layer_tree_pic`, п.4). В открывшемся диалоге выбрать пункт меню "Добавить из Веб ГИС" (см. :numref:`ngmobile_addition_of_NextGIS_pic`): 
-
-.. figure:: _static/ngmobile_addition_of_NextGIS.png
-   :name: ngmobile_addition_of_NextGIS_pic
-   :align: center
-   :width: 9cm    
-
-   Добавление из Веб ГИС
- 
-2. В открывшемся окне выбрать пункт Добавить Веб ГИС и нажать кнопку Добавить
-(см. :numref:`ngmobile_add_an_account_NextGIS_pic`): 
-
-.. figure:: _static/ngmobile_add_an_account_NextGIS.png
-   :name: ngmobile_add_an_account_NextGIS_pic
-   :align: center
-   :width: 9cm    
-
-   Добавление учетной записи
-
-3. В открывшемся окне ввести адрес вашей Веб ГИС и пароль, назначенный для входов в вашу Веб ГИС через сайт nextgis.com. По окончании заполнения формы необходимо нажать кнопку Войти (см. :numref:`ngmobile_conversation_connection_WebGIS_pic`): 
-
-.. figure:: _static/ngmobile_conversation_connection_WebGIS.png
-   :name: ngmobile_conversation_connection_WebGIS_pic
-   :align: center
-   :width: 9cm  
-
-   Диалог подключения Веб ГИС
-
-Если вы добавляете данные из Веб ГИС размещенной на своём сервере, то предварительно нужно изменить сервер авторизации: https://docs.nextgis.ru/docs_ngmobile/source/auth.html#ngidop
-
-4. По окончании подключения Веб ГИС откроется окно с перечнем доступных Веб ГИС. Выберите вашу 
-(см. :numref:`ngmobile_account_election_Web_GIS_pic`): 
-
-.. figure:: _static/ngmobile_account_election_Web_GIS.png
-   :name: ngmobile_account_election_Web_GIS_pic
-   :align: center
-   :width: 9cm    
-
-   Выбор учетной записи Веб ГИС
-
-5. Далее откроется окно диалога выбора слоя для импорта геоданных из вашей Веб ГИС в 
-NextGIS Mobile (см. :numref:`ngmobile_layer_selection_dialog_for_importing_pic`): 
-
-.. figure:: _static/ngmobile_layer_selection_dialog_for_importing.png
-   :name: ngmobile_layer_selection_dialog_for_importing_pic
-   :align: center
-   :width: 9cm    
-
-   Окно диалога выбора слоя для импорта геоданных из Веб ГИС. 
-
-Если у слоя в Веб ГИС создан стиль, то появляется возможность выбрать для импорта 
-помимо векторных данных еще и растр. Если данные импортируются на мобильное 
-устройство в виде векторный данных, то такие данные скачиваются на мобильное устройство 
-и могут быть доступны для использования при отсутствии Интернета. 
-Если данные импортируются на мобильное устройство в виде растра при наличии в Веб ГИС 
-созданного стиля у слоя на сервере, то такие данные могут быть доступны только при 
-наличии сервера для отрисовывания картинки.   
-Таким образом, векторный слой можно добавить/импортировать в виде вектора либо в виде 
-растра. Для этого следует поставить галочку в пустом окошке под названием необходимого 
-слоя в правой части экрана (см. :numref:`ngmobile_layer_type_selection_pic`): 
-
-.. figure:: _static/ngmobile_layer_type_selection.png
-   :name: ngmobile_layer_type_selection_pic
-   :align: center
-   :width: 9cm    
-  
-   Выбор типа слоя
-
-На верхней панели инструментов в правом углу имеется иконка в виде папки с плюсом.
-При нажатии на эту иконку откроется диалог для создания новой группы данных в вашей 
-Веб ГИС. В поле диалога следует задать имя для новой группы и нажать на кнопку ОК.
-В случае удачного создания и сохранения новой папки, название новой папки появится в 
-окне содержимого вашей Веб ГИС (см. :numref:`ngmobile_add_a_new_group_pic`): 
-
-.. figure:: _static/ngmobile_add_a_new_group.png
-   :name: ngmobile_add_a_new_group_pic
-   :align: center
-   :width: 9cm    
-   
-   Создание новой группы
-
-6. После выбора слоя для импорта из Веб ГИС в NextGIS Mobile следует нажать на 
-кнопку Добавить внизу экрана. После этого начнется процесс импорта из Веб ГИС в 
-NextGIS Mobile. Наличие или отсутствие слоя можно проверить в дереве слоев. В случае удачной процедуры 
-обработки и импортирования слоя, новый слой располагается первым в дереве слоев.
+.. seealso:: Также можно добавить векторный или растровый слой `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_.

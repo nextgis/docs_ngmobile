@@ -405,6 +405,15 @@
 
 Откроется стандартная форма ввода атрибутов (см. :numref:`ngmobile_input_form_attributes_pic`). 
 
+.. figure:: _static/standard_form_layer_attributes.png
+   :name: ngmobile_standard_form_layer_attributes_pic
+   :align: center
+   :width: 10cm  
+    
+   Стандартная форма редактирования атрибутов слоя
+   
+   Цифрами обозначены: 1 - кнопка "Назад", 2 - кнопка "Применить изменения", 3 - кнопка "Добавить фото".
+
 После того как все атрибуты будут установлены, необходимо нажать кнопку "Применить изменения" (см. :numref:`ngmobile_input_form_attributes_pic`, п.2), чтобы сохранить изменения. 
 
 .. note::
