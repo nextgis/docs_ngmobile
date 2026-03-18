@@ -279,41 +279,23 @@ NextGIS Mobile позволяет создавать растровый слой
 
 В открывшемся окне выбора сохраненных файлов на диске мобильного устройства выберите необходимый для загрузки ZIP-архив. Откроется диалог настройки параметров создаваемого слоя:
 
-.. figure:: _static/layer_setting_tms.png
+.. figure:: _static/nmg_add_tileszip_set_ru.png
    :name: ngmobile_layer_setting_tms_pic
    :align: center
    :width: 9cm
 
    Диалог настройки параметров тайлового слоя
 
-Здесь можно выбрать тип тайлового слоя (схему нарезки тайлов) - XYZ (OSM) или TMS (OSGeo), и размер кэша:
+Здесь можно выбрать:
 
-.. figure:: _static/layer_setting_tms_2.png
-   :name: ngmobile_layer_setting_tms_pic_2
-   :align: center
-   :width: 9cm
+* Тип тайлового слоя (схему нарезки тайлов): XYZ (OSM) или TMS (OSGeo), 
+* Размер кэша: 2 экрана (настройка по умолчанию), 1 экран, 3 экрана или Без кэша.
 
-   Настройка типа тайлового слоя
-
-.. figure:: _static/layer_setting_tms_3.png
-   :name: ngmobile_layer_setting_tms_pic_3
-   :align: center
-   :width: 9cm
-
-   Настройка размера кэша тайлов TMS
-
-При нажатии на кнопку "Создать" начнется процесс обработки данных и создания нового растрового слоя.
-
-.. figure:: _static/processing_and_creation_layer_tms.png
-   :name: ngmobile_processing_and_creation_layer_tms_pic
-   :align: center
-   :width: 9cm  
-
-   Окно обработки данных и создания слоя
+Нажмите **Создать**. 
 
 В случае удачного создания слоя новый слой будет располагаться первым в дереве слоев:
 
-.. figure:: _static/ngmobile_tree_layers_tms.png
+.. figure:: _static/ngm_add_tileszip_result_ru.png
    :name: ngmobile_tree_layers_tms_xyz_pic
    :align: center
    :width: 9cm  
