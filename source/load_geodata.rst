@@ -121,17 +121,17 @@
 
 Векторные:
 
-* `GeoJSON <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#geojson>`_;
+* `GeoJSON <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#file-geojson>`_;
 * `настраиваемые формы <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngfp>`_ в формате \*.NGFP.
 
 Растровые:
 
-* `тайловый кэш XYZ/TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#xyz-tms>`_ в ZIP-архиве;
-* `тайловый кэш в формате \*.NGRC <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngrc>`_. 
+* `тайловый кэш XYZ/TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-cache>`_ в ZIP-архиве;
+* `тайловый кэш в формате \*.NGRC <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_. 
 
 Ниже подробнее описано добавление слоя из каждого из этих форматов.
 
-.. _geojson:
+.. _file_geojson:
 
 Создание векторного слоя из файла GeoJSON
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
