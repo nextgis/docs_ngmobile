@@ -15,6 +15,9 @@
    * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
    * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
 
+.. hint:: Где взять данные?
+
+   Вам поможет `NextGIS Data <https://data.nextgis.com/ru/region/custom/base/>`_
 
 .. _ngmobile_create_vector:
 
