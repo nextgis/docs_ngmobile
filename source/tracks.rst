@@ -48,7 +48,7 @@ For each point of the track, the following information is recorded: date, time, 
 To start recording a track open the main menu by tapping three dots in the top right corner and select **Start new track**.
 
 .. figure:: _static/ngm_start_track_en.png
-   :name: ngm_start_track_ru
+   :name: ngm_start_track_pic
    :align: center
    :width: 8cm
 
