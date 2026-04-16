@@ -51,7 +51,7 @@ NextGIS Mobile позволяет записывать и отображать �
 Чтобы начать запись трека, вызвовите главное меню тремя точками в правом верхнем углу и выберите **Начать запись трека**
 
 .. figure:: _static/ngm_start_track_ru.png
-   :name: ngm_start_track_ru
+   :name: ngm_start_track_pic
    :align: center
    :width: 8cm
 
@@ -116,7 +116,12 @@ NextGIS Mobile позволяет записывать и отображать �
 
 Для того чтобы завершить запись трека, нажмите **Стоп** либо в панели уведомлений операционной системы (см. :numref:`ngmobile_new_gpx_layer_1_pic`, п.4), либо в контекстном меню в главном окне приложения (см. :numref:`ngmobile_main_activity_pic`, п.5).
 
+.. figure:: _static/ngm_stop_track_ru.png
+   :name: ngm_stop_track_pic
+   :align: center
+   :width: 8cm
 
+   Завершение записи трека
 
 Иконка статуса исчезнет из панели уведомлений, маркер местоположения поменяет вид на красный флажок, означающий конец трека, а линия трека изменит свой цвет (см. :numref:`ngmobile_new_gpx_layer_3_pic`).
 
