@@ -26,7 +26,7 @@ To record tracks, set up the following parameters:
 
 * Copy UID indicated in My tracks section and add the tracker `to your Web GIS <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
 
-Now you can send the tracks to Web GIS and `view them on a Web Map<https://docs.nextgis.ru/docs_ngweb/source/trackers.html#tracking-web-map>`_.
+Now you can send the tracks to Web GIS and `view them on a Web Map <https://docs.nextgis.ru/docs_ngweb/source/trackers.html#tracking-web-map>`_.
 
 .. _ngmobile_record_tracks:
 
