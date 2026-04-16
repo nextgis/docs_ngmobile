@@ -5,12 +5,7 @@
 Tracks
 ======
 
-NextGIS Mobile allows to record and display tracks. Recorded track points are saved to the internal database. Track points recorded within one session are combined and displayed on the map as a line.
-
-.. important::
-   To use this function, make sure to set up your device.
-
-More on sending tracks to Web GIS `here <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking>`_.
+NextGIS Mobile allows to record and display tracks. Track points are recorded to the internal database and combined to display on the map as a line.
 
 .. _tracks_settings:
 
@@ -19,16 +14,29 @@ Settings
 
 To record tracks, set up the following parameters:
 
-* grant the mobile app permission to access device location (in the Android Settings). 
-* in NextGIS Mobile Settings go to Location page and set it up as show in :numref:`ngmobile_settings_place_pic`.
-* in My tracks page of the Settings check "Send location to server" :numref:`my_tracks_settings_pic`.
+* Grant the mobile app permission to access device location (in the Android Settings). 
+* In My tracks page of the Settings check "Send location to server":
+
+.. figure:: _static/Mobile_send_to_server_en.png
+   :name: ngmob_set_mytracks_pic_2
+   :align: center
+   :width: 8cm
+
+   Sending locaction to server enabled
+
+* Copy UID indicated in My tracks section and add the tracker `to your Web GIS <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
+
+Now you can send the tracks to Web GIS and `view them on a Web Map<https://docs.nextgis.ru/docs_ngweb/source/trackers.html#tracking-web-map>`_.
 
 .. _ngmobile_record_tracks:
 
 Recording a track
 -----------------
 
-Tracks can be recorded in two ways.
+Tracks can be recorded in two ways:
+
+* `As GPX <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#ngmobile-record-tracks-gpx>`_;
+* `As new vector feature <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#ngmobile-edit-vector-tracks>`_.
 
 .. _ngm_record_gpx:
 
@@ -37,15 +45,57 @@ Record tracks in GPX format
 
 For each point of the track, the following information is recorded: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
 
-1. To start recording a track press "Start new track" button in the Contextual menu on the Main screen (item 5 in :numref:`ngmobile_main_activity_pic_1`). 
+To start recording a track open the main menu by tapping three dots in the top right corner and select **Start new track**.
 
-Track recording is performed in background mode. You'll need to allow in your device settings. See details in our video:
+.. figure:: _static/ngm_start_track_en.png
+   :name: ngm_start_track_ru
+   :align: center
+   :width: 8cm
+
+   Starting new track
+
+Track recording is performed in background mode. You'll need to allow in your device settings. 
+
+* Allow background access to geolocation;
+* Disable battery optimisations (otherwise it may shut down the track recording).
+
+See details in our video:
 
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/uPkVkVakppE?si=52PecU2RFcwiUiQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Watch on `youtube <https://youtu.be/uPkVkVakppE?si=bZKQqlM4xmwuRqbC>`_.
+
+
+.. figure:: _static/ngm_geoloc_background_en.png
+   :name: ngm_geoloc_background_pic
+   :align: center
+   :width: 8cm
+
+   Request to access geolocation in background
+
+.. figure:: _static/ngm_geoloc_all_en.png
+   :name: ngm_geoloc_all_pic
+   :align: center
+   :width: 8cm
+
+   Allow access to geolocation at all times
+
+.. figure:: _static/ngm_batteryopt_disable_en.png
+   :name: ngm_batteryopt_disable_pic
+   :align: center
+   :width: 8cm
+
+   Request to disable battery optimisation
+
+.. figure:: _static/ngm_battery_ignore_en.png
+   :name: ngm_battery_ignore_pic
+   :align: center
+   :width: 8cm
+
+   Allowing NextGIS Mobile to work in the background
+
 
 To indicate that the process is running a status icon of the walking man is displayed in Android Notification bar. For more information click on it and it will show the track status as shown in :numref:`ngmobile_new_gpx_layer_1_pic` below.
 
@@ -67,12 +117,22 @@ During track recording you can see the geometry of the track on Map screen as sh
    
    Recording track.
 
-Recorded track is displayed on the map immediately even though recording is not completed. The status icon (walking man) is still visible in the notification bar. The green flag shows the starting point of the track whereas the location marker shows the current device location.
+Recorded track is displayed on the map immediately even before the recording is completed. The status icon (walking man) is visible in the notification bar. The location marker shows the current device location.
 
 .. note::
-   Track points are grouped by days and sessions within a day. If track recording continues the next day track will be split up into two parts.  
+   Track points are grouped by days and sessions within a day. If track recording continues the next day track will be split up into two parts. If you want to combine them into one track, use `GPX merge <https://toolbox.nextgis.com/t/gpxmerge>`_
 
-2. To stop track recording, tap "Stop" button either in notification bar (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`) or in Contextual menu (see item 5 in :numref:`ngmobile_main_activity_pic_1`). The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track, and the track line will change its colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`
+To stop track recording, tap **Stop** either in notification bar (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`) or in the main menu.
+
+.. figure:: _static/ngm_stop_track_en.png
+   :name: ngm_stop_track_pic
+   :align: center
+   :width: 8cm
+
+   Stopping track recording
+
+
+The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track, and the track line will change its colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`
 
 .. figure:: _static/new_gpx_layer_3.png
    :name: ngmobile_new_gpx_layer_3_pic
@@ -81,7 +141,7 @@ Recorded track is displayed on the map immediately even though recording is not 
    
    Recorded track.
 
-3. You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`. Tracks can also be `displayed on a Web Map <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
+You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`. Tracks can also be `displayed on a Web Map <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
 
 .. _ngmobile_edit_vector_tracks:
 
