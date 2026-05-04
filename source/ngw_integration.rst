@@ -123,7 +123,9 @@ If the layer was uploaded successfully, you'll see the sync symbol |icon_layer_s
 
 In Web GIS you'll find the uploaded data, with no style.
 
+.. note::
 
+   The number of layers you can upload to Web GIS is determined by your `subscription plan <https://nextgis.com/pricing-base/>`_. On Free you can upload up to 15 layers. If you need more, `upgrade to Premium <https://my.nextgis.com/subscription/>`_ in your NextGIS ID account.
 
 .. _ngmobile_synchronization_layer_webgis:
 
