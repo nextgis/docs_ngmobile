@@ -428,7 +428,8 @@
    Геометрия кольца должна быть расположена ВНУТРИ геометрии полигона, в противном случае изменения не будут сохранены!
    
 * |ic_delete_polygon| удалить выделенную вершину.
-.
+
+
 .. note::
    Если в полигоне останется всего две вершины, то такой полигон будет удален. 
    
@@ -544,109 +545,109 @@ NextGIS Mobile показывает следующие поля атрибуто
 
 
 .. |ic_cancel| image:: _static/ic_cancel.png
-   :width: 6mm
+   :width: 7mm
    :alt: X
 
 .. |ic_add_feature| image:: _static/ic_add_feature.png
-   :width: 6mm
+   :width: 7mm
    :alt: +
 
 .. |ic_edit| image:: _static/ic_edit.png
-   :width: 6mm
+   :width: 7mm
    :alt: карандаш
 
 .. |ic_delete| image:: _static/ic_delete.png
-   :width: 6mm
+   :width: 7mm
    :alt: мусорное ведро
 
 .. |ic_info| image:: _static/ic_info.png
-   :width: 6mm
+   :width: 7mm
    :alt: i в кружке
 
 .. |ic_tick| image:: _static/ic_tick.png
-   :width: 6mm
+   :width: 7mm
    :alt: галочка
 
 .. |ic_undo| image:: _static/ic_undo.png
-   :width: 6mm
+   :width: 7mm
    :alt: стрелка назад
 
 .. |ic_redo| image:: _static/ic_redo.png
-   :width: 6mm
+   :width: 7mm
    :alt: стрелка вперёд
 
 .. |ic_save| image:: _static/ic_save.png
-   :width: 6mm
+   :width: 7mm
    :alt: дискета
 
 .. |ic_move_to_center| image:: _static/ic_move_to_center.png
-   :width: 6mm
+   :width: 7mm
    :alt: точка к плюсу
 
 .. |ic_move_to_loc| image:: _static/ic_move_to_loc.png
-   :width: 6mm
+   :width: 7mm
    :alt: точка к маркеру местоположения
 
 .. |ic_multipoints| image:: _static/ic_multipoints.png
-   :width: 6mm
+   :width: 7mm
    :alt: три точки и +
 
 .. |ic_multiline| image:: _static/ic_multiline.png
-   :width: 6mm
+   :width: 7mm
    :alt: разветвлённая линия с +
 
 .. |ic_multipolygons| image:: _static/ic_multipolygons.png
-   :width: 6mm
+   :width: 7mm
    :alt: два полигона и +
 
 .. |ic_hole| image:: _static/ic_hole.png
-   :width: 6mm
+   :width: 7mm
    :alt: полигон с дыркой
 
 .. |ic_place| image:: _static/ic_place.png
-   :width: 6mm
+   :width: 7mm
    :alt: перевёрнутая капля
 
 .. |ic_walk| image:: _static/ic_walk.png
-   :width: 6mm
+   :width: 7mm
    :alt: человечек
 
 .. |ic_action_anchor| image:: _static/ic_action_anchor.png
-   :width: 6mm
+   :width: 7mm
    :alt: синяя стрелка с кружком
 
 .. |ic_attributes| image:: _static/ic_attributes.png
-   :width: 6mm
+   :width: 7mm
    :alt: прямоугольник с полосами
 
 .. |ic_photo| image:: _static/ic_photo_dark.png
-   :width: 6mm
+   :width: 7mm
    :alt: фотоаппарат
 
 .. |ic_tracks| image:: _static/ic_tracks.png
-   :width: 6mm
+   :width: 7mm
    :alt: закорючка
 
 .. |ic_add_point| image:: _static/ic_add_point.png
-   :width: 6mm
+   :width: 7mm
    :alt: точка с плюсом
 
 .. |ic_delete_point| image:: _static/ic_delete_point.png
-   :width: 6mm
+   :width: 7mm
    :alt: точка с Х 
 
 .. |ic_delete_line| image:: _static/ic_delete_line.png
-   :width: 6mm
+   :width: 7mm
    :alt: линия с Х
 
 .. |ic_add_line| image:: _static/ic_add_line.png
-   :width: 6mm
+   :width: 7mm
    :alt: линия с плюсом
 
 .. |ic_delete_polygon| image:: _static/ic_delete_polygon.png
-   :width: 6mm
+   :width: 7mm
    :alt: треугольник с Х
 
 .. |ic_add_polygon| image:: _static/ic_add_polygon.png
-   :width: 6mm
+   :width: 7mm
    :alt: треугольник с плюсом
