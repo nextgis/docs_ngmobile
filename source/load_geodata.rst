@@ -10,10 +10,10 @@
 * `создать пустой <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_ векторный слой выбранной геометрии;
 * загрузить векторный или растровый слой:
 
-   * `из файла на устройстве <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, 
-   * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
-   * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
-   * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
+  * `из файла на устройстве <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, 
+  * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
+  * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
+  * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
 
 .. hint:: Где взять данные?
 
