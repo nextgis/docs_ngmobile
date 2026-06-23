@@ -7,10 +7,10 @@
 
 Пользовательский интерфейс "NextGIS Mobile" включает в себя четыре основных элемента:
 
-* Главное окно приложения;
-* Дерево слоев;
-* Таблица объектов;
-* Окно настроек.
+* `Главное окно приложения <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-main-activity>`_;
+* `Дерево слоев <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-layer-tree>`_;
+* `Таблица объектов <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_;
+* `Настройки <https://docs.nextgis.ru/docs_ngmobile/source/settings.html>`_.
 
 Интерфейс приложения разработан в соответствии с принципами `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_.
 
@@ -28,24 +28,22 @@
    
    Главное окно приложения
    
-В верхней части экрана находится **Панель инструментов**, содержание следующие кнопки:
+В верхней части экрана находится **Панель инструментов** (кнопки, которые не помещаются в панель инструментов, переносятся в контекстное меню |ic_menu|):
 
 * |ic_layer_tree| `Дерево слоёв <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-layer-tree>`_;
-* Заголовок приложения;
+* Заголовок приложения NextGIS Moblie;
 * |ic_location| `Текущее местоположение <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-show-my-location>`_;
-* `Начать запись трека <https://docs.nextgis.ru/docs_ngmobile/source/tracks.html#ngmobile-record-tracks>`_;
+* |ic_walk| `Начать запись трека <https://docs.nextgis.ru/docs_ngmobile/source/tracks.html#ngmobile-record-tracks>`_;
 * `Настройки <https://docs.nextgis.ru/docs_ngmobile/source/settings.html>`_;
-* Помощь;
-
-Кнопки, которые не помещаются в панель инструментов, переносятся в контекстное меню |ic_menu|.
+* Помощь - здесь можно посмотреть текущую версию приложения, а также перейти в документацию;
 
 Основную часть Главного окна приложения занимает **Карта**, представляющая собой набор растровых и векторных слоев. 
-Порядок и видимость слоев Карты настраиваются при помощи Дерева слоев (см. :ref:`ngmobile_layer_tree`).
+Порядок и видимость слоев Карты настраиваются при помощи Дерева слоев (подробнее см. :ref:`ngmobile_layer_tree`).
 
 На карте размещаются следующие элементы:
 
-* Кнопки управления масштабом;
-* Меню основных операций - большая синяя кнопка с плюсом внизу экрана.
+* |ic_zoom_in| |ic_zoom_out| Кнопки управления масштабом;
+* Меню основных операций - |ic_big_plus| большая синяя кнопка с плюсом внизу экрана.
 
 Также на карте может отображаться:
 
@@ -76,33 +74,42 @@
 ------------
 
 Дерево слоев предназначено для просмотра состава карты и управления видимостью и порядком слоев на карте. 
-Дополнительные операции над слоями вынесены в отдельное меню слоя. 
 
-Для того, чтобы изменить иерархию слоев, следует зажать слой, который требуется переместить. При этом панель дерева слоев переключится в режим редактирования. Продолжая зажимать слой, необходимо переместить его в новое положение.
+Операции над слоями вынесены в `контекстное меню слоя <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_. 
 
-Внешний вид выезжающей панели Дерева слоев представлен на :numref:`ngmobile_layer_tree_pic`
-
-.. figure:: _static/ngmobile_layer_tree_new.png
+.. figure:: _static/ngmobile_layer_tree_ru.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Дерево слоев карты
    
-   Цифрами обозначены: 1 - тип слоя; 2 - название слоя; 3 - кнопка управления видимостью слоя; 4 - кнопка "Добавить геоданные"; 5 - кнопка вызова контекстного меню слоя; 6 - контекстное меню слоя. 
-      
-Для изменения порядка слоев нужно выполнить долгое нажатие на экран устройства на слое, который необходимо переместить. Слой, на котором выполняется долгое нажатие, выделится синей рамкой. При этом список перейдет в режим Редактирования. Далее, не отнимая пальца от экрана и удерживая на слое, который необходимо переместить, перетащите слой в новую позицию на экране.
+Цифрами обозначены: 
 
-Для включения/выключения видимости слоя достаточно нажать на соответствующую кнопку (см. :numref:`ngmobile_layer_tree_pic`, п. 3).
+1. время последней синхронизации с сервером; 
+2. индикатор синхронизации; 
+3. меню `"Добавить данные" <https://docs.nextgis.ru/docs_ngmobile/source/main.html#layer-tree-menu>`_; 
+4. тип слоя; 
+5. название слоя; 
+6. кнопка управления видимостью слоя; 
+7. кнопка вызова `контекстного меню <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ слоя. 
 
-Нажатие на кнопку "Добавить геоданные" в верхней части панели Дерева слоев (см. :numref:`ngmobile_layer_tree_pic`, п. 4) позволяет создавать новые векторные слои, а также загружать векторные и растровые слои из локального хранилища Android, `каталога QuickMapServices <https://qms.nextgis.com/>`_, облачного сервиса `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ или серверной Веб ГИС `NextGIS Web <http://nextgis.ru/nextgis-web/>`_. 
+Слои отображаются в том порядке, в котором они находятся в дереве слоёв, верхние перекрывают нижние. Для того, чтобы изменить порядок слоёв, зажмите нужный слой и перетащите на новое место.
 
-По нажатию на кнопку "Добавить геоданные" открывается следующий диалог (см. :numref:`ngmobile_the_menu_button_Add_data_pic`):
+Для включения/выключения видимости слоя достаточно нажать на иконку глаза |ic_eye| рядом с ним.
 
-* Создать слой;
-* Открыть локальный;
-* Добавить геосервис;
-* Добавить из Веб ГИС.
+.. _layer_tree_menu
+
+Меню "Добавить данные"
+----------------------
+
+В верхней части дерева слоёв находится кнопка меню "Добавить данные" (см. :numref:`ngmobile_layer_tree_pic`, п. 3), которая позволяет:
+
+* `Создать слой <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_;
+* `Открыть локальный из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, сохранённого на устройстве;
+* Открыть по ссылке на ресурс Веб ГИС;
+* `Добавить геосервис <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_ из `каталога QuickMapServices <https://qms.nextgis.com/>`_ или `частного тайлового сервиса <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_;
+* `Добавить слой из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_ в облаке или на своём сервере.
 
 .. figure:: _static/ngmobile_the_menu_button_Add_data.png
    :name: ngmobile_the_menu_button_Add_data_pic
@@ -111,14 +118,6 @@
   
    Диалог "Добавить геоданные"
 
-Выбор пункта диалога "Открыть локальный" открывает системный диалог выбора данных, в котором можно выбрать как локальные :term:`геоданные` (на карте памяти), так и с облачных хранилищ. Приложение позволяет загружать следующие геоданные:
-
-* файл формата :term:`GeoJSON`;
-* файл формата ZIP с тайловым кэшем;
-* файл формата \*.ngrc
-* файл формата \*.ngfp.
-
-Подробнее загрузка геоданных описана в разделе ":ref:`ngmobile_load_geodata`".
 
 .. _ngmob_layer_menu:
 
@@ -127,13 +126,22 @@
 
 Контекстное меню слоя зависит от типа слоя (векторный или растровый).
 
+.. todo:: _static/ngm_layer_context_menu_ru.png
+   :name: ngm_layer_context_menu_ru
+   :align: center
+   :width: 8cm
+
+   Контекстное меню векторного слоя
+
+В меню слоя доступны следующие операции:
+
 * Увеличить до охвата;
-* Таблица объектов;
+* `Таблица объектов <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_ - для векторных слоёв;
 * Поделиться;
-* Отправить в NextGIS;
-* Редактировать;
+* `Отправить в Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_ - для локальных слоёв;
+* `Редактировать <https://docs.nextgis.ru/docs_ngmobile/source/editing.html>`_ - для векторных слоёв;
 * Удалить;
-* Настройки.
+* Настройки - переход к `настройкам выбранного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html>`_.
  
 .. warning::
 
@@ -146,7 +154,7 @@
 
 Таблица объектов предназначена для отображения и редактирования содержания векторного слоя в формате таблицы.
 
-Для того чтобы открыть Таблицу объектов, необходимо открыть панель Дерева слоев и нажать на кнопку вызова контекстного меню векторного слоя (см. :numref:`ngmobile_layer_tree_pic`, п. 5). Это приведет к открытию контекстного меню, показаннного на :numref:`ngmobile_layer_tree_pic`, п. 6. Далее необходимо выбрать пункт меню "Таблица объектов". 
+Для того чтобы открыть Таблицу объектов, откройте панель Дерева слоев |ic_layer_tree| и нажмите на кнопку вызова контекстного меню векторного слоя (см. :numref:`ngmobile_layer_tree_pic`, п. 7). В контекстном меню выберите"Таблица объектов". 
 
 Внешний вид таблицы объектов показан на :numref:`ngmobile_attributes_pic`.
 
@@ -267,7 +275,22 @@
    :width: 7mm
    :alt: кружок со штрихами
 
+.. |ic_walk| image:: _static/ic_walk.png
+   :width: 7mm
+   :alt: человечек
 
+.. |ic_zoom_in| image:: _static/ic_zoom_in.png
+   :width: 5mm
+   :alt: кружок со знаком "+"
 
+.. |ic_zoom_out| image:: _static/ic_zoom_out.png
+   :width: 5mm
+   :alt: кружок со знаком "-"
 
+.. |ic_big_plus| image:: _static/ic_big_plus.png
+   :width: 9mm
+   :alt: кружок со знаком "+"
 
+.. |ic_eye| image:: _static/ic_eye.png
+   :width: 6mm
+   :alt: глаз

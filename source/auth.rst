@@ -29,8 +29,8 @@
 
 .. _auth_onprem:
 
-Через собственный сервер (NGIDOP)
----------------------------------
+Через собственный сервер (NextGIS ID on-premise)
+------------------------------------------------
 
 Если у вашей организации установлены `NextGIS Web <https://docs.nextgis.ru/docs_ngweb/source/ngw_op.html>`_ и `NextGIS ID <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_ на своём сервере, то в приложении нужно указать соответствующий сервер авторизации.
 
