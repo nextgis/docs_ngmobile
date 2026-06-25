@@ -60,7 +60,7 @@ GeoJSON
 
 .. seealso::
 
-   При `отправке слоя в Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_ вложения автоматически загружаются на сервер.
+   При `отправке слоя в Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_ вложения автоматически загружаются на сервер.
 
 При экспорте слоя в файл фотографии добавляются в архив, для каждого объекта в архиве создается своя папка с вложениями, папке присваивается название, соответствующее ID объекта.
 

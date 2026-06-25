@@ -26,7 +26,7 @@
 * `Карта <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-map>`_;
 * `Местоположение <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-loc>`_;
 * `Мои треки <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#ngmobile-settings-tracks>`_;
-* `Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_;
+* `Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-synchronization-layer-webgis>`_;
 * `Учетная запись <https://docs.nextgis.ru/docs_ngmobile/source/settings.html#account>`_.
 
 .. _ngmobile_settings_gen:

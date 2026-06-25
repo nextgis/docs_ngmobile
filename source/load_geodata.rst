@@ -11,7 +11,7 @@
 * загрузить векторный или растровый слой:
 
   * `из файла на устройстве <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, 
-  * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
+  * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
   * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
   * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
 
@@ -124,7 +124,8 @@
 
 Векторные:
 
-* `GeoJSON <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#file-geojson>`_.
+* `GeoJSON <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#file-geojson>`_;
+* `настраиваемые формы <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngfp>`_ в формате \*.NGFP.
 
 Растровые:
 
@@ -143,7 +144,7 @@ NextGIS Mobile позволяет создать векторный слой п�
 
 На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
 
-.. figure:: _static/ngm_add_local_ru.png
+.. figure:: _static/ngm_add_local_ru_2.png
    :name: ngm_add_local_pic
    :align: center
    :width: 9cm
@@ -202,6 +203,57 @@ NextGIS Mobile позволяет создать векторный слой п�
 
 После создания слоя над ним можно выполнять стандартные операции редактирования, такие как Добавить, Изменить или Удалить. Подробнее редактирование векторного слоя описано в разделе :ref:`ngmobile_editing`.
 
+.. _ngmobile_import_ngfp:
+
+Создание векторного слоя из формы
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NextGIS Mobile позволяет создавать векторный слой путем импорта существущего файла формата NGFP. 
+
+Файл формата NGFP представляет собой файл формата :term:`GeoJSON` с дополнительной информацией (JSON), упакованный в zip-архив c расширением \*.NGFP. Создаётся как `дочерний ресурс векторного слоя <https://docs.nextgis.ru/docs_ngweb/source/collector.html#collector-create-form>`_ в NextGIS Web.
+
+При редактировании слоя на базе файла формата NGFP пользователь вводит данные не в стандартный список полей, а в пользовательскую форму редактирования атрибутов. Форма специальным образом оптимизирована для ввода данных и может содержать особые элементы для более удобного ввода данных: выбор из выпадающего списка, связанные списки, радио-кнопки и т.д. 
+
+.. figure:: _static/custom_form_ru.png
+   :name: ngmobile_non-standard_form_pic
+   :align: center
+   :width: 9cm  
+    
+   Пользовательская форма редактирования атрибутов слоя
+
+Для того, чтобы загрузить в программу файл формата NGFP:
+
+На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
+
+.. figure:: _static/ngm_add_local_ru_2.png
+   :name: ngm_add_local_pic_2
+   :align: center
+   :width: 9cm
+
+   Добавление слоя из файла
+
+В открывшемся окне на диске мобильного устройства выберите файл формата NGFP.
+
+После выбора файла откроется диалог настройки параметров создаваемого слоя, в котором можно задать имя слоя: 
+
+.. figure:: _static/ngm_add_form_name_ru_2.png
+   :name: ngm_add_form_name_pic
+   :align: center
+   :width: 9cm
+
+   Имя слоя, создаваемого из формы
+   
+Нажмите **Создать**. В случае удачного создания слоя новый слой будет располагаться первым в дереве слоев.
+
+.. figure:: _static/ngm_add_ngfp_result_ru.png
+   :name: ngmobile_tree_layers_ngfp_pic
+   :align: center
+   :width: 9cm  
+
+   Дерево слоев
+
+После создания слоя над ним можно выполнять стандартные операции редактирования, такие как Добавить, Изменить или Удалить. Подробнее редактирование векторного слоя, созданного на базе файла NGFP, описано в разделе :ref:`ngmobile_editing`.
+
 
 
 .. _ngmobile_import_cache:
@@ -225,7 +277,7 @@ NextGIS Mobile позволяет создавать растровый слой
 
 На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
 
-.. figure:: _static/ngm_add_local_ru.png
+.. figure:: _static/ngm_add_local_ru_2.png
    :name: ngm_add_local_pic_3
    :align: center
    :width: 9cm
@@ -268,7 +320,7 @@ NextGIS Mobile также позволяет создавать растровы
 
 На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
 
-.. figure:: _static/ngm_add_local_ru.png
+.. figure:: _static/ngm_add_local_ru_2.png
    :name: ngm_add_local_pic_4
    :align: center
    :width: 9cm
@@ -309,7 +361,7 @@ NextGIS Mobile позволяет создавать растровые слои
 
 На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Добавить геосервис".
 
-.. figure:: _static/ngm_add_geoservice_ru.png
+.. figure:: _static/ngm_add_geoservice_ru_2.png
    :name: ngm_add_geoservice_pic
    :align: center
    :width: 9cm  
@@ -443,4 +495,4 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
 
 Теперь даже при отсутствии сети тайлы выбранной области будут отображаться в приложении.
 
-.. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_.
+.. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_.

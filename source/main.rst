@@ -109,7 +109,7 @@
 * `Открыть локальный из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, сохранённого на устройстве;
 * Открыть по ссылке на ресурс Веб ГИС;
 * `Добавить геосервис <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_ из `каталога QuickMapServices <https://qms.nextgis.com/>`_ или `частного тайлового сервиса <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_;
-* `Добавить слой из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_ в облаке или на своём сервере.
+* `Добавить слой из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_ в облаке или на своём сервере.
 
 .. figure:: _static/ngm_add_data_ru.png
    :name: ngm_add_data_pic
@@ -138,7 +138,7 @@
 * Увеличить до охвата;
 * `Таблица объектов <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_ - для векторных слоёв;
 * Поделиться;
-* `Отправить в Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_ - для локальных слоёв;
+* `Отправить в Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_ - для локальных слоёв;
 * `Редактировать <https://docs.nextgis.ru/docs_ngmobile/source/editing.html>`_ - для векторных слоёв;
 * Удалить;
 * Настройки - переход к `настройкам выбранного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html>`_.

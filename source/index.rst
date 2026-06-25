@@ -18,7 +18,7 @@ NextGIS Mobile
 
   * `Создание пустого слоя <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
   * `Добавление из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
-  * `Добавление из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
+  * `Добавление из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_
    
 * `Настройки векторного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
 * `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
@@ -45,9 +45,9 @@ NextGIS Mobile
 
 **Веб ГИС**
 
-* `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
-* `Отправка слоя <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_
-* `Настройка синхронизации  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
+* `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_
+* `Отправка слоя <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_
+* `Настройка синхронизации  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-synchronization-layer-webgis>`_
 * `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
 * `Управление подключениями к Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
 
@@ -80,6 +80,7 @@ NextGIS Mobile
    tracks
    share  
    layer_settings
+   ngw_load
    ngw_integration
    log
    faq_ngmobile
