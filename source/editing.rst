@@ -315,10 +315,10 @@
 
 В открывшемся диалоге выберите векторный слой. Если доступен только один точечный/мультиточечный слой, то он будет выбран автоматически.
 
-.. figure:: _static/ngmobile_selectlayer.png
-   :name: ngmobile_select_layer_dialog_pic
+.. figure:: _static/ngm_currentloc_select_layer_ru.png
+   :name: ngm_currentloc_select_layer_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
    
    Диалог выбора слоя для добавления текущего местоположения.
 
@@ -399,7 +399,7 @@
 .. figure:: _static/edit_multipoint_ru.png
    :name: ngmobile_creating_multipoint3_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
    Редактирование мультиточки
 
@@ -468,7 +468,7 @@
 .. figure:: _static/edit_multipolygon_ru.png
    :name: ngmobile_edit_multipolygon_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
    Редактирование мультиполигона. Опции, не помещающиеся в нижнюю панель, доступны в меню. Нажмите на три точки в правой части панели, чтобы открыть его.
 
@@ -509,7 +509,7 @@
 .. figure:: _static/ngmobile_editing_attributes_new.png
    :name: ngmobile_editing_attributes_pic
    :align: center
-   :width: 10cm   
+   :width: 9cm   
 
    Экран просмотра атрибутов.
    

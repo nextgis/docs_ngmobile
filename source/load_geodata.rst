@@ -38,7 +38,7 @@
 
 В меню добавления геоданных выберите **Создать слой**.
 
-.. figure:: _static/ngm_add_geodata_new_ru.png
+.. figure:: _static/ngm_add_geodata_new_ru_2.png
    :name: ngm_add_geodata_menu_pic
    :align: center
    :width: 9cm
