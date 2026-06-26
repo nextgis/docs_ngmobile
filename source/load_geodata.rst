@@ -495,4 +495,4 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
 
 Теперь даже при отсутствии сети тайлы выбранной области будут отображаться в приложении.
 
-.. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_.
+.. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html>`_.
