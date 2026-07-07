@@ -90,8 +90,7 @@ NextGIS Mobile
    log
    faq_ngmobile
    mock_location
+   changelog
 
 
-* :ref:`genindex`
-* :ref:`glossary`
 
