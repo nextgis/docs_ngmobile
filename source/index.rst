@@ -32,7 +32,7 @@ NextGIS Mobile
 * `Таблица объектов <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_
 * `Добавление объекта <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-add-geometry>`_
 * `Редактирование геометрии <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-edit-geometry>`_
-* `Редактирование атрибутов <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-edit-geometry>`_
+* `Редактирование атрибутов <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-edit-attributes>`_
 * `Вложения <https://docs.nextgis.ru/docs_ngmobile/source/share.html#ngmobile-export-attachments>`_
 
 **Треки**
@@ -45,7 +45,7 @@ NextGIS Mobile
 
 **Веб ГИС**
 
-* `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_
+* `Добавление слоя  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmob-url`_
 * `Отправка слоя <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_
 * `Настройка синхронизации  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-synchronization-layer-webgis>`_
 * `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
@@ -86,3 +86,4 @@ NextGIS Mobile
    faq_ngmobile
    device_settings
    mock_location
+   changelog

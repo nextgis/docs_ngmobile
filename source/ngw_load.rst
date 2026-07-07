@@ -44,6 +44,14 @@
 
 Если у пользователя, под которым вы `авторизованы <https://docs.nextgis.ru/docs_ngmobile/source/auth.html>`_ в NextGIS Mobile, есть `права на изменение данных <https://docs.nextgis.ru/docs_ngcom/source/permissions.html>`_ в этом слое, то будет доступна опция "редактирование".
 
+Посмотрите, как работает добавление слоя по ссылке, в нашем видео:
+
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/0dfb44723b496542177244a9a97a4005/" style="border: none;" allow="clipboard-write; autoplay" allowFullScreen></iframe>
+
+Посмотреть видео на `rutube <https://rutube.ru/video/0dfb44723b496542177244a9a97a4005/>`_.
+
 .. _ngmobile_add_layer_webgis:
 
 Добавление слоя из Веб ГИС через выбор в меню
