@@ -3,7 +3,7 @@
 Changelog
 =================
 
-**3.1.1 released on XX Jul 2026**
+**3.1.1 released on 08 Jul 2026**
 
 * Added a clear error message instead of “Account is null” when attempting to add a layer
 * Added a notification when a form field cannot be used for input
