@@ -314,7 +314,7 @@ NextGIS Mobile позволяет создавать растровый слой
 Тайловый кэш (NGRC)
 ~~~~~~~~~~~~~~~~~~~
 
-NextGIS Mobile также позволяет создавать растровый слой путем импорта тайлового кэша в формате NGRC. Файлы NGRC могут быть получены из геоданных в практически любом формате, используя модуль `QTiles <https://docs.nextgis.ru/docs_ngqgis/source/qtiles.html>`_ для NextGIS QGIS или онлайн-инструмент `Набор тайлов из растра <https://toolbox.nextgis.com/t/raster2tiles>`_.
+NextGIS Mobile также позволяет создавать растровый слой путем импорта тайлового кэша в формате NGRC. Файлы NGRC могут быть получены из геоданных в практически любом формате, используя модуль `QTiles <https://docs.nextgis.ru/docs_ngqgis/source/qtiles.html>`_ для NextGIS QGIS или онлайн-инструмент `Растр в NGRC <https://toolbox.nextgis.com/t/raster2tiles>`_.
 
 Для того чтобы загрузить в программу тайловый кэш в формате NGRC:
 
