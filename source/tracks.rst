@@ -103,12 +103,12 @@ NextGIS Mobile позволяет записывать и отображать �
   
 Записываемый трек сразу же рисуется на карте. Иконка статуса записи (шагающий человек) отображается в панели уведомлений операционной системы. Маркер местоположения показывает текущее положение устройства.
 
-.. figure:: _static/new_gpx_layer_2.png
+.. figure:: _static/track_in_progress_ru.png
    :name: ngmobile_new_gpx_layer_2_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
-   Запись трека.
+   Запись трека
    
 
 
@@ -126,10 +126,10 @@ NextGIS Mobile позволяет записывать и отображать �
 Иконка статуса исчезнет из панели уведомлений, маркер местоположения поменяет вид на красный флажок, означающий конец трека, а линия трека изменит свой цвет (см. :numref:`ngmobile_new_gpx_layer_3_pic`).
 
 
-.. figure:: _static/new_gpx_layer_3.png
+.. figure:: _static/track_finished_ru.png
    :name: ngmobile_new_gpx_layer_3_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
    Записанный трек
    
