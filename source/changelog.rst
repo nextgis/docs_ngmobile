@@ -3,6 +3,25 @@
 Changelog
 =================
 
+**3.2.0 released on 30 Jul 2026**
+
+* Support for the MBTiles format for local raster layers
+* Customizable label colors for polygons and lines
+* Go to coordinates tool
+* Replace the object deletion popup with a confirmation dialog
+* Link to the Web GIS administrator contact form when the user has insufficient permissions
+* Use the NGRC file name as the layer name
+* Fixed a synchronization error when submitting data with an empty date
+* Fixed an issue where the date could not be entered through the form
+* Fixed the track visibility toggle state not being displayed correctly
+* Fixed an error when attempting to download a non-image attachment from NGW
+* Fixed unnecessary text centering in the feature table
+* Fixed track visibility toggle not working
+* Fixed track display color changes not being applied
+* Fixed NGW layer properties enabling auto-sync unexpectedly
+* Renamed "Your UID" to "Device ID" to match the Web GIS
+* Fixed incorrect rendering of the ruler enable checkbox
+
 **3.1.2 released on 14 Jul 2026**
 
 * Removed all extent requests while adding a raster layer
