@@ -1,7 +1,14 @@
 .. _sysadmin_updates:
 
 Changelog
-=================
+=========
+
+**3.2.1 released on 05 Aug 2026**
+
+* Require confirmation before deleting a newly created or modified object
+* Fixed an unnecessary dialog when opening NGRC
+* Fixed an unnecessary prompt to save changes when there are no changes
+
 
 **3.2.0 released on 30 Jul 2026**
 
