@@ -9,6 +9,8 @@
    :name: ngmobile_open_settings_pic
    :align: center
    :width: 16cm
+
+   Открытие главного меню и переход к настройкам
    
 
 Внешний вид окна настроек представлен на :numref:`ngmobile_settings_pic`. 
@@ -186,6 +188,10 @@
 Учётная запись
 -----------------
 
+.. admonition:: Как открыть
+
+   Три точки - Настройки - Учётная запись
+
 Отсюда можно:
 
 * перейти к регистрации;
@@ -194,6 +200,21 @@
 .. figure:: _static/ngmob_set_account_ru.png
    :name: ngmob_set_account_pic
    :align: center
-   :width: 9cm
+   :width: 8cm
 
    Настройки учётной записи
+
+.. figure:: _static/ngmob_set_account_my_ru.png
+   :name: ngmob_set_account_my_pic
+   :align: center
+   :width: 8cm
+
+   Данные учётной записи
+
+Отображаются следующие данные учётной записи (изменить их можно в личном кабинете в разделе `Профиль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-profile>`_):
+
+* Имя пользователя;
+* E-mail, на который создан аккаунт NextGIS ID;
+* Имя и фамилия.
+
+Чтобы сменить сервер авторизации или просто заново ввести логин и пароль, нажмите **Выйти** и пройдите авторизацию заново.

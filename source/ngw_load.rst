@@ -61,7 +61,7 @@
 
 2. Нажмите кнопку "Добавить геоданные".
 
-3. В открывшемся меню выберите пункт "Добавить из Веб ГИС" (см. :numref:`ngmobile_the_menu_button_Add_data_pic`) 
+3. В открывшемся меню выберите пункт "Добавить из Веб ГИС" (см. :numref:`ngm_layer_tree_add_from_wg_pic`) 
 
 .. figure:: _static/ngm_layer_tree_add_from_wg_ru_2.png
    :name: ngm_layer_tree_add_from_wg_pic

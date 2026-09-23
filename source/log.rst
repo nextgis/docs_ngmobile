@@ -25,7 +25,7 @@ NextGIS Mobile позволяет вести лог, в котором буде�
 .. figure:: _static/mobile_log_menu_ru.png
    :name: mobile_log_menu
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Контекстное меню приложения
 
@@ -34,7 +34,7 @@ NextGIS Mobile позволяет вести лог, в котором буде�
 .. figure:: _static/mobile_log_settings_ru.png
    :name: mobile_log_settings
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Окно настроек
 
@@ -43,7 +43,7 @@ NextGIS Mobile позволяет вести лог, в котором буде�
 .. figure:: _static/mobile_log_enabled_ru_2.png
    :name: mobile_log_enabled
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Запись лога включена
 
@@ -57,7 +57,7 @@ NextGIS Mobile позволяет вести лог, в котором буде�
 .. figure:: _static/mobile_log_share_ru.png
    :name: mobile_log_share
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Выбор действия "Отправить лог" в контекстном меню
 
@@ -66,6 +66,6 @@ NextGIS Mobile позволяет вести лог, в котором буде�
 .. figure:: _static/mobile_log_openwith_ru.png
    :name: mobile_log_openwith
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Выбор приложения для сохранения или пересылки лога
