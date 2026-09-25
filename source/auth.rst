@@ -10,7 +10,7 @@
 
 * Если вы "обычный" пользователь, вам нужно `зарегистрироваться на https://my.nextgis.com <https://docs.nextgis.ru/docs_ngcom/source/create.html#nextgis-id>`_, затем `ввести <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#auth-standard>`_ данные своей учётной записи в приложении.
 
-* Доступ к Веб ГИС, развёрнутым на собственном сервере, осуществляется при помощи `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_. Пользователи получают от администратора системы логины и пароли для авторизации `в приложении <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#auth-onprem>`_.
+* Доступ к Веб ГИС, развёрнутым на собственном сервере, осуществляется при помощи `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_. Пользователи получают от администратора системы логины и пароли для авторизации в приложении. Перед тем, как их ввести, нужно `указать ваш сервер авторизации <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#auth-onprem>`_.
 
 .. _auth_standard:
 
@@ -49,4 +49,4 @@
 
 Для входа введите имя и пароль пользователя, созданные для вас администратором.
 
-.. note:: Если вы перед этим уже авторизовались через NextGIS ID, необходимо выйти, изменить сервер авторизации и войти под другой учётной записью.
+.. note:: Если вы ранее были авторизованы через NextGIS ID, необходимо выйти, изменить сервер авторизации и войти под другой учётной записью.
