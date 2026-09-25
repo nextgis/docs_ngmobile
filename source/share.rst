@@ -143,3 +143,7 @@
 .. |ic_tracks| image:: _static/ic_tracks.png
    :width: 6mm
    :alt: загогулина
+
+.. |ic_layer_tree| image:: _static/ic_layer_tree.png
+   :width: 7mm
+   :alt: три полоски

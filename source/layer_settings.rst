@@ -7,9 +7,9 @@
 
 Карта представляет собой набор растровых и векторных слоев. Панель дерева слоев |ic_layer_tree| отражает содержимое карты и позволяет контролировать видимость и порядок слоев.
 
-Для переключения видимости слоя следует нажать на кнопку |ic_eye|.
+Для переключения видимости слоя следует нажать на кнопку с глазом |ic_eye|.
 
-Настройки слоя можно открыть из |ic_menu_grey| `контекстного меню <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_.
+Настройки слоя можно открыть из `контекстного меню <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ (значок |ic_menu_grey|).
 
 В настройках есть следующие вкладки:
 
@@ -48,7 +48,10 @@
 Настройки стиля векторного слоя
 -------------------------------
 
-При выборе пункта "Настройки" в контекстном меню слоя открывается окно настроек векторного слоя. 
+.. admonition:: Как открыть
+
+   |ic_layer_tree| Дерево слоёв --> |ic_menu_grey| Контекстное меню слоя --> Настройки --> Стиль
+
 
 Доступные настройки стиля векторного слоя зависят от типа геометрии слоя и выбранного типа **отрисовки** - `обычной <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-simple-rendering>`_ или `по правилу <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-rule-rendering>`_.
 
@@ -181,21 +184,23 @@
 Поля
 ----
 
-В данном блоке настроек можно выбрать поле атрибутов, которое будет использоваться как ID объекта при редактировании.
+.. admonition:: Как открыть
+
+   |ic_layer_tree| Дерево слоёв --> |ic_menu_grey| Контекстное меню слоя --> Настройки --> Поля
+
+В этом блоке настроек можно выбрать поле атрибутов, которое будет использоваться как ID объекта при редактировании.
 
 .. figure:: _static/style_select_field_ru.png
    :name: ngmobile_style_select_field_pic
    :align: center
    :width: 8cm
    
-   Блок настроек векторного слоя "Поля".
+   Блок настроек векторного слоя "Поля"
 
 .. warning::
    Выбранное поле не будет использовано для подписей на карте. Подписи можно настроить через :ref:`ngmobile_style_settings`.
 
 .. _ngmobile_cache_settings:
-
-
 
 .. |ic_eye| image:: _static/ic_eye.png
    :width: 7mm
@@ -203,15 +208,15 @@
 
 .. |ic_type_multipoint| image:: _static/ic_type_multipoint.png
    :width: 7mm
-   :alt: глаз
+   :alt: несколько точек
 
 .. |ic_type_polygon| image:: _static/ic_type_polygon.png
    :width: 7mm
-   :alt: глаз
+   :alt: точки с линияями
 
 .. |ic_type_line| image:: _static/ic_type_line.png
    :width: 7mm
-   :alt: глаз
+   :alt: линия
 
 .. |ic_layer_tree| image:: _static/ic_layer_tree.png
    :width: 7mm
