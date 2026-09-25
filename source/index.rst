@@ -56,7 +56,7 @@ NextGIS Mobile
 
 **Решение проблем**
 
-* `Вход в приложение <https://docs.nextgis.ru/docs_ngmobile/source/faq_ngmobile.html#ngmobile-change-passwords>`_
+* `Вход в приложение <https://docs.nextgis.ru/docs_ngmobile/source/faq_ngmobile.html#ngm-issues-login>`_
 * `Логирование <https://docs.nextgis.ru/docs_ngmobile/source/log.html#>`_
 * `Оптимальные настройки <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html>`_
 * `Подключение внешнего источника координат <https://docs.nextgis.ru/docs_ngmobile/source/mock_location.html>`_
