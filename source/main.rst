@@ -73,7 +73,7 @@
 Дерево слоев
 ------------
 
-Дерево слоев предназначено для просмотра состава карты и управления видимостью и порядком слоев на карте. 
+Дерево слоев предназначено для просмотра состава карты и управления видимостью и порядком слоев на карте. Открывается нажатием кнопки |ic_layer_tree|.
 
 Операции над слоями вынесены в `контекстное меню слоя <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_. 
 
@@ -87,12 +87,12 @@
 Цифрами обозначены: 
 
 1. время последней синхронизации с сервером; 
-2. индикатор синхронизации; 
-3. меню `"Добавить данные" <https://docs.nextgis.ru/docs_ngmobile/source/main.html#layer-tree-menu>`_; 
+2. |ic_sync| индикатор синхронизации; 
+3. |button_add_layer| меню `"Добавить данные" <https://docs.nextgis.ru/docs_ngmobile/source/main.html#layer-tree-menu>`_; 
 4. тип слоя; 
 5. название слоя; 
-6. кнопка управления видимостью слоя; 
-7. кнопка вызова `контекстного меню <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ слоя. 
+6. |ic_eye| кнопка управления видимостью слоя; 
+7. |ic_menu_grey| кнопка вызова `контекстного меню <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ слоя. 
 
 Слои отображаются в том порядке, в котором они находятся в дереве слоёв, верхние перекрывают нижние. Для того, чтобы изменить порядок слоёв, зажмите нужный слой и перетащите на новое место.
 
@@ -103,7 +103,7 @@
 Меню "Добавить данные"
 ----------------------
 
-В верхней части дерева слоёв находится кнопка меню "Добавить данные" (см. :numref:`ngmobile_layer_tree_pic`, п. 3), которая позволяет:
+В верхней части дерева слоёв находится кнопка меню "Добавить данные" |button_add_layer|, которая позволяет:
 
 * `Создать слой <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_;
 * `Открыть локальный из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, сохранённого на устройстве;
@@ -311,6 +311,10 @@
    :width: 7mm
    :alt: три точки
 
+.. |ic_menu_grey| image:: _static/ic_menu_grey.png
+   :width: 6mm
+   :alt: три точки
+
 .. |ic_ruler_round| image:: _static/ic_ruler_round.png
    :width: 7mm
    :alt: линейка
@@ -350,3 +354,11 @@
 .. |ic_action_anchor| image:: _static/ic_action_anchor.png
    :width: 7mm
    :alt: синяя стрелка с кружком
+
+.. |button_add_layer| image:: _static/button_add_layer.png
+   :width: 6mm
+   :alt: два прямоугольника с плюсом
+
+.. |ic_sync| image:: _static/ic_sync.png
+   :width: 6mm
+   :alt: белые стрелки по кругу

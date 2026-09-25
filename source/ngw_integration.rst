@@ -27,7 +27,7 @@
 **Через дерево слоёв**
 
 1. Откройте дерево слоёв |ic_layer_tree| (см. :numref:`ngmobile_main_activity_pic`). 
-2. Нажмите кнопку "Добавить геоданные" (см. :numref:`ngmobile_layer_tree_pic`, п. 3).
+2. Нажмите кнопку "Добавить геоданные" |button_add_layer|.
 3. В открывшемся меню выберите пункт "Добавить из Веб ГИС" 
 
 .. figure:: _static/ngm_layer_tree_add_from_wg_ru.png

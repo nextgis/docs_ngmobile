@@ -26,8 +26,7 @@
 
 Для того, чтобы создать пустой векторный слой, в панели слоёв нажмите |button_add_layer|.
 
-.. |button_add_layer| image:: _static/button_add_layer.png
-   :width: 6mm
+
 
 .. figure:: _static/ngm_layer_tree_plus_ru.png
    :name: ngm_layer_tree_plus_pic
@@ -86,8 +85,7 @@
 
 Для завершения создания слоя нажмите галочку |button_tick| в правом верхнем углу.
 
-.. |button_tick| image:: _static/button_tick.png
-   :width: 6mm
+
 
 
 .. figure:: _static/ngm_fields_added_ru.png
@@ -142,7 +140,7 @@
 
 NextGIS Mobile позволяет создать векторный слой путем загрузки существующего файла :term:`GeoJSON`. 
 
-На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
+На панели дерева слоев |ic_layer_tree| нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога "Открыть локальный".
 
 .. figure:: _static/ngm_add_local_ru_2.png
    :name: ngm_add_local_pic
@@ -496,3 +494,14 @@ b.tileopenstreetmap.org, c.tileopenstreetmap.org адрес будет выгл�
 Теперь даже при отсутствии сети тайлы выбранной области будут отображаться в приложении.
 
 .. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html>`_.
+
+
+.. |button_tick| image:: _static/button_tick.png
+   :width: 6mm
+
+.. |button_add_layer| image:: _static/button_add_layer.png
+   :width: 6mm
+
+.. |ic_layer_tree| image:: _static/ic_layer_tree.png
+   :width: 7mm
+   :alt: три полоски

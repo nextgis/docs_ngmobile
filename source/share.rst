@@ -19,7 +19,7 @@
 
 Для того, чтобы экспортировать данные векторного слоя, 
 
-* Откройте Дерево слоев (см. :numref:`ngmobile_main_activity_pic`, п.1).
+* Откройте Дерево слоев |ic_layer_tree| (см. :numref:`ngmobile_main_activity_pic`, п.1).
 * Вызовите контекстное меню нужного слоя, нажав на три точки рядом с ним и выберите "Поделиться".
 
 .. figure:: _static/ngm_share_select_ru.png
@@ -58,7 +58,7 @@
 
 Чтобы сохранить слой на устройство в виде файла,
 
-* Откройте Дерево слоев (см. :numref:`ngmobile_main_activity_pic`, п.1).
+* Откройте Дерево слоев |ic_layer_tree| (см. :numref:`ngmobile_main_activity_pic`, п.1).
 * Вызовите контекстное меню нужного слоя, нажав на три точки рядом с ним и выберите "Сохранить". 
 
 .. figure:: _static/ngm_save_select_ru.png
