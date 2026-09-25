@@ -14,16 +14,19 @@ NextGIS Mobile
 
 **Слои**
 
-* Векторные слои
+* `Векторные слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html>`_
 
   * `Создание пустого слоя <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
   * `Добавление из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
   * `Добавление из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngm-wg>`_
    
 * `Настройки векторного слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
-* `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
-* `Геосервисы <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
-* `Сервис TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-qms-service>`_
+* `Растровые слои <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-cache>`_
+
+  * `Добавление тайлов из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-cache>`_
+  * `Геосервисы <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
+  * `Сервис TMS <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-qms-service>`_
+
 * `Настройки растрового слоя <https://docs.nextgis.ru/docs_ngmobile/source/layer_settings.html#ngmobile-raster-layer-settings>`_
 * `Экспорт данных <https://docs.nextgis.ru/docs_ngmobile/source/share.html>`_
 
@@ -61,13 +64,12 @@ NextGIS Mobile
 
 
 
-.. raw:: html
 
-   <h2>Развёрнутое оглавление<a class="headerlink" href="#id36" title="Permalink to this heading">¶</a></h2>
 
 
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
    intro
