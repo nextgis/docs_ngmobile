@@ -13,9 +13,9 @@
   * `из файла на устройстве <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, 
   * `из хранилища NextGIS Web <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_  `в облаке или на своём сервере <http://nextgis.ru/nextgis-web/>`_. 
   * из `каталога QuickMapServices <https://qms.nextgis.com/>`_,
-  * с помощью внешнего сервиса (`см. ниже <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_).
+  * `с помощью внешнего сервиса <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_.
 
-.. hint:: Где взять данные?
+.. admonition:: Где взять данные?
 
    Вам поможет `NextGIS Data <https://data.nextgis.com/ru/region/custom/base/>`_
 
@@ -326,7 +326,7 @@ NextGIS Mobile также позволяет создавать растровы
 
    Добавление слоя из файла
 
-В открывшемся окне выбора сохраненных файлов на диске мобильного устройства выберите необходимый для загрузки файл в формате \*.ngrc.
+В открывшемся окне выбора сохраненных файлов на диске мобильного устройства выберите необходимый для загрузки файл в формате \*.NGRC.
 
 При нажатии на кнопку **Создать** начнется процесс обработки и создания нового растрового слоя. В случае удачного создания слоя новый слой будет располагаться первым в дереве слоев:
 
@@ -494,7 +494,7 @@ NextGIS Mobile позволяет создавать растровые слои
 
 Теперь даже при отсутствии сети тайлы выбранной области будут отображаться в приложении.
 
-.. seealso:: Также векторный или растровый слой можно добавить `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html>`_.
+.. seealso:: Как добавить векторный или растровый слой `из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html>`_.
 
 
 .. |button_tick| image:: _static/button_tick.png
