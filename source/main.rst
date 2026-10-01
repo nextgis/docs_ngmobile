@@ -19,8 +19,6 @@
 Главное окно
 ------------
 
-Главное окно приложения представлено на :numref:`ngmobile_main_activity_pic`
-
 .. figure:: _static/ngmob_main_screen_ru.png
    :name: ngmobile_main_activity_pic
    :align: center
@@ -107,7 +105,7 @@
 
 * `Создать слой <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_;
 * `Открыть локальный из файла <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_, сохранённого на устройстве;
-* Открыть по ссылке на ресурс Веб ГИС;
+* `Открыть по ссылке на ресурс Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmob-url>`_;
 * `Добавить геосервис <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_ из `каталога QuickMapServices <https://qms.nextgis.com/>`_ или `частного тайлового сервиса <https://docs.nextgis.ru/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_;
 * `Добавить слой из Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_ в облаке или на своём сервере.
 
@@ -121,8 +119,8 @@
 
 .. _ngmob_layer_menu:
 
-Контекстное меню слоя
------------------------
+Меню слоя
+-----------
 
 Чтобы вызвать меню слоя, откройте дерево слоёв |ic_layer_tree| и нажмите на три точки |ic_menu_grey| рядом с нужным слоем.
 
@@ -198,7 +196,7 @@
    
 .. warning::
 
-   При выборе пункта "Удалить" |ic_delete| объект удаляется. Отмена удаления возможна только в течение 5 секунд после удаления, после этого объект будет удален безвозвратно.   
+   При выборе пункта "Удалить" |ic_delete| сначала появится подтверждение. Внимательно проверьте, тот ли объект вы выделили, отменить удаление будет невозможно.   
 
 В таблице объектов доступен поиск. Вы можете посмотреть на его работу в видео:
 
