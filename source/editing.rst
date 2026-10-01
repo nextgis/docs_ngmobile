@@ -401,9 +401,9 @@ After Editing Toolbar is opened tap "Attributes info" button (item 5 in :numref:
 .. note::
    NextGIS Mobile shows the following attribute fields by default  (see item 4 in :numref:`ngmobile_attributes_info_pic`):
    
-   * For Point/Multipoint layers: each point's location (in Latitude/Longitude).
-   * For Line/Multiline layers: length of each line feature (in meters).
-   * For Polygon/Multipolygon layer: length of each polygon feature's perimeter (in meters) & area of each polygon feature (in square meters).
+  * For Point/Multipoint layers: each point's location (in Latitude/Longitude).
+  * For Line/Multiline layers: length of each line feature (in meters).
+  * For Polygon/Multipolygon layer: length of each polygon feature's perimeter (in meters) & area of each polygon feature (in square meters).
 
 .. _ngmobile_edit_attributes_standart:
 

@@ -17,8 +17,8 @@ NextGIS Mobile
 
 * Vector layers
 
-   * `Create empty layer <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
-   * `Add from file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
+  * `Create empty layer <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
+  * `Add from file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
    
 * `Vector layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
 * `Raster layers <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
