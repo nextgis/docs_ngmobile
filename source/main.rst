@@ -1,209 +1,386 @@
-
-
 .. _ngmobile_gui:
 
-User interface (UI)
+User interface
 ==========================
 
-There are 4 major elements of NextGIS Mobile UI:
+NextGIS Mobile app has four main elements:
 
-* Main screen
-* Layers tree panel
-* Features table
-* Settings dialogue
+* `Main screen of the app <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-main-activity>`_;
+* `Layer tree <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-layer-tree>`_;
+* `Feature table <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_;
+* `Settings <https://docs.nextgis.com/docs_ngmobile/source/settings.html>`_.
 
-UI is designed in accordance with `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
+The app interface is developed according to `Google Material design <http://www.google.com/design/spec/material-design/introduction.html>`_ guidelines.
 
 .. _ngmobile_main_activity:
 
 Main screen
 ------------
 
-Main screen is shown on :numref:`ngmobile_main_activity_pic_1`.
-
-.. figure:: _static/ngmobile_mainscreen_1.png
-   :name: ngmobile_main_activity_pic_1
+.. figure:: _static/ngmob_main_screen_en.png
+   :name: ngmobile_main_activity_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
    
-   Main screen
+   Main screen of the app
+   
+On the top of the screen you can find the **Toolbar** (controls that don't fit into the bar are moved to the menu |ic_menu|):
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Application title; 3 – "Show my location" button; 4 - "Load/Refresh geodata" button; 5 - Contextual menu icon; 6 - Measuring button; 7 - Map screen; 8 - Main actions button; 9 - Status info panel.
+* |ic_layer_tree| `Layer tree <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-layer-tree>`_;
+* Title of the app;
+* |ic_location| `Current location <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-show-my-location>`_;
+* |ic_walk| `Start track <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#ngmobile-record-tracks>`_;
+* `Settings <https://docs.nextgis.com/docs_ngmobile/source/settings.html>`_;
+* Help - you can view the current version of the app and open this documentation.
 
-The number of buttons in top toolbar depends on your device screen size. If the buttons don't fit into the toolbar they are moved to the contextual menu (item 5 in :numref:`ngmobile_main_activity_pic_1`).
+The majority of the main screen is occupied by the **Map** containing raster and vector layers. 
+You can change the order and visibility of the map in the Layer tree.
 
-**Top toolbar** contains the following buttons:
+The map has the following controls:
 
-* Show my location
-* Load or refresh geodata
-* Start new track
-* Settings
-* Help
+* |ic_zoom_in| |ic_zoom_out| Zoom;
+* Main actions button - |ic_big_plus| big round blue button with a + in the bottom right corner.
 
-**Status info panel** (item 9 in :numref:`ngmobile_main_activity_pic_1`) can be shown at the bottom of the Main screen (if it is activated in the Settings - Map - Show status info panel). Status info panel shows (if there is the fixed location):
+Also you can enable:
 
-* Device coordinates (latitude and longitude);
-* Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
-* Device altitude (meters);
-* Device speed (kmph)
+* |ic_ruler_round| Ruler to activate measuring (enable: :menuselection:`Settings --> Map --> Ruler`);
+* Scale ruler (shown in the bottom left corner, enable: :menuselection:`Settings --> Map --> Show scale ruler`).
 
-Depending on the size of the screen Status info panel can occupy one or two rows.
+At the bottom of the main window the **Status panel** can be displayed (configured in :menuselection:`Settings -> Map -> Show status info panel`). Depending on the screen size the Status panel can be one or two rows.
 
-A map (item 7 in :numref:`ngmobile_main_activity_pic_1`) is a set of raster and vector layers. 
-The order and the visibility of layers are under control of layers tree (:ref:`ngmobile_layer_tree`).
+.. figure:: _static/ngmob_status_panel_en.png
+   :name: ngmob_status_panel_pic
+   :align: center
+   :width: 9cm
 
+   Status panel
 
-After a long hold of your finger on the vector layer's geometry the map window 
-turns to the select mode. 
+The Status panel displays the following information, if geolocation is on:
+
+* coordinates (latitude and longitude);
+* current zoom level (enabled in `Settings --> Map --> Show zoom level`);
+* |ic_accuracy| Positioning signal source (mobile networks/Wi-Fi or satellite) and number of captured satellites (if positioning is carried out with help of :term:`GPS`/:term:`GLONASS`);
+* |ic_altitude| altitude in meters;
+* |ic_speed| speed in kmph.
+
 
 .. _ngmobile_layer_tree:
 
-Layers tree
+Layer tree
 ------------
 
-Layers tree panel is designed to display the content of a map and to control visibility and hierarchy of map layers. Additional operations with layers are available from a separate layer contextual menu. Layers tree panel is shown on :numref:`ngmobile_layer_tree_pic`.
+Layer tree is used to display and manage the contents of the map, the order of the layers and their visibility.  Tap |ic_layer_tree| in the top left corner to open it.
 
-.. figure:: _static/ngmobile_layer_tree_eng_new.png
+Action on layers can be found in the `layer menu <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ |ic_menu_grey|. 
+
+.. figure:: _static/ngmobile_layer_tree_en.png
    :name: ngmobile_layer_tree_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
-   Layers tree panel
-
-   The numbers indicate: 1 - Layer type; 2 - Layer name; 3 - Layer visibility button; 4 - Add geodata; 5 - Layer contextual menu icon; 6 - Layer contextual menu items.
+   Layer tree
    
-To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
+The numbers indicate: 
 
-For turning layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
+1. time of the last synchronizations; 
+2. |ic_sync| sync indicator; 
+3. |button_add_layer| `"Add data" <https://docs.nextgis.com/docs_ngmobile/source/main.html#layer-tree-menu>`_ menu; 
+4. layer type; 
+5. layer name; 
+6. |ic_eye| layer visibility control; 
+7. |ic_menu_grey| `layer menu <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ . 
 
-"Add geodata" button (item 4 in :numref:`ngmobile_layer_tree_pic`) allows you to create vector layers and import vector and raster layers from Android local storage, `QuickMapServices catalog <https://qms.nextgis.com/>`_, `nextgis.com <https://my.nextgis.com/signup/?next=/webgis/>`_ or `NextGIS Web <http://nextgis.com/nextgis-web/>`_. This button contains the next menu (:numref:`options_menu_new_layer`):
+Layers are displayed in the order they are in the layer tree, higher layers covering the lower layers. To change the order, hold a layer and drag it to the new place.
 
-* Create layer;
-* Open local;
-* Add geoservice;
-* Add from NextGIS.
+To toggle layer visibility tap on the eye icon |ic_eye| next to its name.
 
-.. figure:: _static/options_menu_new_layer.png
-   :name: options_menu_new_layer
+.. _layer_tree_menu
+
+Add data
+---------
+
+The button "Add data" |button_add_layer| at the top of the layer tree panel allows to:
+
+* `Create a new layer from scratch <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_;
+* `Open a local file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_ stored on your device;
+* `Open link to a Web GIS layer to add it <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmob-url>`_;
+* `Add geoservice <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_ from the `QuickMapServices catalog <https://qms.nextgis.com/>`_ or `a custom tile service <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_;
+* `Add layer from Web GIS <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_, cloud or on-premise.
+
+.. figure:: _static/ngm_add_data_en.png
+   :name: ngm_add_data_pic
    :align: center
-   :width: 10cm
-   
-   Add geodata dialogue
+   :width: 8cm
+  
+   "Add data" menu
 
-By using "Open local" menu item you can upload :term:`geodata` from local storage in one of the following formats:
 
-* :term:`GeoJSON` file;
-* ZIP file with cached tiles;
-* \*.ngrc file
-* \*.ngfp file.
+.. _ngmob_layer_menu:
 
-More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
+Layer menu
+-----------------------
 
-Layer contextual menu depends on layer's type (whether it is vector or raster layer). When you tap the Contextual menu button (item 5 in :numref:`ngmobile_layer_tree_pic`) contextual menu items pop up as shown by item 6 in :numref:`ngmobile_layer_tree_pic`
+To open the layer menu, open the Layer tree panel |ic_layer_tree| and click on the tree dots |ic_menu_grey| next to the layer.
 
-* Zoom to extent
-* Features table
-* Share
-* Send to NextGIS
-* Edit
-* Delete
-* Settings
+The contents of the menu depend on the layer type (vector or raster).
 
+.. figure:: _static/ngm_layer_context_menu_en.png
+   :name: ngm_layer_context_menu_pic
+   :align: center
+   :width: 8cm
+
+   Vector layer menu
+
+In the layer menu there are the following actions:
+
+* Zoom to extent;
+* `Feature table <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmobile-attributes-table>`_ - for vector layers;
+* `Share <https://docs.nextgis.com/docs_ngmobile/source/share.html>`_;
+* `Send to WebGIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_ - for local layers;
+* `Edit <https://docs.nextgis.com/docs_ngmobile/source/editing.html>`_ - for vector layers;
+* Delete;
+* Settings - opens the `layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html>`_.
+ 
 .. warning::
-   By pressing "Delete" you not only remove layer from the map but also erase all its data from the local storage.
+
+   When you click **Delete**, the layer is removed from the map and all its data is wiped from the device memory.
 
 .. _ngmobile_attributes_table:
 
-Features table
+Feature table
 -----------------
 
-Features table is designed to show and manage the contents of each vector layer in table format.
+Features table is designed for displaying and managing the contents of a vector layer in table format.
 
-To open Features table activate Layers tree panel and tap on the Contextual menu button next to the vector layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will pop up the contextual menu items as shown by item 6 in :numref:`ngmobile_layer_tree_pic`. There you need to select "Features table". Depending on the screen size the panel could occupy the whole screen or just the right side (in this case there is a map with a highlighted geometry of the current attributes on the left side). 
+To open the Feature table, open the Layer tree panel вызовите контекстное меню |ic_menu_grey|, open the menu |ic_menu_grey| of the layer and select **Feature table**. 
 
-Features table opens as shown in :numref:`ngmobile_attribute_table_pic` below.
-
-.. figure:: _static/attribute_table_new.png
-   :name: ngmobile_attribute_table_pic
+.. figure:: _static/open_feature_table_en.png
+   :name: open_feature_table_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
-   Features Table
+   Opening feature table
 
-If you tap any record (row) in the table, the Features table toolbar appears at the bottom of the screen. This toolbar allows to manage features as shown below in :numref:`ngmobile_attribute_table_toolbar_pic`.
+.
 
-.. figure:: _static/attribute_table_toolbar_new.png
+.. figure:: _static/attribute_table_en.png
+   :name: ngmobile_attributes_pic
+   :align: center
+   :width: 8cm
+   
+   Feature table
+   
+Tap on a row to select a feature. A toolbar appears at the bottom of the screen. 
+
+.. figure:: _static/feature_table_tools_en.png
    :name: ngmobile_attribute_table_toolbar_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
-   Features table toolbar
+   Feature table tools
    
-   The numbers indicate: 1 - Close Features table; 2 - Layer name; 3 - Features attributes;  4 - Close toolbar; 5 - Selected feature ID; 6 - Show selected feature on the map; 7 - Delete selected feature; 8 - Open Features table editing form.
-   
-You can open the standard Features table editing form as shown in :numref:`ngmobile_input_form_attributes_pic` by selecting "Open Features table editing form" (see item 8 in :numref:`ngmobile_attribute_table_toolbar_pic`)  
+The numbers indicate: 
+
+1. |ic_back| go back to the main screen;
+2. layer name; 
+3. |ic_search| search;  
+4. |ic_cancel| clear selection; 
+5. ID of the selected feature; 
+6. |ic_search| show the feature on the map (if you have many features close together, firt zoom in so that only few of them are visible at a time, then select the feature in the feature table and click this icon. The map will pan to the feature staying on the same zoom level); 
+7. |ic_delete| delete selected feature; 
+8. |ic_edit| open attribute editing form.
+
+
    
 .. warning::
-   If you tap on "Delete" button (see item 7 in :numref:`ngmobile_attribute_table_toolbar_pic`), the system will delete the selected feature immediately. You will be able to undo the removal, but if undo action is not applied in 5 seconds after removal, the feature gets deleted permanently.   
 
-You can search by attribute values. See how it works in a video:
+   When you tap "Delete" |ic_delete|, a confirmation pop-up appears. Double-check if you've selected the correct feature before confirming. You cannot undo deleting a feature!   
+
+Feature table has a search bar. See it in action in our video:
 
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/9zKwvKlQWyg?si=S6WIzdLE6PRndbV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Watch on `youtube <https://youtu.be/9zKwvKlQWyg?si=DVXos2s3V1Jn4-Oe>`_.
+Watch on `YouTube <https://youtu.be/9zKwvKlQWyg?si=DVXos2s3V1Jn4-Oe>`_.
 
 .. _ngmobile_useful_facilities:
 
 Useful features
 -----------------
 
-From the Main screen itself you can access a couple of features useful in the field.
+The main screen has some useful tools, especially handy for fieldwork.
 
 .. _ngmobile_show_my_location:
 
 Show my location
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To know your current location, just tap on the "Show my location" button (see item 3 in :numref:`ngmobile_main_activity_pic_1` above). This will show your current location on the map screen with a marker. If your Status info panel (see item 9 in :numref:`ngmobile_main_activity_pic_1` above) is switched on via appropriate Map settings (see :numref:`ngmobile_settings_map_pic`) you'll also be able to view the relevant information there.
+To view your current location, tap on |ic_location| button in the top right corner. The map is panned to the device location which is marked by |ic_location_standing|.
+
+.. figure:: _static/ngm_show_location_en.png
+   :name: ngm_show_location_pic
+   :align: center
+   :width: 8cm
+
+   Showing current location
+
+If the Status panel is `enabled in the settings <https://docs.nextgis.com/docs_ngmobile/source/settings.html#ngmobile-settings-map>`_, it too shows information on current location.
 
 .. note::
-   Your "Location" settings must be switched ON in your Android mobile settings.
-   
+   To use this option, make sure the app has permission to access your device location (check in your device settings, the exact place depends on the model) and the geolocation is on.
+
+.. _ngmobile_measure:
+
 Measure distance and area
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is possible to measure the distance between two points directly on the map screen. Just tap on the Measuring button on Map screen (see item 6 in :numref:`ngmobile_main_activity_pic_1` above). Tap on your starting point (a new point in Edit mode will appear on the screen). Then tap on your finishing point (a second point in Edit mode and line between the points will appear on the screen). The distance between two points will be shown in Top toolbar. See :numref:`ngmobile_measure_distance_pic` below for illustration.
+You can measure distance between two points on the map. 
 
-.. figure:: _static/measure_distance.png
+Tap on the ruler button |ic_ruler_round| in the top right corner. 
+
+Starting point appears on the screen. Use the cursor |ic_action_anchor| to move the point to where you need it. Then tap on the screen to add the second point. A line connecting the two points appears, its length is displayed in the top panel.
+
+.. figure:: _static/ngm_measure_distance_en.png
    :name: ngmobile_measure_distance_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
-   Measure distance
+   Measuring distance. Tap the tick button in bottom right corner to exit
 
-   The numbers indicate: 1 - Layers tree panel icon; 2 - Measured distance; 3 - “Show my location” button; 4 - “Load/Refresh geodata” button; 5 - Contextual menu icon; 6 - Zoom controls; 7 - Exit Measuring mode.
+To exit the measuring mode tap the blue tick in the bottom right corner of the screen.
 
-Position of any point may be edited by tapping on it and dragging it to the correct location.
+You can adjust the position of any of the points. Tap on it and move it using the cursor.
 
-You can add additional points to measure distance of angled lines and smooth curves, as well as measure areas of the formed polygons. 
+Add more points to measure the length of a string of lines as well as the area of the resulting polygon.
 
-To exit Measure mode tap the blue tick button in the corner of the screen (see item 7 in :numref:`ngmobile_measure_distance_pic`).
+.. figure:: _static/ngm_measure_area_en.png
+   :name: ngm_measure_area_pic
+   :align: center
+   :width: 8cm
+
+   Measuring length of a line and area of the polygon it makes (the last side of the polygon is calculated automatically, it is not included in the length measurement)
+
+
 
 .. note::
-   To use this feature "Show measuring button" checkbox must be switched ON in Map settings (see :numref:`ngmobile_settings_map_pic`).
+   To use this tool, enable it in :menuselect:`Settings -> Map -> Show measuring button`.
 
-.. _ngmobile_view_info:
+.. _ngmobile_feature_info:
 
-View feature information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+View feature info
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Make a short tap on a feature and a tool bar will appear at the bottom on the screen. The only active option will be "info" (i in a circle). Press it to view the attributes and attachments of the feature. You can download and view photos previously attached to the feature and stored in the cloud.
+Short tap on a feature opens a panel at the bottom of the screen with only one active tool - information |ic_info|. Tap it to view the attribute values and attachments of the feature. 
 
-.. figure:: _static/ngm_view_photo_en.jpg
+.. figure:: _static/ngm_select_feature_short_en.png
+   :name: ngm_select_feature_short_pic
+   :align: center
+   :width: 8cm
+
+   A feature is selected, information button is active
+
+Photos attached to the feature also can be viewed.
+
+.. figure:: _static/ngm_view_photo_en.png
    :name: ngm_view_photo_pic
    :align: center
    :width: 8cm
 
-If there are several features at the point you tapped, a list to choose from will appear.
+   Viewing a feature with attachments
+
+
+If there are multiple features in the area of your tap, select the one you need from the list.
+
+
+.. |ic_altitude| image:: _static/ic_altitude.png
+   :width: 7mm
+   :alt: stripes with arrows
+
+.. |ic_accuracy| image:: _static/ic_accuracy.png
+   :width: 7mm
+   :alt: pin
+
+.. |ic_speed| image:: _static/ic_speed.png
+   :width: 7mm
+   :alt: dial
+
+.. |ic_menu| image:: _static/ic_menu.png
+   :width: 7mm
+   :alt: tree dots
+
+.. |ic_menu_grey| image:: _static/ic_menu_grey.png
+   :width: 3mm
+   :alt: tree dots
+
+.. |ic_ruler_round| image:: _static/ic_ruler_round.png
+   :width: 7mm
+   :alt: ruler
+
+.. |ic_layer_tree| image:: _static/ic_layer_tree.png
+   :width: 7mm
+   :alt: three lines
+
+.. |ic_location| image:: _static/ic_location.png
+   :width: 7mm
+   :alt: circle with dashes
+
+.. |ic_walk| image:: _static/ic_walk.png
+   :width: 7mm
+   :alt: person
+
+.. |ic_zoom_in| image:: _static/ic_zoom_in.png
+   :width: 5mm
+   :alt: circle with "+"
+
+.. |ic_zoom_out| image:: _static/ic_zoom_out.png
+   :width: 5mm
+   :alt: circle with "-"
+
+.. |ic_big_plus| image:: _static/ic_big_plus.png
+   :width: 9mm
+   :alt: circle with "+"
+
+.. |ic_eye| image:: _static/ic_eye.png
+   :width: 6mm
+   :alt: eye
+
+.. |ic_location_standing| image:: _static/ic_location_standing.png
+   :width: 6mm
+   :alt: crossed dark blue circle
+
+.. |ic_action_anchor| image:: _static/ic_action_anchor.png
+   :width: 7mm
+   :alt: dark blue arrow
+
+.. |button_add_layer| image:: _static/button_add_layer.png
+   :width: 6mm
+   :alt: double squares with "+"
+
+.. |ic_sync| image:: _static/ic_sync.png
+   :width: 6mm
+   :alt: circle arrows
+
+.. |ic_back| image:: _static/ic_back.png
+   :width: 6mm
+   :alt: arrow to the left
+
+.. |ic_search| image:: _static/ic_search.png
+   :width: 6mm
+   :alt: magnifying glass
+
+.. |ic_delete| image:: _static/ic_delete.png
+   :width: 6mm
+   :alt: trash can
+
+.. |ic_edit| image:: _static/ic_edit.png
+   :width: 6mm
+   :alt: pencil
+
+.. |ic_cancel| image:: _static/ic_cancel.png
+   :width: 6mm
+   :alt: X
+
+.. |ic_info| image:: _static/ic_info.png
+   :width: 6mm
+   :alt: i in a circle
