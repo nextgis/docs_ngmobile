@@ -152,7 +152,7 @@ Feature table
 
 Features table is designed for displaying and managing the contents of a vector layer in table format.
 
-To open the Feature table, open the Layer tree panel вызовите контекстное меню |ic_menu_grey|, open the menu |ic_menu_grey| of the layer and select **Feature table**. 
+To open the Feature table, open the Layer tree panel open the menu |ic_menu_grey| of the layer and select **Feature table**. 
 
 .. figure:: _static/open_feature_table_en.png
    :name: open_feature_table_pic
@@ -264,7 +264,7 @@ Add more points to measure the length of a string of lines as well as the area o
 
 
 .. note::
-   To use this tool, enable it in :menuselect:`Settings -> Map -> Show measuring button`.
+   To use this tool, enable it in ``Settings -> Map -> Show measuring button``.
 
 .. _ngmobile_feature_info:
 
