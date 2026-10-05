@@ -396,7 +396,7 @@ NextGIS Mobile позволяет создавать растровые слои
 
 На панели дерева слоев нажмите на кнопку "Добавить геоданные" |button_add_layer|, далее выберите пункт диалога **Добавить геосервис**.
 
-.. figure:: _static/ngm_add_geoservice_ru.png
+.. figure:: _static/ngm_add_geoservice_ru_2.png
    :name: ngm_add_geoservice_pic_2
    :align: center
    :width: 9cm  
