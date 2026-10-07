@@ -5,59 +5,55 @@
 Tracks
 ======
 
-NextGIS Mobile allows to record and display tracks. Track points are recorded to the internal database and combined to display on the map as a line.
+With NextGIS Mobile you can record your movements and display tracks. The app records points of your location to its internal database and visualizes them as lines on the map. 
+
 
 .. _tracks_settings:
 
-Settings
---------
+Setting up
+---------------------
 
-To record tracks, set up the following parameters:
+To record a track, make sure the app has access to your **location** (check the device settings, something like :menuselection:`Settings -> Confidentiality -> Location`).
 
-* Grant the mobile app permission to access device location (in the Android Settings). 
-* In My tracks page of the Settings check "Send location to server":
+To display your tracks on a Web Map in your WebGIS:
+
+* Make sure you're logged in (|ic_menu| - Settings - Account).
+* Copy the device ID (Settings - My tracks - Device ID) and `add the tracker to Web GIS <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
+* In Settings - My tracks enable **Send location to server**
 
 .. figure:: _static/Mobile_send_to_server_en.png
    :name: ngmob_set_mytracks_pic_2
    :align: center
    :width: 8cm
 
-   Sending locaction to server enabled
+   Sending location to server is enabled
 
-* Copy UID indicated in My tracks section and add the tracker `to your Web GIS <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
-
-Now you can send the tracks to Web GIS and `view them on a Web Map <https://docs.nextgis.ru/docs_ngweb/source/trackers.html#tracking-web-map>`_.
+Now the tracks you record are automatically send to your Web GIS and can be `viewed on a Web Map <https://docs.nextgis.com/docs_ngweb/source/trackers.html#tracking-web-map>`_.
 
 .. _ngmobile_record_tracks:
 
-Recording a track
------------------
+Record a track
+---------------
 
-Tracks can be recorded in two ways:
+For each recorded location point the app captures the following information: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
 
-* `As GPX <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#ngmobile-record-tracks-gpx>`_;
-* `As new vector feature <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#ngmobile-edit-vector-tracks>`_.
+Tracks are stored on the device in GPX format.
 
-.. _ngm_record_gpx:
+.. seealso:: Use tracking to `add a new line or polygon to an existing vector layer <https://docs.nextgis.com/docs_ngmobile/source/editing.html#ngmobile-add-track>`_.
 
-Record tracks in GPX format
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-For each point of the track, the following information is recorded: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
-
-To start recording a track open the main menu by tapping three dots in the top right corner and select **Start new track**.
+To start recording a track, open the main menu |ic_menu| and select **Start new track**.
 
 .. figure:: _static/ngm_start_track_en.png
    :name: ngm_start_track_pic
    :align: center
    :width: 8cm
 
-   Starting new track
+   Starting a new track
 
-Track recording is performed in background mode. You'll need to allow in your device settings. 
+Track recording is performed in background mode. If it's the first time you're recording a track, the app asks for additional permissions (exact dialogs depend on your OS):
 
-* Allow background access to geolocation;
-* Disable battery optimisations (otherwise it may shut down the track recording).
+* Allow background access to geolocation (select **Allow all the time**);
+* Disable battery optimisation (otherwise it may shut down the track recording) - allow NextGIS Mobile to be active in the background.
 
 See details in our video:
 
@@ -67,62 +63,59 @@ See details in our video:
 
 Watch on `youtube <https://youtu.be/uPkVkVakppE?si=bZKQqlM4xmwuRqbC>`_.
 
-
 .. figure:: _static/ngm_geoloc_background_en.png
    :name: ngm_geoloc_background_pic
    :align: center
    :width: 8cm
 
-   Request to access geolocation in background
+   Request for background access to geolocation
 
 .. figure:: _static/ngm_geoloc_all_en.png
    :name: ngm_geoloc_all_pic
    :align: center
    :width: 8cm
 
-   Allow access to geolocation at all times
+   Allowing background access to geolocation all the time
 
 .. figure:: _static/ngm_batteryopt_disable_en.png
    :name: ngm_batteryopt_disable_pic
    :align: center
    :width: 8cm
 
-   Request to disable battery optimisation
+   Request to disable battery optimization
 
 .. figure:: _static/ngm_battery_ignore_en.png
    :name: ngm_battery_ignore_pic
    :align: center
    :width: 8cm
 
-   Allowing NextGIS Mobile to work in the background
+   Allowing the app to stay connected in the background
 
+When a track is recording, it's indicated in the notifications panel.
 
-To indicate that the process is running a status icon of the walking man is displayed in Android Notification bar. For more information click on it and it will show the track status as shown in :numref:`ngmobile_new_gpx_layer_1_pic` below.
-
-.. figure:: _static/new_gpx_layer_1.png
+.. figure:: _static/ngm_track_status_en.png
    :name: ngmobile_new_gpx_layer_1_pic
    :align: center
    :height: 4cm
    
-   Recording track status
+   Track recording status 
    
-   The numbers indicate: 1 - The status icon; 2 - Name of track session; 3 - "Open recording" button; 4 - "Stop track recording" button.
 
-During track recording you can see the geometry of the track on Map screen as shown below in  :numref:`ngmobile_new_gpx_layer_2_pic`
+  
+While the track is recording, you can see it on the map. Recording status icon (a walking figure) is displayed in the notification panel of your device. Your current location is marked by an arrow |ic_location_moving|.
 
 .. figure:: _static/new_gpx_layer_2.png
    :name: ngmobile_new_gpx_layer_2_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
-   Recording track.
+   Track is recording
+   
 
-Recorded track is displayed on the map immediately even before the recording is completed. The status icon (walking man) is visible in the notification bar. The location marker shows the current device location.
 
-.. note::
-   Track points are grouped by days and sessions within a day. If track recording continues the next day track will be split up into two parts. If you want to combine them into one track, use `GPX merge <https://toolbox.nextgis.com/t/gpxmerge>`_
+.. note:: Track points are grouped by days and sessions within a day. If track recording continues the next day track will be split up into two parts. If you want to combine them into one track, use `GPX merge <https://toolbox.nextgis.com/t/gpxmerge>`_.
 
-To stop track recording, tap **Stop** either in notification bar (see item 4 in :numref:`ngmobile_new_gpx_layer_1_pic`) or in the main menu.
+To stop track recording, tap **Stop** either in notification bar (see :numref:`ngmobile_new_gpx_layer_1_pic`.) or in the main menu.
 
 .. figure:: _static/ngm_stop_track_en.png
    :name: ngm_stop_track_pic
@@ -131,108 +124,112 @@ To stop track recording, tap **Stop** either in notification bar (see item 4 in 
 
    Stopping track recording
 
+The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track.
 
-The status icon will disappear from notification bar, the location marker will be replaced by the red flag indicating the end of the track, and the track line will change its colour as shown below in :numref:`ngmobile_new_gpx_layer_3_pic`
 
 .. figure:: _static/new_gpx_layer_3.png
    :name: ngmobile_new_gpx_layer_3_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
-   Recorded track.
-
+   Recorded track
+   
 You can now manage this track, including its export in GPX format. To learn how to export the tracks see :ref:`ngmobile_export_GPX`. Tracks can also be `displayed on a Web Map <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_.
 
-.. _ngmobile_edit_vector_tracks:
 
-Record tracks to vector layer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also add a feature to an existing line or polygon vector layer by tracking.
 
-1. Tap on Main actions button (see item 8 in :numref:`ngmobile_main_activity_pic_1`) and then"Add geometry by walk" button (see item 5 in :numref:`ngmobile_common_action_menu_pic`). It will open list of all editable Linestring/Multilinestring and Polygon/Multipolygon vector layers in a separate dialogue as shown below in :numref:`ngmobile_selectlayer1_pic`
 
-.. figure:: _static/ngmobile_selectlayer1.png
-   :name: ngmobile_selectlayer1_pic
-   :align: center
-   :height: 10cm
-
-   Select Layer dialogue.
-   
-2. Select the layer to which you want to add a new feature by walk. This layer will be opened in Edit mode as shown below in :numref:`ngmobile_new_gpx_vector_1`, and NextGIS Mobile will start recording a new geometry to the vector layer.
-
-.. figure:: _static/new_gpx_vector_1.png
-   :name: ngmobile_new_gpx_vector_1
-   :align: center
-   :height: 10cm
-
-   Vector layer editing by walk.
-   
-   The numbers indicate: 1 - Close editing (without saving); 2 - Status icon; 3 - Feature ID & name of the Layer; 4 - Save feature; 5 - "Edit by walk" mode status; 6 - Location settings; 7 - Start point; 8 - Current device location.
-
-.. note::   
-   You can also switch to "Edit by walk" mode by first switching to Edit mode using any of the methods described in :ref:`ngmobile_switch_to_edit` section, and then by tapping "Append geometry by walk" button (see item 9 in :numref:`ngmobile_creating_lines_pic`, item 11 in :numref:`ngmobile_creating_multilines_pic`, item 11 in :numref:`ngmobile_creation_landfill_pic` and item 11 in :numref:`ngmobile_creation_multipolygon_pic`)
-
-If you're not satisfied with the accuracy of the appended geometry, you can access NextGIS Mobile Location settings (see :numref:`ngmobile_settings_place_pic`) directly from "Edit by walk" screen (see item 6 in above :numref:`ngmobile_new_gpx_vector_1`). 
-
-3. When recording is finished tap on the "floppy" button (see item 4 in :numref:`ngmobile_new_gpx_vector_1`). It will open the standard Attributes editing form, similar to :numref:`ngmobile_input_form_attributes_pic`, as shown below in :numref:`ngmobile_new_gpx_vector_2`.
-
-.. figure:: _static/new_gpx_vector_2.png
-   :name: ngmobile_new_gpx_vector_2
-   :align: center
-   :height: 10cm
-
-   Vector layer attribute editing.
-   
-4. The new feature is now added to the existing Linestring/Multilinestring or Polygon/Multipolygon vector layer.
 
 .. _ngmobile_manage_tracks:
 
-Managing recorded tracks
-------------------------
+Manage tracks
+-------------------
 
-To start managing recorded tracks first find "My Tracks" group in Layers tree panel. Then tap on contextual menu button as shown in :numref:`ngm_tree_layers_gpx_pic` and select "List".
+Select the |ic_tracks| "My tracks" layer in the Layer tree. Open the layer menu |ic_menu_grey| and select **List**.
 
-.. figure:: _static/tree_layers_gpx.png
-   :name: ngm_tree_layers_gpx_pic
+.. figure:: _static/ngm_tree_tracks_menu_en.png
+   :name: ngmobile_layer_tree_traks_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
+ 
+   Opening track list from the layer tree
+ 
+A list of all recorded tracks is opened. Recorded points are grouped into days and sessions within one day.
 
-   "My tracks" in Layers tree panel.
-   
-This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic` below. Tracks' points will be grouped by days and sessions within the day.
-
-.. figure:: _static/tracks_list_gpx.png
+.. figure:: _static/tracks_list_en.png
    :name: ngmobile_tracks_list_gpx_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
 
-   List of recorded tracks.
+   List of recorded tracks
 
-Select a track by ticking the corresponding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic` below.
+To select a track mark it by a tick. When at least one track is selected, a toolbar appears.
 
-.. figure:: _static/layer_gpx_selected.png
+.. figure:: _static/track_selected_en.png
    :name: ngmobile_layer_gpx_selected_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
 
-   Toolbar for selected track.
+   Managing tracks
    
-   The numbers indicate: 1 - Go back; 2 - Track ID; 3 – Colour palette; 4 - Export button; 5 - Contextual menu; 6 - Track visibility button.
+   The numbers indicate: 1 - Go back; 2 - Number of selected tracks; 3 – Colour palette; 4 - Share/export; 5 - Actions menu; 6 - Track selection; 7 -Track visibility; 8 - Track color.
 
-To hide a layer from Map screen tap on "Eye" button (item 6 in :numref:`ngmobile_layer_gpx_selected_pic`).
+Use these tools to:
 
-You can change the colour of the track tapping the "Colour palette" button (item 3 in :numref:`ngmobile_layer_gpx_selected_pic`).
+* set the color of track(s);
+* share tracks as GPX files;
+* make particular tracks visible/invisible by toggling the eye icon |ic_eye|.
 
-When you tap to open contextual menu (see item 5 in :numref:`ngmobile_layer_gpx_selected_pic`), the following menu items will pop up as shown below in :numref:`ngmobile_layer_gpx_menu_pic`. 
+Tap the three dots in the top right corner to open the menu.
 
-.. figure:: _static/layer_gpx_menu.png
+.. figure:: _static/track_list_menu_en.png
    :name: ngmobile_layer_gpx_menu_pic
    :align: center
-   :height: 10cm   
+   :width: 8cm   
 
-   Tracks contextual menu.
-   
-* You can Show or Hide the selected track in the map screen. The starting point is shown in Green marker & the end point is shown in Red marker.
-* You can delete the track (permanently).
-* You can select all the tracks and perform above actions for all of them at a once.
+   Track actions menu
+
+Use this menu to:
+
+* Make selected tracks visible/invisible;
+* Delete selected tracks (**! cannot be undone**);
+* Select all the tracks in the list to perform a group action (set visibility or delete).
+
+.. warning:: Once a track is deleted, it cannot be restored! To avoid losing important data, we advise to make backups of the tracks by `saving them as GPX files <https://docs.nextgis.com/docs_ngmobile/source/share.html#gpx>`_.
+
+.. |ic_add_layer| image:: _static/ic_add_layer.png
+   :width: 7mm
+   :alt: double squares with "+"
+
+.. |ic_walk| image:: _static/ic_walk.png
+   :width: 7mm
+   :alt: person
+
+.. |ic_save| image:: _static/ic_save.png
+   :width: 7mm
+   :alt: floppy disc
+
+.. |ic_tick| image:: _static/ic_tick.png
+   :width: 7mm
+   :alt: tick
+
+.. |ic_tracks| image:: _static/ic_tracks.png
+   :width: 7mm
+   :alt: squiggle
+
+.. |ic_eye| image:: _static/ic_eye.png
+   :width: 7mm
+   :alt: eye
+
+.. |ic_location_moving| image:: _static/ic_location_moving.png
+   :width: 4mm
+   :alt: arrow with cross
+
+.. |ic_menu| image:: _static/ic_menu.png
+   :width: 6mm
+   :alt: tree dots
+
+.. |ic_menu_grey| image:: _static/ic_menu_grey.png
+   :width: 3mm
+   :alt: three dots
