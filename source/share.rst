@@ -1,79 +1,153 @@
-
-
-.. _ngmobile_share:
-
-Exporting data
+Data Export
 ===============
+
+Tracks recorded in the NextGIS Mobile application, vector layers, and their attachments can be exported as files.
+
+Depending on the applications installed on the device, you can:
+
+* Send the file by email or via messenger.
+* Upload the file to a cloud storage, such as Google Drive.
+* Send a file to another device via Bluetooth or LAN access.
+* Save the file to the device's memory.
+
+.. seealso:: You can also send vector layers created in the application `to your Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_ and enable `track synchronization <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_ with the server.
 
 .. _ngmobile_export_vector:
 
-Exporting data in GeoJSON
----------------------------
+Share vector layer
+------------------------
 
-To export data from NextGIS Mobile vector layer open Layers tree panel (item 1 in :numref:`ngmobile_main_activity_pic_1`). Then tap on the contextual menu icon next to the layer name (item 5 in :numref:`ngmobile_layer_tree_pic`). This will open the contextual menu items as shown in item 6 in :numref:`ngmobile_layer_tree_pic` There you need to select "Share". 
+To export vector layer data, 
 
-Android standard Share dialogue window with a list of available Share options will open as shown in :numref:`ngmobile_share_pic`.
+* Open the Layer Tree |ic_layer_tree| (see :numref:`ngmobile_main_activity_pic`, item 1).
+* Open the menu of the desired layer by tapping the three dots |ic_menu_grey| next to it and select **Share**.
 
-.. figure:: _static/ngmobile_share.png
+.. figure:: _static/ngm_share_select_en.png
+   :name: ngm_share_select_pic
+   :align: center
+   :width: 8cm
+
+   Layer menu
+
+In the export parameters window, select what to use for field names: keys or aliases. Tap **OK**.
+
+.. figure:: _static/ngm_export_settings_en.png
+   :name: ngm_export_settings_pic
+   :align: center
+   :width: 8cm
+
+   Export parameters
+
+* Selecting which app you want to use to send the file. 
+
+.. figure:: _static/ngm_share_en.png
    :name: ngmobile_share_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
    
-   Share dialogue window.
-   
-After you select a share option, data in the selected layer will be recorded in :term:`GeoJSON` format (:term:`coordinate system` Web Mercator, EPSG:3857) and exported via the selected application. The name of GeoJSON file will be the same as the name of the exported layer.
+   Share dialogue window
 
-Some of the share options (availability is dependent on the apps installed on your device):
+* Select the desired option (send by mail or messenger, etc.) and complete the export in the corresponding application.
 
-* You can send the file as an attachment via Gmail or different Email app.
-* You can upload the file to Google Drive/Dropbox/other cloud service and then share it with your colleagues.
-* You can send the file to another device via Bluetooth or SHAREit.
-* You can save the file on a memory card.
+The layer data is saved in the :term:`GeoJSON` format (Web Mercator coordinate system, EPSG:3857). Layer name is used as the file name.
 
-.. warning::
-   In many Android versions to save a file on the device memory card you need a file manager app (for example, ES Explorer or similar).
+.. _ngmobile_share:
 
-See how to change the default sharing method:
+Save vector layer to your device
+----------------------------------------
 
-.. raw:: html
+To save the layer to the device as a file:
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/ducW-h1T-8M?si=K0EY1kNsTMMRQra4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+* Open the Layer Tree |ic_layer_tree| (see :numref:`ngmobile_main_activity_pic`, item 1).
+* Open the menu of the desired layer by tapping the three dots |ic_menu_grey| next to it and select **Save**. 
 
-Watch on `youtube <https://youtu.be/ducW-h1T-8M?si=9oYserBatgQ72jum>`_.
+.. figure:: _static/ngm_save_select_en.png
+   :name: ngm_save_select_pic
+   :align: center
+   :width: 8cm
+
+   Layer menu
+
+In the export parameters window, select what to use for field names: keys or aliases. Tap **OK**.
+
+.. figure:: _static/ngm_export_settings_en.png
+   :name: ngm_export_settings_pic2
+   :align: center
+   :width: 8cm
+
+   Export parameters
+
+A file save window will open, where you can choose the path and name for the file.
+
+
 
 .. _ngmobile_export_attachments:
 
-Exporting attachments
------------------------
+Export attachments
+-------------------
 
-Each feature in vector layer can have one or more photos attached to it. Photos are stored separately as image files and added to archive file with layer data during the export. For each feature a separate attachments folder is generated in the archive, the name of the folder corresponds to feature ID.
+One or more photos can be attached to each feature of a vector layer in NextGIS Mobile (`learn more <https://docs.nextgis.com/docs_ngmobile/source/editing.html#ngmobile-add-geometry>`_. 
 
-Example:
+.. seealso::
+
+   When you `upload a layer to the Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_ , attachments are automatically uploaded to the server.
+
+When you save a layer to your device as a file, the photos are added to an archive. Each feature has a corresponding folder that has its ID as the name.
+
+Example entry::
 
 (4:10000002.jpg,10000000.jpg,10000001.jpg,10000003.jpg)
 
-Explanation:
+What it means:
 
-4 photos are attached to a feature. These 4 photos are stored in the folder which name is similar to the feature ID.
+4 photographs with the following names are attached to this feature. 
+These photos are in the folder named with the object ID.
+
+
 
 .. _ngmobile_export_GPX:
 
-Exporting tracks in GPX
-------------------------
+Export tracks to GPX
+----------------------
 
-To start exporting tracks first find "My Tracks" group in Layers tree panel. Then tap on contextual menu button as shown in :numref:`ngmobile_tree_layers_gpx_pic` and select "List".
+Recorded tracks can be exported to a file, for example, to create a backup.
 
-.. figure:: _static/tree_layers_gpx.png
-   :name: ngmobile_tree_layers_gpx_pic
+* Select the |ic_tracks| "My Tracks" layer in the Layer Tree. 
+* Open the layer menu by clicking the three dots |ic_menu_grey| next to the layer and click **List**.
+
+.. figure:: _static/ngm_tree_tracks_menu_en.png
+   :name: ngm_mytracks_context_pic
    :align: center
-   :height: 10cm
+   :width: 8cm
 
-   "My tracks" in Layers tree panel.
+   Opening track list from the layer tree
 
-This will open a list of recorded tracks as shown in :numref:`ngmobile_tracks_list_gpx_pic`. If there are few tracks recorded in a day, tracks will be divided into sessions. If a track was recorded during few days, this track will be divided into parts corresonding to recording days.
 
-Select a track you want to export by ticking the corresponding checkbox, and buttons in Top toolbar will become active as shown in  :numref:`ngmobile_layer_gpx_selected_pic`
+* A list of recorded tracks is opened. If several tracks were recorded on the same day, the tracks will be broken down by sessions. If one track was recorded over several days, then the recorded track will be split into parts at midnight.
+* Select the track by placing a checkmark next to it. Action buttons for tracks will appear on the top panel.
 
-To export the track, tap on Share button (see item 4 in :numref:`ngmobile_layer_gpx_selected_pic`). It will open the same Share dialogue window as shown in :numref:`ngmobile_share_pic` above.
+.. figure:: _static/ngm_tracks_selected_en.png
+   :name: ngm_tracks_selected_pic
+   :align: center
+   :width: 8cm
 
-After you select a share option, data in the selected track will be recorded in GPX format and exported via the selected application.
+   Track toolbar, the "Share" button is highlighted
+
+* Click the "Share" button |ic_share|.
+* Select the desired option (send by mail or messenger, save to the device etc.) and complete the export in the corresponding application.
+
+.. |ic_share| image:: _static/ic_share.png
+   :width: 6mm
+   :alt: three dots connected by a line
+
+.. |ic_tracks| image:: _static/ic_tracks.png
+   :width: 6mm
+   :alt: squiggle
+
+.. |ic_layer_tree| image:: _static/ic_layer_tree.png
+   :width: 7mm
+   :alt: three lines
+
+.. |ic_menu_grey| image:: _static/ic_menu_grey.png
+   :width: 3mm
+   :alt: tree dots
