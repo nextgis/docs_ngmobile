@@ -216,12 +216,12 @@ NextGIS Mobile позволяет записывать и отображать �
 
 .. |ic_location_moving| image:: _static/ic_location_moving.png
    :width: 4mm
-   :alt: глаз
+   :alt: стрелка с крестиком
 
 .. |ic_menu| image:: _static/ic_menu.png
    :width: 6mm
-   :alt: три точки
+   :alt: три белые точки
 
 .. |ic_menu_grey| image:: _static/ic_menu_grey.png
    :width: 3mm
-   :alt: три точки
+   :alt: три серые точки
