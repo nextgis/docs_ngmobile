@@ -223,7 +223,7 @@
    :alt: три полоски
 
 .. |ic_menu_grey| image:: _static/ic_menu_grey.png
-   :width: 6mm
+   :width: 3mm
    :alt: три точки
 
 

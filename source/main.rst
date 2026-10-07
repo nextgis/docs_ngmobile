@@ -312,7 +312,7 @@
    :alt: три точки
 
 .. |ic_menu_grey| image:: _static/ic_menu_grey.png
-   :width: 6mm
+   :width: 3mm
    :alt: три точки
 
 .. |ic_ruler_round| image:: _static/ic_ruler_round.png
