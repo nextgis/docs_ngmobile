@@ -5,219 +5,226 @@
 Layer settings
 ===============
 
-Map is a set of raster and vector layers. Layers tree panel is designed to display the content of a map and to control visibility and hierarchy of map layers. 
+The map is a set of raster and vector layers. |ic_layer_tree| Layer tree panel lists the map content and controls layer visibility and order.
 
-To change the hierarchy of map layers long-press the layer which is to be moved up or down. Layers tree panel will switch to Edit mode. Keep pressing and move the selected layer to its new position.
+To toggle layer visibility, click the eye icon |ic_eye|.
 
-For turning layer visibility on/off tap on Layer visibility button (item 3 in :numref:`ngmobile_layer_tree_pic`).
+Layer settings can be opened from the `layer menu <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ (icon |ic_menu_grey|).
 
-Additional operations with layers are available from a separate layer contextual menu (item 5 in :numref:`ngmobile_layer_tree_pic`).
+The settings have the following tabs:
 
-For example, contextual menu for a vector layer includes following items:
-
-1. Zoom to extent
-2. Attributes
-3. Share
-4. Send to NextGIS
-5. Edit
-6. Delete
-7. Settings
-
-.. note::
-   Contextual menu depends both on layer type and geodata source. Raster layers have different contextual menus than Vector layers. Raster layers created from tile cache have different contextual menus than raster layers created from external geoservices.
-
-.. _ngmobile_vector_layer_settings:
-
-Vector layer settings
----------------------
-
-.. _ngmobile_style_settings:
-
-Style settings
-^^^^^^^^^^^^^^^
-
-Open layer contextual menu and tap on "Settings". Vector layer style settings will open as shown in :numref:`ngmobile_style_vector_pic` below. 
-
-.. figure:: _static/style_vector.png
-   :name: ngmobile_style_vector_pic
-   :align: center
-   :height: 10cm
-   
-   Vector point layer style settings (simple render style).
-   
-   The numbers indicate: 1 - Go back; 2 - Layer type & Feature count; 3 - Layer Settings tabs; 4 - Render type; 5 - Feature size; 6 - Feature type; 7 - Color palette; 8 - Stroke width; 9 - Label settings.
-   
-Vector layer style settings depend on the selected Render type - Simple or Rule (item 4 in :numref:`ngmobile_style_vector_pic`).
-
-.. _ngmobile_simple_rendering:
-
-Simple rendering
-~~~~~~~~~~~~~~~~~
-
-:numref:`ngmobile_style_vector_pic` shows Simple Render style settings. If you select this Render type, all the features in the layer will have the same shape, color, size, etc.
-
-For example, for a point/multipoint layer you can select features shape by using "Type" menu (see item 6 in :numref:`ngmobile_style_vector_pic`) using the following options:
-
-* Point 
-* Circle 
-* Diamond 
-* Cross 
-* Triangle 
-* Box
-* Edit circle
-* Crossed box
-
-You can also set point size (see item 5 in :numref:`ngmobile_style_vector_pic`), fill and stroke color (see item 7 in :numref:`ngmobile_style_vector_pic`) and stroke width (see item 8 in :numref:`ngmobile_style_vector_pic`).
-
-In linestring/multilinestring layers you can select line type (solid, dash or edge solid), as well as fill and stroke color and stroke width.
-
-In polygon/multipolygon layers you can select stroke color and width. Also you can select to display polygons as filled or empty (the semi-opaque stroke color will be applied if "Filled" is selected).
-
-For any vector layer you can also choose to show Labels for each feature on a map. To do this tick "Text" checkbox and either enter the label text yourself or select the attribute field which will be used to label features on a map (item 9 in :numref:`ngmobile_style_vector_pic`).
-
-.. _ngmobile_rule_rendering:
-
-Rule-based rendering
-~~~~~~~~~~~~~~~~~~~~~~
-
-You can also use the advanced styling option for your vector layer, and set different shapes, colors, sizes, etc. for layer features based on their attribute values.
-
-For advanced styling of vector layer select "Rule" in the Render. It will open different style settings as shown in  :numref:`ngmobile_style_vector_rulebased_pic` below.
-
-.. figure:: _static/style_vector_rulebased.png
-   :name: ngmobile_style_vector_rulebased_pic
-   :align: center
-   :height: 10cm
-   
-   Vector layer style settings (rule-based render style).
-   
-   The numbers indicate: 1 - Render type; 2 - Field selection; 3 - "Create new rule" button; 4 - Previously created rules; 5 - "Delete rule" button.
-   
-To adjust rule-based style settings first select the attribute field - its values will be used to create rules (see item 2 in :numref:`ngmobile_style_vector_rulebased_pic`). 
-
-Then tap on "Create new rule" button (item 3 in :numref:`ngmobile_style_vector_rulebased_pic`). It will open a list of all the unique values from the attribute field you have selected earlier. Select the value and tap "OK" to open Style settings dialogue as shown below in  :numref:`ngmobile_style_vector_rulebased_item_pic`.
-
-.. figure:: _static/style_vector_rulebased_item.png
-   :name: ngmobile_style_vector_rulebased_item_pic
-   :align: center
-   :height: 10cm
-   
-   Rule-based style settings dialogue.
-   
-Here you can select and apply the same style settings as described above in :ref:`ngmobile_simple_rendering` (rule-based style settings are also dependent on vector layer type). Select "OK" when finished. 
-
-In this way you can create rule-based render styles for every value in the selected attribute field.
-
-.. _ngmobile_fields_settings:
-
-Fields settings
-^^^^^^^^^^^^^^^^
-
-You can select which attribute field will be used to provide Feature ID for Edit screens, etc. 
-To do this tap on "FIELDS" tab (see item 3 in :numref:`ngmobile_style_vector_pic`) and select one of the fields as shown in :numref:`ngmobile_style_select_field_pic`
-
-.. figure:: _static/style_select_field.png
-   :name: ngmobile_style_select_field_pic
-   :align: center
-   :height: 10cm
-   
-   "FIELDS" vector layer settings tab.
-
-.. warning::
-   The selected field will not be used for rendering features labels on the map. For label settings see :ref:`ngmobile_style_settings`.
+* General - for all layer types;
+* Style - for vector layers;
+* Cache - for vector layers, you can rebuild the cache here.
 
 .. _ngmobile_tab_general_settings:
 
 General settings
-^^^^^^^^^^^^^^^^^^
+----------------
 
-"GENERAL" settings tab shows such information about vector layer as its local path, layer name & zoom levels to show on the map (it is possible to display the layer within certain zoom levels only). See :numref:`ngmobile_style_vector_general_pic` below.
+The "General" settings tab shows the following information about the layer:
 
-.. figure:: _static/style_vector_general.png
+* Local path - where the file is located on the device and its exact name.
+* Layer name - you can customize the name under which the layer is displayed on the map.
+* Zoom levels at which the layer is visible on the map. By default, the full range is set - from 0 to 25. You can limit the layer visibility by a specific zoom level range.
+
+.. figure:: _static/settings_vector_general_en.png
    :name: ngmobile_style_vector_general_pic
    :align: center
-   :height: 10cm
+   :width: 9cm
    
-   "GENERAL" vector layer settings tab.
+   General settings for a vector layer
 
-Using this tab you can change layer name and zoom levels to show.
+.. figure:: _static/settings_raster_general_en.png
+   :name: ngmobile_style_raster_general_pic
+   :align: center
+   :width: 9cm
+   
+   General settings for a raster layer
+
+.. _ngmobile_vector_layer_settings:
+.. _ngmobile_style_settings:
+
+Vector Layer Style Settings
+-------------------------------
+
+.. admonition:: How to open
+
+   |ic_layer_tree| Layer Tree  ‣ |ic_menu_grey| Layer Menu  ‣ Settings  ‣ Style
+
+
+The available style settings for the vector layer depend on its geometry type and the selected **rendering** type - `simple <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-simple-rendering>`_ or `rule-based <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-rule-rendering>`_.
+
+.. _ngmobile_simple_rendering:
+
+Standard rendering
+~~~~~~~~~~~~~~~~~~
+
+In standard rendering, all features of the layer have the same color, size, shape (for point features) etc.
+
+For a layer with any geometry, you can configure:
+
+* Fill color;
+* Stroke color;
+* Stroke thickness;
+* Labels.
+
+There are also settings specific to specific types of geometry: 
+
+For example, for layers with |ic_type_multipoint| **point/multipoint** geometry, you can set the marker size.
+
+.. figure:: _static/style_vector_point_settings_en.png
+   :name: style_vector_point_settings_pic
+   :align: center
+   :width: 9cm
+   
+   Style settings for a point layer
+
+.. figure:: _static/style_vector_point_result_en.png
+   :name: style_vector_point_result_pic
+   :align: center
+   :width: 9cm
+
+   Two point layers with different marker sizes
+
+For layers with |ic_type_line| **linestring/multilinestring** geometry, you can specify the line type:
+
+* solid - only the fill color is applied;
+* dashed line - only fill color is applied;
+* edge - both fill color and stroke color are applied.
+
+.. figure:: _static/style_vector_line_settings_en.png
+   :name: style_vector_line_settings_pic
+   :align: center
+   :width: 9cm
+
+   Style settings for a linestring layer
+
+.. figure:: _static/style_vector_line_result_en.png
+   :name: style_vector_line_result_pic
+   :align: center
+   :width: 9cm
+
+   Linear layers with different line types: "dashed" and "edge"
+
+For layers with |ic_type_polygon| **polygon/multipolygon** geometry, you can enable or disable the fill. Polygon fill, when enabled, is semi-transparent.
+
+.. figure:: _static/style_vector_polygon_settings_en.png
+   :name: style_vector_polygon_settings_pic
+   :align: center
+   :width: 9cm
+
+   Style settings for a polygon layer
+
+.. figure:: _static/style_vector_polygon_result_en.png
+   :name: style_vector_polygon_result_pic
+   :align: center
+   :width: 9cm
+
+   Polygonal layers with and without fill
+
+.. _ngmob_labels:
+
+Labels
+~~~~~~~~
+
+For any geometry, you can also display the feature labels. 
+
+Go to layer menu |ic_menu_grey| ‣ Settings. On the Style tab, check the box next to **Labels**.
+
+There are two options:
+
+* Individual labels for each feature, the value is taken from the selected field.
+* The same label for all features - just enter the text in the field.
+
+The field used for labels on the map may not be the same as the field used as the `feature identifier <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-fields-settings>`.
+
+.. figure:: _static/label_vs_feature_name_en.png
+   :name: label_vs_feature_name_pic
+   :align: center
+   :width: 9cm
+
+   1 - identifier of the selected feature and layer name, 2 - feature label on the map
+
+.. _ngmobile_rule_rendering:
+
+Rule-based style
+~~~~~~~~~~~~~~~~~~~~
+
+You can set different colors, sizes, etc. for layer features depending on the attribute values.
+
+To do this, in the Render field select **Rule-based**. The style settings window changes:
+
+.. figure:: _static/style_vector_rulebased.png
+   :name: ngmobile_style_vector_rulebased_pic
+   :align: center
+   :width: 10cm
+   
+   Vector layer style settings (rule-based rendering).
+   
+   The numbers indicate: 1 - rendering type; 2 - selected attribute field; 3 - previously created rules; 4 - "Create New Rule" button; 5 - "Delete Rule" button.
+   
+First, select the field that is going to be the base of your styling rules. 
+
+Then click **New**. A list of unique values for the previously selected attribute field will open. Select the value for which you want to create a rule. Next, configure the style for features with this value.
+
+.. figure:: _static/style_vector_rulebased_item_en.png
+   :name: ngmobile_style_vector_rulebased_item_pic
+   :align: center
+   :width: 9cm
+   
+   Style settings dialog with rule-based rendering
+   
+The parameters are standard, see section :ref:`ngmobile_simple_rendering`. When the style is set, tap **OK**. 
+
+This way, you can create styling rules for each value of the selected attribute field. If no specific rule is set for a value, the default style option is applied. Tap **Default style** to configure it.
+
+.. _ngmobile_fields_settings:
+
+Fields
+------
+
+.. admonition:: How to open
+
+   |ic_layer_tree| Layer Tree ‣ |ic_menu_grey| Layer Menu ‣ Settings ‣ Fields
+
+In this settings block, you can select the attribute field that will be used as the feature ID when you select or edit the feature.
+
+.. figure:: _static/style_select_field_en.png
+   :name: ngmobile_style_select_field_pic
+   :align: center
+   :width: 8cm
+   
+   Vector layer settings: Fields
+
+.. warning::
+   The selected field will not be used for map labels. Labels can be configured on the style tab :ref:`ngmobile_style_settings`.
 
 .. _ngmobile_cache_settings:
 
-Cache settings
-^^^^^^^^^^^^^^^^
+.. |ic_eye| image:: _static/ic_eye.png
+   :width: 6mm
+   :alt: eye
 
-Using "CACHE" settings tab you can execute "Rebuild cache" command to optimize the layer creation process with the ability to save and cancel changes.
+.. |ic_type_multipoint| image:: _static/ic_type_multipoint.png
+   :width: 7mm
+   :alt: several dots
 
-.. _ngmobile_raster_layer_settings:
+.. |ic_type_polygon| image:: _static/ic_type_polygon.png
+   :width: 7mm
+   :alt: points with lines
 
-Raster layer settings
-----------------------
+.. |ic_type_line| image:: _static/ic_type_line.png
+   :width: 7mm
+   :alt: line
 
-Raster layer contextual menu includes the following items (see :numref:`ngmobile_raster_layer_menu_pic`):
+.. |ic_layer_tree| image:: _static/ic_layer_tree.png
+   :width: 6mm
+   :alt: three lines
 
-* Zoom to extent
-* Delete
-* Settings
+.. |ic_menu_grey| image:: _static/ic_menu_grey.png
+   :width: 3mm
+   :alt: tree grey dots
 
-.. figure:: _static/raster_layer_menu.png
-   :name: ngmobile_raster_layer_menu_pic
-   :align: center
-   :height: 10cm
-   
-   Raster layer contextual menu.
 
-.. note::
-   Raster layer created from external geoservice will have the option "Download tiles" instead of "Zoom to extent". See :ref:`ngmobile_tile_cache` for details.
 
-.. _ngmobile_raster_style_settings:
-
-Style settings
-^^^^^^^^^^^^^^^
-
-Open layer contextual menu and tap on "Settings". Raster layer style settings will open as shown in :numref:`ngmobile_style_raster_pic` below.
-
-.. figure:: _static/style_raster.png
-   :name: ngmobile_style_raster_pic
-   :align: center
-   :height: 10cm
-
-   Raster layer style settings.
-   
-Here you can set the values for:
-
-1. **Opacity.** The value of layer opacity determines how intensive it hides or displays the contents of the underlying layer. Raster layer with 1% opacity is almost transparent. Completely opaque raster layer has an opacity of 100%.
-2. **Contrast.** 
-3. **Brightness.**
-
-You can also apply to Raster layer the option "Make grayscale" - the layer will be displayed in shades of gray instead of original colors.
-
-.. _ngmobile_raster_general_settings:
-
-General settings
-^^^^^^^^^^^^^^^^^^
-
-"GENERAL" settings tab shows such information about raster layer as its local path, layer name & zoom levels to show on the map (it is possible to display the layer within certain zoom levels only). See :numref:`ngmobile_style_raster_general_pic` below.
-
-.. figure:: _static/style_raster_general.png
-   :name: ngmobile_style_raster_general_pic
-   :align: center
-   :height: 10cm
-   
-   "GENERAL" raster layer settings tab.
-
-Using this tab you can change layer name and zoom levels to show.
-
-.. _ngmobile_raster_cache_settings:
-
-Cache settings
-^^^^^^^^^^^^^^^^
-
-Using "CACHE" settings tab you can set TMS in-memory cache size for a raster layer from these options:
-
-* No cache
-* 1 screen
-* 2 screens (recommended)
-* 3 screens
-
-You can also clear in-memory cache for this layer from this settings tab.
