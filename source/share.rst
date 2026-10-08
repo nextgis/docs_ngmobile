@@ -1,4 +1,4 @@
-Data Export
+Export Data
 ===============
 
 Tracks recorded in the NextGIS Mobile application, vector layers, and their attachments can be exported as files.
@@ -115,7 +115,7 @@ Recorded tracks can be exported to a file, for example, to create a backup.
 * Select the |ic_tracks| "My Tracks" layer in the Layer Tree. 
 * Open the layer menu by clicking the three dots |ic_menu_grey| next to the layer and click **List**.
 
-.. figure:: _static/ngm_tree_tracks_menu_en.png
+.. figure:: _static/ngm_mytracks_context_en.png
    :name: ngm_mytracks_context_pic
    :align: center
    :width: 8cm
