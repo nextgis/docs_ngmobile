@@ -72,7 +72,7 @@ Add Web GIS layer from the menu
 
    Selecting Web GIS
 
-.. note:: How to add a Web GIS connection :ref:`ngmobile_create_a_connection_to_webgis`. 
+.. note:: How to :ref:`ngmobile_create_a_connection_to_webgis`. 
 
 In the opened window you can see the list of internal resources and layers (vector and raster) for the selected Web GIS account. Select a group of Web GIS resources, then tick a layer and tap "Add". If a vector layer in Web GIS has a style, it can also be added as a raster.
  
