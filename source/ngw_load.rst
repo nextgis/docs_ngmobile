@@ -22,16 +22,16 @@ Add Web GIS layer by URL
 .. figure:: _static/ngm_layer_tree_add_url_en.png
    :name: ngm_layer_tree_add_url_pic
    :align: center
-   :width: 9cm
+   :width: 8cm
 
    Select how to add data
 
 4. In the pop-up paste the copied link.
 
-.. figure:: _static/ngm_add_url_en.png
+.. todo:: _static/ngm_add_url_en.png
    :name: ngm_add_url_pic
    :align: center
-   :width: 9cm
+   :width: 8cm
 
    Adding a layer URL
 
@@ -40,7 +40,7 @@ Tap **OK**. The layer will be added to the top of the layer list.
 .. figure:: _static/ngm_add_url_result_en.png
    :name: ngm_add_url_result_pic
    :align: center
-   :width: 9cm
+   :width: 8cm
 
 If the user you are `logged in as <https://docs.nextgis.com/docs_ngmobile/source/auth.html>`_ in NextGIS Mobile has `data editing rights <https://docs.nextgis.com/docs_ngcom/source/permissions.html>`_ for this layer, the "edit" option is available.
 
@@ -66,7 +66,7 @@ Add Web GIS layer from the menu
 .. figure:: _static/ngm_layer_tree_add_from_wg_en.png
    :name: ngm_layer_tree_add_from_wg_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Select how to add data
 
@@ -75,7 +75,7 @@ Add Web GIS layer from the menu
 .. figure:: _static/ngm_select_webgis_en.png
    :name: ngmobile_select_ngw_layer_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Selecting Web GIS
 
@@ -86,7 +86,7 @@ In the opened window you can see the list of internal resources and layers (vect
 .. figure:: _static/ngm_add_layer_select_en.png
    :name: ngmobile_file_selection_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
    
    Selecting a layer in the Web GIS resource group
 
@@ -101,7 +101,7 @@ In the opened window you can see the list of internal resources and layers (vect
 .. figure:: _static/ngm_processing_layer_en.png
    :name: ngmobile_processing_layer_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Layer processing pop-up
 
@@ -112,7 +112,7 @@ To continue using the app as the layer is being processed, tap **Hide**. The pro
 .. figure:: _static/ngm_download_status_en.png
    :name: ngmobile_download_status_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Download status in the notification panel
  
@@ -132,7 +132,7 @@ Open the layer menu (three dots |ic_menu_grey| next to the layer). In the layer 
 .. figure:: _static/ngm_send_to_wg_en_2.png
    :name: ngm_send_to_wg_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Layer menu
 
@@ -143,7 +143,7 @@ Select the desired resource group and tap **Add**.
 .. figure:: _static/ngm_add_to_wg_en.png
    :name: ngm_add_to_wg_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Adding a local layer to Web GIS
 
@@ -168,7 +168,7 @@ After the folder is created its name appears in the resource list of the Web GIS
 .. figure:: _static/ngmobile_add_a_new_group_en.png
    :name: ngmobile_add_a_new_group_pic
    :align: center
-   :width: 9cm    
+   :width: 8cm    
    
    Creating a new group
 
@@ -192,7 +192,7 @@ To enable synchronization:
 .. figure:: _static/ngm_webgis_list_en.png
    :name: ngm_webgis_list_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    List of connected Web GIS
    
@@ -205,19 +205,16 @@ To enable synchronization:
 .. figure:: _static/ngm_webgis_sync_param_en.png
    :name: ngmobile_connection_properties_window_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
  
    Settings of a Web GIS account
 
 Synchronized layers are marked with the |icon_layer_sync| icon. The same icon appears by the layer name in the layer tree.
 
-
-
-
 .. figure:: _static/ngm_layers_tree_sync_en.png
    :name: ngmobile_layers_tree_int_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Synchronized layers marked in the layer tree
 

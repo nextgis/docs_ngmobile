@@ -19,12 +19,16 @@ NextGIS Mobile
 
   * `Create empty layer <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-create-vector>`_
   * `Add from file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_
-   
-* `Vector layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
+  * `Add from Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngm-wg>`_
+  * `Vector layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-vector-layer-settings>`_
+  
 * `Raster layers <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-ngrc>`_
-* `GeoServices <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
-* `TMS service <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-qms-service>`_
-* `Raster layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-raster-layer-settings>`_
+
+  * `Tiles from file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-cache>`_
+  * `GeoServices <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_
+  * `Custom TMS <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_
+  * `Raster layer settings <https://docs.nextgis.com/docs_ngmobile/source/layer_settings.html#ngmobile-raster-layer-settings>`_
+
 * `Export <https://docs.nextgis.com/docs_ngmobile/source/share.html>`_
 
 **Features**
@@ -45,9 +49,9 @@ NextGIS Mobile
 
 **Web GIS**
 
-* `Add layer from Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngmobile-add-layer-webgis>`_
-* `Upload layer to Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngmobile-upload>`_
-* `Synchronization settings  <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
+* `Add layer from Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmob-url>`_
+* `Upload layer to Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-upload>`_
+* `Synchronization settings  <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-synchronization-layer-webgis>`_
 * `On-premise authorization <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
 * `Manage Web GIS connections <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
 
@@ -86,6 +90,7 @@ NextGIS Mobile
    tracks
    share  
    layer_settings
+   ngw_load
    ngw_integration
    log
    faq_ngmobile
