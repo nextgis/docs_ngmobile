@@ -12,7 +12,7 @@
 
 С основными возможностями программного обеспечения Веб ГИС можно ознакомиться в разделе `Веб ГИС: описание и возможности <https://docs.nextgis.ru/docs_ngcom/source/description.html#ngcom-description>`_.
 
-После `авторизации <https://docs.nextgis.ru/docs_ngmobile/source/auth.html>`_ ваша собственная Веб ГИС и Веб ГИС, в которые вы добавлены как участник `команды <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_., будут доступны сразу.
+После `авторизации <https://docs.nextgis.ru/docs_ngmobile/source/auth.html>`_ ваша собственная Веб ГИС и Веб ГИС, в которые вы добавлены как участник `команды <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_, будут доступны сразу.
 
 .. seealso:: `Как создать свою Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_.
 
@@ -225,3 +225,7 @@
 .. |ic_layer_tree| image:: _static/ic_layer_tree.png
    :width: 7mm
    :alt: три белые полоски
+
+.. |button_add_layer| image:: _static/button_add_layer.png
+   :width: 6mm
+   :alt: два прямоугольника с плюсом
