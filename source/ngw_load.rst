@@ -44,13 +44,6 @@ Tap **OK**. The layer will be added to the top of the layer list.
 
 If the user you are `logged in as <https://docs.nextgis.com/docs_ngmobile/source/auth.html>`_ in NextGIS Mobile has `data editing rights <https://docs.nextgis.com/docs_ngcom/source/permissions.html>`_ for this layer, the "edit" option is available.
 
-See how to add a layer by URL in our video:
-
-.. raw:: html
-
-   .
-
-.
 
 .. _ngmobile_add_layer_webgis:
 
