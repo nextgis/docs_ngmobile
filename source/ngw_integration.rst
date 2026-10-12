@@ -30,7 +30,7 @@ There are two ways to connect your NextGIS Mobile app to a Web GIS.
 
 1. Open the layer tree |ic_layer_tree| (see :numref:`ngmobile_main_activity_pic`). 
 2. Tap the "Add Geodata" button |button_add_layer|.
-3. Select “Add from Web GIS” (:numref:`ngmobile_the_menu_button_Add_data_pic`). 
+3. Select “Add from Web GIS”. 
 
 .. figure:: _static/ngm_layer_tree_add_from_wg_en.png
    :name: ngmobile_the_menu_button_add_pic
@@ -129,7 +129,7 @@ Edit Web GIS connection
 -------------------------------------
 
 1. Open the menu by tapping the three dots in the top right corner |ic_menu|. 
-2. Select "Settings".
+2. Select **Settings**.
 3. In the Settings, select **Web GIS**. 
 4. Next, select the previously added Web GIS from the list. 
 5. On the next screen select **Edit account**.
@@ -162,11 +162,11 @@ There are two ways to delete Web GIS connection from the app.
 
 1. Remove the connection **in the app settings**.
 
-1. Open the menu by tapping the three dots in the top right corner |ic_menu|.
+* Open the menu by tapping the three dots in the top right corner |ic_menu|.
 * Select **Settings**.
 * In the opened options menu, select **Web GIS**. 
 * Select the Web GIS you want to delete from the list.  
-* Select "Delete account".
+* Select **Delete account**.
 
 .. figure:: _static/ngm_webgis_remove_acc_en.png
    :name: ngmobile_remove_account1_pic
