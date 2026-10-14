@@ -54,16 +54,16 @@ NextGIS Mobile
 * `Подключение к своему серверу <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
 * `Управление подключениями к Веб ГИС <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
 
+**Дополнительная информация**
+
+* `Оптимальные настройки <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html>`_
+* `Подключение внешнего источника координат <https://docs.nextgis.ru/docs_ngmobile/source/mock_location.html>`_
+* `Список изменений по версиям <https://docs.nextgis.ru/docs_ngmobile/source/changelog.html>`_
+
 **Решение проблем**
 
 * `Вход в приложение <https://docs.nextgis.ru/docs_ngmobile/source/faq_ngmobile.html#ngm-issues-login>`_
 * `Логирование <https://docs.nextgis.ru/docs_ngmobile/source/log.html#>`_
-* `Оптимальные настройки <https://docs.nextgis.ru/docs_ngmobile/source/device_settings.html>`_
-* `Подключение внешнего источника координат <https://docs.nextgis.ru/docs_ngmobile/source/mock_location.html>`_
-
-
-
-
 
 
 
