@@ -55,14 +55,15 @@ NextGIS Mobile
 * `On-premise authorization <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngm-create-connection-onp>`_
 * `Manage Web GIS connections <https://docs.nextgis.com/docs_ngmobile/source/ngw_integration.html#ngmobile-change-account>`_
 
+**Additional information**
+
+* `Simulating location data <https://docs.nextgis.com/docs_ngmobile/source/mock_location.html>`_
+* `Changelog <https://docs.nextgis.com/docs_ngmobile/source/changelog.html>`_
+
 **Troubleshooting**
 
 * `Signing in <https://docs.nextgis.com/docs_ngmobile/source/faq_ngmobile.html#ngmobile-change-passwords>`_
 * `Logs <https://docs.nextgis.com/docs_ngmobile/source/log.html>`_
-* `Simulating location data <https://docs.nextgis.com/docs_ngmobile/source/mock_location.html>`_
-
-
-
 
 
 
