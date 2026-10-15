@@ -3,6 +3,17 @@
 Changelog
 =========
 
+**3.2.2 released on 15 Oct 2026**
+
+* Improve transactions to avoid feature doubling.
+* Support for NULL while editing and viewing attributes.
+* Support for features with empty geometry.
+* Optionally choose OpenGL rendering for old devices.
+* Missing mapnik.json in NGRC leads to TMS settings dialog.
+* Notify when reaching limit of layers in Web GIS 
+* Fix labels scaling for polygons.
+* Sign up should lead to sign up.
+
 **3.2.1 released on 05 Aug 2026**
 
 * Require confirmation before deleting a newly created or modified object
