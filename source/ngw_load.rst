@@ -228,3 +228,7 @@
 .. |ic_layer_tree| image:: _static/ic_layer_tree.png
    :width: 6mm
    :alt: три белые полоски
+
+.. |button_add_layer| image:: _static/button_add_layer.png
+   :width: 6mm
+   :alt: два прямоугольника с плюсом
