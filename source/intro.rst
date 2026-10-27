@@ -41,7 +41,7 @@ Some icons used in NextGIS Mobile are from:
    
    .. image:: _static/cc_by.png  
 
-This documentation describes NextGIS Mobile 2.5. 
+ .. seealso:: Our webinar about incorporating NextGIS Mobile in your GIS work. Watch on `YouTube <https://youtu.be/MykgSliIFPw?si=7lR-xQXCiVGdzxon>`_.
 
  
 .. _ngmobile_launch_conditions:
