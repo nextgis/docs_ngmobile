@@ -343,7 +343,7 @@ Fill in the form fields and tap "Apply changes" |ic_tick| to save the attributes
 
 .. _ngmobile_add_track:
 
-Creating a line or polygon by walking
+Create a line or polygon by walking
 --------------------------------------
 
 Geometry can be added to a linear or polygonal layer by walking – that is, by recording the trajectory of your movement.
