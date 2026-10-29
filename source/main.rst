@@ -46,7 +46,7 @@ Also you can enable:
 * |ic_ruler_round| Ruler to activate measuring (enable: :menuselection:`Settings --> Map --> Ruler`);
 * Scale ruler (shown in the bottom left corner, enable: :menuselection:`Settings --> Map --> Show scale ruler`).
 
-At the bottom of the main window the **Status panel** can be displayed (configured in :menuselection:`Settings -> Map -> Show status info panel`). Depending on the screen size the Status panel can be one or two rows.
+At the bottom of the main window the **Status panel** can be displayed (configured in :menuselection:`Settings --> Map --> Show status info panel`). Depending on the screen size the Status panel can be one or two rows.
 
 .. figure:: _static/ngmob_status_panel_en.png
    :name: ngmob_status_panel_pic

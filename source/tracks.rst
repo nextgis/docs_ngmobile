@@ -13,7 +13,7 @@ With NextGIS Mobile you can record your movements and display tracks. The app re
 Setting up
 ---------------------
 
-To record a track, make sure the app has access to your **location** (check the device settings, something like :menuselection:`Settings -> Confidentiality -> Location`).
+To record a track, make sure the app has access to your **location** (check the device settings, something like :menuselection:`Settings --> Confidentiality --> Location`).
 
 To display your tracks on a Web Map in your WebGIS:
 

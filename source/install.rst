@@ -23,6 +23,6 @@ Install from APK
 
 You can also use a downloadable file `nextgismobile.apk <http://nextgis.com/nextgis-mobile/>`_.
 
-Allow installing apps from unknown sources in your device settings (:menuselection:`Settings > Apps & Notifications > Special App Access > Install unknown apps`). 
+Allow installing apps from unknown sources in your device settings (:menuselection:`Settings --> Apps & Notifications --> Special App Access --> Install unknown apps`). 
 After the app is installed you can disable this option.
 
