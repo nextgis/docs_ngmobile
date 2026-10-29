@@ -348,7 +348,9 @@ Creating a line or polygon by walking
 
 Geometry can be added to a linear or polygonal layer by walking – that is, by recording the trajectory of your movement.
 
-Tap the large blue button in the bottom corner and select the walking person icon |ic_walk|.
+If you are already editing the layer, tap |ic_walk| in the bottom panel (see :numref:`ngmobile_creating_lines_pic`).
+
+If not, tap the large blue button in the bottom corner and select the walking person icon |ic_walk|. 
 
 .. figure:: _static/mob_new_walk_en.png
    :name: mob_new_walk_pic
@@ -366,31 +368,24 @@ In the dialog that opens, select the desired vector layer.
    
    Selecting layer to add geometry by walking
    
-This layer will open in Walking mode (see :numref:`ngmobile_new_gpx_vector_1`), and NextGIS Mobile will start recording new geometry into the vector layer.
+This layer will open in Walking mode, and NextGIS Mobile will start recording new geometry into the vector layer.
 
-.. figure:: _static/new_gpx_vector_1.png
+.. figure:: _static/ngm_new_walk_process_en.png
    :name: ngmobile_new_gpx_vector_1
    :align: center
-   :width: 10cm
+   :width: 8cm
 
    Adding geometry by walking.
    
-   The numbers indicate: 1 - stop track recording (without saving); 2 - status icon; 3 - feature ID and layer name; 4 - save feature; 5 - "Walking" status; 6 - go to location settings; 7 - starting point; 8 - current device location.
+   The numbers indicate: 1 - stop recording (without saving); 2 - status icon; 3 - feature ID and layer name; 4 - save feature; 5 - current device location; 6 - starting point; 7 - walking mode indication; 8 - location settings.
 
-If you are already in the Edit mode, you can tap the "Add geometry by walking" button.
 
-.. note:: If you see that the accuracy of the added geometry is insufficient, you can go to the NextGIS Mobile location settings (see :numref:`ngmobile_settings_place_pic`) directly from the "Walking" screen (see :numref:`ngmobile_new_gpx_vector_1`, item 6).
 
-After finishing the track recording, tap |ic_save| **Save feature**. 
+.. note:: If you see that the accuracy of the added geometry is insufficient, you can adjust NextGIS Mobile location settings |ic_tune|.
 
-The attribute input screen opens.
+When you've reached the end, tap |ic_save| **Save feature**. 
 
-.. figure:: _static/new_gpx_vector_2.png
-   :name: ngmobile_new_gpx_vector_2
-   :align: center
-   :height: 10cm
-
-   Attribute editing form 
+The attribute input screen opens (see :numref:`ngmobile_input_form_attributes_pic`)
    
 Tap |ic_tick| "Apply changes" to finish adding the feature.
 
@@ -720,3 +715,7 @@ After filling in all the required attributes, tap |ic_tick| "Apply Changes" to s
 .. |ic_menu_grey| image:: _static/ic_menu_grey.png
    :width: 3mm
    :alt: tree dots
+
+.. |ic_tune| image:: _static/ic_tune.png
+   :width: 3mm
+   :alt: lines with dashes
