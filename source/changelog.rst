@@ -3,6 +3,13 @@
 Changelog
 =========
 
+**3.3.0 released on 07 Nov 2026**
+
+* External style file support for quick loading of layer with style
+* Highlight selected feature when opening via table
+* Support for NULL in rule-base styling
+* Hide ruler when drawing by walking
+
 **3.2.2 released on 15 Oct 2026**
 
 * Improve transactions to avoid feature doubling on sync.
