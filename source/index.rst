@@ -7,6 +7,7 @@ NextGIS Mobile
  
 **Общие сведения**
 
+* `Системные требования <https://docs.nextgis.ru/docs_ngmobile/source/intro.html#ngmobile-launch-conditions>`_
 * `Установка  <https://docs.nextgis.ru/docs_ngmobile/source/install.html>`_
 * `Авторизация <https://docs.nextgis.ru/docs_ngmobile/source/auth.html>`_
 * `Интерфейс <https://docs.nextgis.ru/docs_ngmobile/source/main.html>`_
