@@ -8,8 +8,8 @@ NextGIS Mobile
 
 **General**
 
-* `Hardware and sowtware requirements <https://docs.nextgis.com/docs_ngmobile/source/intro.html#ngmobile-launch-conditions>`_
-* `Instal  <https://docs.nextgis.com/docs_ngmobile/source/install.html>`_
+* `Hardware and software requirements <https://docs.nextgis.com/docs_ngmobile/source/intro.html#ngmobile-launch-conditions>`_
+* `Install <https://docs.nextgis.com/docs_ngmobile/source/install.html>`_
 * `Log in <https://docs.nextgis.com/docs_ngmobile/source/auth.html>`_
 * `User interface <https://docs.nextgis.com/docs_ngmobile/source/main.html>`_
 * `Settings <https://docs.nextgis.com/docs_ngmobile/source/settings.html>`_
