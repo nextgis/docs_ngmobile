@@ -105,7 +105,7 @@ The button "Add data" |button_add_layer| at the top of the layer tree panel allo
 * `Open a local file <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-import-vector>`_ stored on your device;
 * `Open link to a Web GIS layer to add it <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmob-url>`_;
 * `Add geoservice <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-add-geoservice>`_ from the `QuickMapServices catalog <https://qms.nextgis.com/>`_ or `a custom tile service <https://docs.nextgis.com/docs_ngmobile/source/load_geodata.html#ngmobile-tile-service>`_;
-* `Add layer from Web GIS <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_, cloud or on-premise.
+* `Add layer from Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_, cloud or on-premise.
 
 .. figure:: _static/ngm_add_data_en.png
    :name: ngm_add_data_pic

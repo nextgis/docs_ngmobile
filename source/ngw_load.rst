@@ -6,7 +6,7 @@ Synchronize data with Web GIS
 There are two ways to add data from your Web GIS:
 
 * by URL;
-* `selecting layer in the resource tree of your Web GIS <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_
+* `selecting layer in the resource tree of your Web GIS <https://docs.nextgis.com/docs_ngmobile/source/ngw_load.html#ngmobile-add-layer-webgis>`_
 
 .. _ngmob_url:
 

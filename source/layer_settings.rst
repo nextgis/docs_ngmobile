@@ -9,7 +9,7 @@ The map is a set of raster and vector layers. |ic_layer_tree| Layer tree panel l
 
 To toggle layer visibility, click the eye icon |ic_eye|.
 
-Layer settings can be opened from the `layer menu <https://docs.nextgis.ru/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ (icon |ic_menu_grey|).
+Layer settings can be opened from the `layer menu <https://docs.nextgis.com/docs_ngmobile/source/main.html#ngmob-layer-menu>`_ (icon |ic_menu_grey|).
 
 The settings have the following tabs:
 
